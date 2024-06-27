@@ -1,0 +1,44 @@
+\begin{lstlisting}[language=python]
+@cuda.jit
+def process_kernel_no_buffer(
+    rng_states, N, n_neutrons_per_thread,
+    args
+):
+    args0, args1, args2, offsets, rotmats, neutron_counter = args
+    thread_index = cuda.grid(1)
+    start_index = thread_index*n_neutrons_per_thread
+    end_index = min(start_index+n_neutrons_per_thread, N)
+    neutron = cuda.local.array(shape=10, dtype=NB_FLOAT)
+    r = cuda.local.array(3, dtype=NB_FLOAT)
+    v = cuda.local.array(3, dtype=NB_FLOAT)
+    for neutron_index in range(start_index, end_index):
+        cuda.atomic.add(neutron_counter, 0, 1)
+        propagate0(thread_index, rng_states,  neutron, *args0)
+        applyTransformation(neutron[:3], neutron[3:6],
+                            rotmats[0], offsets[0], r, v)
+        propagate1(neutron, *args1)
+        applyTransformation(neutron[:3], neutron[3:6],
+                            rotmats[1], offsets[1], r, v)
+        propagate2(neutron, *args2)
+
+from mcvine.acc.components.sources.SourceBase import SourceBase
+class _Base(SourceBase): # has to be named Base in definition
+    def __init__(self, instrument):
+        offsets, rotmats = calcTransformations(instrument)
+        self.neutron_counter = neutron_counter = np.zeros(1, dtype=int)
+        self.propagate_params = tuple(
+            c.propagate_params for c in instrument.components)
+        self.propagate_params += (offsets, rotmats, neutron_counter)
+        return
+    def propagate(self): return
+InstrumentWrapper = _Base
+InstrumentWrapper.process_kernel_no_buffer = process_kernel_no_buffer
+
+def run(ncount, ntotalthreads=None, threads_per_block=None, **kwds):
+    instrument = loadInstrument(script, **kwds)
+    iw = InstrumentWrapper(instrument)
+    iw.process_no_buffer(ncount, ntotalthreads=ntotalthreads,
+                         threads_per_block=threads_per_block)
+    processed = iw.neutron_counter[0]
+    saveMonitorOutputs(instrument, scale_factor=1.0/ncount)
+\end{lstlisting}

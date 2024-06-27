@@ -1,0 +1,30 @@
+\begin{lstlisting}[language=python]
+def instrument():
+    instrument = mcvine.instrument()
+    source = Source_simple(
+        'src',
+        radius = 0., width = 0.03,
+        height = 0.03, dist = 1.,
+        xw = 0.035, yh = 0.035
+    )
+    instrument.append(source,
+                      position=(0,0,0.))
+
+    guide1 = Guide(
+        'guide',
+        w1=0.035, h1=0.035,
+        w2=0.035, h2=0.035,
+        l=10
+    )
+    instrument.append(guide1,
+                      position=(0,0,1.))
+
+    mon = PosDiv_monitor(
+        'mon', xwidth=0.08, yheight=0.08,
+        maxdiv=2.,
+        npos=250, ndiv=251,
+    )
+    instrument.append(mon,
+                      position=(0,0,12.))
+    return instrument
+\end{lstlisting}
