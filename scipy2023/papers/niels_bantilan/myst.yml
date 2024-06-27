@@ -1,0 +1,42 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2023-niels_bantilan
+  title: 'Pandera: Going Beyond Pandas Data Validation'
+  description: Data quality remains a core concern for practitioners in machine learning, data science, and data engineering, and many specialized packages have emerged to fulfill the need of validating and monitoring data and models. This paper outlines pandera’s motivation and challenges that took it from being a pandas-only data validation framework to one that is extensible to other non-pandas-compliant dataframe-like libraries.
+  authors:
+    - name: Niels Bantilan
+      email: niels@union.ai
+      affiliations:
+        - Union.ai
+        - pyOpenSci
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: Scipy 2023
+  date: 2023-07-10
+  doi: 10.25080/gerudo-f2bc6f59-010
+  banner: banner.png
+  thumbnail: thumbnail.png
+  keywords:
+    - data validation
+    - data testing
+    - data science
+    - machine learning
+    - data engineering
+  abbreviations:
+    EDA: exploratory data analysis
+    ML: machine learning
+    DSL: domain specific language
+    ETL: Extract, transform, and load
+    API: application programming interface
+  github:
+  biblio:
+    first_page: 124
+    last_page: 129
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: niels_bantilan.pdf
+      static: true
