@@ -1,0 +1,48 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-alireza_vaezi
+  authors:
+    - name: Seyed Alireza Vaezi
+      email: sv22900@uga.edu
+      affiliations:
+        - id: uga
+          name: University of Georgia
+    - name: Gianni Orlando
+      email: gro68561@uga.edu
+      affiliations:
+        - uga
+    - name: Mojtaba Fazli
+      email: mfazli@meei.harvard.edu
+      affiliations:
+        - id: harvard
+          name: Harvard University
+    - name: Gary Ward
+      email: Gary.Ward@uvm.edu
+      affiliations:
+        - id: uv
+          name: University of Vermont
+    - name: Silvia Moreno
+      email: smoreno@uga.edu
+      affiliations:
+        - uga
+    - name: Shannon Quinn
+      email: spq@uga.edu
+      affiliations:
+        - uga
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/alireza_vaezi
+  doi: 10.25080/majora-212e5952-009
+  keywords:
+    - Toxoplasma
+    - Segmentation
+    - Napari
+  title: A Novel Pipeline for Cell Instance Segmentation, Tracking and Motility Classification of Toxoplasma Gondii in 3D Space
+  downloads:
+    - url: ./alireza_vaezi.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    ML: machine learning
+    DL: deep learning
+    CV: computer vision
+    AR: autoregressive model
