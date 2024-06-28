@@ -38,8 +38,8 @@ project:
   banner: banner.png
   abbreviations:
     S3A: Semi-Supervised Semantic Annotator
-    PCB: Printed Circuit Board
-    ROI: Region of Interest
+    PCB: printed circuit board
+    ROI: region of interest
   error_rules:
     - rule: doi-exists
       severity: ignore
