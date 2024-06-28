@@ -1,0 +1,33 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-allan_campopiano
+  authors:
+    - name: Allan Campopiano
+      email: allan@deepnote.com
+      affiliations: []
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/allan_campopiano
+  doi: 10.25080/majora-212e5952-00a
+  keywords:
+    - Python
+    - R
+    - robust statistics
+    - bootstrapping
+    - trimmed mean
+    - data science
+    - hypothesis testing
+  title: The myth of the normal curve and what to do about it
+  downloads:
+    - url: ./allan_campopiano.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    NHST: null hypothesis significance testing
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cramer1946mathematical
+        - '20000755025'
+        - tan1982sampling
+        - tibshirani1993introduction
