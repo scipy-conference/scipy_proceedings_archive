@@ -1,0 +1,62 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-72_galyleo
+  authors:
+    - name: Rick McGeer
+      email: rick.mcgeer@engageLively.com
+      affiliations:
+        - id: engagelively
+          name: engageLively
+    - name: Andreas Bergen
+      email: abergen@engageLively.com
+      affiliations:
+        - engagelively
+    - name: Mahdiyar Biazi
+      email: mahdi.biazi@engageLively.com
+      affiliations:
+        - engagelively
+    - name: Matt Hemmings
+      email: mhemmings@engageLively.com
+      affiliations:
+        - engagelively
+    - name: Robin Schreiber
+      email: robin.schreiber@engageLively.com
+      affiliations:
+        - engagelively
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/72_galyleo
+  doi: 10.25080/majora-212e5952-002
+  keywords:
+    - JupyterLab
+    - JupyterLab extension
+    - Data visualization
+  title: 'Galyleo: A General-Purpose Extensible Visualization Solution'
+  downloads:
+    - url: ./72_galyleo.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    REAL: Read-Evaluate-Act Loop
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      key: http://lively.next
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - jupyterlab
+        - lawson2011introducing
+        - kluyver2016jupyter
+        - mdnMessage
+        - holoviz
+        - holoviews
+        - plotly
+        - panel
+        - d2013handbook
+        - looker
+        - devaney-pivot
+        - lively-next
+        - google-charts
+        - chartjs
+        - leaflet
+        - openlayers
