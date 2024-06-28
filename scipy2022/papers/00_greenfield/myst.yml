@@ -1,0 +1,58 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-00_greenfield
+  authors:
+    - name: Perry Greenfield
+      email: perry@stsci.edu
+      corresponding: true
+      affiliations:
+        - id: stsci
+          name: Space Telescope Science Institute
+    - name: Edward Slavich
+      email: edward.j.slavich@gmail.com
+      equal_contributor: true
+      affiliations:
+        - stsci
+    - name: William Jamieson
+      email: wjamieson@stsci.edu
+      equal_contributor: true
+      affiliations:
+        - stsci
+    - name: Nadia Dencheva
+      email: dencheva@stsci.edu
+      equal_contributor: true
+      affiliations:
+        - stsci
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/00_greenfield
+  doi: 10.25080/majora-212e5952-000
+  keywords:
+    - data formats
+    - standards
+    - world coordinate systems
+    - yaml
+  title: 'The Advanced Scientific Data Format (ASDF): An Update'
+  downloads:
+    - url: ./00_greenfield.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    ASDF: Advanced Scientific Data Format
+    FITS: Flexible Image Transport System
+    STScI: Space Telescope Science Institute
+    JWST: James Webb Space Telescope
+    HST: Hubble Space Telescope
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      key: https://snowplowanalytics.com/blog/2014/05/13/introducing-schemaver-for-semantic-versioning-of-schemas/
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - joy03
+        - fit16
+site:
+  actions:
+    - title: pdf
+      url: 00_greenfield.pdf
+      static: true
