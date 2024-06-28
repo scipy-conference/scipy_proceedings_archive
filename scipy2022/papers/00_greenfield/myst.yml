@@ -51,8 +51,3 @@ project:
       keys:
         - joy03
         - fit16
-site:
-  actions:
-    - title: pdf
-      url: 00_greenfield.pdf
-      static: true
