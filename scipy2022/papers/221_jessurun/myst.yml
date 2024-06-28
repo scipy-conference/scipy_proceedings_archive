@@ -1,0 +1,53 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-221_jessurun
+  authors:
+    - name: Nathan Jessurun
+      email: njessurun@ufl.edu
+      affiliations:
+        - id: uf
+          name: University of Florida
+    - name: Daniel E. Capecci
+      email: dcapecci@ufl.edu
+      affiliations:
+        - uf
+    - name: Olivia P. Dizon-Paradis
+      email: paradiso@ufl.edu
+      affiliations:
+        - uf
+    - name: Damon L. Woodard
+      email: dwoodard@ece.ufl.edu
+      affiliations:
+        - uf
+    - name: Navid Asadizanjani
+      email: nasadi@ece.ufl.edu
+      affiliations:
+        - uf
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/221_jessurun
+  doi: 10.25080/majora-212e5952-001
+  keywords:
+    - Semantic annotation
+    - Image labeling
+    - Semi-supervised
+    - Region of interest
+  title: 'Semi-Supervised Semantic Annotator (S3A): Toward Efficient Semantic Labeling'
+  downloads:
+    - url: ./221_jessurun.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    S3A: Semi-Supervised Semantic Annotator
+    PCB: Printed Circuit Board
+    ROI: Region of Interest
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - azhaganReviewAutomaticBill2019
+        - BestImageAnnotation
+        - Ladicky_whatWhereCombiningCRFs
+        - SpaceNet2020-lb
+        - Branson_humansInLoop
+        - lin_microsoft_2014
+        - demsar_orange_2013
