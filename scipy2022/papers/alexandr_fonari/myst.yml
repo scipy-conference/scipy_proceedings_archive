@@ -1,0 +1,65 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-alexandr_fonari
+  authors:
+    - name: Alexandr Fonari
+      email: sasha.fonari@schrodinger.com
+      affiliations:
+        - id: schrodinger
+          name: Schrödinger Inc.
+          address: 1540 Broadway, 24th Floor
+          city: New York
+          state: NY
+          postal_code: 10036
+    - name: Farshad Fallah
+      email: farshad.fallah@schrodinger.com
+      affiliations:
+        - schrodinger
+    - name: Michael Rauch
+      email: michael.rauch@schrodinger.com
+      affiliations:
+        - schrodinger
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/alexandr_fonari
+  doi: 10.25080/majora-212e5952-008
+  keywords:
+    - materials
+    - active learning
+    - OLED
+    - deposition
+    - evaporation
+  title: Utilizing SciPy and other open source packages to provide a powerful API for materials manipulation in the Schrödinger Materials Suite
+  downloads:
+    - url: ./alexandr_fonari.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    OLED: organic light-emitting diode
+    QE: Quantum ESPRESSO
+    CIF: Crystallographic Information File
+    PDB: Protein Data Bank
+    CSD: Cambridge Structural Database
+    DFT: density functional theory
+    SCF: self-consistent field
+    MD: molecular dynamics
+    GPU: graphics processing unit
+    EOS: equation of state
+    AL: active learning
+    MPO: multiple property optimization
+    HTL: hole transport layer
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Schr
+        - qeschema
+        - Grph
+        - TM
+        - Bicerano
+        - Deposition
+        - Convex
+        - Lmfit
+        - DeepChem
+        - Chandrasekaran
+        - SkLearn
+        - RDKitC
