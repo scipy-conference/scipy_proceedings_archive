@@ -1,0 +1,12 @@
+version: 1
+project:
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2022
+  subject: Research Article
+  date: 2022-07-11
+  banner: banner.png
+site:
+  template: article-theme
+  nav: []
+  domains: []
