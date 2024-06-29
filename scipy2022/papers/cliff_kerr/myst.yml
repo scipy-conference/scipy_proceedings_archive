@@ -1,0 +1,95 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-cliff_kerr
+  authors:
+    - name: Cliff C. Kerr
+      email: cliff@covasim.org
+      affiliations:
+        - id: gates
+          name: Institute for Disease Modeling, Bill & Melinda Gates Foundation
+          city: Seattle
+          country: USA
+        - name: School of Physics, University of Sydney
+          city: Sydney
+          country: Australia
+    - name: Robyn M. Stuart
+      email: robyn@math.ku.dk
+      affiliations:
+        - name: Department of Mathematical Sciences, University of Copenhagen
+          city: Copenhagen
+          country: Denmark
+        - id: burnet
+          name: Burnet Institute
+          city: Melbourne
+          country: Australia
+    - name: Dina Mistry
+      email: dina.c.mistry@gmail.com
+      affiliations:
+        - name: Twitter
+          city: Seattle
+          country: USA
+    - name: Romesh G. Abeysuriya
+      email: romesh.abeysuriya@burnet.edu.au
+      affiliations:
+        - burnet
+    - name: Jamie A. Cohen
+      email: jamie.cohen@gatesfoundation.org
+      affiliations:
+        - gates
+    - name: Lauren George
+      email: lauren.george@live.com
+      affiliations:
+        - name: Microsoft
+          city: Seattle
+          country: USA
+    - name: Michał Jastrzebski
+      email: inc007@gmail.com
+      affiliations:
+        - name: GitHub
+          city: San Francisco
+          country: USA
+    - name: Michael Famulare
+      email: mike.famulare@gatesfoundation.org
+      affiliations:
+        - gates
+    - name: Edward Wenger
+      email: edward.wenger@gatesfoundation.org
+      affiliations:
+        - gates
+    - name: Daniel J. Klein
+      email: daniel.klein@gatesfoundation.org
+      affiliations:
+        - gates
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/cliff_kerr
+  doi: 10.25080/majora-212e5952-00e
+  keywords:
+    - COVID-19
+    - SARS-CoV-2
+    - Epidemiology
+    - Mathematical modeling
+    - NumPy
+    - Numba
+    - Sciris
+  title: 'Python vs. the pandemic: a case study in high-stakes software development'
+  downloads:
+    - url: ./cliff_kerr.pdf
+      title: Download PDF
+  abbreviations:
+    BMGF: Bill & Melinda Gates Foundation
+    IDM: Institute for Disease Modeling
+    WHO: World Health Organization
+    SEIR: susceptible-exposed-infections-recovered
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - hofman2020global
+        - famulare2019ncov
+        - o2022fpsim
+        - pepy
+        - abdul2009groovy
+        - sciris
+        - skeptics
+        - reticulate2017
+        - voila2019
