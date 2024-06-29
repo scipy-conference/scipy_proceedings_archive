@@ -5,7 +5,7 @@ project:
   venue: SciPy 2022
   subject: Research Article
   date: 2022-07-11
-  banner: banner.png
+  banner: ../banner.png
 site:
   template: article-theme
   nav: []
