@@ -1,0 +1,50 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-chad_fulton
+  authors:
+    - name: Chad Fulton
+      email: chad.t.fulton@frb.gov
+      affiliations:
+        - Federal Reserve Board of Governors
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/chad_fulton
+  doi: 10.25080/majora-212e5952-00d
+  keywords:
+    - time series
+    - forecasting
+    - bayesian inference
+    - Markov chain Monte Carlo
+    - statsmodels
+  title: Bayesian Estimation and Forecasting of Time Series in statsmodels
+  downloads:
+    - url: ./chad_fulton.pdf
+      title: Download PDF
+  abbreviations:
+    GLM: generalized linear models
+    GAM: generalized additive models
+    MLE: maximum likelihood estimation
+    ARMA: autoregressive moving-average
+    VMA: vector moving-average
+    VAR: vector autoregressive
+    DFM: dynamic factor model
+    SSM: state space model
+    MCMC: Markov chain Monte Carlo
+    HMC: Hamiltonian Monte Carlo
+    NUTS: no-U-turn sampling
+    MH: Metropolis-Hastings
+    GS: Gibbs sampling
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      key:
+        - https://www.statsmodels.org/v0.13.0/examples/notebooks/generated/statespace_sarimax_pymc3.html
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - hyndman_forecasting_2008
+        - hyndman2018forecasting
+        - harvey_forecasting_1990
+        - durbin_time_2012
+        - fulton_estimating_2015
+        - west_bayesian_1999
+        - kim_state-space_1999
