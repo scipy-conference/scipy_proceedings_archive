@@ -1,0 +1,61 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-donath
+  authors:
+    - name: Axel Donath
+      email: axel.donath@cfa.harvard.edu
+      orcid: 0000-0003-4568-7005
+      affiliations:
+        - id: astro
+          name: Center for Astrophysics | Harvard & Smithsonian
+    - name: Aneta Siemiginowska
+      email: asiemiginowska@cfa.harvard.edu
+      orcid: 0000-0002-0905-7375
+      affiliations:
+        - astro
+    - name: Vinay Kashyap
+      email: vkashyap@cfa.harvard.edu
+      orcid: 0000-0002-3869-7996
+      affiliations:
+        - astro
+    - name: Douglas Burke
+      email: dburke@cfa.harvard.edu
+      affiliations:
+        - astro
+    - name: Karthik Reddy Solipuram
+      affiliations:
+        - name: University of Maryland Baltimore County
+    - name: David van Dyk
+      affiliations:
+        - name: Imperial College London
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/donath
+  doi: 10.25080/majora-212e5952-00f
+  keywords:
+    - deconvolution
+    - point spread function
+    - poisson
+    - low counts
+    - X-ray
+    - gamma-ray
+  title: 'Pylira: deconvolution of images in the presence of Poisson noise'
+  downloads:
+    - url: ./donath.pdf
+      title: Download PDF
+  abbreviations:
+    PSF: point spread function
+    RL: Richardson & Lucy
+    MAP: Maximum A-Postori
+    HRC: high-resolution camera
+    ACIS: Advanced CCD Imaging Spectrometer
+    LAT: Large Area Telescope
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Hogbom1974
+        - Connors2011
+        - rmath
+        - pybind11
+        - ipywidgets
+        - Fermitools2019
