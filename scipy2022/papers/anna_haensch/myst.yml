@@ -1,0 +1,44 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-anna_haensch
+  authors:
+    - name: Anna Haensch
+      email: anna.haensch@tufts.edu
+      affiliations:
+        - id: tufts
+          name: Tufts University
+        - id: disc
+          name: Data Intensive Studies Center
+    - name: Karin Knudson
+      email: karin.knudson@tufts.edu
+      affiliations:
+        - tufts
+        - disc
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/anna_haensch
+  doi: 10.25080/majora-212e5952-00b
+  keywords:
+    - computational social science
+    - public policy
+    - data science
+    - teaching with Python
+  title: 'Python for Global Applications: teaching scientific Python in context to law and diplomacy students'
+  downloads:
+    - url: ./anna_haensch.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    MALD: Master of Arts in Law and Diplomacy
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cite_ana16
+        - cite_pro22
+        - cite_dig20
+        - cite_wil19
+        - cite_cai19
+        - cite_bui13
+        - cite_one16
+        - cite_buo18
+        - cite_nas18
