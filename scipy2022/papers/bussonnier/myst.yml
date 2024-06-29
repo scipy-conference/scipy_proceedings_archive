@@ -1,0 +1,84 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-bussonnier
+  authors:
+    - name: Matthias Bussonnier
+      email: bussonniermatthias@gmail.com
+      corresponding: true
+      orcid: 0000-0002-7636-8632
+      affiliations:
+        - QuanSight, Inc
+        - Digital Ours Lab, SARL.
+    - name: Camille Carvalho
+      orcid: 0000-0002-8426-549X
+      affiliations:
+        - name: University of California Merced
+          city: Merced
+          state: CA
+          country: USA
+        - name: Univ Lyon, INSA Lyon, UJM, UCBL, ECL, CNRS UMR 5208, ICJ
+          postal_code: F-69621
+          country: France
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/bussonnier
+  doi: 10.25080/majora-212e5952-00c
+  keywords:
+    - Documentation
+    - Jupyter
+    - ecosystem
+    - accessibility
+  title: 'Papyri: better documentation for the scientific ecosystem in Jupyter'
+  downloads:
+    - url: ./bussonnier.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    IDE: integrated development environment
+    CLI: command line interface
+    AOT: ahead-of-time
+    JIT: just-in-time
+    IR: intermediate representation
+    LTO: link-time optimization
+    RST: reStructuredText
+    REPL: read-eval-print loop
+    IRD: Intermediate Representation for Documentation
+    CBOR: Concise Binary Object Representation
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cite_aot
+        - cite_jit
+        - cite_ir
+        - cite_lto
+        - cite_docutils
+        - cite_sphinx
+        - cite_rtd
+        - cite_rtd-theme
+        - cite_jpybook
+        - cite_myst
+        - cite_docrepr
+        - cite_spyder
+        - cite_npdoc
+        - cite_dt
+        - cite_mkdocs
+        - cite_sphinx-copybutton
+        - cite_pydata-sphinx-theme
+        - cite_scu
+        - cite_codemeta
+        - cite_papyri
+        - cite_ts
+        - cite_tsrst
+        - cite_msgspec
+        - cite_pydantic
+        - cite_pandoc
+        - cite_jedi
+        - cite_httpx
+        - cite_trio
+        - cite_jinja2
+        - cite_quart
+        - cite_flask
+        - cite_dask
+        - cite_mpl
+        - cite_nx
+        - cite_d3js
