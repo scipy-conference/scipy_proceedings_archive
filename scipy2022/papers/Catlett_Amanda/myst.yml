@@ -1,0 +1,47 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-Catlett_Amanda
+  authors:
+    - name: Amanda Catlett
+      email: amanda.r.catlett@erdc.dren.mil
+      affiliations:
+        - id: erdc
+          name: ERDC
+    - name: Theresa R. Coumbe
+      email: theresa.r.coumbe@erdc.dren.mil
+      affiliations:
+        - erdc
+    - name: Scott D. Christensen
+      email: scott.d.christensen@erdc.dren.mil
+      affiliations:
+        - erdc
+    - name: Mary A. Byrant
+      email: mary.a.byrant@erdc.dren.mil
+      affiliations:
+        - erdc
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/Catlett_Amanda
+  doi: 10.25080/majora-212e5952-003
+  keywords:
+    - GUI
+    - Param
+    - Panel
+    - HoloViews
+  title: USACE Coastal Engineering Toolkit and a Method of Creating a Web-Based Application
+  downloads:
+    - url: ./Catlett_Amanda.pdf
+      title: Download PDF
+  banner: banner.png
+  abbreviations:
+    ACES: Automated Coastal Engineering Systems
+    UCET: USACE Coastal Engineering Toolkit
+    ERS: Engineered Resilient Systems
+    RAD: Rapid Application Development
+    GUI: Graphical User Interface
+    CI/CD: continuous integration/continuous development
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cite_leenknecht
+        - cite_ug
