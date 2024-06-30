@@ -1,0 +1,26 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-ido_michael
+  authors:
+    - name: Ido Michael
+      email: ido@ploomber.io
+      affiliations:
+        - name: Ploomber
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/ido_michael
+  doi: 10.25080/majora-212e5952-013
+  keywords:
+    - tutorial
+    - Jupyter
+    - code quality
+    - Ploomber
+  title: Keeping your Jupyter notebook code quality bar high (and production ready) with Ploomber
+  downloads:
+    - url: ./ido_michael.pdf
+      title: Download PDF
+  abbreviations:
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - https://docs.ploomber.io/en/latest/cloud/index.html
