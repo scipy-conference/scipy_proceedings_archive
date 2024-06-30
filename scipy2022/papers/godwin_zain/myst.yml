@@ -1,0 +1,70 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-godwin_zain
+  authors:
+    - name: Curtis Godwin
+      email: cmgodwin263@gmail.com
+      corresponding: true
+      equal_contributor: true
+      affiliations:
+        - id: ai
+          name: Institute for Artificial Intelligence, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: 30602
+          country: USA
+    - name: Meekail Zain
+      email: meekail.zain@uga.edu
+      corresponding: true
+      equal_contributor: true
+      affiliations:
+        - id: cs
+          name: Department of Computer Science, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: 30602
+          country: USA
+    - name: Nathan Safir
+      email: nssafir@gmail.com
+      affiliations:
+        - ai
+    - name: Bella Humphrey
+      email: isabelladhumphrey@gmail.com
+      affiliations:
+        - cs
+    - name: Shannon P Quinn
+      email: spq@uga.edu
+      affiliations:
+        - cs
+        - name: Department of Cellular Biology, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: 30602
+          country: USA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/godwin_zain
+  doi: 10.25080/majora-212e5952-011
+  keywords:
+    - active learning
+    - variational autoencoder
+    - deep learning
+    - pytorch
+    - semi-supervised learning
+    - unsupervised learning
+  title: Incorporating Task-Agnostic Information in Task-Based Active Learning Using a Variational Autoencoder
+  downloads:
+    - url: ./godwin_zain.pdf
+      title: Download PDF
+  abbreviations:
+    AL: active learning
+    VAE: variational autoencoder
+    CNN: convolutional neural network
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - settles2009active
+        - sener2018active
+        - kingma2013auto
+        - shannon1948mathematical
+        - van2008visualizing
