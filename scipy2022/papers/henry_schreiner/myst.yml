@@ -1,0 +1,43 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-henry_schreiner
+  authors:
+    - name: Henry Schreiner
+      email: henryfs@princeton.edu
+      affiliations:
+        - id: princeton
+          name: Princeton University
+    - name: Jim Pivarski
+      email: pivarski@princeton.edu
+      affiliations:
+        - princeton
+    - name: Eduardo Rodrigues
+      email: eduardo.rodrigues@liverpool.ac.uk
+      affiliations:
+        - name: University of Liverpool
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/henry_schreiner
+  doi: 10.25080/majora-212e5952-012
+  keywords:
+    - packaging
+    - ecosystem
+    - high energy physics
+    - community project
+  title: 'Awkward Packaging: building Scikit-HEP'
+  downloads:
+    - url: ./henry_schreiner.pdf
+      title: Download PDF
+  abbreviations:
+    HEP: High Energy Physics
+    LHC: Large Hadron Collider
+    PDG: Particle Data Group
+    SDist: source distribution
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - leiner2009brief
+        - evans2008lhc
+        - stephens2015big
+        - ifrim2022gpu
+        - remenska2017giving
