@@ -1,0 +1,67 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-james_gaboardi
+  authors:
+    - name: Joseph V. Tuccillo
+      email: tuccillojv@ornl.gov
+      orcid: 0000-0002-5930-0943
+      affiliations:
+        - id: oak-ridge
+          name: Oak Ridge National Laboratory
+    - name: James D. Gaboardi
+      email: gaboardijd@ornl.gov
+      orcid: 0000-0002-4776-6826
+      affiliations:
+        - oak-ridge
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/james_gaboardi
+  doi: 10.25080/majora-212e5952-014
+  copyright: Oak Ridge National Laboratory
+  keywords:
+    - activity spaces
+    - agent-based modeling
+    - human dynamics
+    - population synthesis
+  title: 'Likeness: a toolkit for connecting the social fabric of place to human dynamics'
+  downloads:
+    - url: ./james_gaboardi.pdf
+      title: Download PDF
+  abbreviations:
+    ORNL: Oak Ridge National Laboratory
+    POI: point of interest
+    ACS: American Community Survey
+    P-MEDM: Penalized-Maximum Entropy Dasymetric Modeling
+    SF: Summary File
+    IPF: Iterative Proportional Fitting
+    PUMS: Public-Use Microdata Sample
+    PUMA: Public-Use Microdata Area
+    5YE: 5-Year Estimates
+    FIPS: Federal Information Processing Standard
+    TRS: Truncate, Replicate, Sample
+    OD: Origin-Destination
+    IBB: intelligent block-based
+    HIFLD: Homeland Infrastructure Foundation-Level Database
+    NCES: National Center for Education Statistics
+    CBSA: Core-Based Statistical Area
+    CCA: Canonical Correlation Analysis
+    OLS: ordinary least squares
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - hewitt1997perspectives
+        - swarup2014computational
+        - morton2017simulation
+        - foti_generalized_2012
+        - miller_geographic_2001
+        - mitchell_pulp_2011
+        - santos_mixed_2020
+        - devos2015
+        - scikit-learn
+        - brelsford2022NOPE
+        - SciPyProceedings_11
+        - shapely:shapely
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - http://energy.gov/downloads/doe-public-access-plan
