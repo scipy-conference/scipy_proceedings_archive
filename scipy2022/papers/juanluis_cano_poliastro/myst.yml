@@ -1,0 +1,65 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-juanluis_cano_poliastro
+  authors:
+    - name: Juan Luis Cano Rodríguez
+      email: hello@juanlu.space
+      corresponding: true
+      orcid: 0000-0002-2187-161X
+    - name: Jorge Martínez Garrido
+      email: contact@jorgemartinez.space
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/juanluis_cano_poliastro
+  doi: 10.25080/majora-212e5952-015
+  keywords:
+    - astrodynamics
+    - orbital mechanics
+    - orbit propagation
+    - orbit visualization
+    - two-body problem
+  title: 'poliastro: a Python library for interactive astrodynamics'
+  downloads:
+    - url: ./juanluis_cano_poliastro.pdf
+      title: Download PDF
+  abbreviations:
+    LEO: Low-Earth Orbit
+    SGP: Simplified General Perturbation
+    TLE: Two-Line Element set
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - duboshin_book_1973
+        - herrick_astrodynamics_1971
+        - conway_spacecraft_2014
+        - noauthor_orekit_2022
+        - noauthor_spice_2022
+        - noauthor_beyond_2022
+        - noauthor_tudatpy_2022
+        - rhodes_skyfield_2020
+        - noauthor_celestlab_2022
+        - noauthor_astrodynamicsjl_nodate
+        - noauthor_nyx_2021
+        - noauthor_gmat_2020
+        - noauthor_gpredict_2018
+        - noauthor_satnogs_2021
+        - finkleman_tle_2007
+        - kluyver_jupyter_2016
+        - pimienta-penalver_accurate_2013
+        - vallado_fundamentals_2007
+        - cowell_investigation_1910
+        - hairer_solving_2009
+        - jacchia_thermospheric_1977
+        - atmosphere_us_1962
+        - atmosphere_us_1976
+        - cano_rodriguez_study_2017
+        - pollard_simplified_1997
+        - pollard_simplified_2000
+        - inc_collaborative_2015
+        - hilton_mathematical_1966
+        - hoots_models_1980
+        - kelso_analysis_2009
+        - bermejo_ballesteros_mubody_2022
+  math:
+    '\diff': '\operatorname{d}'
+    '\vec': '\mathbf{#1}'
