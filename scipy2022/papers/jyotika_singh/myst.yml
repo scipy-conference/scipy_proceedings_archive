@@ -1,0 +1,57 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-jyotika_singh
+  authors:
+    - name: Jyotika Singh
+      email: singhjyotika811@gmail.com
+      orcid: 0000-0002-5442-3004
+      affiliations:
+        - name: Placemakr
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/jyotika_singh
+  doi: 10.25080/majora-212e5952-017
+  keywords:
+    - pyAudioProcessing
+    - audio processing
+    - audio data
+    - audio classification
+    - audio feature extraction
+    - gfcc
+    - mfcc
+    - spectral features
+    - spectrogram
+    - chroma
+  title: 'pyAudioProcessing: Audio Processing, Feature Extraction, and Machine Learning Modeling'
+  downloads:
+    - url: ./jyotika_singh.pdf
+      title: Download PDF
+  abbreviations:
+    SVM: support vector machine
+    RBF: radial basis function
+    k-NN: k-nearest neighbors
+    ADHD: Attention Deficit Hyperactivity Disorder
+    MFCC: Mel Frequency Cepstral Coefficients
+    GFCC: Gammatone Frequency Cepstral Coefficients
+    LPC: Linear Prediction Coefficients
+    LPCC: Linear Prediction Cepstral Coefficients
+    BFCC: Bark Frequency Cepstral Coefficients
+    PNCC: Power Normalized Cepstral Coefficients
+    DCT: discrete cosine transform
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - enwiki:1091348337
+        - ayoubmalek2020
+        - essentia
+        - packt
+        - pepy
+        - tzanetakis:2001
+        - opensource
+        - enwiki:1090834931
+        - patent
+        - patent2
+        - chromawiki
+        - wiki-spec
+        - spectro
+        - specPNSN
