@@ -1,0 +1,44 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-justin_fisher
+  authors:
+    - name: Justin C. Fisher
+      email: fisher@smu.edu
+      corresponding: true
+      affiliations:
+        - name: Southern Methodist University, Department of Philosophy
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/justin_fisher
+  doi: 10.25080/majora-212e5952-016
+  keywords:
+    - Webots
+    - Python
+    - Robotics
+    - Robot Operating System (ROS)
+    - Open Dynamics Engine (ODE)
+    - 3D Physics Simulation
+  title: A New Python API for Webots Robotics Simulations
+  downloads:
+    - url: ./justin_fisher.pdf
+      title: Download PDF
+  abbreviations:
+    ROS: Robot Operating System
+    ODE: Open Dynamics Engine
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cite_webots
+        - cite_ode
+        - cite_newapi01
+        - cite_numpy
+        - cite_scipy
+        - cite_pil
+        - cite_opencv
+        - cite_brad01
+        - cite_bra01
+        - cite_sdtc
+        - cite_radon
+        - cite_mcc01
+        - cite_hal01
+        - cite_pos01
