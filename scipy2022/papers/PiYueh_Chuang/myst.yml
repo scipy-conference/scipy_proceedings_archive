@@ -1,0 +1,38 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-PiYueh_Chuang
+  authors:
+    - name: Pi-Yueh Chuang
+      email: pychuang@gwu.edu
+      affiliations:
+        - id: gwu
+          name: Department of Mechanical and Aerospace Engineering, The George Washington University
+          city: Washington, DC
+          postal_code: '20052'
+          country: USA
+    - name: Lorena A. Barba
+      email: labarba@gwu.edu
+      affiliations:
+        - gwu
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/PiYueh_Chuang
+  doi: 10.25080/majora-212e5952-005
+  keywords:
+    - computational fluid dynamics
+    - deep learning
+    - physics-informed neural network
+  title: 'Experience report of physics-informed neural networks in fluid simulations: pitfalls and frustration'
+  downloads:
+    - url: ./PiYueh_Chuang.pdf
+      title: Download PDF
+  abbreviations:
+    PINN: physics-informed neural network
+    CFD: computational fluid dynamics
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - noauthor_modulus_nodate
+        - laroussi_vortex_2015
+        - thuerey_physics-based_2022
+        - hao_ai_2020
