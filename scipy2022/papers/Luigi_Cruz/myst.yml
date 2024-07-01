@@ -1,0 +1,38 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-Luigi_Cruz
+  authors:
+    - name: Luigi Cruz
+      email: lfcruz@seti.org
+      affiliations:
+        - id: seti
+          name: SETI Institute
+    - name: Wael Farah
+      email: wfarah@seti.org
+      affiliations:
+        - seti
+    - name: Richard Elkins
+      affiliations:
+        - seti
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/Luigi_Cruz
+  doi: 10.25080/majora-212e5952-004
+  keywords:
+    - gpu
+    - numba
+    - cupy
+    - seti
+    - turboseti
+  title: 'Search for Extraterrestrial Intelligence: GPU Accelerated TurboSETI'
+  downloads:
+    - url: ./Luigi_Cruz.pdf
+      title: Download PDF
+  abbreviations:
+    SETI: Search for Extraterrestrial Intelligence
+    JIT: Just-In-Time
+    LLVM: Low Level Virtual Machine
+    SIMD: Single Instruction/Multiple Data
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      key: cupy_learningsys2017
