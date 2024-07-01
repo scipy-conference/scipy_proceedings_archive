@@ -1,0 +1,31 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-nadiakap
+  authors:
+    - name: Nadia Udler
+      email: nadiakap@optonline.net
+      affiliations:
+        - name: University of Connecticut (Stamford)
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/nadiakap
+  doi: 10.25080/majora-212e5952-019
+  keywords:
+    - global optimization
+    - black-box functions
+    - algorithmically defined functions
+    - potential functions
+  title: Global optimization software library for research and education
+  downloads:
+    - url: ./nadiakap.pdf
+      title: Download PDF
+  abbreviations:
+    SA: simulated annealing
+    NM: Nelder and Mead algorithm
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cite_kap
+        - cite_kp
+        - cite_kpp
+        - cite_bis
