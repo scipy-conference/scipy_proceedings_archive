@@ -1,0 +1,80 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-orhan_eroglu
+  authors:
+    - name: Orhan Eroglu
+      email: oero@ucar.edu
+      corresponding: true
+      affiliations:
+        - id: ncar
+          name: National Center for Atmospheric Research
+    - name: Anissa Zacharias
+      email: anissaz@ucar.edu
+      affiliations:
+        - ncar
+    - name: Michaela Sizemore
+      email: misi1684@ucar.edu
+      affiliations:
+        - ncar
+    - name: Alea Kootz
+      email: akootz@ucar.edu
+      affiliations:
+        - ncar
+    - name: Heather Craker
+      email: hcraker@ucar.edu
+      affiliations:
+        - ncar
+    - name: John Clyne
+      email: clyne@ucar.edu
+      affiliations:
+        - ncar
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/orhan_eroglu
+  doi: 10.25080/majora-212e5952-01c
+  keywords:
+    - data analysis
+    - geocat
+    - geoscience
+    - open development
+    - open source
+    - scalability
+    - visualization
+  title: 'The Geoscience Community Analysis Toolkit: An Open Development, Community Driven Toolkit in the Scientific Python Ecosystem'
+  downloads:
+    - url: ./orhan_eroglu.pdf
+      title: Download PDF
+  abbreviations:
+    GeoCAT: Geoscience Community Analysis Toolkit
+    SPE: Scientific Python Ecosystem
+    NCAR: National Center for Atmospheric Research
+    NCL: NCAR Command Language
+    HPC: high performance computing
+    JIT: just-in-time
+    CI/CD: continuous delivery/deployment
+    EOF: empirical orthogonal function
+    LOC: lines of code
+    AMS: American Meteorological Society
+    AGU: American Geophysical Union
+    SciPy: Scientific Computing with Python
+    SIParCS: Summer Internships in Parallel Computational Science
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - pangeo18
+        - ams22craker
+        - cartopy
+        - datashader
+        - raijinaward21
+        - clyne2021project
+        - conda
+        - pypi
+        - githubactions
+        - codecov
+        - sphinx
+        - readthedocs
+        - apache
+        - ams22sizemore
+        - raijin
+        - lincoln2021expanding
+        - ams21craker
