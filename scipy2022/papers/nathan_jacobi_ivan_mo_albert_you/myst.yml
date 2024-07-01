@@ -1,0 +1,62 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-nathan_jacobi_ivan_mo_albert_you
+  authors:
+    - name: Nathan Jacobi
+      email: Nathan.Jacobi@uga.edu
+      affiliations:
+        - id: uga
+          name: Computer Science Department, University of Georgia
+    - name: Ivan Mo
+      email: Ivan.Mo@uga.edu
+      affiliations:
+        - uga
+        - id: linguistics-department
+          name: Linguistics Department, University of Georgia
+    - name: Albert You
+      email: Albert.You@uga.edu
+      affiliations:
+        - uga
+    - name: Krishi Kishore
+      email: krishikishore10@gmail.com
+      affiliations:
+        - uga
+    - name: Zane Page
+      email: zaneapage@gmail.com
+      affiliations:
+        - uga
+    - name: Shannon P. Quinn
+      email: spq@uga.edu
+      affiliations:
+        - uga
+        - name: Cellular Biology Department, University of Georgia
+    - name: Tim Heckman
+      email: heckman@uga.edu
+      affiliations:
+        - name: Public Health Department, University of Georgia
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/nathan_jacobi_ivan_mo_albert_you
+  doi: 10.25080/majora-212e5952-01a
+  keywords:
+    - Natural Language Processing
+    - Word Embeddings
+    - Bioinformatics
+    - Social Media
+    - Disease Prediction
+  title: Temporal Word Embeddings Analysis for Disease Prevention
+  downloads:
+    - url: ./nathan_jacobi_ivan_mo_albert_you.pdf
+      title: Download PDF
+  abbreviations:
+    CBOW: continuous bag-of-words
+    dwe: dynamic word embedding
+    w2v: word2vec
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - sco18
+        - dva05
+    - rule: link-resolves
+      severity: ignore
+      key: https://github.com/quinngroup/Twitter-Embedding-Analysis/
