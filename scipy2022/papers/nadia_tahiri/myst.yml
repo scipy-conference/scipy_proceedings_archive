@@ -1,0 +1,60 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-nadia_tahiri
+  authors:
+    - name: Aleksandr Koshkarov
+      email: Nadia.Tahiri@USherbrooke.ca
+      equal_contributor: true
+      affiliations:
+        - id: sherbrooke
+          name: Department of Computer Science, University of Sherbrooke
+          city: Sherbrooke
+          state: QC
+          postal_code: J1K2R1
+          country: Canada
+        - name: Center of Artificial Intelligence, Astrakhan State University
+          city: Astrakhan
+          postal_code: '414056'
+          country: Russia
+    - name: Wanlin Li
+      email: Wanlin.Li@USherbrooke.ca
+      equal_contributor: true
+      affiliations:
+        - sherbrooke
+    - name: My-Linh Luu
+      email: luu.my-linh@courrier.uqam.ca
+      affiliations:
+        - name: Department of Computer Science, University of Quebec at Montreal
+          city: Montreal
+          state: QC
+          country: Canada
+    - name: Nadia Tahiri
+      email: Nadia.Tahiri@USherbrooke.ca
+      affiliations:
+        - sherbrooke
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/nadia_tahiri
+  doi: 10.25080/majora-212e5952-018
+  keywords:
+    - Phylogeography
+    - SARS-CoV-2
+    - Bioinformatics
+    - Genetic
+    - Climatic Condition
+  title: 'Phylogeography: Analysis of genetic and climatic data of SARS-CoV-2'
+  downloads:
+    - url: ./nadia_tahiri.pdf
+      title: Download PDF
+  abbreviations:
+    SARS-CoV-2: severe acute respiratory syndrome coronavirus 2
+    VOC: variants of concern
+    WHO: World Health Organization
+    bp: base pairs
+    RF: Robinson and Foulds
+    MSA: multiple sequence alignment
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - CRADD22
+        - F05
