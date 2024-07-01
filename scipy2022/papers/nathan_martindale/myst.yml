@@ -1,0 +1,65 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-nathan_martindale
+  authors:
+    - name: Nathan Martindale
+      email: martindalena@ornl.gov
+      orcid: 0000-0002-5036-5433
+      affiliations:
+        - id: oak-ridge
+          name: Oak Ridge National Laboratory
+    - name: Jason Hite
+      email: hitejm@ornl.gov
+      orcid: 0000-0001-8931-5815
+      affiliations:
+        - oak-ridge
+    - name: Scott Stewart
+      email: stewartsl@ornl.gov
+      orcid: 0000-0003-4320-5818
+      affiliations:
+        - oak-ridge
+    - name: Mark Adams
+      email: adamsmb@ornl.gov
+      orcid: 0000-0002-5414-2800
+      affiliations:
+        - oak-ridge
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/nathan_martindale
+  doi: 10.25080/majora-212e5952-01b
+  copyright: Oak Ridge National Laboratory
+  keywords:
+    - reproducible research
+    - experiment life cycle
+    - data analysis support
+  title: Design of a Scientific Data Analysis Support Platform
+  downloads:
+    - url: ./nathan_martindale.pdf
+      title: Download PDF
+  abbreviations:
+    DOE: US Department of Energy
+    AI: artificial intelligence
+    ML: machine learning
+    FAIR: Findable, Accessible, Interoperable, and Reusable
+    REST: representational state transfer
+    HPC: high-performance computing
+    MLOps: machine learning operations
+    CLI: command line interface
+    API: application programming interface
+    DAG: directed acyclic graph
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - stoddenPublishingStandardsComputational2013
+        - mitchellFAIRDataPipeline2021
+        - goyalMachineLearningOperations2020
+        - quarantaTaxonomyToolsReproducible
+        - bergstraMakingScienceModel2013
+        - sugimuraBuildingReproducibleMachine2018
+        - olorisadeReproducibilityMachineLearningBased2017
+        - MLflowMachineLearning2022
+        - Alam_Kedro_2022
+        - martindaleCurifactory2022
+    - rule: link-resolves
+      severity: ignore
+      key: http://energy.gov/downloads/doe-public-access-plan
