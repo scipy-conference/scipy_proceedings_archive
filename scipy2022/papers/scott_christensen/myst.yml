@@ -1,0 +1,68 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-scott_christensen
+  authors:
+    - name: Scott D. Christensen
+      email: Scott.D.Christensen@usace.army.mil
+      affiliations:
+        - id: us-army
+          name: US Army Engineer Research and Development Center
+    - name: Marvin S. Brown
+      email: Marvin.S.Brown@usace.army.mil
+      affiliations:
+        - us-army
+    - name: Robert B. Haehnel
+      email: Robert.B.Haehnel@usace.army.mil
+      affiliations:
+        - us-army
+    - name: Joshua Q. Church
+      email: Joshua.Q.Church@usace.army.mil
+      affiliations:
+        - us-army
+    - name: Amanda Catlett
+      email: Amanda.Reeder@usace.army.mil
+      affiliations:
+        - us-army
+    - name: Theresa Coumbe
+      email: Theresa.Coumbe@usace.army.mil
+      affiliations:
+        - us-army
+    - name: Dallon C. Schofield
+      email: Dallon.C.Schofield@usace.army.mil
+      affiliations:
+        - us-army
+    - name: Quyen T. Brannon
+      email: Quyen.T.Dong@usace.army.mil
+      affiliations:
+        - us-army
+    - name: Stacy T. Smith
+      email: Stacey.T.Smith@usace.army.mil
+      affiliations:
+        - us-army
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/scott_christensen
+  doi: 10.25080/majora-212e5952-023
+  keywords:
+    - web app
+    - Panel
+    - Tethys
+    - Tethys Platform
+    - Bokeh
+    - Jupyter
+  title: A Python Pipeline for Rapid Application Development (RAD)
+  downloads:
+    - url: ./scott_christensen.pdf
+      title: Download PDF
+  abbreviations:
+    RAD: Rapid Application Development
+    ERDC: US Army Engineer Research and Development Center
+    SDK: Software Development Kit
+    CFD: computational fluid dynamics
+    HPC: High Performance Computing
+    UIT+: User Interface Toolkit Plus
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cite_panel
+        - cite_pyuit
