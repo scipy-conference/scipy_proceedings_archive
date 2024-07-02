@@ -1,0 +1,74 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-safir_zain_22
+  authors:
+    - name: Nathan Safir
+      email: nssafir@gmail.com
+      affiliations:
+        - id: uga-ai
+          name: Institute for Artificial Intelligence, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: '30602'
+          country: USA
+    - name: Meekail Zain
+      email: meekail.zain@uga.edu
+      affiliations:
+        - id: uga-cs
+          name: Department of Computer Science, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: '30602'
+          country: USA
+    - name: Curtis Godwin
+      email: cmgodwin263@gmail.com
+      affiliations:
+        - uga-ai
+    - name: Eric Miller
+      email: EricMiller@uga.edu
+      affiliations:
+        - uga-ai
+    - name: Bella Humphrey
+      email: isabelladhumphrey@gmail.com
+      affiliations:
+        - uga-cs
+    - name: Shannon P Quinn
+      email: spq@uga.edu
+      affiliations:
+        - uga-cs
+        - name: Department of Cellular Biology, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: '30602'
+          country: USA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/safir_zain_22
+  doi: 10.25080/majora-212e5952-022
+  keywords:
+    - Variational Autoencoders
+    - Metric Learning
+    - Deep Learning
+    - Representation Learning
+    - Generative Models
+  title: Variational Autoencoders For Semi-Supervised Deep Metric Learning
+  downloads:
+    - url: ./safir_zain_22.pdf
+      title: Download PDF
+  abbreviations:
+    DML: deep metric learning
+    VAE: variational autoencoder
+    GMM: mixture of gaussians
+    lr: learning rate
+    lsdim: latent space dimensionality
+    pl%: partial labels percentage
+    AMI: Adjusted Mutual Information Score
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - baghshah2009semi
+        - sohn2015learning
+        - sohn2016improved
+        - lecun-mnisthandwrittendigit-2010
+        - vinh2010information
+        - scikit-learn
