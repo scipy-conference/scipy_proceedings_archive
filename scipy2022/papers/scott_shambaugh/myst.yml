@@ -1,0 +1,34 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-scott_shambaugh
+  authors:
+    - name: W. Scott Shambaugh
+      email: wsshambaugh@gmail.com
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/scott_shambaugh
+  doi: 10.25080/majora-212e5952-024
+  keywords:
+    - Monte Carlo
+    - Modeling
+    - Uncertainty Quantification
+    - Uncertainty Analysis
+    - Sensitivity Analysis
+    - Decision-Making
+    - Ensemble Prediction
+    - VARS
+    - D-VARS
+  title: 'Monaco: A Monte Carlo Library for Performing Uncertainty and Sensitivity Analyses'
+  downloads:
+    - url: ./scott_shambaugh.pdf
+      title: Download PDF
+  abbreviations:
+    UA: uncertainty analysis
+    SA: sensitivity analysis
+    PRNG: pseudo-random number generator
+    QMC: quasi-Monte Carlo
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - us2009guidance
+        - fivethirtyeight2020election
