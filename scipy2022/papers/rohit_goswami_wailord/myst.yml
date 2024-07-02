@@ -1,0 +1,40 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-rohit_goswami_wailord
+  authors:
+    - name: Rohit Goswami
+      email: rog32@hi.is
+      orcid: 0000-0002-2393-8056
+      corresponding: true
+      affiliations:
+        - name: Science Institute, University of Iceland
+        - name: Quansight
+          city: Austin
+          state: TX
+          country: USA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/rohit_goswami_wailord
+  doi: 10.25080/majora-212e5952-021
+  keywords:
+    - quantum chemistry
+    - parsers
+    - reproducible reports
+    - computational inference
+  title: 'Wailord: Parsers and Reproducibility for Quantum Chemistry'
+  downloads:
+    - url: ./rohit_goswami_wailord.pdf
+      title: Download PDF
+  abbreviations:
+    TDD: test-driven-development
+    HPC: high-performance-computing
+    PES: potential energy surface
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - communityTuringWayHandbook2019
+        - engstromIdentifyingStatisticalBias2020
+        - blumRecoveringBiasedData2019
+        - rahamanSpectralBiasNeural2019
+        - wilkinsonGrammarGraphics2005
+        - ahoCompilersPrinciplesTechniques2007
