@@ -1,0 +1,56 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-robert_jackson
+  authors:
+    - name: Robert Jackson
+      email: rjackson@anl.gov
+      affiliations:
+        - id: argonne
+          name: Argonne National Laboratory
+          address: 9700 Cass Ave.
+          city: Argonne
+          state: IL
+          postal_code: 60439
+    - name: Rebecca Gjini
+      email: rgjini@ucsd.edu
+      affiliations:
+        - name: University of California at San Diego
+    - name: Sri Hari Krishna Narayanan
+      email: snarayan@anl.gov
+      affiliations:
+        - argonne
+    - name: Matt Menickelly
+      email: menickelly@anl.gov
+      affiliations:
+        - argonne
+    - name: Paul Hovland
+      email: hovland@mcs.anl.gov
+      affiliations:
+        - argonne
+    - name: Jan Hückelheim
+      email: jueckelheim@anl.gov
+      affiliations:
+        - argonne
+    - name: Scott Collis
+      email: scollis@anl.gov
+      affiliations:
+        - argonne
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/robert_jackson
+  doi: 10.25080/majora-212e5952-01f
+  title: Improving PyDDA's atmospheric wind retrievals using automatic differentiation and Augmented Lagrangian methods
+  downloads:
+    - url: ./robert_jackson.pdf
+      title: Download PDF
+  abbreviations:
+    MCS: mesoscale convective system
+    CPOL: C-band Polarization Radar
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Miller1998
+        - jax2018github
+        - tensorflow2015-whitepaper
+        - NoceWrig06
+        - Fletcher06abrief
