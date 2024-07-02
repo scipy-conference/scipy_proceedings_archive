@@ -1,0 +1,67 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-rocketpy_team
+  authors:
+    - name: João Lemes Gribel Soares
+      email: jgribel@usp.br
+      corresponding: true
+      affiliations:
+        - id: sao-paulo
+          name: Escola Politécnica of the University of São Paulo
+    - name: Mateus Stano Junqueira
+      email: mateusstano@usp.br
+      affiliations:
+        - sao-paulo
+    - name: Oscar Mauricio Prada Ramirez
+      email: oscarmprada@usp.br
+      orcid: 0000-0001-6904-8959
+      affiliations:
+        - sao-paulo
+    - name: Patrick Sampaio dos Santos Brandão
+      email: patricksampaio@usp.br
+      affiliations:
+        - sao-paulo
+        - name: École Centrale de Nantes
+    - name: Adriano Augusto Antongiovanni
+      email: adrianoaugusto98@usp.br
+      orcid: 0000-0002-3658-0153
+      affiliations:
+        - sao-paulo
+    - name: Guilherme Fernandes Alves
+      email: guilherme_fernandes@usp.br
+      orcid: 0000-0003-3873-2699
+      affiliations:
+        - sao-paulo
+    - name: Giovani Hidalgo Ceotto
+      email: giovani.ceotto@alumni.usp.br
+      orcid: 0000-0002-1614-3028
+      affiliations:
+        - sao-paulo
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/rocketpy_team
+  doi: 10.25080/majora-212e5952-020
+  keywords:
+    - rocketry
+    - flight
+    - rocket trajectory
+    - flexibility
+    - Monte Carlo analysis
+  title: 'RocketPy: Combining Open-Source and Scientific Libraries to Make the Space Sector More Modern and Accessible'
+  downloads:
+    - url: ./rocketpy_team.pdf
+      title: Download PDF
+  abbreviations:
+    HPR: High-Powered Rocket
+    DOF: degrees of freedom
+    ECMWF: European Centre for Medium-Range Weather Forecasts
+    SRP: Single Responsibility Principle
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - TravelerIV
+        - ISOCentralSecretary1975StandardAtmosphere
+        - coker4thrustcurve
+        - openMotor
+        - Barrowman1967TheVehicles
+        - martin2003agile
