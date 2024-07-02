@@ -1,0 +1,52 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-pyDAMPF_HVGuzman
+  authors:
+    - name: Willy Menacho
+      email: wmenachon2@fcpn.edu.bo
+      affiliations:
+        - id: umsa
+          department: Instituto de Investigaciones Físicas
+          name: Carrera de Física, Universidad Mayor de San Andrés. Campus Universitario Cota Cota
+          city: La Paz
+          country: Bolivia
+    - name: Gonzalo Marcelo Ramírez-Ávila
+      email: mramirez@fcpn.edu.bo
+      affiliations:
+        - umsa
+    - name: Horacio V. Guzman
+      email: horacio.guzman@ijs.si
+      orcid: 0000-0003-2564-3005
+      corresponding: true
+      affiliations:
+        - department: Department of Theoretical Physics
+          name: Jožef Stefan Institute
+          address: Jamova 39
+          postal_code: '1000'
+          city: Ljubljana
+          country: Slovenia
+        - umsa
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/pyDAMPF_HVGuzman
+  doi: 10.25080/majora-212e5952-01e
+  keywords:
+    - Materials science
+    - Nanomechanical properties
+    - AFM
+    - f2py
+    - multi-threading CPUs
+    - numerical simulations
+    - polymers
+  title: 'pyDAMPF: a Python package for modeling mechanical properties of
+    hygroscopic materials under interaction with a nanoprobe'
+  downloads:
+    - url: ./pyDAMPF_HVGuzman.pdf
+      title: Download PDF
+  abbreviations:
+    AFM: Atomic Force Microscopy
+    RH: relative humidity
+    PVA: Ply-Vinyl Acetate
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
