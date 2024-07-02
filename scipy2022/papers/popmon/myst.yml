@@ -1,0 +1,54 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-popmon
+  authors:
+    - name: Simon Brugman
+      email: simon.brugman@ing.com
+      affiliations:
+        - id: ing
+          name: ING Analytics Wholesale Banking
+    - name: Tomas Sostak
+      email: tomas.sostak@vinted.com
+      affiliations:
+        - name: Vinted
+    - name: Pradyot Patil
+      email: pradyot.patil@ing.com
+      affiliations:
+        - ing
+    - name: Max Baak
+      email: max.baak@ing.com
+      affiliations:
+        - ing
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/popmon
+  doi: 10.25080/majora-212e5952-01d
+  keywords:
+    - dataset shift detection
+    - population shift
+    - covariate shift
+    - histogramming
+    - profiling
+  title: 'popmon: Analysis Package for Dataset Shift Detection'
+  downloads:
+    - url: ./popmon.pdf
+      title: Download PDF
+  abbreviations:
+    SPC: statistical process control
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - dasu2006information
+        - lundberg2017unified
+        - rabanser2019failing
+        - lopez2017revisiting
+        - alibi-detect
+        - quinonero2008dataset
+        - lipton2018detecting
+        - english
+        - richardson2022loss
+        - chebyshev1867valeurs
+        - rahm2000data
+        - kibana
+        - plotlypy
+        - bonferroni1936teoria
