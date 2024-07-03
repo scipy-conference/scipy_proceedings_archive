@@ -1,0 +1,42 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-Tirth_Patel
+  authors:
+    - name: Christoph Baumgarten
+      email: christoph.baumgarten@gmail.com
+      orcid: 0000-0002-1168-3359
+    - name: Tirth Patel
+      email: tirthasheshpatel@gmail.com
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/Tirth_Patel
+  doi: 10.25080/majora-212e5952-007
+  keywords:
+    - numerical inversion
+    - generation of random variates
+  title: Automatic random variate generation in Python
+  downloads:
+    - url: ./Tirth_Patel.pdf
+      title: Download PDF
+  abbreviations:
+    CDF: cumulative distribution function
+    QMC: quasi-Monte Carlo
+    TDR: Transformed Density Rejection
+    HINV: Hermite interpolation based INVersion of CDF
+    PINV: Polynomial interpolation based INVersion of CDF
+    SROU: Simple Ratio-Of-Uniforms
+    DGT: (Discrete) Guide Table method
+    DAU: (Discrete) Alias-Urn method
+    ROU: Ratio-Of-Uniforms
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Rmanual
+        - dagpunar:1988
+        - leydold2000universal
+        - unuranc
+        - tirler:2003
+        - neumann:1951
+        - oneill:pcg2014
+        - subbotin1923
+        - stan
