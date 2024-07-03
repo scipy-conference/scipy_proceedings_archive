@@ -1,0 +1,62 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-Timothy_Callow
+  authors:
+    - name: Timothy J. Callow
+      email: t.callow@hzdr.de
+      affiliations:
+        - id: casus
+          name: Center for Advanced Systems Understanding (CASUS)
+          postal_code: D-02826
+          city: Görlitz
+          country: Germany
+        - id: hzdr
+          name: Helmholtz-Zentrum Dresden-Rossendorf
+          postal_code: D-01328
+          city: Dresden
+          country: Germany
+    - name: Daniel Kotik
+      email: d.kotik@hzdr.de
+      affiliations:
+        - casus
+        - hzdr
+    - name: Eli Kraisler
+      email: eli.kraisler@mail.huji.ac.il
+      affiliations:
+        - name: Fritz Haber Center for Molecular Dynamics and Institute of Chemistry, The Hebrew University of Jerusalem
+          postal_code: '9091401'
+          city: Jerusalem
+          country: Israel
+    - name: Attila Cangi
+      email: a.cangi@hzdr.de
+      affiliations:
+        - casus
+        - hzdr
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/Timothy_Callow
+  doi: 10.25080/majora-212e5952-006
+  keywords:
+    - computational physics
+    - plasma physics
+    - atomic physics
+    - materials science
+  title: 'atoMEC: An open-source average-atom Python code'
+  downloads:
+    - url: ./Timothy_Callow.pdf
+      title: Download PDF
+  abbreviations:
+    WDM: warm dense matter
+    DFT: density-functional theory
+    KS: Kohn-Sham
+    ODE: ordinary linear differential equation
+    SCF: self-consistent field
+    DOS: density-of-states
+    CASUS: Center for Advanced Systems Understanding
+    RMBF: Federal Ministry of Education and Research
+    SMWK: Saxon Ministry for Science, Culture and Tourism
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - mendeleev2014
+        - joblib
