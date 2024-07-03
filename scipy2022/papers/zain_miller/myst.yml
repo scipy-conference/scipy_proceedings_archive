@@ -1,0 +1,68 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-zain_miller
+  authors:
+    - name: Meekail Zain
+      email: meekail.zain@uga.edu
+      corresponding: true
+      equal_contributor: true
+      affiliations:
+        - id: uga-cs
+          name: Department of Computer Science, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: '30602'
+          country: USA
+    - name: Eric Miller
+      email: EricMiller@uga.edu
+      equal_contributor: true
+      affiliations:
+        - name: Institute for Artificial Intelligence, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: '30602'
+          country: USA
+    - name: Shannon P Quinn
+      email: spq@uga.edu
+      affiliations:
+        - uga-cs
+        - name: Department of Cellular Biology, University of Georgia
+          city: Athens
+          state: GA
+          postal_code: '30602'
+          country: USA
+    - name: Cecilia Lo
+      email: cel36@pitt.edu
+      affiliations:
+        - name: Department of Developmental Biology, University of Pittsburgh
+          city: Pittsburgh
+          state: PA
+          postal_code: '15261'
+          country: USA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/zain_miller
+  doi: 10.25080/majora-212e5952-026
+  keywords:
+    - cilia
+    - segmentation
+    - u-net
+    - deep learning
+  title: Low Level Feature Extraction for Cilia Segmentation
+  downloads:
+    - url: ./zain_miller.pdf
+      title: Download PDF
+  abbreviations:
+    LSTM: Long Short-Term Memory
+    IoU: intersection-over-union
+    CNN: convolutional neural network
+    ReLU: Rectified Linear Unit
+    GPU: graphics processing unit
+    ZCA: Zero-phase PCA sphering
+    SAE: Sparse Autoencoder
+    KL: Kullback-Leibler
+    SBD: Spatial Broadcast Decoding
+    SCS: Sharpened Cosine Similarity
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      key: scs
