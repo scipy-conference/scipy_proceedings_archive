@@ -1,0 +1,41 @@
+version: 1
+extend: ../myst.yml
+project:
+  id: scipy-2022-zachary_delrosario
+  authors:
+    - name: Zachary del Rosario
+      email: zdelrosario@olin.edu
+      affiliations:
+        - name: Engineering and Applied Statistics, Olin College of Engineering
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/zachary_delrosario
+  doi: 10.25080/majora-212e5952-025
+  keywords:
+    - engineering
+    - engineering education
+    - exploratory model analysis
+    - software design
+    - uncertainty quantification
+  title: Enabling Active Learning Pedagogy and Insight Mining with a Grammar of Model Analysis
+  downloads:
+    - url: ./zachary_delrosario.pdf
+      title: Download PDF
+  abbreviations:
+    EMA: exploratory model analysis
+    COM: center of mass
+    COB: center of buoyancy
+    AVS: angle of vanishing stability
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - keane2005computational
+        - slotnick2014cfd
+        - aggarwal2021qualitative
+        - kahneman2021noise
+        - barba2016computational
+        - biecek2020paribus
+        - cullen1999probabilistic
+        - bloom1956taxonomy
+        - larsson2000yacht
+        - james2013introduction
+        - bryan2020closure
