@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-safir_zain_22
+  banner: banner.png
   authors:
     - name: Nathan Safir
       email: nssafir@gmail.com

@@ -1,5 +1,9 @@
 ---
 title: 'RocketPy: Combining Open-Source and Scientific Libraries to Make the Space Sector More Modern and Accessible'
+description: |
+  In recent years we are seeing exponential growth in the space sector, with new companies emerging in it.
+  On top of that more people are becoming fascinated to participate in the aerospace revolution, which motivates
+  students and hobbyists to build more High Powered and Sounding Rockets.
 ---
 
 # Abstract
@@ -86,6 +90,7 @@ In the last phase, the parachute is launched from the rocket, which is usually d
 or more parts joined by ropes. This phase ends at the point of impact.
 
 (rocketpy-architecture)=
+
 # Design: RocketPy Architecture
 
 Four main classes organize the dataflow during the simulations: motor, rocket, environment, and flight
@@ -110,21 +115,21 @@ RocketPy classes interaction {cite:p}`ceotto2021rocketpy`
 ## Function
 
 Variable interpolation meshes/grids from different sources can lead to problems regarding coupling different data types.
-To solve this, RocketPy employs a dedicated *Function* class which allows for more natural and dynamic handling
+To solve this, RocketPy employs a dedicated _Function_ class which allows for more natural and dynamic handling
 of these objects, structuring them as $\mathbb{R}^n \to \mathbb{R}$ mathematical functions.
 
 Through the use of those methods, this approach allows for quick and easy arithmetic operations between lambda
 expressions and list-defined interpolated functions, as well as scalars. Different interpolation methods are available
 to be chosen from, among them simple polynomial, spline, and Akima {cite:p}`akima1970new`.
-Extrapolation of *Function* objects outside the domain constrained by a given dataset is also allowed.
+Extrapolation of _Function_ objects outside the domain constrained by a given dataset is also allowed.
 
-Furthermore, evaluation of definite integrals of these *Function* objects is among their feature set. By cleverly
+Furthermore, evaluation of definite integrals of these _Function_ objects is among their feature set. By cleverly
 exploiting the chosen interpolation option, RocketPy calculates the values fast and precisely through the use of
 different analytical methods. If numerical integration is required, the class makes use of SciPy's implementation of
 the QUADPACK Fortran library {cite:p}`piessens2012quadpack`. For 1-dimensional Functions, evaluation of derivatives at a
 point is made possible through the employment of a simple finite difference method.
 
-Finally, to increase usability and readability, all *Function* object instances are callable and can be
+Finally, to increase usability and readability, all _Function_ object instances are callable and can be
 presented in multiple ways depending on the given arguments. If no argument is given, a Matplotlib figure opens and the
 plot of the function is shown inside its domain. Only 2-dimensional and 3-dimensional functions can be plotted. This is
 especially useful for the post-processing methods where various information on the classes responsible for the
@@ -132,9 +137,9 @@ definition of the rocket and its flight is presented, providing for more concise
 instead, RocketPy will try and evaluate the value of the Function at this given point using different methods, returning
 its value. An example of the usage of the Function class can be found in the Examples section.
 
-Additionally, if another *Function* object is passed, the class will try to match their respective domain
+Additionally, if another _Function_ object is passed, the class will try to match their respective domain
 and co-domain in order to return a third instance, representing a composition of functions, in the
-likes of: $h(x) = (g \circ f)(x) = g(f(x))$. With different *Function* objects defined, the *comparePlots* method
+likes of: $h(x) = (g \circ f)(x) = g(f(x))$. With different _Function_ objects defined, the _comparePlots_ method
 can be used to plot, in a single graph, different functions.
 
 By imitating, in syntax, commonly used mathematical notation, RocketPy allows for more understandable and human-readable
@@ -214,6 +219,7 @@ Finally, plots of the evaluated parameters concerning the altitude are all passe
 analyst by calling the `Env.info()` method.
 
 (motor)=
+
 ## Motor
 
 RocketPy is flexible enough to work with most types of motors used in sound rockets.
@@ -251,6 +257,7 @@ ex_motor = SolidMotor(
 ```
 
 (rocket)=
+
 ## Rocket
 
 The Rocket Class is responsible for creating and defining the rocket's core characteristics. Mostly composed of
@@ -280,14 +287,14 @@ ex_rocket = Rocket(
 As stated in [RocketPy architecture](#rocketpy-architecture), a fundamental input of the rocket is its motor, an object of the Motor class
 that must be previously defined. Some inputs are fairly simple and can be easily obtained with a CAD model
 of the rocket such as radius, mass, and moment of inertia on two different axes.
-The *distance* inputs are relative to the center of mass and define the position of the motor nozzle and the center of
-mass of the motor propellant. The *powerOffDrag* and *powerOnDrag* receive .csv data that represents the drag
+The _distance_ inputs are relative to the center of mass and define the position of the motor nozzle and the center of
+mass of the motor propellant. The _powerOffDrag_ and _powerOnDrag_ receive .csv data that represents the drag
 coefficient as a function of rocket speed for the case where the motor is off and other for the motor still burning,
 respectively.
 
 At this point, the simulation would run a rocket with a tube of a certain diameter, with its center of mass specified
 and a motor at its end. For a better simulation, a few more important aspects should then be defined, called
-*Aerodynamic surfaces*. Three of them are accepted in the code, these being the nosecone, fins, and tail. They can be
+_Aerodynamic surfaces_. Three of them are accepted in the code, these being the nosecone, fins, and tail. They can be
 simply added to the code via the following methods:
 
 ```{code-block} python
@@ -314,10 +321,10 @@ Further on, these coefficients are used to calculate the center of pressure and 
 each of these methods, the static margin is reevaluated.
 
 Finally, the parachutes can be added in a similar manner to the aerodynamic surfaces. However, a few inputs regarding
-the electronics involved in the activation of the parachute are required. The most interesting of them is the *trigger* and
-*samplingRate* inputs, which are used to define the parachute's activation. The *trigger* is a function that returns
-a boolean value that signifies when the parachute should be activated. The *samplingRate* is the time interval that the
-*trigger* will be evaluated in the simulation time steps.
+the electronics involved in the activation of the parachute are required. The most interesting of them is the _trigger_ and
+_samplingRate_ inputs, which are used to define the parachute's activation. The _trigger_ is a function that returns
+a boolean value that signifies when the parachute should be activated. The _samplingRate_ is the time interval that the
+_trigger_ will be evaluated in the simulation time steps.
 
 ```{code-block} python
 :linenos: true
@@ -403,8 +410,8 @@ The constructor of the `FlightPhase` class takes the following arguments:
 - `callbacks`: a list of callback functions to be run when the flight phase begins (which can be useful if some
   parameters of the rocket need to be modified before the flight phase begins).
 
-The constructor of the Flight class initializes the `FlightPhases` container with a *rail phase* and also a
-dummy *max time* phase which marks the maximum flight duration. Then, it loops through the elements of the container.
+The constructor of the Flight class initializes the `FlightPhases` container with a _rail phase_ and also a
+dummy _max time_ phase which marks the maximum flight duration. Then, it loops through the elements of the container.
 
 Inside the loop, an important attribute of the current flight phase is set: `FlightPhase.timeBound`, the maximum
 timestamp of the flight phase, which is always equal to the initial timestamp of the next flight phase. Ordinarily, it
@@ -424,7 +431,7 @@ the required timesteps, or `TimeNode`, that the integration algorithm should sto
 checked, usually by feeding the necessary data to parachutes and discrete control trigger functions. When it comes to
 discrete controllers, they may change some parameters in the rocket once they are called. On the other hand, a parachute
 triggers rarely actually trigger, and thus, rarely invoke the creation of a new flight phase characterized by
-*descent under parachute* governing equations of motion.
+_descent under parachute_ governing equations of motion.
 
 The Flight class can take advantage of this fact by employing overshootable time nodes: time nodes that the integrator
 does not need to stop. This allows the integration algorithm to use more optimized timesteps and significantly
@@ -578,7 +585,7 @@ Function.comparePlots(
 
 The next step is to start the simulations themselves, which can be done through a loop where the Flight class is called,
 perform the simulation, save the desired parameters into a list and then follow through with the next iteration.
-The *post-process* flight data method is being used to make RocketPy evaluate additional result parameters after the simulation.
+The _post-process_ flight data method is being used to make RocketPy evaluate additional result parameters after the simulation.
 
 Finally, the `Function.comparePlots()` method is used to plot the final result, as reported at {ref}`dinStab`.
 
@@ -637,10 +644,10 @@ def sim_settings(analysis_params, iter_number):
       yield sim_setting
 ```
 
-Where *analysis_params* is the dictionary with the inputs and *iter_number* is the total number of simulations
+Where _analysis_params_ is the dictionary with the inputs and _iter_number_ is the total number of simulations
 to be performed.
 At that time the function yields one dictionary with one set of inputs, which will be used to run a simulation.
-Later the *sim_settings* function is called again and another simulation is run until the loop iterations reach
+Later the _sim_settings_ function is called again and another simulation is run until the loop iterations reach
 the number of simulations:
 
 ```{code-block} python
@@ -860,7 +867,7 @@ The source code, documentation and more examples are available at <https://githu
 
 # Acknowledgments
 
-The authors would like to thank the *University of São Paulo*, for the support during
+The authors would like to thank the _University of São Paulo_, for the support during
 the development of the current publication, and also all members of Projeto Jupiter and the RocketPy Team
 who contributed to the making of the RocketPy library.
 

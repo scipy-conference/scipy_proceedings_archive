@@ -1,5 +1,6 @@
 ---
 title: 'Search for Extraterrestrial Intelligence: GPU Accelerated TurboSETI'
+description: A common technique adopted by the Search For Extraterrestrial Intelligence (SETI) community is monitoring electromagnetic radiation for signs of extraterrestrial technosignatures using ground-based radio observatories.
 ---
 
 # Abstract

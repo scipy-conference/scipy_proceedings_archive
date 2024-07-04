@@ -1,5 +1,6 @@
 ---
 title: 'Experience report of physics-informed neural networks in fluid simulations: pitfalls and frustration'
+description: Though PINNs (physics-informed neural networks) are now deemed as a complement to traditional CFD (computational fluid dynamics) solvers rather than a replacement, their ability to solve the Navier-Stokes equations without given data is still of great interest.
 ---
 
 # Abstract
@@ -31,8 +32,8 @@ These partial differential equations include the well-known Navier-Stokes equati
 The universal approximation theorem {cite:p}`hornik_approximation_1991` implies that neural networks can model the solution to the Navier-Stokes equations with high fidelity and capture complicated flow details as long as networks are big enough.
 The idea of PINN methods can be traced back to {cite}`dissanayake_neural-network-based_1994`, while the name PINN was coined in {cite}`raissi_physics-informed_2019`.
 Human-provided data are not necessary in applying PINN {cite}`lu_deepxde:_2021`, making it a potential alternative to traditional CFD solvers.
-Sometimes it is branded as unsupervised learning—it does not rely on human-provided data, making it sound very *"AI."*
-It is now common to see headlines like *"AI has cracked the Navier-Stokes equations"* in recent popular science articles {cite:p}`hao_ai_2020`.
+Sometimes it is branded as unsupervised learning—it does not rely on human-provided data, making it sound very _"AI."_
+It is now common to see headlines like _"AI has cracked the Navier-Stokes equations"_ in recent popular science articles {cite:p}`hao_ai_2020`.
 
 Though data-free PINN as an alternative to traditional CFD solvers may sound attractive,
 PINN can also be used under data-driven configurations, for which it is better suited.
@@ -217,11 +218,11 @@ For readers with a background in numerical methods for partial differential equa
 
 In obtaining strong solutions to differential equations, we can describe the solution workflows of most numerical methods with five stages:
 
-1. *Designing the approximate solution with undetermined parameters*
-2. *Choosing proper approximation for derivatives*
-3. *Obtaining the so-called modified equation by substituting approximate derivatives into the differential equations and initial/boundary conditions*
-4. *Generating a system of linear/nonlinear algebraic equations*
-5. *Solving the system of equations*
+1. _Designing the approximate solution with undetermined parameters_
+2. _Choosing proper approximation for derivatives_
+3. _Obtaining the so-called modified equation by substituting approximate derivatives into the differential equations and initial/boundary conditions_
+4. _Generating a system of linear/nonlinear algebraic equations_
+5. _Solving the system of equations_
 
 For example, to solve $\nabla U^2(x)=s(x)$, the most naive spectral method {cite:p}`trefethen_spectral_2000` approximates the solution with $U(x)\approx G(x)=\sum\limits_{i=1}^{N}c_i\phi_i(x)$, where $c_i$ represents undetermined parameters, and $\phi_i(x)$ denotes a set of either polynomials, trigonometric functions, or complex exponentials.
 Next, obtaining the first derivative of $U$ is straightforward—we can just assume $U^{\prime}(x)\approx G^{\prime}(x)=\sum\limits_{i=1}^{N}c_i \phi_i^{\prime}(x)$.

@@ -1,5 +1,10 @@
 ---
 title: The myth of the normal curve and what to do about it
+description: |
+  Reliance on the normal curve as a tool for measurement is almost a given.
+  It shapes our grading systems, our measures of intelligence, and importantly,
+  it forms the mathematical backbone of many of our inferential statistical
+  tests and algorithms.
 ---
 
 Reliance on the normal curve as a tool for measurement is almost a given.
@@ -133,7 +138,7 @@ increased Type I Error when using Student's t-test {cite:p}`wilcox1998many`.
 > “Surely the hallowed bell-shaped curve has cracked from top to bottom. Perhaps,
 > like the Liberty Bell, it should be enshrined somewhere as a memorial to
 > more heroic days"
-> 
+>
 > — Earnest Ernest, Philadelphia Inquirer. 10 November 1974. {cite:p}`fashing1981myth`
 
 # Modern robust methods
@@ -208,7 +213,7 @@ For a two-sample case, the steps to compute the percentile bootstrap test can be
 Despite over a half a century of convincing findings, and thousands of papers, robust
 statistical methods are still not widely adopted in applied research
 {cite:p}`erceg2008modern; wilcox1998many`.
-This may be due to various *false* beliefs. For example,
+This may be due to various _false_ beliefs. For example,
 
 - Classical methods are robust to violations of assumptions
 - Correcting non-normal distributions by transforming the data will solve all issues
@@ -362,7 +367,7 @@ experienced in a ready-to-go compute environment—with no overhead
 related to local environment setup.
 
 As a compendium to Hypothesize, and a resource for understanding and teaching robust statistics
-in general, the [robust statistics simulator](<https://github.com/Alcampopiano/robust_statistics_simulator>)
+in general, the [robust statistics simulator](https://github.com/Alcampopiano/robust_statistics_simulator)
 repository has been developed.
 It is a notebook-based collection of interactive demonstrations aimed at clearly and visually
 explaining the conditions under which classic methods fail relative to robust methods.

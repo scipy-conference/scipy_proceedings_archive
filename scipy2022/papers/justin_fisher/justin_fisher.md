@@ -1,5 +1,8 @@
 ---
 title: A New Python API for Webots Robotics Simulations
+description: |
+Webots is a popular open-source package for 3D robotics simulations. It can also be used as a 3D interactive environment for other physics-based modeling, virtual reality, teaching or games. Webots has provided a simple API allowing Python programs to control robots and/or the simulated world, but this API is inefficient and does not provide many "pythonic" conveniences.
+
 ---
 
 # Abstract
@@ -27,13 +30,13 @@ In qualitative terms, the old API feels like one is awkwardly using Python to ca
 Here is a representative (but far from comprehensive) list of examples:
 
 - Unlike the old API, the new API contains helpful Python type annotations and docstrings.
-- Webots employs many vectors, e.g., for 3D positions, 4D rotations, and RGB colors.  The old API typically treats these as lists or integers (24-bit colors).  In the new API these are Vector objects, with conveniently addressable components (e.g. `vector.x` or `color.red`), convenient helper methods like `vector.magnitude` and `vector.unit_vector`, and overloaded vector arithmetic operations, akin to (and interoperable with) NumPy arrays.
-- The new API also provides easy interfacing between high-resolution Webots sensors (like cameras and Lidar) and Numpy arrays, to make it much more convenient to use Webots with popular Python packages like Numpy [@cite_numpy; @10.1038/s41586-020-2649-2], Scipy [@cite_scipy; @10.1038/s41592-019-0686-2], PIL/PILLOW [@cite_pil] or OpenCV [@cite_opencv] [@cite_brad01].  For example, converting a Webots camera image to a NumPy array is now as simple as `camera.array` and this now allows the array to share memory with the camera, making this extremely fast regardless of image size.
+- Webots employs many vectors, e.g., for 3D positions, 4D rotations, and RGB colors. The old API typically treats these as lists or integers (24-bit colors). In the new API these are Vector objects, with conveniently addressable components (e.g. `vector.x` or `color.red`), convenient helper methods like `vector.magnitude` and `vector.unit_vector`, and overloaded vector arithmetic operations, akin to (and interoperable with) NumPy arrays.
+- The new API also provides easy interfacing between high-resolution Webots sensors (like cameras and Lidar) and Numpy arrays, to make it much more convenient to use Webots with popular Python packages like Numpy [@cite_numpy; @10.1038/s41586-020-2649-2], Scipy [@cite_scipy; @10.1038/s41592-019-0686-2], PIL/PILLOW [@cite_pil] or OpenCV [@cite_opencv] [@cite_brad01]. For example, converting a Webots camera image to a NumPy array is now as simple as `camera.array` and this now allows the array to share memory with the camera, making this extremely fast regardless of image size.
 - The old API often requires that all function parameters be given explicitly in every call, whereas the new API gives many parameters commonly used default values, allowing them often to be omitted, and keyword arguments to be used where needed.
 - Most attributes are now accessible (and alterable, when applicable) by pythonic properties like `motor.velocity`.
-- Many devices now have Python methods like `__bool__` overloaded in intuitive ways.  E.g., you can now use `if bumper` to detect if a bumper has been pressed, rather than the old `if bumper.getValue()`.
-- Pythonic container-like interfaces are now provided.  You may now use `for target in radar` to iterate through the various targets a radar device has detected or `for packet in receiver` to iterate through communication packets that a receiver device has received (and it now automatically handles a wide variety of Python objects, not just strings).
-- The old API requires supervisor controllers to use a wide variety of separate functions to traverse and interact with the simulation’s scene tree, including different functions for different VRML datatypes (like `SFVec3f` or `MFInt32`). The new API automatically handles these datatypes and translates intuitive Python syntax (like dot-notation and square-bracket indexing) to the Webots equivalents.  E.g., you can now move a particular crate 1 meter in the x direction using a command like `world.CRATES[3].translation += [1,0,0]`. Under the old API, this would require numerous function calls (calling `getNodeFromDef` to find the CRATES node, `getMFNode` to find the child with index 3, `getSFField` to find its translation field, and `getSFVec3f` to retrieve that field’s value, then some list manipulation to alter the x-component of that value, and finally a call to `setSFVec3f` to set the new value).
+- Many devices now have Python methods like `__bool__` overloaded in intuitive ways. E.g., you can now use `if bumper` to detect if a bumper has been pressed, rather than the old `if bumper.getValue()`.
+- Pythonic container-like interfaces are now provided. You may now use `for target in radar` to iterate through the various targets a radar device has detected or `for packet in receiver` to iterate through communication packets that a receiver device has received (and it now automatically handles a wide variety of Python objects, not just strings).
+- The old API requires supervisor controllers to use a wide variety of separate functions to traverse and interact with the simulation’s scene tree, including different functions for different VRML datatypes (like `SFVec3f` or `MFInt32`). The new API automatically handles these datatypes and translates intuitive Python syntax (like dot-notation and square-bracket indexing) to the Webots equivalents. E.g., you can now move a particular crate 1 meter in the x direction using a command like `world.CRATES[3].translation += [1,0,0]`. Under the old API, this would require numerous function calls (calling `getNodeFromDef` to find the CRATES node, `getMFNode` to find the child with index 3, `getSFField` to find its translation field, and `getSFVec3f` to retrieve that field’s value, then some list manipulation to alter the x-component of that value, and finally a call to `setSFVec3f` to set the new value).
 
 As another example illustrating how much easier the new API is to use, here are two lines from Webots' sample `supervisor_draw_trail`, as it would appear in the old Python API.
 
@@ -62,7 +65,7 @@ And some metrics are given to quantify how the new API has improved over the old
 
 Much of this new API was developed by the author in the course of teaching an interdisciplinary Southern Methodist University undergraduate Cognitive Science course entitled Minds, Brains and Robotics (PHIL 3316).
 Before the Covid pandemic, this course had involved lab activities where students build and program physical robots.
-The pandemic forced these activities to become virtual.  Fortunately, Webots simulations actually have many advantages over physical robots, including not requiring any specialized hardware (beyond a decent personal computer), making much more interesting uses of altitude rather than having the robots confined to a safely flat surface, allowing robots to engage in dangerous or destructive activities that would be risky or expensive with physical hardware, allowing a much broader array of sensors including high-resolution cameras, and enabling full-fledged neural network and computational vision simulations.
+The pandemic forced these activities to become virtual. Fortunately, Webots simulations actually have many advantages over physical robots, including not requiring any specialized hardware (beyond a decent personal computer), making much more interesting uses of altitude rather than having the robots confined to a safely flat surface, allowing robots to engage in dangerous or destructive activities that would be risky or expensive with physical hardware, allowing a much broader array of sensors including high-resolution cameras, and enabling full-fledged neural network and computational vision simulations.
 For example, an early activity in this class involves building Braitenburg-style vehicles [@cite_bra01] that use light sensors and cameras to detect a lamp carried by a hovering drone, as well as ultrasound and touch sensors to detect obstables.
 Using these sensors, the robots navigate towards the lamp in a cluttered playground sandbox that includes sloping sand, an exterior wall, and various obstacles including a puddle of water and platforms from which robots may fall.
 
@@ -93,7 +96,7 @@ Two other drawbacks are related.
 One is that inviting ordinary users to assign properties to API objects might lead them to assign other attributes that could cause problems.
 Since Python lacks true privacy protections, it has always faced this sort of worry, but this worry becomes even worse when users start to feel familiar moving beyond just using defined methods to interact with an object.
 
-Relatedly, Python debugging provides direct feedback in cases where a user misspells `motor.setFoo(v)` but not when someone misspells `motor.foo = v`.  If a user inadvertently types `motor.setFool(v)` they will get an `AttributeError` noting that `motor` lacks a `setFool` attribute.
+Relatedly, Python debugging provides direct feedback in cases where a user misspells `motor.setFoo(v)` but not when someone misspells `motor.foo = v`. If a user inadvertently types `motor.setFool(v)` they will get an `AttributeError` noting that `motor` lacks a `setFool` attribute.
 But if a user inadvertently types `motor.fool = v`, then Python will silently create a new `.fool` attribute for `motor` and the user will often have no idea what has gone wrong.
 
 These two drawbacks both involve users setting an attribute they shouldn't: either an attribute that has another purpose, or one that doesn't.
@@ -105,7 +108,7 @@ So the user who inadvertently types `motor.fool = v` will immediately be warned 
 This does incur a performance cost, but that cost is often worthwhile when it saves development time and frustration.
 For cases when performance is crucial, and/or a user wants to live dangerously and meddle inside API objects, this layer of protection can be deactivated.
 
-An alternative approach, suggested by Matthew Feickert, would have been to use `__slots__` rather than an ordinary `__dict__` to store device attributes, which would also have the effect of raising an error if users attempt to modify unexpected attributes.  Not having a `__dict__` can make it harder to do some things like cached properties and multiple inheritance.  But in cases where such issues don't arise or can be worked around, readers facing similar challenges may find `__slots__` to be a preferable solution.
+An alternative approach, suggested by Matthew Feickert, would have been to use `__slots__` rather than an ordinary `__dict__` to store device attributes, which would also have the effect of raising an error if users attempt to modify unexpected attributes. Not having a `__dict__` can make it harder to do some things like cached properties and multiple inheritance. But in cases where such issues don't arise or can be worked around, readers facing similar challenges may find `__slots__` to be a preferable solution.
 
 ## Backwards Compatibility.
 
@@ -171,7 +174,7 @@ Webots provides this sample controller in C [@cite_sdtc], but it was re-implemen
 ```{table}
 :label: metrictable
 
-**Length and Complexity Metrics.** Raw measures for `supervisor_draw_trail` as it would be written with the new Python API for Webots or the old Python API for Webots. The "lines of codes" measures differ with respect to how they count blank lines, comments, and lines that combine multiple commands.  Cyclomatic complexity measures the number of potential branching points in the code. 
+**Length and Complexity Metrics.** Raw measures for `supervisor_draw_trail` as it would be written with the new Python API for Webots or the old Python API for Webots. The "lines of codes" measures differ with respect to how they count blank lines, comments, and lines that combine multiple commands.  Cyclomatic complexity measures the number of potential branching points in the code.
 
 |Metric                                        | New API     | Old API      |
 |:---|:---|:---|
@@ -182,7 +185,7 @@ Webots provides this sample controller in C [@cite_sdtc], but it was re-implemen
 ```
 
 Some raw measures for the two controllers are shown in {ref}`metrictable`.
-These were gathered using the Radon code-analysis tools [@cite_radon].  (These metrics, as well as those below, may be reproduced by (1) installing Radon [@cite_radon], (2) downloading the source files to compare and the script for computing Metrics [@10.5281/zenodo.6813819], (3) ensuring that the path at the top of the script refers to the local location of the source files to be compared, and (4) running this script.)
+These were gathered using the Radon code-analysis tools [@cite_radon]. (These metrics, as well as those below, may be reproduced by (1) installing Radon [@cite_radon], (2) downloading the source files to compare and the script for computing Metrics [@10.5281/zenodo.6813819], (3) ensuring that the path at the top of the script refers to the local location of the source files to be compared, and (4) running this script.)
 Multiple metrics are reported because theorists disagree about which are most relevant in assessing code readability, because some of these play a role in computing other metrics discussed below, and because this may help to allay potential worries that a few favorable metrics might have been cherry-picked.
 This paper provides some explanation of these metrics and of their potential significance, while remaining neutral regarding which, if any, of these metrics is best.
 
@@ -207,7 +210,7 @@ Both of these factors also help the new API to greatly reduce parentheses counts
 ```{table}
 :label: halsteadtable
 
-**Halstead Metrics.** Halstead metrics for `supervisor_draw_trail` as it would be written with the new and old Python API's for Webots. Lower numbers are commonly construed as being better. 
+**Halstead Metrics.** Halstead metrics for `supervisor_draw_trail` as it would be written with the new and old Python API's for Webots. Lower numbers are commonly construed as being better.
 
 |Halstead Metric                                       |  New API   |  Old API     |
 |:---|:---|:---|
@@ -230,7 +233,7 @@ Different versions of this measure weight and curve these factors somewhat diffe
 ```{table}
 :label: maintaintable
 
-**Maintainability Index Metrics.** Maintainability Index metrics for `supervisor_draw_trail` as it would be written with the new and old versions of the Python API for Webots, according to different versions of the Maintainability Index. Higher numbers are commonly construed as being better. 
+**Maintainability Index Metrics.** Maintainability Index metrics for `supervisor_draw_trail` as it would be written with the new and old versions of the Python API for Webots, according to different versions of the Maintainability Index. Higher numbers are commonly construed as being better.
 
 |Maintainability Index version          |  New API   |  Old API     |
 |:---|:---|:---|
@@ -249,7 +252,7 @@ So the mathematics confirm what was likely obvious from visual comparison of cod
 
 A new Python API for Webots robotic simulations was presented.
 It more efficiently interfaces directly with the Webots C API and provides a more intuitive, easily usable, and "pythonic" interface for controlling Webots robots and simulations.
-Motivations for the API and some of its design decisions were discussed, including decisions use python properties, to add new functionality alongside deprecated backwards compatibility, and to separate robot and supervisor/world functionality.  Advantages of the new API were discussed and quantified using automated code readability metrics.
+Motivations for the API and some of its design decisions were discussed, including decisions use python properties, to add new functionality alongside deprecated backwards compatibility, and to separate robot and supervisor/world functionality. Advantages of the new API were discussed and quantified using automated code readability metrics.
 
 # More Information
 

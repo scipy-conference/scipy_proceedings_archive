@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-nadia_tahiri
+  banner: banner.png
   authors:
     - name: Aleksandr Koshkarov
       email: Nadia.Tahiri@USherbrooke.ca

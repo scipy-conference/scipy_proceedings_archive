@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-rocketpy_team
+  banner: banner.png
   authors:
     - name: João Lemes Gribel Soares
       email: jgribel@usp.br

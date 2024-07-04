@@ -1,5 +1,9 @@
 ---
 title: Variational Autoencoders For Semi-Supervised Deep Metric Learning
+description: |
+  Deep metric learning (DML) methods generally do not incorporate unlabelled data. We propose
+  borrowing components of the variational autoencoder (VAE) methodology to extend DML
+  methods to train on semi-supervised datasets.
 ---
 
 # Abstract
@@ -192,6 +196,7 @@ if the current phase is supervised. $\alpha$ is a hyperparameter which modulates
 the impact of the unsupervised on total loss for the DML autoencoder.
 
 (ip1)=
+
 ## Improvement Proposal 1
 
 We first look to evaluate the improvement proposal that adding a reconstruction loss
@@ -224,6 +229,7 @@ is equal to the reconstruction loss.
 ![](figs/alg_claim1.png)
 
 (ip2)=
+
 ## Improvement Proposal 2
 
 Say we are aware that a dataset has $n$ classes. It may be
@@ -282,6 +288,7 @@ and analytically with the unit prior.
 ![](figs/alg_monte_carlo.png)
 
 (ip3)=
+
 ## Improvement Proposal 3
 
 The third improvement proposal we look to evaluate is that given a semi-supervised
@@ -349,7 +356,7 @@ datasets we use is fully labelled, so a partially labelled dataset can be
 trivially constructed by ignoring some of the labels. As the sizes of
 the dataset vary, each percentage can refer to a different number of
 labelled samples. Values for the partial label percentage we use across
-experiments include 0.01, 0.1,  and 10 (with each value referring to
+experiments include 0.01, 0.1, and 10 (with each value referring to
 the percentage).
 
 ### Datasets

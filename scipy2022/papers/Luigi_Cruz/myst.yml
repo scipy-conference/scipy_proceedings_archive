@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-Luigi_Cruz
+  banner: banner.png
   authors:
     - name: Luigi Cruz
       email: lfcruz@seti.org

@@ -1,31 +1,35 @@
 ---
 title: 'The Advanced Scientific Data Format (ASDF): An Update'
+description: |
+  We report on progress in developing and extending the new (ASDF) format
+  we have developed for the data from the James Webb and Nancy Grace Roman
+  Space Telescopes since we reported on it at a previous Scipy.
 ---
 
 # Abstract
 
- We report on progress in developing and extending the new (ASDF) format
- we have developed for the data from the James Webb and Nancy Grace Roman
- Space Telescopes since we reported on it at a previous Scipy. While the
- format was developed as a replacement for the long-standard FITS format
- used in astronomy, it is quite generic and not restricted to use with
- astronomical data. We will briefly review the format, and extensions and
- changes made to the standard itself, as well as to the reference Python
- implementation we
- have developed to support it. The standard itself has been clarified in
- a number of respects.
- Recent improvements to the Python implementation include an improved
- framework for conversion between complex Python objects and ASDF,
- better control of the configuration of
- extensions supported and versioning of extensions, tools for display and
- searching of the structured metadata, better developer documentation, tutorials,
- and a more maintainable and flexible schema system. This has
- included a reorganization of the components to make the standard free
- from astronomical assumptions. A important motivator for the format was
- the ability to support serializing functional transforms in multiple dimensions as well as expressions built out of such transforms, which
- has now been implemented. More generalized compression schemes are now
- enabled. We are currently working on adding chunking support and will
- discuss our plan for further enhancements.
+We report on progress in developing and extending the new (ASDF) format
+we have developed for the data from the James Webb and Nancy Grace Roman
+Space Telescopes since we reported on it at a previous Scipy. While the
+format was developed as a replacement for the long-standard FITS format
+used in astronomy, it is quite generic and not restricted to use with
+astronomical data. We will briefly review the format, and extensions and
+changes made to the standard itself, as well as to the reference Python
+implementation we
+have developed to support it. The standard itself has been clarified in
+a number of respects.
+Recent improvements to the Python implementation include an improved
+framework for conversion between complex Python objects and ASDF,
+better control of the configuration of
+extensions supported and versioning of extensions, tools for display and
+searching of the structured metadata, better developer documentation, tutorials,
+and a more maintainable and flexible schema system. This has
+included a reorganization of the components to make the standard free
+from astronomical assumptions. A important motivator for the format was
+the ability to support serializing functional transforms in multiple dimensions as well as expressions built out of such transforms, which
+has now been implemented. More generalized compression schemes are now
+enabled. We are currently working on adding chunking support and will
+discuss our plan for further enhancements.
 
 # Introduction
 
@@ -35,7 +39,7 @@ described the shortcomings of the widely used astronomical standard format
 FITS [@fit16] as well as those of existing potential alternatives. It is not
 the goal of this paper to rehash those points in detail, though it is
 useful to summarize the basic points here. The remainder of this paper
-will describe where we are using ASDF,  what lessons we have learned
+will describe where we are using ASDF, what lessons we have learned
 from using ASDF for the
 James Webb Space Telescope, and summarize the most important changes
 we have made to the standard, the Python library that we use to read
@@ -50,10 +54,10 @@ further improvements and extensions.
 ## Summary of Motivations
 
 - Suitable as an archival format:
-    - Old versions continue to be supported by libraries.
-    - Format is sufficiently transparent (e.g., not requiring extensive
-      documentation to decode) for the fundamental set of capabilities.
-    - Metadata is easily viewed with any text editor.
+  - Old versions continue to be supported by libraries.
+  - Format is sufficiently transparent (e.g., not requiring extensive
+    documentation to decode) for the fundamental set of capabilities.
+  - Metadata is easily viewed with any text editor.
 - Intrinsically hierarchical
 - Avoids duplication of shared items
 - Based on existing standard(s) for metadata and structure
@@ -201,7 +205,7 @@ should be encoded in strings.
 
 There is interest in some of the new features of this version,
 however, this is problematic since there are aspects of this
-version that are incompatible with *draft-04*, thus requiring all previous
+version that are incompatible with _draft-04_, thus requiring all previous
 schemas to be updated.
 
 ### Replace extensions section of file history

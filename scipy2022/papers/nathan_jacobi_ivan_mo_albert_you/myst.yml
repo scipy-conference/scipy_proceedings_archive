@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-nathan_jacobi_ivan_mo_albert_you
+  banner: banner.png
   authors:
     - name: Nathan Jacobi
       email: Nathan.Jacobi@uga.edu

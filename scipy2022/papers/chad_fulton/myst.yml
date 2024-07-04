@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-chad_fulton
+  banner: banner.png
   authors:
     - name: Chad Fulton
       email: chad.t.fulton@frb.gov

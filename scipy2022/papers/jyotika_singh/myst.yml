@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-jyotika_singh
+  banner: banner.png
   authors:
     - name: Jyotika Singh
       email: singhjyotika811@gmail.com

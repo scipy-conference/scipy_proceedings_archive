@@ -1,5 +1,6 @@
 ---
 title: Utilizing SciPy and other open source packages to provide a powerful API for materials manipulation in the Schrödinger Materials Suite
+description: The use of several open source scientific packages in the Schrödinger Materials Science Suite will be discussed.
 ---
 
 # Abstract
@@ -70,7 +71,7 @@ class Structure:
 
 One consideration of note is that PDB, CIF and mmCIF structure formats allow description of the positional disorder (for example, a solvent molecule without a stable position within the cell which can be described by multiple sets of coordinates).
 Another complication is that experimental data spans an interval of almost a century: one of the oldest crystal structures deposited in the Cambridge Structural Database (CSD) {cite:p}`CSD` dates to 1924 {cite:p}`Grph`.
-These nuances  and others present nontrivial technical challenges for developers.
+These nuances and others present nontrivial technical challenges for developers.
 Thus, it has been a continuous effort by Schrödinger, Inc. (at least 39 commits and several weeks of work went into this project) and others to correctly read and convert periodic structures in OpenBabel.
 By version 3.1.1 (the most recent at writing time), the authors are not aware of any structures read incorrectly by OpenBabel.
 In general, non-periodic molecular formats are simpler to handle because they only contain atom coordinates but no cell or symmetry information.
@@ -204,7 +205,7 @@ There are several techniques to generate the model, such as linear or non-linear
 Tools include the open source DeepChem {cite:p}`DeepChem` and AutoQSAR {cite:p}`AutoQSAR` from the Schrödinger suite.
 Depending on the type of materials, benchmark data can be obtained using different codes available in the Schrödinger suite:
 
-- small molecules and finite systems -  Jaguar
+- small molecules and finite systems - Jaguar
 - periodic systems - Quantum ESPRESSO
 - larger polymeric and similar systems - Desmond
 
@@ -213,7 +214,7 @@ For example, for crystalline periodic systems, we have implemented several sets 
 Generation of these descriptors again uses a mix of open source and Schrödinger proprietary tools.
 Specifically:
 
-- elemental features such as atomic weight, number of valence electrons in *s*, *p* and *d*-shells, and electronegativity
+- elemental features such as atomic weight, number of valence electrons in _s_, _p_ and _d_-shells, and electronegativity
 - structural features such as density, volume per atom, and packing fraction descriptors implemented in the open source matminer package {cite:p}`Matminer`
 - intercalation descriptors such as cation and anion counts, crystal packing fraction, and average neighbor ionicity {cite:p}`Sendek` implemented in the Schrödinger suite
 - three-dimensional smooth overlap of atomic positions (SOAP) descriptors implemented in the open source DScribe package {cite:p}`DScribe`.

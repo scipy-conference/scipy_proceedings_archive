@@ -1,5 +1,10 @@
 ---
 title: Automatic random variate generation in Python
+description: |
+  The generation of random variates is an important tool that is required in
+  many applications. Various software programs or packages contain generators
+  for standard distributions like the normal, exponential or Gamma, e.g., the
+  programming language R and the packages SciPy and NumPy in Python.
 ---
 
 # Abstract
@@ -88,7 +93,7 @@ have been implemented in SciPy 1.8.0:
   (HINV) {cite:p}`hoermann:2003`
 - `NumericalInversePolynomial`: Polynomial interpolation based INVersion of
   CDF (PINV) {cite:p}`pinv:2010`
-- `SimpleRatioUniforms`:  Simple Ratio-Of-Uniforms (SROU)
+- `SimpleRatioUniforms`: Simple Ratio-Of-Uniforms (SROU)
   {cite:p}`leydold:2001SROU; leydold:2003SROU`
 - `DiscreteGuideTable`: (Discrete) Guide Table method (DGT)
   {cite:p}`chen:1974`
@@ -281,7 +286,8 @@ implementation of the probability mass function. In the latter case, a finite
 domain must be passed to the constructor or the object should implement the
 `support` method[^f1].
 
-[^f1]: Support for discrete distributions with infinite domain hasn't been
+[^f1]:
+    Support for discrete distributions with infinite domain hasn't been
     added yet.
 
 ```python
@@ -310,7 +316,8 @@ generator `np.random.PCG64` for better speed and performance, see
 change the uniform random number generator, a `random_state` parameter can
 be passed as shown in the example below:
 
-[^f2]: By default, NumPy's legacy random number generator, MT19937
+[^f2]:
+    By default, NumPy's legacy random number generator, MT19937
     (`np.random.RandomState()`) is used as the uniform random number generator
     for consistency with the stats module in SciPy.
 
@@ -338,7 +345,8 @@ variates using QMC methods present in SciPy (`scipy.stats.qmc`) as uniform
 random number generators[^f3]. The next example illustrates how to use
 `qrvs` with a generator created directly from a SciPy distribution object.
 
-[^f3]: In SciPy 1.9.0, `qrvs` will be added to
+[^f3]:
+    In SciPy 1.9.0, `qrvs` will be added to
     `NumericalInversePolynomial`.
 
 ```python
@@ -544,7 +552,8 @@ implements various approaches from {cite}`kalke_richter2013`. In that case,
 PINV is usually about 70-200 times faster. This clearly shows the benefit of
 using a black-box algorithm.
 
-[^f4]: In SciPy 1.9.0, the speed will be improved by implementing the method
+[^f4]:
+    In SciPy 1.9.0, the speed will be improved by implementing the method
     from {cite}`np:gennorm`
 
 # Conclusion

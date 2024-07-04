@@ -1,5 +1,10 @@
 ---
 title: 'pyAudioProcessing: Audio Processing, Feature Extraction, and Machine Learning Modeling'
+description: |
+  pyAudioProcessing is a Python based library for processing audio data, constructing
+  and extracting numerical features from audio, building and testing machine learning
+  models, and classifying data with existing pre-trained audio classification models or
+  custom user-built models.
 ---
 
 # Abstract
@@ -46,10 +51,10 @@ useful processes for audio signals to be in a ready-to-use state by users.
 There are two popular approaches for feature building in audio classification tasks.
 
 1. Computing spectrograms from audio signals as images and using an image classification
-pipeline for the remainder.
+   pipeline for the remainder.
 
 2. Computing features from audio files directly as numerical vectors and applying
-them to a classification backend.
+   them to a classification backend.
 
 pyAudioProcessing includes the capability of computing spectrograms, but
 focusses most functionalities around the latter for building audio models. This tool contains implementations
@@ -90,32 +95,32 @@ tackle new and unseen problems.
 
 pyAudioProcessing provides seven core functionalities comprising different stages of audio signal processing.
 
-1. Converting audio files to .wav  format to give the users the ability to work with different types of audio
-to increase compatibility with code and processes that work best with .wav audio type.
+1.  Converting audio files to .wav format to give the users the ability to work with different types of audio
+    to increase compatibility with code and processes that work best with .wav audio type.
 
-2. Audio visualization in time-series and frequency representation, including
-spectrograms.
+2.  Audio visualization in time-series and frequency representation, including
+    spectrograms.
 
-3. Segmenting and removing low-activity segments from audio files for removing unwanted audio segments that are
-less likely to represent meaningful information.
+3.  Segmenting and removing low-activity segments from audio files for removing unwanted audio segments that are
+    less likely to represent meaningful information.
 
-4. Building numerical features from audio that can be used to train machine learning models. The set of features
-supported evolves with time as research informs new and improved algorithms.
+4.  Building numerical features from audio that can be used to train machine learning models. The set of features
+    supported evolves with time as research informs new and improved algorithms.
 
-5. Ability to export the features built with this library to use with any custom machine learning backend of
-the user's choosing.
+5.  Ability to export the features built with this library to use with any custom machine learning backend of
+    the user's choosing.
 
-6. Capability that allows users to train scikit-learn classifiers using features of their choosing directly
-from raw data. pyAudioProcessing
+6.  Capability that allows users to train scikit-learn classifiers using features of their choosing directly
+    from raw data. pyAudioProcessing
 
-     1. runs automatic hyper-parameter tuning
+         1. runs automatic hyper-parameter tuning
 
-     2. returns to the user the training model metrics along with cross-validation confusion matrix (a cross-validation confusion matrix is an evaluation matrix from where we can estimate the performance of the model broken down by each class/category) for model evaluation
+         2. returns to the user the training model metrics along with cross-validation confusion matrix (a cross-validation confusion matrix is an evaluation matrix from where we can estimate the performance of the model broken down by each class/category) for model evaluation
 
-     3. allows the user to test the created classifier with the same features used for training
+         3. allows the user to test the created classifier with the same features used for training
 
-7. Includes pre-trained models to provide users with baseline audio
-classifiers.
+7.  Includes pre-trained models to provide users with baseline audio
+    classifiers.
 
 # Methods and Results
 
@@ -127,9 +132,9 @@ This is an evolving feature as new datasets and classification problems gain pro
 Some of the pre-trained models include the following.
 
 1. Audio type classifier to determine speech versus music:
-Trained a Support Vector Machine (SVM) classifier for classifying audio into two possible classes - music,
-speech. This classifier was trained using Mel Frequency Cepstral Coefficients (MFCC), spectral features, and chroma features. This model was trained on manually created and curated samples for speech and music.
-The per-class evaluation metrics are shown in {ref}`speech-music`.
+   Trained a Support Vector Machine (SVM) classifier for classifying audio into two possible classes - music,
+   speech. This classifier was trained using Mel Frequency Cepstral Coefficients (MFCC), spectral features, and chroma features. This model was trained on manually created and curated samples for speech and music.
+   The per-class evaluation metrics are shown in {ref}`speech-music`.
 
 ```{table}
 :label: speech-music
@@ -146,9 +151,9 @@ Per-class evaluation metrics for audio type (speech vs music) classification pre
 ```
 
 2. Audio type classifier to determine speech versus music versus bird sounds:
-Trained Support Vector Machine (SVM) classifier for classifying audio into three possible classes -
-music, speech, birds. This classifier was trained using Mel Frequency Cepstral Coefficients (MFCC), spectral features, and
-chroma features. The per-class evaluation metrics are shown in {ref}`speech-music-birds`.
+   Trained Support Vector Machine (SVM) classifier for classifying audio into three possible classes -
+   music, speech, birds. This classifier was trained using Mel Frequency Cepstral Coefficients (MFCC), spectral features, and
+   chroma features. The per-class evaluation metrics are shown in {ref}`speech-music-birds`.
 
 ```{table}
 :label: speech-music-birds
@@ -165,15 +170,15 @@ Per-class evaluation metrics for audio type (speech vs music vs bird sound) clas
 ```
 
 3. Music genre classifier using the GTZAN {cite:p}`tzanetakis:2001`:
-Trained on SVM classifier using Gammatone Frequency Cepstral Coefficients (GFCC),
-Mel Frequency Cepstral Coefficients (MFCC), spectral features, and chroma features to classify
-music into 10 genre classes - blues, classical, country, disco, hiphop,
-jazz, metal, pop, reggae, rock. The per-class evaluation metrics are shown in {ref}`music-class-genre`.
+   Trained on SVM classifier using Gammatone Frequency Cepstral Coefficients (GFCC),
+   Mel Frequency Cepstral Coefficients (MFCC), spectral features, and chroma features to classify
+   music into 10 genre classes - blues, classical, country, disco, hiphop,
+   jazz, metal, pop, reggae, rock. The per-class evaluation metrics are shown in {ref}`music-class-genre`.
 
 ```{table}
 :label: music-class-genre
 
-Per-class evaluation metrics for music genre classification pre-trained model. 
+Per-class evaluation metrics for music genre classification pre-trained model.
 
 <table>
 <tr><th>Class</th><th colspan="3">Metric</th></tr>

@@ -1,5 +1,8 @@
 ---
 title: 'poliastro: a Python library for interactive astrodynamics'
+description: |
+  Space is more popular than ever, with the growing public awareness of interplanetary scientific missions,
+  as well as the increasingly large number of satellite companies planning to deploy satellite constellations.
 ---
 
 # Abstract
@@ -740,7 +743,7 @@ two is the ability to modify the camera view in a dynamic way when using
 interactive plotters.
 
 The most important classes in the `poliastro.plotting` package are
-`StaticOrbitPlotter` and `OrbitPlotter3D`.  In addition, the
+`StaticOrbitPlotter` and `OrbitPlotter3D`. In addition, the
 `poliastro.plotting.misc` module contains the `plot_solar_system` function,
 which allows the user to visualize inner and outter both in 2D and 3D, as requested by
 users.
@@ -939,7 +942,6 @@ by projects that do not want to use some of the higher level poliastro abstracti
 or drag its large number of heavy dependencies.
 
 [^footnote-1]: <https://github.com/IBM/spacetech-ssa>
-
 [^footnote-2]: <https://github.com/AnalyticalGraphicsInc/STKCodeExamples/>
 
 Finally, the sustainability of the project cannot yet be taken for granted:

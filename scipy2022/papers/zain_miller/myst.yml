@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-zain_miller
+  banner: banner.png
   authors:
     - name: Meekail Zain
       email: meekail.zain@uga.edu

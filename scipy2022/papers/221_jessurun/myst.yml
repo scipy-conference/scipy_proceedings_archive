@@ -32,6 +32,11 @@ project:
     - Semi-supervised
     - Region of interest
   title: 'Semi-Supervised Semantic Annotator (S3A): Toward Efficient Semantic Labeling'
+  description: |
+    Most semantic image annotation platforms suffer severe bottlenecks when handling large images, 
+    complex regions of interest, or numerous distinct foreground regions in a single image. We have
+    developed the Semi-Supervised Semantic Annotator (S3A) to address each of these issues and facilitate 
+    rapid collection of ground truth pixel-level labeled data.
   downloads:
     - url: ./221_jessurun.pdf
       title: Download PDF

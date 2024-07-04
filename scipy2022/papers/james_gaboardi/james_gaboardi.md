@@ -1,5 +1,9 @@
 ---
 title: 'Likeness: a toolkit for connecting the social fabric of place to human dynamics'
+description: |
+  The ability to produce richly-attributed synthetic populations is key for understanding
+  human dynamics, responding to emergencies, and preparing for future events, all while
+  protecting individual privacy. The Likeness toolkit accomplishes these goals.
 numbering:
   equation:
     template: Eq. %s
@@ -13,7 +17,7 @@ protecting individual privacy. The Likeness toolkit accomplishes these goals wit
 suite of Python packages: `pymedm`/`pymedm_legacy`, `livelike`,
 and `actlike`. This production process is initialized in `pymedm` (or
 `pymedm_legacy`) that utilizes census microdata records as the foundation on
-which disaggregated  spatial allocation matrices are built. The next step, performed by
+which disaggregated spatial allocation matrices are built. The next step, performed by
 `livelike`, is the generation of a fully autonomous agent population attributed
 with hundreds of demographic census variables. The agent population synthesized in
 `livelike` is then attributed with residential coordinates in `actlike`
@@ -23,7 +27,6 @@ synthesizing 30 populations of public K–12 school students & teachers and allo
 them to schools. Validation of our results shows they are highly promising by
 replicating reported school enrollment and teacher capacity with a high degree of
 fidelity.
-
 
 ```{note}
 
@@ -50,7 +53,7 @@ understanding these outcomes requires examination of processes like residential 
 mobility, and social transmission.
 
 Modeling these processes at scale and with respect to individual privacy is most commonly
-achieved through agent-based simulations on *synthetic populations*
+achieved through agent-based simulations on _synthetic populations_
 {cite:p}`swarup2014computational`. Synthetic populations consist of individual agents that,
 when viewed in aggregate, closely recreate the makeup of an area's observed population
 {cite:p}`harland2012creating, templ2017simulation`. Modeling human dynamics with synthetic
@@ -90,7 +93,7 @@ existing limitations and the outlook for future development.
 # Overview of Core Capabilities and Workflow
 
 UrbanPop initially combined the vivid synthetic populations produced from the American
-Community Survey (ACS) using the *Penalized-Maximum Entropy Dasymetric Modeling* (P-MEDM)
+Community Survey (ACS) using the _Penalized-Maximum Entropy Dasymetric Modeling_ (P-MEDM)
 method, which is detailed later, with a commute model based on origin-destination
 flows, to generate a detailed dataset of daytime and nighttime synthetic populations
 across the United States {cite:p}`morton2017simulation`. Our development of Likeness is
@@ -119,7 +122,6 @@ package models travel across agent segments of interest to POIs outside places o
 residence at varying times of day.
 
 [^footnote-osmnx]: <https://github.com/gboeing/osmnx>
-
 [^footnote-pandana]: <https://github.com/UDST/pandana>
 
 # Spatial Allocation: the `pymedm` & `pmedm_legacy` packages
@@ -155,7 +157,7 @@ uncertainty in the input variables: the "tighter" the margins of error on the es
 variable $k$ in place $t$, the more leverage it holds upon the solution
 {cite:p}`nagle2014dasymetric`.
 
-The P-MEDM procedure outputs an *allocation matrix* that estimates the probability
+The P-MEDM procedure outputs an _allocation matrix_ that estimates the probability
 of individuals matching responses from the ACS Public-Use Microdata Sample (PUMS) at the
 scale of census block groups (typically 300–6000 people) or tracts (1200–8000 people),
 depending upon the use-case.
@@ -199,7 +201,7 @@ agent segmentation for activity simulation.
 
 ## Specifying and Solving Spatial Allocation Problems
 
-The `livelike` workflow is oriented around a user-specified *constraints*
+The `livelike` workflow is oriented around a user-specified _constraints_
 file containing all of the information necessary to specify a P-MEDM problem for a PUMA of
 interest. "Constraints" are variables from the ACS common among people/households (PUMS)
 and populations (SF) that are used as both model inputs and descriptors. The
@@ -283,7 +285,7 @@ modeling purposes.
 
 ## Other Capabilities
 
-### *Population Statistics*
+### _Population Statistics_
 
 In addition to agent creation, the `livelike.est` module also supports the creation of
 population statistics. This can be used to estimate the compositional characteristics of
@@ -293,7 +295,7 @@ Generation](#agent-generation)) are converted to proportional estimates to facil
 (`est.to_prop()`), then averaged across simulations to produce Monte Carlo estimates and
 errors (`est.monte_carlo_estimate()`).
 
-### *Multiple ACS Vintages and PUMAs*
+### _Multiple ACS Vintages and PUMAs_
 
 The `multi` module extends the capabilities of `livelike` to multiple ACS 5YE vintages
 (dating back to 2016), as well as multiple PUMAs (e.g., a metropolitan area) via the
@@ -324,7 +326,7 @@ modeled by either network distance or network travel time.
 Following the generation of synthetic households for the study universe, locations for all
 households across the 30 default simulations must be created. In order to intelligently
 site pseudo-neighborhood clusters of random points, we adopt a dasymetric
-{cite:p}`qiu_areal_2013` approach, which we term *intelligent block-based* (IBB) allocation,
+{cite:p}`qiu_areal_2013` approach, which we term _intelligent block-based_ (IBB) allocation,
 whereby household locations are only placed within blocks known to have been populated at
 a particular period in time and are placed with a greater frequency proportional to
 reported household density {cite:p}`lovelace_truncate_2013`. We employ population and
@@ -394,22 +396,20 @@ to destination $j$ that must be an integer greater than or equal to zero ({ref}`
 \textrm{s.t.} \quad x_{ij} \in \mathbb{Z} \quad \forall i \in I \quad \forall j \in J.
 ```
 
-*where*
-: $i \in I$ = each household in the set of origins                        
+_where_
+: $i \in I$ = each household in the set of origins
 
-  $j \in J$ = each school in the set of destinations                      
+$j \in J$ = each school in the set of destinations
 
-  $x_{ij}$ = allocation decision from $i \in I$ to  $j \in J$
+$x_{ij}$ = allocation decision from $i \in I$ to $j \in J$
 
-  $c_{ij}$ = cost between all $i,j$ pairs                          
+$c_{ij}$ = cost between all $i,j$ pairs
 
-  $O_i$ = population in origin $i$ for $i \in I$         
+$O_i$ = population in origin $i$ for $i \in I$
 
-  ${min}D_j$ = minimum capacity $j$ for $j \in J$
+${min}D_j$ = minimum capacity $j$ for $j \in J$
 
-  ${max}D_j$ = maximum capacity $j$ for $j \in J$
-
-                
+${max}D_j$ = maximum capacity $j$ for $j \in J$
 
 The key to this adapted formulation of the classic Transportation Problem is the
 utilization of minimum and maximum capacity thresholds that are generated endogenously
@@ -449,7 +449,6 @@ sizes by grade from the National Center for Education Statistics (NCES) Common C
 Data[^footnote6].
 
 [^footnote5]: <https://hifld-geoplatform.opendata.arcgis.com>
-
 [^footnote6]: <https://nces.ed.gov/ccd/files.asp>
 
 We chose the Knox County School District, which coincides with Knox County's boundaries, as
@@ -457,7 +456,7 @@ our study area. We used the `livelike` package to create 30 synthetic population
 for the Knoxville Core-Based Statistical Area (CBSA), then for each simulation we:
 
 - Isolated agent segments from the synthetic population. K–12 educators consist of full-time workers employed as primary and secondary education teachers (2018 Standard Occupation Classification System codes 2300–2320) in elementary and secondary schools (NAICS 6111). We separated out student agents by public schools and by grade level (Kindergarten through Grade 12).
-- Performed *IBB* allocation to simulate the household locations of workers and students. Our selection of household locations for workers and students varied geographically. Because school attendance in Knox County is restricted by district boundaries, we only placed student households in the PUMAs intersecting with the district (FIPS 4701601, 4701602, 4701603, 4701604). However, because educators may live outside school district boundaries, we simulated their household locations throughout the Knoxville CBSA.
+- Performed _IBB_ allocation to simulate the household locations of workers and students. Our selection of household locations for workers and students varied geographically. Because school attendance in Knox County is restricted by district boundaries, we only placed student households in the PUMAs intersecting with the district (FIPS 4701601, 4701602, 4701603, 4701604). However, because educators may live outside school district boundaries, we simulated their household locations throughout the Knoxville CBSA.
 - Used `actlike` to perform optimal allocation of workers and students about road networks in Knox County/Knoxville CBSA. Across the 30 simulations and 14 segments identified, we produced a total of 420 travel simulations. Network impedance was measured in geographic distance for all student simulations and travel time for all educator simulations.
 
 {ref}`fig:k12:10pub:student` demonstrates the optimal allocations, routing, and
@@ -583,13 +582,13 @@ educator allocations {cite:p}`scikit-learn`. Because CCA is a multivariate measu
 only a suitable diagnostic for activity allocation when multiple segments (e.g., students
 by grade) are of interest. For educators, which we treated as a single agent segment
 without stratification, we used OLS regression instead. The CCA for students was performed
-in two components: Between-Destination, which measures capacity across *facilities*, and
-Within-Destination, which measures capacity across *strata*.
+in two components: Between-Destination, which measures capacity across _facilities_, and
+Within-Destination, which measures capacity across _strata_.
 
 Descriptive Monte Carlo statistics from the 30 simulations were run on the resultant
 coefficients of determination ($R^2$), which show a goodness of fit (approaching 1). As
 seen in {ref}`table:validation`, all models performed exceedingly well, though the
-Within-Destination CCA performed *slightly* less well than both the
+Within-Destination CCA performed _slightly_ less well than both the
 Between-Destination CCA and the OLS linear regression. In fact, the global minimum of all
 $R^2$ scores approaches 0.99 (students – Within-Destination), which demonstrates robust
 preservation of true capacities in our synthetic activity modeling. Furthermore, a global
@@ -617,7 +616,7 @@ vaccination campaign, for example.
 
 Our case study had several limitations that we plan to overcome in future work. First, we
 assumed that all travel within our study area occurs along road networks. While road-based
-travel *is* the dominant means of travel in the Knoxville CBSA, this assumption is
+travel _is_ the dominant means of travel in the Knoxville CBSA, this assumption is
 not transferable to other urban areas within the United States. Our eventual goal is to
 build in additional modes of travel like public transit, walk/bike, and ferries by
 expanding our ingest of OpenStreetMap features.
@@ -664,7 +663,6 @@ with the Max-$p$-regions problem {cite:p}`duque2012max, wei2021` implemented in 
 `spopt` {cite:p}`pysal2007, spopt2021, pysal2021, spopt2022`.
 
 [^footnote9]: <https://www.bls.gov/tus>
-
 [^footnote10]: <https://nhts.ornl.gov>
 
 As a final note, the Likeness toolkit is being developed on top of key open source

@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-godwin_zain
+  banner: banner.png
   authors:
     - name: Curtis Godwin
       email: cmgodwin263@gmail.com

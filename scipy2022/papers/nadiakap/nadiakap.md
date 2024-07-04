@@ -1,12 +1,16 @@
 ---
 title: Global optimization software library for research and education
+description: |
+  Machine learning models are often represented by functions given by computer programs. Optimization
+  of such functions is a challenging task because traditional derivative based
+  optimization methods with guaranteed convergence properties cannot be used.
 ---
 
 # Abstract
 
 Machine learning models are often represented by functions given by computer programs. Optimization
 of such functions is a challenging task because traditional derivative based
-optimization methods with guaranteed convergence properties cannot be used.. This software
+optimization methods with guaranteed convergence properties cannot be used. This software
 allows to create new optimization methods with desired properties, based on basic modules.
 These basic modules are designed in accordance with approach for constructing global optimization
 methods based on potential theory [@cite_kap]. These methods do not use derivatives of objective function
@@ -25,7 +29,7 @@ processes, trading strategies optimization, to name a few [@https://doi.org/10.1
 We developed a library of optimization methods as a first step for self-adapting algorithms. Optimization
 methods in this library work with all objectives including very onerous ones, such as black box functions
 and functions given by computer code, and the convergences of methods is guaranteed. This library allows
-to create customized derivative free learning algorithms with desired properties  by combining building
+to create customized derivative free learning algorithms with desired properties by combining building
 blocks from this library or other Python libraries.
 
 The library is intended primarily for educational
@@ -46,14 +50,14 @@ For potential functions approach for stochastic first order optimization methods
 
 # Outline of the approach
 
-The approach works for non-smooth or algorithmically defined functions.  For detailed description of the approach see {cite}`cite_kap; cite_kp`.
+The approach works for non-smooth or algorithmically defined functions. For detailed description of the approach see {cite}`cite_kap; cite_kp`.
 In this approach the original optimization problem is replaced with a randomized problem, allowing the use of Monte-Carlo methods for calculating integrals.
 This is especially important if the objective function is given by its values (no analytical formula) and derivatives
 are not known. The original problem is restated in the framework of gradient (sub gradient) methods, employing the
 standard theory (convergence theorems for gradient (sub gradient) methods), whereas no derivatives of the objective
 function are needed. At the same time, the method obtained is a method of nonlocal search unlike other gradient methods.
 It will be shown, that instead of measuring the gradient of the objective function we can measure the gradient of the
-potential function at each iteration step  , and the value of the gradient can be obtained using values of objective
+potential function at each iteration step , and the value of the gradient can be obtained using values of objective
 function only, in the framework of Monte Carlo methods for calculating integrals. Furthermore, this value does not have
 to be precise, because it is recalculated at each iteration step. It will also be shown that well-known zero-order
 optimization methods (methods that do not use derivatives of objective function but its values only) are generalized
@@ -75,13 +79,13 @@ By randomizing we get
 F(X) = E[f(X)]\to\min_{x \in R_n }
 ```
 
-where  X is a random vector from $R^n$, \{X} is a set of such random vectors, and $E[\cdot]$ is the expectation operator.
+where X is a random vector from $R^n$, \{X} is a set of such random vectors, and $E[\cdot]$ is the expectation operator.
 
-Problem  {ref}`rfx` is equivalent to problem {ref}`fx` in the sense that any realization of the random vector $X^*$, where $X^*$ is a solution to {ref}`rfx`, that has a nonzero probability, will be a solution to problem {ref}`fx` (see @cite_kap for proof).
+Problem {ref}`rfx` is equivalent to problem {ref}`fx` in the sense that any realization of the random vector $X^*$, where $X^*$ is a solution to {ref}`rfx`, that has a nonzero probability, will be a solution to problem {ref}`fx` (see @cite_kap for proof).
 
 Note that {ref}`rfx` is the stochastic optimization problem of the functional F(X) .
 
-To study the gradient nature of the solution algorithms for problem {ref}`rfx`, a variation of objective functional  F(X)  will be considered.
+To study the gradient nature of the solution algorithms for problem {ref}`rfx`, a variation of objective functional F(X) will be considered.
 
 The suggested approach makes it possible to obtain optimization methods in systematic way, similar to the methodology adopted in smooth optimization.
 Derivation includes randomization of the original optimization problem, finding directional derivative for the randomized problem and choosing moving direction Y based on the condition that directional derivative in the direction of Y is being less or equal to 0.
@@ -129,7 +133,7 @@ $= \int_{R^n} f(x)(  \int_{R^n} [\frac{d}{d \epsilon}  p_{x^ \epsilon} (x - \eps
 
 Using formula for conditional distribution $p_{Y/X^0=x} (y)=\frac {p_{x^ \epsilon y} (x,y)}{p_{x^ \epsilon} (x) )}$ ,
 
-where  $p_{x^ \epsilon}(x) =  \int_{R^n} p_{x^ \epsilon y} (x,u) du$
+where $p_{x^ \epsilon}(x) =  \int_{R^n} p_{x^ \epsilon y} (x,u) du$
 
 we get $\delta _Y F(X^0 )= - \int_{R^n} f(x) div_x [ p_{x^ \epsilon}(x) \int_{R^n}  p_{Y/X^0=x} (y) y dy] dx$
 
@@ -147,7 +151,7 @@ Considering solution to $\delta _Y F(X^0 )\to\min_Y$ allows to obtain gradient-l
 
 # Potential function as a solution to Poisson's equation
 
-Decomposing vector field $p_{x^0}(x)\overline y(x)$  into potential field $\nabla \varphi_0 (x)$ and divergence-free component $W_0 (x)$:
+Decomposing vector field $p_{x^0}(x)\overline y(x)$ into potential field $\nabla \varphi_0 (x)$ and divergence-free component $W_0 (x)$:
 
 ```{math}
 p_{x^0}(x)\overline y(x)= \nabla \phi_0 (x) +W_0 (x)
@@ -169,14 +173,14 @@ Solution to Poisson's equation approaching 0 at infinity may be written in the f
 
 where $E(x,\xi)$ is a fundamental solution to Laplace's equation.
 
-Then for potential component $\Delta \varphi_0 (x)$  we have
+Then for potential component $\Delta \varphi_0 (x)$ we have
 
 ```{math}
 \Delta \varphi_0 (x) = -L E[\Delta_x E(x,u)(f(x)-C)]
 ```
 
-To conclude, the representation  for gradient-like direction is obtained. This direction maximizes directional derivative of the objective functional F(X). Therefore, this representation can be used for computing the gradient of the objective function f(x) using only its values.
-Gradient direction of the objective function f(x) is determined by the gradient of the potential function $\varphi_0 (x)$, which, in turn,  is determined by Poisson's equation.
+To conclude, the representation for gradient-like direction is obtained. This direction maximizes directional derivative of the objective functional F(X). Therefore, this representation can be used for computing the gradient of the objective function f(x) using only its values.
+Gradient direction of the objective function f(x) is determined by the gradient of the potential function $\varphi_0 (x)$, which, in turn, is determined by Poisson's equation.
 
 # Practical considerations
 
@@ -187,20 +191,20 @@ X_{N+1} = X_{N}+ \alpha_{N+1}Y_{N+1}
 ```
 
 where N - iteration number, $Y^{N+1}$ - random vector that defines direction of move at (N+1)th iteration, $\alpha_{N+1}$ -step size on (N+1)th iteration.
-$Y^{N+1}$  must be feasible at each iteration, i.e. the objective functional should decrease: $F(X^{N+1})<(X^{N})$.
+$Y^{N+1}$ must be feasible at each iteration, i.e. the objective functional should decrease: $F(X^{N+1})<(X^{N})$.
 Applying expection to (12) and presenting $E[Y_{N+1}$ asconditional expectation $E_x E[Y/X]$ we get:
 
 ```{math}
 X_{N+1} =E[ X_{N}]+ \alpha_{N+1}E_{X^N} E[Y^{N+1}/X^N]
 ```
 
-Replacing mathematical expectations $E[ X_{N}]$ and $Y_{N+1}]$  with their estimates $\overline E ^{ N+1}$ and  $\overline y (X^N)$ we get:
+Replacing mathematical expectations $E[ X_{N}]$ and $Y_{N+1}]$ with their estimates $\overline E ^{ N+1}$ and $\overline y (X^N)$ we get:
 
 ```{math}
 \overline E  ^{ N+1} = \overline E  ^{ N}+ \alpha_{N+1} \overline E  _{X^N} [ \overline y (X^N)]
 ```
 
-Note that expression for  $\overline y (X^N)$ was obtained in the previos section up to certain parameters. By setting parameters to certain values
+Note that expression for $\overline y (X^N)$ was obtained in the previos section up to certain parameters. By setting parameters to certain values
 we can obtain stochastic extensions of well known heuristics such as Nelder and Mead algorithm or Covariance Matrix Adaptation Evolution Strategy.
 In minpy library we use several common building blocks to create different algorithms. Customized algorithms may be defined by combining these
 common blocks and varying their parameters.
@@ -210,9 +214,9 @@ Main building blocks include computing center of mass of the sample points and f
 # Key takeaways, example algorithm, and code organization
 
 Many industry professionals and researchers utilize mathematical optimization packages to search for better solutions of their problems. Examples of such problem include minimization of free energy in physical system [@https://doi.org/10.1016/j.energy.2021.121865], robot gait optimization from robotics [@https://doi.org/10.1007/978-3-030-14347-3_20], designing materials for 3D printing [@https://doi.org/10.3390/ma15041503; @http://doi.org/10.1089/3dp.2021.0197], wine production [@https://doi.org/10.1007/s10601-015-9235-5; @https://doi.org/10.9781/ijimai.2021.04.006], optimizing chemical reactions [@https://doi.org/10.1039/D0RE00081G]. These problems may involve "black box optimization", where the structure of the objective function is unknown and is revealed through a small sequence of expensive trials. Software implementations for these methods become more user friendly. As a rule, however, certain modeling skills are needed to formulate real world problem in a way suitable for applying software package. Moreover, selecting optimization method appropriate for the model is a challenging task.
-Our educational software helps users of such optimization packages and may be considered as a companion to them. The focus of our software is on transparency of the methods rather than on efficiency. A principal benefit of our software is the unified approach for constructing algorithms whereby any other algorithm is obtained from the generalized algorithm by changing certain parameters. Well known heuristic algorithms such as Nelder and Mead (NM) algorithm may be obtained using this generalized approach, as well as new algorithms. Although some derivative-free optimization packages (matlab global optimization toolbox,  Tensorflow Probability optimizers, Excel Evolutionary Solver, scikit-learn Stochastic Gradient Descent class, scipy.optimize.shgo method) put a lot of effort in transparency and educational value, they don't have the same level of flexibility and generality as our system. An example of educational-only optimization software is @https://doi.org/10.1016/j.advengsoft.2008.01.005. It is limited to teach Particle Swarm Optimization.
+Our educational software helps users of such optimization packages and may be considered as a companion to them. The focus of our software is on transparency of the methods rather than on efficiency. A principal benefit of our software is the unified approach for constructing algorithms whereby any other algorithm is obtained from the generalized algorithm by changing certain parameters. Well known heuristic algorithms such as Nelder and Mead (NM) algorithm may be obtained using this generalized approach, as well as new algorithms. Although some derivative-free optimization packages (matlab global optimization toolbox, Tensorflow Probability optimizers, Excel Evolutionary Solver, scikit-learn Stochastic Gradient Descent class, scipy.optimize.shgo method) put a lot of effort in transparency and educational value, they don't have the same level of flexibility and generality as our system. An example of educational-only optimization software is @https://doi.org/10.1016/j.advengsoft.2008.01.005. It is limited to teach Particle Swarm Optimization.
 
-The code is organized in such a way that it allows to pair the algorithm with objective function. The new algorithm may be implmented as method of class Minimize. Newly created algorithm can be paired with test objectivve function supplied with a library or with externally supplied objective function (implemented in separate python module). New algorithms can be made more  or less universal, that is, may have different number of parameters that user can specify. For example, it is possible to create Nelder and Mead algorithm (NM) using basic modules, and this would be an example of the most specific algorithm. It is also possible to create Stochastic Extention of NM (more generic than classic NM, similar to Simplicial Homology Global Optimisation [@https://doi.org/10.1007/s10898-018-0645-y] method) and with certain settings of adjustable parameters it may work identical to classic NM.
+The code is organized in such a way that it allows to pair the algorithm with objective function. The new algorithm may be implmented as method of class Minimize. Newly created algorithm can be paired with test objectivve function supplied with a library or with externally supplied objective function (implemented in separate python module). New algorithms can be made more or less universal, that is, may have different number of parameters that user can specify. For example, it is possible to create Nelder and Mead algorithm (NM) using basic modules, and this would be an example of the most specific algorithm. It is also possible to create Stochastic Extention of NM (more generic than classic NM, similar to Simplicial Homology Global Optimisation [@https://doi.org/10.1007/s10898-018-0645-y] method) and with certain settings of adjustable parameters it may work identical to classic NM.
 Library repository may be found here: <https://github.com/nadiakap/MinPy_edu>
 
 The following algorithms demonstrate steps similar to steps of Nelder and Mead algorithm (NM) but select only those points with objective function values smaller or equal to mean level of objective funtion. Such an improvement to NM assures its convergence [@cite_kpp]. Unlike NM, they are derived from the generic approach. First variant (NM-stochastic) resembles NM but corrects some of its drawbacks, and second variant (NM-nonlocal) has some similarity to random search as well as to NM and helps to resolve some other issues of classical NM algorithm.
@@ -230,7 +234,7 @@ b. Calculate new set of vertices:
 u_j^i= m_{j-1}+\epsilon_{j-1} (f(u_{j-1}^i)-c_{j-1})\frac{  m_{j-1} -u_{j-1}^i}  {||m_{j-1} -u_{j-1}^i ||^n }
 ```
 
-c. Set  $m_j=\frac{1}{K} \sum_{i=0}^K u_j^i$
+c. Set $m_j=\frac{1}{K} \sum_{i=0}^K u_j^i$
 
 d. Adjust the step size $\epsilon_{j-1}$ so that $f(m_j)<f(m_{j-1})$. If approximate $\epsilon _{j-1}$ cannot be obtained within the specified number of trails, then set $m_k=m_{j-1}$
 
@@ -249,7 +253,7 @@ Steps of NM - nonlocal
 1. Choose a starting point $x_0$ and set $m_0=x_0$.
 
 2. On step j = 1, 2, ...
-Obtain K separate realizations of $u_i^i$, i=1,..K of the random vector $U_j$
+   Obtain K separate realizations of $u_i^i$, i=1,..K of the random vector $U_j$
 
 a. Compute $f(u_{j-1}^i) , j = 1,2,..K$, and the sample mean level
 

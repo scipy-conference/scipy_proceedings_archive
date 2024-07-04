@@ -1,5 +1,9 @@
 ---
 title: Improving PyDDA's atmospheric wind retrievals using automatic differentiation and Augmented Lagrangian methods
+description: |
+  Meteorologists require information about the spatiotemporal distribution of winds in thunderstorms in order
+  to analyze how physical and dynamical processes govern thunderstorm evolution. Knowledge of such processes is vital for
+  predicting severe and hazardous weather events.
 ---
 
 # Introduction
@@ -270,7 +274,7 @@ To solve the optimization problem in {ref}`constrained`, we implemented an augme
 filter mechanism inspired by {cite}`filteral`. An augmented Lagrangian method considers the Lagrangian associated with
 an equality-constrained optimization problem, in this case $\mathcal{L}_0(u,v,w,\lambda) = J_v(u,v,w) - \lambda^\top J_m(u,v,w)$,
 where $\lambda$ is a vector of Lagrange multipliers of the same length as the number of grid points in the discretized volume.
-The Lagrangian is then *augmented* with an additional squared-penalty term on the constraints to yield
+The Lagrangian is then _augmented_ with an additional squared-penalty term on the constraints to yield
 $\mathcal{L}_{\mu}(u,v,w,\lambda) = \mathcal{L}_0(u,v,w,\lambda) + \frac{\mu}{2}\|J_m(u,v,w)\|^2$,
 where we have intentionally used $\mu > 0$ as the scalar in the penalty term to make comparisons with
 {ref}`unconstrained` transparent. It is well known (see, for instance, Theorem 17.5 of {cite}`NoceWrig06`)
@@ -298,7 +302,7 @@ at 3.05 km altitude. The boxed region shows the updrafts that generated the heav
 
 The PyDDA documentation contains an example of a mesoscale convective system (MCS) that was sampled by a C-band
 Polarization Radar (CPOL) and a Bureau of Meteorology Australia radar on 20 Jan 2006 in Darwin, Australia.
-For more details on this storm and the radar network configuration, see {cite}`Collisetal2013`. For more information about the CPOL radar dataset, see {cite}`Jacksonetal2018`.  This example with its data is included in the PyDDA Documentation as the "Example of retrieving and plotting winds."
+For more details on this storm and the radar network configuration, see {cite}`Collisetal2013`. For more information about the CPOL radar dataset, see {cite}`Jacksonetal2018`. This example with its data is included in the PyDDA Documentation as the "Example of retrieving and plotting winds."
 
 {ref}`storm` shows the winds retrieved by the Augmented Lagrangian technique with $\mu = 1$ and from
 the weak variational technique with $\mu = 1$ on the right. {ref}`storm` shows that both techniques are
@@ -324,7 +328,7 @@ that was supplied to the filter Augmented Lagrangian method.
 :::{figure} lbfgs2.png
 :label: lbfgs2
 
-As {ref}`auglag2`, but for the weak variational technique that uses L-BFGS-B. 
+As {ref}`auglag2`, but for the weak variational technique that uses L-BFGS-B.
 :::
 
 We solve the unconstrained formulation {ref}`unconstrained` using the implementation of L-BFGS-B
@@ -420,7 +424,7 @@ The submitted manuscript has been created by UChicago Argonne, LLC, Operator of 
 Argonne, a U.S. Department of Energy Office of Science laboratory, is operated under Contract No. DE-AC02-06CH11357.
 The U.S. Government retains for itself, and others acting on its behalf, a paid-up nonexclusive, irrevocable worldwide
 license in said article to reproduce, prepare derivative works, distribute copies to the public, and perform publicly
-and display publicly, by or on behalf of the Government.  The Department of Energy will provide public access to these
+and display publicly, by or on behalf of the Government. The Department of Energy will provide public access to these
 results of federally sponsored research in accordance with the DOE Public Access Plan.
 This material is based upon work supported by Laboratory Directed Research and Development (LDRD) funding from Argonne National Laboratory,
 provided by the Director, Office of Science, of the U.S. Department of Energy under Contract No. DE-AC02-06CH11357.

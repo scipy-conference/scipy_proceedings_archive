@@ -1,5 +1,7 @@
 ---
 title: Low Level Feature Extraction for Cilia Segmentation
+description: |
+  Cilia are organelles found on the surface of some cells in the human body that sweep rhythmically to transport substances. Dysfunction of ciliary motion is often indicative of diseases known as ciliopathies, which disrupt the functionality of macroscopic structures within the lungs, kidneys and other organs.
 ---
 
 # Abstract
@@ -84,9 +86,9 @@ the follow-up methodology of {cite}`cilia` for segmentation. In
 particular, they employ a Dense Net segmentation model as well, however
 they first augment the underlying images with the calculated optical
 flow. In this way, their segmentation strategy employs both spatial
-*and* temporal information. To compare against
+_and_ temporal information. To compare against
 {cite}`charles`, the authors evaluated their segmentation
-model in the same way  –  as an upstream to an CNN/LSTM classification
+model in the same way – as an upstream to an CNN/LSTM classification
 network. Their model improved the classification accuracy two points
 above that of {cite}`charles`. Their reported
 intersection-over-union (IoU) score is $33.06\%$ and marks the
@@ -222,7 +224,7 @@ is to say, $\epsilon=0$ recovers canonical ZCA, and
 $\lambda\rightarrow \sqrt{\frac{1}{\lambda}}$ provides the spectrum of $W$ on the eigenvalues.
 Otherwise, $\epsilon>0$ results in the map
 $\lambda\rightarrow \sqrt{\frac{1}{\lambda+\epsilon}}$. In this case,
-while *all* eigenvalues map to smaller values compared to
+while _all_ eigenvalues map to smaller values compared to
 the original map, the smallest eigenvalues map to
 significantly smaller values compared to the original map. This means
 that $\epsilon$ serves to “dampen” the effects of whitening for
@@ -293,7 +295,7 @@ A significant amount of freedom can be found in potential architectural
 choices for SAE. A focus on low-medium complexity models both provides
 efficiency and minimizes overfitting and artifacts as consequence of
 degenerate autoencoding. One important danger to be aware of is that
-SAEs – and indeed, *all* AEs – are at risk of a degenerate solution wherein
+SAEs – and indeed, _all_ AEs – are at risk of a degenerate solution wherein
 a sufficiently complex decoder essentially learns to become a hashmap of
 arbitrary (and potentially random) encodings.
 
@@ -532,19 +534,19 @@ attract some attention. While regular CNNs are proficient at filtering,
 developing invariance to certain forms of noise and perturbation, they
 are notoriously poor at serving as a spatial indicator for features.
 Convolution activations can be high due to changes in luminosity and do
-not necessarily imply the *distribution* of the underlying luminosity,
+not necessarily imply the _distribution_ of the underlying luminosity,
 therefore losing precise spatial information. By design, SCS avoids
 these faults by considering the mathematical case of a “normalized”
 convolution, wherein neither the magnitude of the input, nor of the
 kernel, affect the final output. Instead, SCS activations are dictated
-purely by the *relative* magnitudes of weights in the kernel, which is
-to say by the *spatial distribution* of features in the input
+purely by the _relative_ magnitudes of weights in the kernel, which is
+to say by the _spatial distribution_ of features in the input
 {cite:p}`scs`. Domain knowledge suggests that cilia, while
 able to vary greatly, all share relatively unique spatial distributions
 when compared to non-cilia such as cells, out-of-phase structures,
 microscopy artifacts, etc. Therefore, SCS may provide a
 strong augmentation to the backbone U-Net model by acting as an
-additional layer *in tandem with* the already existing convolution
+additional layer _in tandem with_ the already existing convolution
 layers. This way, the model is a true generalization of the canonical
 U-Net and is less likely to suffer poor performance due to the
 introduction of SCS.

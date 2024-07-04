@@ -1,5 +1,9 @@
 ---
 title: A Python Pipeline for Rapid Application Development (RAD)
+description: |
+  Rapid Application Development (RAD) is the ability to rapidly prototype an interactive
+  interface through frequent feedback, so that it can be quickly deployed and delivered to stakeholders
+  and customers.
 ---
 
 # Abstract

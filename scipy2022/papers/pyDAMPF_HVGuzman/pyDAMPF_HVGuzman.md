@@ -1,5 +1,7 @@
 ---
 title: 'pyDAMPF: a Python package for modeling mechanical properties of hygroscopic materials under interaction with a nanoprobe'
+description: |
+pyDAMPF is a tool oriented to the Atomic Force Microscopy (AFM) community, which allows the simulation of the physical properties of materials under variable relative humidity (RH). 
 ---
 
 # Abstract
@@ -12,7 +14,7 @@ In this article, we show how to use pyDAMPF to choose one optimal nanoprobe for 
 
 This article provides an overview of pyDAMPF, which is a BSD licensed, Python and Fortran modeling tool that enables AFM users to simulate the interaction between a probe (cantilever) and materials at the nanoscale under diverse environments. The code is packaged in a bundle and hosted on GitHub at <https://github.com/govarguz/pyDAMPF>.
 
-Despite the recent open-source availability of dynamic AFM simulation packages {cite:p}`dForce,Veda`, a broad usage for the assessment and planning of experiments has yet to come. One of the problems is that it is often hard to simulate several operational parameters at once. For example, most scientists evaluate different AFM cantilevers before starting new experiments. A typical evaluation criterion is the maximum exerted force that prevents invasivity of the nanoprobe into the sample. The variety of AFM cantilevers depends on the geometrical and material characteristics used for its fabrication. Moreover, manufacturers’ nanofabrication techniques may change from time to time, according to the necessities of the experiments, like sharper tips and/or higher oscillation frequencies. From a simulation perspective, evaluating observables for reaching optimal results on upcoming experiments is nowadays possible for *tens* or *hundreds* of cantilevers. On top of other operational parameters in the case of dynamic AFM like the oscillation amplitude $A_0$, set-point $A_{sp}$, among other materials expected properties that may feed simulations and create simulations batches of easily *thousands* of cases. Given this context, we focus this article on choosing a cantilever out of an initial pyDAMPF database of 30. In fact, many of them are similar in terms of spring constant $k_c$, cantilever volume $V_c$ and also Tip’s radius $R_T$. Then we focus on seven archetypical and distinct cases/cantilevers to understand the characteristics of each of the parameters specified in the manufacturers’ datasheets, by evaluating the maximum (peak) forces.
+Despite the recent open-source availability of dynamic AFM simulation packages {cite:p}`dForce,Veda`, a broad usage for the assessment and planning of experiments has yet to come. One of the problems is that it is often hard to simulate several operational parameters at once. For example, most scientists evaluate different AFM cantilevers before starting new experiments. A typical evaluation criterion is the maximum exerted force that prevents invasivity of the nanoprobe into the sample. The variety of AFM cantilevers depends on the geometrical and material characteristics used for its fabrication. Moreover, manufacturers’ nanofabrication techniques may change from time to time, according to the necessities of the experiments, like sharper tips and/or higher oscillation frequencies. From a simulation perspective, evaluating observables for reaching optimal results on upcoming experiments is nowadays possible for _tens_ or _hundreds_ of cantilevers. On top of other operational parameters in the case of dynamic AFM like the oscillation amplitude $A_0$, set-point $A_{sp}$, among other materials expected properties that may feed simulations and create simulations batches of easily _thousands_ of cases. Given this context, we focus this article on choosing a cantilever out of an initial pyDAMPF database of 30. In fact, many of them are similar in terms of spring constant $k_c$, cantilever volume $V_c$ and also Tip’s radius $R_T$. Then we focus on seven archetypical and distinct cases/cantilevers to understand the characteristics of each of the parameters specified in the manufacturers’ datasheets, by evaluating the maximum (peak) forces.
 
 We present four scenarios comparing a total of seven cantilevers and the same sample, where we use as a test-case Poly-Vinyl Acetate (PVA) fiber. The first scenario ({ref}`fig1a`) illustrates the difference between air and a moist environment. On the second one, a cantilever, only very soft and stiff cantilever spring constants are compared (see {ref}`fig1b`). At the same time, the different volumes along the 30 cantilevers are depicted in {ref}`fig1c`. A final and mostly very common comparison is scenario 4, by comparing one of the most sensitive parameters to the force of the tip’s radii (see {ref}`fig1d`).
 
@@ -33,7 +35,7 @@ The results presented in this article are available as [Google Colaboratory note
 
 ## Processing inputs
 
-pyDAMPF counts with an initial database of 30 cantilevers, which can be extended at any time by accessing to the file *cantilevers_data.txt* then, the program inputs_processor.py reads the cantilever database and asks for further physical and operational variables, required to start the simulations. This will generate *tempall.txt*, which contains all cases *e.g.* 30 to be simulated with pyDAMPF
+pyDAMPF counts with an initial database of 30 cantilevers, which can be extended at any time by accessing to the file _cantilevers_data.txt_ then, the program inputs_processor.py reads the cantilever database and asks for further physical and operational variables, required to start the simulations. This will generate _tempall.txt_, which contains all cases _e.g._ 30 to be simulated with pyDAMPF
 
 ```python
 def inputs_processor(variables,data):
@@ -48,11 +50,11 @@ def inputs_processor(variables,data):
             /EXECUTE_pyDAMPF/pyDAMPF_BASE/nrun/')
 ```
 
-The variables inside the argument of the function *inputs_processor* are interactively requested from a shell command line. Then the file *tempall.txt* is generated and copied to the folders that will contain the simulations.
+The variables inside the argument of the function _inputs_processor_ are interactively requested from a shell command line. Then the file _tempall.txt_ is generated and copied to the folders that will contain the simulations.
 
 ## Execute pyDAMPF
 
-For execution in a single or multi-thread way, we require first to wrap our numeric core from Fortran to Python by using f2py {cite:p}`f2py`. Namely, the file *pyDAMPF.f90* within the folder *EXECUTE_pyDAMPF*.
+For execution in a single or multi-thread way, we require first to wrap our numeric core from Fortran to Python by using f2py {cite:p}`f2py`. Namely, the file _pyDAMPF.f90_ within the folder _EXECUTE_pyDAMPF_.
 
 ### Compilation with f2py
 
@@ -68,7 +70,7 @@ Once we have obtained the numerical code as Python modules, we need to choose th
 
 ### Serial method
 
-This method is completely transparent to the user and will execute all the simulation cases found in the file *tempall.txt* by running the script *inputs_processor.py*. Our in-house development creates an individual folder for each simulation case, which can be executed in one thread.
+This method is completely transparent to the user and will execute all the simulation cases found in the file _tempall.txt_ by running the script _inputs_processor.py_. Our in-house development creates an individual folder for each simulation case, which can be executed in one thread.
 
 ```python
 def serial_method(tcases, factor, tempall):
@@ -83,7 +85,7 @@ def serial_method(tcases, factor, tempall):
     exec(open('generate_cases.py').read())
 ```
 
-As arguments, the serial method requires the total number of simulation cases obtained from *tempall.txt*. In contrast, the *factor* parameter has, in this case, a default value of 1.
+As arguments, the serial method requires the total number of simulation cases obtained from _tempall.txt_. In contrast, the _factor_ parameter has, in this case, a default value of 1.
 
 ### Parallel method
 
@@ -116,11 +118,11 @@ def Parallel_method(tcases, factor, tempall):
 
 This part generates serial-like folders for each thread’s number of cases to be executed.
 
-The second part of the parallel method will execute pyDAMPF, which contains at the same time two scripts. One for executing pyDAMPF in a common *UNIX* based desktop or laptop. While the second is a python script that generated *SLURM* code to launch jobs in HPC facilities.
+The second part of the parallel method will execute pyDAMPF, which contains at the same time two scripts. One for executing pyDAMPF in a common _UNIX_ based desktop or laptop. While the second is a python script that generated _SLURM_ code to launch jobs in HPC facilities.
 
-### Execution with *SLURM*
+### Execution with _SLURM_
 
-It runs pyDAMPF in different threads under the *SLURM* queuing system.
+It runs pyDAMPF in different threads under the _SLURM_ queuing system.
 
 ```python
 def cluster(factor):
@@ -151,9 +153,9 @@ def cluster(factor):
         os.system(rm jobpyDAMPF)'+str(i)+'.x;')
 ```
 
-The above script generates *SLURM* jobs for a chosen set of threads; after launched, those jobs files are erased in order to improve bookkeeping.
+The above script generates _SLURM_ jobs for a chosen set of threads; after launched, those jobs files are erased in order to improve bookkeeping.
 
-### Parallel execution with *UNIX* based Laptops or Desktops
+### Parallel execution with _UNIX_ based Laptops or Desktops
 
 Usually, microscopes (AFM) computers have no SLURM pre-installed; for such a configuration, we run the following script:
 
@@ -200,7 +202,7 @@ python3 Quantitative_analysis.py
 
 #### With interactive tables
 
-*Quantitative_analysis.ipynb* uses a minimalistic dashboard application for tabular data visualization [tabloo](https://github.com/bluenote10/tabloo) with easy installation.:
+_Quantitative_analysis.ipynb_ uses a minimalistic dashboard application for tabular data visualization [tabloo](https://github.com/bluenote10/tabloo) with easy installation.:
 
 ```
 pip install tabloo
@@ -321,10 +323,10 @@ Dependence of the maximum force on the set-point amplitude corresponding to a ca
 :::{figure} fig5cutCOMPLETEHR3.png
 :label: fig5
 
-Dependence of the maximum force with the most important characteristics of each cantilever, filtering the cantilevers used for the scenarios, the figure shows maximum force dependent on the: (a)  force constant k, (b)  cantilever tip radius, and (c) cantilever volume, respectively. The simulations were performed for \$A\_\{sp}/A\_\{0}\$ = 0.8.
+Dependence of the maximum force with the most important characteristics of each cantilever, filtering the cantilevers used for the scenarios, the figure shows maximum force dependent on the: (a) force constant k, (b) cantilever tip radius, and (c) cantilever volume, respectively. The simulations were performed for \$A\_\{sp}/A\_\{0}\$ = 0.8.
 :::
 
-Another way to summarize the results in AFM simulations if to show the Force vs. Distance curves (see {ref}`fig6a`), which in these case show exactly how for example a stiffer cantilever may penetrate more into the sample by simple checking the distance cantilever *e* reaches. On the other hand, it also jumps into the eyes that a cantilever with small volume *f* has less damping from the environment and thus it also indents more than the ones with higher volume. Although these type of plots are the easiest to make, they carry lots of experimental information. In addition, pyDAMPF can plot such 3D figures interactively that enables a detailed comparison of those curves.
+Another way to summarize the results in AFM simulations if to show the Force vs. Distance curves (see {ref}`fig6a`), which in these case show exactly how for example a stiffer cantilever may penetrate more into the sample by simple checking the distance cantilever _e_ reaches. On the other hand, it also jumps into the eyes that a cantilever with small volume _f_ has less damping from the environment and thus it also indents more than the ones with higher volume. Although these type of plots are the easiest to make, they carry lots of experimental information. In addition, pyDAMPF can plot such 3D figures interactively that enables a detailed comparison of those curves.
 
 :::{figure} fig6HR0.png
 :label: fig6a
@@ -335,7 +337,7 @@ Three-dimensional plots of the various cantilevers provided by the manufacturer 
 :::{figure} fig6HR3.png
 :label: fig6b
 
-Three-dimensional plots of the various cantilevers provided by the manufacturer and those in the pyDAMPF database that establish a given maximum force at a given distance between the tip and the sample for a PVA polymer subjected to  RH = 60.1% with E = 248.8 \[MPa\].
+Three-dimensional plots of the various cantilevers provided by the manufacturer and those in the pyDAMPF database that establish a given maximum force at a given distance between the tip and the sample for a PVA polymer subjected to RH = 60.1% with E = 248.8 \[MPa\].
 :::
 
 As we aim a massive use of pyDAMPF, we also perform the corresponding benchmarks on four different computing platforms, where two of them resembles the standard PC or Laptop found at the labs, and the other two aim to cloud and HPC facilities, respectively (see{ref}`tab2` for details).
@@ -359,7 +361,7 @@ Speed up parallel method.
 
 ![](tab1.png)
 
-Data used for {ref}`fig2a`, {ref}`fig3a` and {ref}`fig4a` with an $A_0=10[nm]$ . Observe that the quality factor and Young's modulus have three different values respectively for RH1 = 29.5%, RH2 = 39.9% y RH3 = 60.1%. $^{**}$The values presented for Quality Factor $Q$ were calculated at  [Google Colaboratory notebook Q calculation](https://colab.research.google.com/drive/1O1xjLfmMoL6J4EwVods95zfelzr8GDUQ?usp=sharing), using the method proposed by {cite}`Sader, Sader2`.
+Data used for {ref}`fig2a`, {ref}`fig3a` and {ref}`fig4a` with an $A_0=10[nm]$ . Observe that the quality factor and Young's modulus have three different values respectively for RH1 = 29.5%, RH2 = 39.9% y RH3 = 60.1%. $^{**}$The values presented for Quality Factor $Q$ were calculated at [Google Colaboratory notebook Q calculation](https://colab.research.google.com/drive/1O1xjLfmMoL6J4EwVods95zfelzr8GDUQ?usp=sharing), using the method proposed by {cite}`Sader, Sader2`.
 :::
 
 :::{table}
@@ -375,7 +377,7 @@ Computers used to run pyDAMPF and Former work {cite:p}`dForce`. $^{*}$The free v
 
 ![](tab3.png)
 
-Execution times per computational thread, for each computer. Note that each         Thread consists of 9 simulation cases, with a sum time showing the total of 90 cases for evaluating 3 different Young moduli and 30 cantilevers at the same time.
+Execution times per computational thread, for each computer. Note that each Thread consists of 9 simulation cases, with a sum time showing the total of 90 cases for evaluating 3 different Young moduli and 30 cantilevers at the same time.
 :::
 
 To calculate the speed up we use the following equation:
@@ -395,7 +397,7 @@ The main limitation of dynamic AFM simulators based in continuum modeling is tha
 There are several improvements that are planned for pyDAMPF.
 
 - We plan to include a link to molecular dynamics simulations of polymer chains in a multiscale like approach.
-- We plan to use experimental values with less uncertainty to boost    semi-empirical models based on pyDAMPF.
+- We plan to use experimental values with less uncertainty to boost semi-empirical models based on pyDAMPF.
 - The code is still not very clean and some internal cleanup is necessary. This is especially true for the Python backend which may require a refactoring.
 - Some AI optimization was also envisioned, particularly for optimizing criteria and comparing operational parameters.
 

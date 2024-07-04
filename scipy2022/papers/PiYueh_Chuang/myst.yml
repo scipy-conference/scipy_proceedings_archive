@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-PiYueh_Chuang
+  banner: banner.png
   authors:
     - name: Pi-Yueh Chuang
       email: pychuang@gwu.edu

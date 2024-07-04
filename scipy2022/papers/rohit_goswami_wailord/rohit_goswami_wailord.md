@@ -1,5 +1,7 @@
 ---
 title: 'Wailord: Parsers and Reproducibility for Quantum Chemistry'
+description: |
+  Data driven advances dominate the applied sciences landscape, with quantum chemistry being no exception to the rule. Dataset biases and human error are key bottlenecks in the development of reproducible and generalized insights.
 ---
 
 # Abstract
@@ -77,7 +79,7 @@ and open source `python` library.
 Data generation involves set of known configurations (say, `xyz` inputs) and a
 series of common calculations whose outputs are required. Computational
 chemistry packages tend to be focused on acceleration and setup details on a
-*per-job* scale. `wailord`, in contrast, considers the outputs of simulations
+_per-job_ scale. `wailord`, in contrast, considers the outputs of simulations
 to form a tree, where the actual run and its inputs are the leaves, and each
 layer of the tree structure holds information which is collated into a single
 dataframe which is presented to the user.
@@ -86,7 +88,7 @@ Downstream tasks for simulations of chemical systems involve questions phrased
 as queries or comparative measures. With that in mind, `wailord` generates
 `pandas` dataframes which are indistinguishable from standard machine learning
 information sources, to trivialize the data-munging and preparation process. The
-outputs of `wailord` represent concrete *information* and it is not meant to
+outputs of `wailord` represent concrete _information_ and it is not meant to
 store runs like the ASE database {cite:p}`larsenAtomicSimulationEnvironment2017` ,
 nor run a process to manage discrete workflows like AiiDA
 {cite:p}`huberAiiDAScalableComputational2020`.
@@ -133,7 +135,7 @@ academia {cite:p}`desaiSurveyEvidenceTestdriven2008` and industry
 {cite:p}`bhatEvaluatingEfficacyTestdriven2006`. In essence, each feature is
 accompanied by a test-case. This is meant to ensure that once the end-user is
 able to run the test-suite, they are guaranteed the features promised by the
-software.  Additionally, this means that potential bugs can be submitted as a
+software. Additionally, this means that potential bugs can be submitted as a
 test case which helps isolate errors for fixes. Furthermore, software testing
 allows for coverage metrics, thereby enhancing user and development confidence
 in different components of any large code-base.
@@ -232,14 +234,14 @@ Concretely, the top-level "experiment" is controlled by a YAML file:
 ```yaml
 project_slug: methylene
 project_name: singlet_triplet_methylene
-outdir: "./lab6"
+outdir: './lab6'
 desc: An experiment to calculate singlet and triplet states differences at a QCISD(T) level
 author: Rohit
-year: "2020"
+year: '2020'
 license: MIT
-orca_root: "/home/orca/"
-orca_yml: "orcaST_meth.yml"
-inp_xyz: "ch2_631ppg88_trip.xyz"
+orca_root: '/home/orca/'
+orca_yml: 'orcaST_meth.yml'
+inp_xyz: 'ch2_631ppg88_trip.xyz'
 ```
 
 Where each run is then controlled individually.
@@ -247,19 +249,19 @@ Where each run is then controlled individually.
 ```yaml
 qc:
   active: True
-  style: ["UHF", "QCISD", "QCISD(T)"]
-  calculations: ["OPT"]
+  style: ['UHF', 'QCISD', 'QCISD(T)']
+  calculations: ['OPT']
   basis_sets:
     - 6-311++G**
-xyz: "inp.xyz"
+xyz: 'inp.xyz'
 spin:
-  - "0 1" # Singlet
-  - "0 3" # Triplet
-extra: "!NUMGRAD"
+  - '0 1' # Singlet
+  - '0 3' # Triplet
+extra: '!NUMGRAD'
 viz:
   molden: True
   chemcraft: True
-jobscript: "basejob.sh"
+jobscript: 'basejob.sh'
 ```
 
 Usage is then facilitated by a high-level call.
@@ -328,8 +330,8 @@ We can formulate the requirement imperatively as:
 ```yaml
 qc:
   active: True
-  style: ["UHF", "QCISD", "QCISD(T)"]
-  calculations: ["ENERGY"] # Same as single point or SP
+  style: ['UHF', 'QCISD', 'QCISD(T)']
+  calculations: ['ENERGY'] # Same as single point or SP
   basis_sets:
     - 3-21G
     - 6-31G
@@ -340,20 +342,20 @@ qc:
     - 6-311++G(2d,2p)
     - 6-311++G(2df,2pd)
     - 6-311++G(3df,3pd)
-xyz: "inp.xyz"
+xyz: 'inp.xyz'
 spin:
-  - "0 1"
+  - '0 1'
 params:
   - name: R
     range: [0.4, 2.00]
     points: 33
     slot:
       xyz: True
-      atype: "H"
+      atype: 'H'
       anum: 1 # Start from 0
-      axis: "x"
+      axis: 'x'
 extra: Null
-jobscript: "basejob.sh"
+jobscript: 'basejob.sh'
 ```
 
 This run configuration is coupled with an experiment setup file, similar to the
@@ -425,7 +427,7 @@ manner the structured inputs and output datasets which facilitate chemical
 insight. The formulation of bespoke datasets tailored to the study of specific
 properties across a wide range of materials at varying levels of theory has been
 shown. The test-driven-development approach is a robust methodology for
-interacting with  closed source software. The design patterns expressed, of
+interacting with closed source software. The design patterns expressed, of
 which the `wailord` library is a concrete implementation, is expected to be
 augmented with more workflows, in particular, with a focus on nudged elastic
 band. The methodology here has been applied to ORCA, however, the two level
@@ -452,5 +454,5 @@ partially supported by the Icelandic Research Fund, grant number 217436052.
 
 % References
 % ----------
-% .. [Atr03] P. Atreides. *How to catch a sandworm*,
-%            Transactions on Terraforming, 21(3):261-300, August 2003.
+% .. [Atr03] P. Atreides. _How to catch a sandworm_,
+% Transactions on Terraforming, 21(3):261-300, August 2003.

@@ -1,5 +1,9 @@
 ---
 title: Incorporating Task-Agnostic Information in Task-Based Active Learning Using a Variational Autoencoder
+description: |
+  It is often much easier and less expensive to collect data than to
+  label it. Active learning (AL) responds to this issue by selecting
+  which unlabeled data are best to label next.
 ---
 
 # Abstract

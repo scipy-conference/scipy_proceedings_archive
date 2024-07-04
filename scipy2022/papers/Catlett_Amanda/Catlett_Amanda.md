@@ -1,5 +1,6 @@
 ---
 title: USACE Coastal Engineering Toolkit and a Method of Creating a Web-Based Application
+description: In the early 1990s the Automated Coastal Engineering Systems, ACES, was created with the goal of providing state-of-the-art computer-based tools to increase the accuracy, reliability, and cost-effectiveness of Corps coastal engineering endeavors.
 ---
 
 # Abstract
@@ -52,7 +53,7 @@ HoloViews.
 Each UCET tool’s model class declares the input and output values used in the model as class parameters. Each input and
 output variables are declared and given the following metadata features:
 
-- **default**:  each input variable is defined as a Param with a default value defined from the 1992 ACES user manual
+- **default**: each input variable is defined as a Param with a default value defined from the 1992 ACES user manual
 - **bounds**: each input variable is defined with range values defined in the 1992 ACES user manual
 - **doc or docstrings**: input and output variables have the expected variable and description of the variable defined as a doc. This is used as a label over the input and output widgets. Most docstrings follow the pattern of \<variable>:\<description of variable \[units, if any\]>
 - **constant**: the output variables all set constant equal True, thereby restricting the user’s ability to manipulate the value. Note that when calculations are being done they will need to be inside a with param.edit_constant(self) function
@@ -108,7 +109,7 @@ classes have methods and functions that are utilized across more than one tool. 
 
 Each coastal tool in UCET has two classes, the model class and the GUI class. The model class holds input and output
 variables and the methods needed to run the model. The model class either directly inherits from the BaseDriver or
-the WaterTypeDriver.  The tool’s GUI class holds information for GUI visualization that is different from the
+the WaterTypeDriver. The tool’s GUI class holds information for GUI visualization that is different from the
 BaseGui, WaterTypeGUI, and TabulatorDataGui classes. In {ref}`hierarchy` the model classes are labeled as: Base-Tool Class,
 Graph-Tool Class, Water-Tool Class, and Graph-Water-Tool Class and each has a corresponding GUI class.
 
@@ -124,7 +125,7 @@ WaterTypeDriver and the GUI class will inherit the linear wave theory model clas
 # GUI Implementation Using Panel and HoloViews
 
 Each UCET tool has a GUI class where the Panel and HoloView libraries are implemented. Panel is a hierarchical container
-that can layout panes, widgets, or other Panels in an arrangement that forms an app or dashboard.  The Pane is used to
+that can layout panes, widgets, or other Panels in an arrangement that forms an app or dashboard. The Pane is used to
 render any widget-like object such as Spinner, Tabulator, Buttons, CheckBox, Indicators, etc. Those widgets are used to
 gather user input and run the specific tool’s model.
 
@@ -135,7 +136,7 @@ UCET utilizes the following widgets to gather user input:
 - **CheckBox**: true or false values
 - **Drop down**: items that have a list of pre-selected values, such as which units to use
 
-UCET utilizes indicators.Number, Tabulator, and graphs to visualize the outputs of the coastal engineering models.  A
+UCET utilizes indicators.Number, Tabulator, and graphs to visualize the outputs of the coastal engineering models. A
 single number is shown using indicators.Number and graph data is displayed using the Tabulator widget to show the data
 of the graph. The graphs are created using HoloViews and have tool options such as pan, zooming, and saving.
 Buttons are used to calculate, save the current run, and save the graph data.
@@ -156,7 +157,6 @@ of that tool.
 
 The general outline of a UCET tool for the GUI.
 :::
-
 
 # Current State
 
@@ -192,7 +192,6 @@ The developers have been documenting this project using GitHub and JIRA.
 
 An example of a warning message based on chosen inputs.
 :::
-
 
 # Results
 

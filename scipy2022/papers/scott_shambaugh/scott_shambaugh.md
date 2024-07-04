@@ -1,10 +1,12 @@
 ---
 title: 'Monaco: A Monte Carlo Library for Performing Uncertainty and Sensitivity Analyses'
+description: |
+  This paper introduces *monaco*, a Python library for conducting Monte Carlo simulations of computational models, and performing uncertainty analysis (UA) and sensitivity analysis (SA) on the results.
 ---
 
 # Abstract
 
-This paper introduces *monaco*, a Python library for conducting Monte Carlo simulations of computational models, and performing uncertainty analysis (UA) and sensitivity analysis (SA) on the results. UA and SA are critical to effective and responsible use of models in science, engineering, and public policy, however their use is uncommon. By providing a simple, general, and rigorous-by-default library that wraps around existing models, *monaco* makes UA and SA easy and accessible to practitioners with a basic knowledge of statistics.
+This paper introduces _monaco_, a Python library for conducting Monte Carlo simulations of computational models, and performing uncertainty analysis (UA) and sensitivity analysis (SA) on the results. UA and SA are critical to effective and responsible use of models in science, engineering, and public policy, however their use is uncommon. By providing a simple, general, and rigorous-by-default library that wraps around existing models, _monaco_ makes UA and SA easy and accessible to practitioners with a basic knowledge of statistics.
 
 # Introduction
 
@@ -12,7 +14,7 @@ Computational models form the backbone of decision-making processes in science, 
 
 Despite the importance of UA and SA, recent literature reviews show that they are uncommon – in 2014 only 1.3% of all published papers {cite:p}`ferretti2016trends` using modeling performed any SA. And even when performed, best practices are usually lacking – amongst papers which specifically claimed to perform sensitivity analysis, a 2019 review found only 21% performed global (as opposed to local or zero) UA, and 41% performed global SA {cite:p}`saltelli2019so`.
 
-Typically, UA and SA are done using Monte Carlo simulations, for reasons explored in the following section. There are Monte Carlo frameworks available, however existing options are largely domain-specific, focused on narrow sub-problems (i.e. integration), tailored towards training neural nets, or require a deep statistical background to use. See {cite}`OLIVIER2020101204`, {cite}`razavi2021future`, and {cite}`DOUGLASSMITH2020104588` for an overview of the currently available Python tools for performing UA and SA. For the domain expert who wants to perform UA and SA on their existing models, there is not an easy tool to do both in a single shot. *monaco* was written to address this gap.
+Typically, UA and SA are done using Monte Carlo simulations, for reasons explored in the following section. There are Monte Carlo frameworks available, however existing options are largely domain-specific, focused on narrow sub-problems (i.e. integration), tailored towards training neural nets, or require a deep statistical background to use. See {cite}`OLIVIER2020101204`, {cite}`razavi2021future`, and {cite}`DOUGLASSMITH2020104588` for an overview of the currently available Python tools for performing UA and SA. For the domain expert who wants to perform UA and SA on their existing models, there is not an easy tool to do both in a single shot. _monaco_ was written to address this gap.
 
 :::{figure} monaco_logo.png
 :label: monacologo
@@ -34,7 +36,7 @@ Volume fraction $V$ of a $k$-dimensional hypercube enclosed by the convex hull o
 
 ## Benefits and Drawbacks of Basic Monte Carlo Sampling
 
-*monaco* focuses on forward uncertainty propagation with basic Monte Carlo sampling. This has several benefits:
+_monaco_ focuses on forward uncertainty propagation with basic Monte Carlo sampling. This has several benefits:
 
 - The method is conceptually simple, lowering the barrier of entry and increasing the ease of communicating results to a broader audience.
 - The same sample points can be used for UA and SA. Generally, Bayesian methods such as Markov Chain Monte Carlo provide much faster convergence on UA quantities of interest, but their undersampling of regions that do not contribute to the desired quantities is inadequate for SA and complete exploration of the input space. The author's experience aligns with {cite}`saltelli2019so` in that there is great practical benefit in broad sampling without pigeonholing one's purview to particular posteriors, through uncovering bugs and edge cases in regions of input space that were not being previously considered.
@@ -42,13 +44,13 @@ Volume fraction $V$ of a $k$-dimensional hypercube enclosed by the convex hull o
 
 However, basic Monte Carlo sampling is subject to the classical drawbacks of the method such as poor sampling of rare events and the slow $\sigma / \sqrt{n}$ convergence on quantities of interest. If the outputs and regions of interest are firmly known at the outset, then other sampling methods will be more efficient {cite:p}`kroese2013handbook`.
 
-Additionally, given that any conclusions are conditional on the correctness of the underlying model and input parameters, the task of validation is critical to confidence in the UA and SA results. However, this is currently out of scope for the library and must be performed with other tools. In a data-poor domain, hypothesis testing or probabilistic prediction measures like loss scores can be used to anchor the outputs against a small number of real-life test data. More generally, the "inverse problem" of model and parameter validation is a deep field unto itself and {cite}`national2012assessing` and {cite}`shiffrin2008survey` are recommended as overviews of some methods. If *monaco*'s scope is too limited for the reader's needs, the author recommends `UQpy` {cite}`OLIVIER2020101204` for UA and SA, and `PyMC` {cite:p}`salvatier2016probabilistic` or `Stan` {cite:p}`carpenter2017stan` as good general-purpose probabilistic programming Python libraries.
+Additionally, given that any conclusions are conditional on the correctness of the underlying model and input parameters, the task of validation is critical to confidence in the UA and SA results. However, this is currently out of scope for the library and must be performed with other tools. In a data-poor domain, hypothesis testing or probabilistic prediction measures like loss scores can be used to anchor the outputs against a small number of real-life test data. More generally, the "inverse problem" of model and parameter validation is a deep field unto itself and {cite}`national2012assessing` and {cite}`shiffrin2008survey` are recommended as overviews of some methods. If _monaco_'s scope is too limited for the reader's needs, the author recommends `UQpy` {cite}`OLIVIER2020101204` for UA and SA, and `PyMC` {cite:p}`salvatier2016probabilistic` or `Stan` {cite:p}`carpenter2017stan` as good general-purpose probabilistic programming Python libraries.
 
 ## Workflow
 
 UA and SA of any model follows a common workflow. Probability distributions for the model inputs are defined, and randomly sampled values for a large number of cases are fed to the model. The outputs from each case are collected and the full set of inputs and outputs can be analyzed. Typically, UA is performed by generating histograms, scatter plots, and summary statistics for the output variables, and SA is performed by looking at the effect of input on output variables through scatter plots, performing regressions, and calculating sensitivity indices. These results can then be compared to real-world test data to validate the model or inform revisions to the model and input variables. See {ref}`figanalysisprocess`.
 
-Note that with model and input parameter validation currently outside *monaco*'s scope, closing that part of the workflow loop is left up to the user.
+Note that with model and input parameter validation currently outside _monaco_'s scope, closing that part of the workflow loop is left up to the user.
 
 :::{figure} analysis_process.png
 :label: figanalysisprocess
@@ -56,11 +58,11 @@ Note that with model and input parameter validation currently outside *monaco*'s
 Monte Carlo workflow for understanding the full behavior of a computational model, inspired by {cite}`saltelli2019so`.
 :::
 
-# *monaco* Structure
+# _monaco_ Structure
 
 ## Overall Structure
 
-Broadly, each input factor and model output is a *variable* that can be thought of as lists (rows) containing the full range of randomized *values*. *Cases* are slices (columns) that take the *i*'th input and output value for each variable, and represent a single run of the model. Each case is run on its own, and the output values are collected into output variables. {ref}`figarchitecture` shows a visual representation of this.
+Broadly, each input factor and model output is a _variable_ that can be thought of as lists (rows) containing the full range of randomized _values_. _Cases_ are slices (columns) that take the _i_'th input and output value for each variable, and represent a single run of the model. Each case is run on its own, and the output values are collected into output variables. {ref}`figarchitecture` shows a visual representation of this.
 
 :::{figure} val_var_case_architecture.png
 :label: figarchitecture
@@ -70,15 +72,15 @@ Structure of a monaco simulation, showing the relationship between the major obj
 
 ## Simulation Setup
 
-The base of a *monaco* simulation is the `Sim` object. This object is formed by passing it a name, the number of random cases `ncases`, and a dict `fcns` of the handles for three user-defined functions detailed in the next section. A random seed that then seeds the entire simulation can also be passed in here, and is highly recommended for repeatability of results.
+The base of a _monaco_ simulation is the `Sim` object. This object is formed by passing it a name, the number of random cases `ncases`, and a dict `fcns` of the handles for three user-defined functions detailed in the next section. A random seed that then seeds the entire simulation can also be passed in here, and is highly recommended for repeatability of results.
 
-Input variables then need to be defined. *monaco* takes in the handle to any of `scipy.stat`'s continuous or discrete probability distributions, as well as the required arguments for that probability distribution {cite:p}`virtanen2020scipy`. If nonnumeric inputs are desired, the method can also take in a `nummap` dictionary which maps the randomly drawn integers to values of other types.
+Input variables then need to be defined. _monaco_ takes in the handle to any of `scipy.stat`'s continuous or discrete probability distributions, as well as the required arguments for that probability distribution {cite:p}`virtanen2020scipy`. If nonnumeric inputs are desired, the method can also take in a `nummap` dictionary which maps the randomly drawn integers to values of other types.
 
 At this point the sim can be run. The randomized drawing of input values, creation of cases, running of those cases, and extraction of output values are automatically executed.
 
 ## User-Defined Functions
 
-The user needs to define three functions to wrap *monaco*'s Monte Carlo structure around their existing computational model. First is a `run` function which either calls or directly implements their model. Second is a `preprocess` function which takes in a `Case` object, extracts the randomized inputs, and structures them with any other invariant data to pass to the `run` function. Third is a `postprocess` function which takes in a `Case` object as well as the results from the model, and extracts the desired output values. The Python call chain is as:
+The user needs to define three functions to wrap _monaco_'s Monte Carlo structure around their existing computational model. First is a `run` function which either calls or directly implements their model. Second is a `preprocess` function which takes in a `Case` object, extracts the randomized inputs, and structures them with any other invariant data to pass to the `run` function. Third is a `postprocess` function which takes in a `Case` object as well as the results from the model, and extracts the desired output values. The Python call chain is as:
 
 ```python
 postprocess(case, *run(*preprocess(case)))
@@ -131,11 +133,11 @@ A summary of the process and data flow:
 
 ## Incorporating into Existing Workflows
 
-If the user wants to use existing workflows for generating, running, post-processing, or examining results, any combination of *monaco*'s major steps can be replaced with external tooling by saving and loading input and output variables to file. For example, *monaco* can be used only for its parallel processing backend by importing existing randomly drawn input variables, running the simulation, and exporting the output variables for outside analysis. Or, it can be used only for its plotting and analysis capabilities by feeding it inputs and outputs generated elsewhere.
+If the user wants to use existing workflows for generating, running, post-processing, or examining results, any combination of _monaco_'s major steps can be replaced with external tooling by saving and loading input and output variables to file. For example, _monaco_ can be used only for its parallel processing backend by importing existing randomly drawn input variables, running the simulation, and exporting the output variables for outside analysis. Or, it can be used only for its plotting and analysis capabilities by feeding it inputs and outputs generated elsewhere.
 
 ## Resource Usage
 
-Note that *monaco*'s computational and storage overhead in creating easily-interrogatable objects for each variable, value, and case makes it an inefficient choice for computationally simple applications with high $n$, such as Monte Carlo integration. If the preprocessed sim input and raw output for each case (which for some models may dominate storage) is not retained, then the storage bottleneck will be the creation of a `Val` object for each case's input and output values with minimum size 0.5 kB. The maximum $n$ will be driven by the size of the RAM on the host machine being capable of holding at least $0.5 * n(k_{in} + k_{out})$ kB. On the computational bottleneck side, *monaco* is best suited for models where the model runtime dominates the random variate generation and the few hundred microseconds of `dask.delayed` task switching time.
+Note that _monaco_'s computational and storage overhead in creating easily-interrogatable objects for each variable, value, and case makes it an inefficient choice for computationally simple applications with high $n$, such as Monte Carlo integration. If the preprocessed sim input and raw output for each case (which for some models may dominate storage) is not retained, then the storage bottleneck will be the creation of a `Val` object for each case's input and output values with minimum size 0.5 kB. The maximum $n$ will be driven by the size of the RAM on the host machine being capable of holding at least $0.5 * n(k_{in} + k_{out})$ kB. On the computational bottleneck side, _monaco_ is best suited for models where the model runtime dominates the random variate generation and the few hundred microseconds of `dask.delayed` task switching time.
 
 # Technical Features
 
@@ -155,23 +157,23 @@ How many Monte Carlo cases should one run? One answer would be to choose $n \geq
 
 Along a similar vein, {cite}`dyer1992volumes` suggests that with random sampling $n \geq 2.136^k$ is sufficient to ensure that the volume fraction $V$ approaches 1. The author hypothesizes that for a digital net, the $n \geq \lambda^k$ condition will be satisfied with some $\lambda \leq 2$, and so $n \geq 2^k$ will suffice for this condition to hold. However, these methods of choosing the number of cases may undersample for low $k$ and be infeasible for high $k$.
 
-A rigorous way of choosing the number of cases is to first choose a statistical interval (e.g. a confidence interval for a percentile, or a tolerance interval to contain a percent of the population), and then use order statistics to calculate the minimum $n$ required to obtain that result at a desired confidence level. This approach is independent of $k$, making UA of high-dimensional models tractable. *monaco* implements order statistics routines for calculating these statistical intervals with a distribution-free approach that makes no assumptions about the normality or other shape characteristics of the output distribution. See Chapter 5 of {cite}`hahn1991statistical` for background.
+A rigorous way of choosing the number of cases is to first choose a statistical interval (e.g. a confidence interval for a percentile, or a tolerance interval to contain a percent of the population), and then use order statistics to calculate the minimum $n$ required to obtain that result at a desired confidence level. This approach is independent of $k$, making UA of high-dimensional models tractable. _monaco_ implements order statistics routines for calculating these statistical intervals with a distribution-free approach that makes no assumptions about the normality or other shape characteristics of the output distribution. See Chapter 5 of {cite}`hahn1991statistical` for background.
 
 A more qualitative UA method would simply be to choose a reasonably high $n$ (say, $n=2^{10}$), manually examine the results to ensure high-interest areas are not being undersampled, and rely on bootstrapping of the desired variable statistics to obtain the required confidence levels.
 
 ## Variable Statistics
 
-For any input or output variable, a statistic can be calculated for the ensemble of values. *monaco* builds in some common statistics (mean, percentile, etc), or alternatively the user can pass in a custom one. To obtain a confidence interval for this statistic, the results are resampled with replacement using the `scipy.stats.bootstrap` module. The number of bootstrap samples is determined using an order statistic approach as outlined in the previous section, and multiplying that number by a scaling factor (default 10x) for smoothness of results.
+For any input or output variable, a statistic can be calculated for the ensemble of values. _monaco_ builds in some common statistics (mean, percentile, etc), or alternatively the user can pass in a custom one. To obtain a confidence interval for this statistic, the results are resampled with replacement using the `scipy.stats.bootstrap` module. The number of bootstrap samples is determined using an order statistic approach as outlined in the previous section, and multiplying that number by a scaling factor (default 10x) for smoothness of results.
 
 ## Sensitivity Indices
 
 Sensitivity indices give a measure of the relationship between the variance of a scalar output variable to the variance of each of the input variables. In other words, they measure which of the input ranges have the largest effect on an output range. It is crucial that sensitivity indices are global rather than local measures – global sensitivity has the stronger theoretical grounding and there is no reason to rely on local measures in scenarios such as automated computer experiments where data can be easily and arbitrarily sampled {cite:p}`saltelli2008global; puy2022comprehensive`.
 
-With computer-designed experiments, it is possible to construct a specially constructed sample set to directly calculate global sensitivity indices such as the Total-Order Sobol index {cite:p}`sobol2001global`, or the IVARS100 index {cite:p}`razavi2016new`. However, this special construction requires either sacrificing the desirable UA properties of low-discrepancy sampling, or conducting an additional Monte Carlo analysis of the model with a different sample set. For this reason, *monaco* uses the D-VARS approach to calculating global sensitivity indices, which allows for using a set of given data {cite:p}`sheikholeslami2020fresh`. This is the first publically available implementation of the D-VARS algorithm.
+With computer-designed experiments, it is possible to construct a specially constructed sample set to directly calculate global sensitivity indices such as the Total-Order Sobol index {cite:p}`sobol2001global`, or the IVARS100 index {cite:p}`razavi2016new`. However, this special construction requires either sacrificing the desirable UA properties of low-discrepancy sampling, or conducting an additional Monte Carlo analysis of the model with a different sample set. For this reason, _monaco_ uses the D-VARS approach to calculating global sensitivity indices, which allows for using a set of given data {cite:p}`sheikholeslami2020fresh`. This is the first publically available implementation of the D-VARS algorithm.
 
 ## Plotting
 
-*monaco* includes a plotting module that takes in input and output variables and quickly creates histograms, empirical CDFs, scatter plots, or 2D or 3D "spaghetti plots" depending on what is most appropriate for each variable. Variable statistics and their confidence intervals are automatically shown on plots when applicable.
+_monaco_ includes a plotting module that takes in input and output variables and quickly creates histograms, empirical CDFs, scatter plots, or 2D or 3D "spaghetti plots" depending on what is most appropriate for each variable. Variable statistics and their confidence intervals are automatically shown on plots when applicable.
 
 ## Vector Data
 
@@ -181,9 +183,9 @@ The plotting module will automatically plot size $(1, s)$ arrays against the ste
 
 ## Parallel Processing
 
-*monaco* uses *dask.distributed* {cite:p}`rocklin2015dask` as a parallel processing backend, and supports preprocessing, running, and postprocessing cases in a parallel arrangement. Users familiar with *dask* can extend the parallelization of their simulation from their single machine to a distributed cluster.
+_monaco_ uses _dask.distributed_ {cite:p}`rocklin2015dask` as a parallel processing backend, and supports preprocessing, running, and postprocessing cases in a parallel arrangement. Users familiar with _dask_ can extend the parallelization of their simulation from their single machine to a distributed cluster.
 
-For simple simulations such as the example code at the end of the paper, the overhead of setting up a *dask* server may outweigh the speedup from parallel computation, and in those cases *monaco* also supports running single-threaded in a single for-loop.
+For simple simulations such as the example code at the end of the paper, the overhead of setting up a _dask_ server may outweigh the speedup from parallel computation, and in those cases _monaco_ also supports running single-threaded in a single for-loop.
 
 ## The Median Case
 
@@ -191,13 +193,13 @@ A "nominal" run is often useful as a baseline to compare other cases against. If
 
 ## Debugging Cases
 
-By default, all the raw results from each case's simulation run prior to postprocessing are saved to the corresponding `Case` object. Individual cases can be interrogated by looking at these raw results, or by indicating that their results should be highlighted in plots. If some cases fail to run, *monaco* will mark them as incomplete and those specific cases can be rerun without requiring the full set of cases to be recomputed. A `debug` flag can be set to not skip over failed cases and instead stop at a breakpoint or dump the stack trace on encountering an exception.
+By default, all the raw results from each case's simulation run prior to postprocessing are saved to the corresponding `Case` object. Individual cases can be interrogated by looking at these raw results, or by indicating that their results should be highlighted in plots. If some cases fail to run, _monaco_ will mark them as incomplete and those specific cases can be rerun without requiring the full set of cases to be recomputed. A `debug` flag can be set to not skip over failed cases and instead stop at a breakpoint or dump the stack trace on encountering an exception.
 
 ## Saving and Loading to File
 
 The base `Sim` object and the `Case` objects can be serialized and saved to or loaded from `.mcsim` and `.mccase` files respectively, which are stored in a results directory. The Case objects are saved separately since the raw results from a run of the simulation may be arbitrarily large, and the Sim object can be comparatively lightweight. Loading the Sim object from file will automatically attempt to load the cases in the same directory, but can also stand alone if the raw results are not needed.
 
-Alternatively, the numerical representations for input and output variables can be saved to and loaded from `.json` or `.csv` files. This is useful for interfacing with external tooling, but discards the metadata that would be present by saving to *monaco*'s native objects.
+Alternatively, the numerical representations for input and output variables can be saved to and loaded from `.json` or `.csv` files. This is useful for interfacing with external tooling, but discards the metadata that would be present by saving to _monaco_'s native objects.
 
 # Example
 
@@ -231,7 +233,7 @@ def example_postprocess(case, dicesum):
     return None
 ```
 
-The *monaco* simulation is initialized, given input variables with specified probability distributions (here a random integer between 1 and 6), and run.
+The _monaco_ simulation is initialized, given input variables with specified probability distributions (here a random integer between 1 and 6), and run.
 
 ```python
 import monaco as mc
@@ -320,8 +322,8 @@ Predicted electoral votes for the Democratic 2020 US Presidential candidate with
 
 # Conclusion
 
-This paper has introduced the ideas underlying Monte Carlo analysis and discussed when it is appropriate to use for conducting UA and SA. It has shown how *monaco* implements a rigorous, parallel Monte Carlo process, and how to use it through a simple example and two case studies. This library is geared towards scientists, engineers, and policy analysts that have a computational model in their domain of expertise, enough statistical knowledge to define a probability distribution, and a desire to ensure their model will make accurate predictions of reality. The author hopes this tool will help contribute to easier and more widespread use of UA and SA in improved decision-making.
+This paper has introduced the ideas underlying Monte Carlo analysis and discussed when it is appropriate to use for conducting UA and SA. It has shown how _monaco_ implements a rigorous, parallel Monte Carlo process, and how to use it through a simple example and two case studies. This library is geared towards scientists, engineers, and policy analysts that have a computational model in their domain of expertise, enough statistical knowledge to define a probability distribution, and a desire to ensure their model will make accurate predictions of reality. The author hopes this tool will help contribute to easier and more widespread use of UA and SA in improved decision-making.
 
 # Further Information
 
-*monaco* is available on PyPI as the package `monaco`, has API documentation at <https://monaco.rtfd.io/>, and is hosted on github at <https://github.com/scottshambaugh/monaco/>.
+_monaco_ is available on PyPI as the package `monaco`, has API documentation at <https://monaco.rtfd.io/>, and is hosted on github at <https://github.com/scottshambaugh/monaco/>.

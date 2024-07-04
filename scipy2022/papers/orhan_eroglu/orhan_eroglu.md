@@ -1,5 +1,6 @@
 ---
 title: 'The Geoscience Community Analysis Toolkit: An Open Development, Community Driven Toolkit in the Scientific Python Ecosystem'
+description: The Geoscience Community Analysis Toolkit (GeoCAT) team develops and maintains data analysis and visualization tools on structured and unstructured grids for the geosciences community in the Scientific Python Ecosystem (SPE).
 ---
 
 # Abstract
@@ -286,7 +287,7 @@ visualizations. The first notebook, a screenshot from which is shown in
 Datashader and Holoviews ecosystem {cite:p}`datashader`, and it provides
 a high-performance, interactive visualization of a Model for Prediction
 Across Scales (MPAS) Global Storm-Resolving Model weather simulation
-dataset.  The interactivity features are pan and zoom to reveal greater
+dataset. The interactivity features are pan and zoom to reveal greater
 data fidelity globally and regionally. The data used in this work is
 the courtesy of the DYAMOND effort {cite:p}`stevens2019dyamond` and has
 varying resolutions from 30 km to 3.75 km. Our notebook in the gallery

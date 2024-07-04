@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-nathan_martindale
+  banner: banner.png
   authors:
     - name: Nathan Martindale
       email: martindalena@ornl.gov

@@ -1,5 +1,6 @@
 ---
 title: Design of a Scientific Data Analysis Support Platform
+description: Software data analytic workflows are a critical aspect of modern scientific research and play a crucial role in testing scientific hypotheses.
 ---
 
 # Abstract
@@ -13,7 +14,7 @@ software engineering practices such as versioning code, sharing code among
 research team members, maintaining a structured codebase, and tracking
 associated resources such as software environments. Tasks unique to
 scientific research include designing, implementing, and modifying code that
-tests a hypothesis. This work refers to this code as *an experiment*, which
+tests a hypothesis. This work refers to this code as _an experiment_, which
 is defined as a software analog to physical experiments.
 
 A software experiment manager should support tracking and reproducing
@@ -59,7 +60,7 @@ rather than the analysis software itself. Lack of documentation and provenance
 of research artifacts and frequent failure to publish repositories for data and
 source code has led to a crisis in reproducibility in artificial intelligence
 (AI) and other fields that rely heavily on computation
-{cite:p}`stoddenPublishingStandardsComputational2013; donohoReproducibleResearchComputational2009; hutsonArtificialIntelligenceFaces2018`.  One study showed that
+{cite:p}`stoddenPublishingStandardsComputational2013; donohoReproducibleResearchComputational2009; hutsonArtificialIntelligenceFaces2018`. One study showed that
 quantifiably few machine learning (ML) papers document specifics in how they ran
 their experiments {cite:p}`gundersenReproducibleAIReproducible2018`. This gap
 between established practices from the software engineering field and how
@@ -81,11 +82,11 @@ elements.
 # Related Work
 
 Reproducibility of AI experiments has been separated into three different
-degrees {cite:p}`gundersenStateArtReproducibility2018`: *Experiment reproduciblity*,
+degrees {cite:p}`gundersenStateArtReproducibility2018`: _Experiment reproduciblity_,
 or repeatability, refers to using the same code implementation with the same
-data to obtain the same results. *Data reproducibility*, or replicability, is
+data to obtain the same results. _Data reproducibility_, or replicability, is
 when a different implementation with the same data outputs the same results.
-Finally, *method reproducibility* describes when a different implementation with
+Finally, _method reproducibility_ describes when a different implementation with
 different data is able to achieve consistent results. These degrees are
 discussed in {cite}`gundersenReproducibleAIReproducible2018`, comparing the
 implications and trade-offs on the amount of work for the original researcher
@@ -95,7 +96,7 @@ the original researcher, requiring the full codebase and experiment to be
 sufficiently documented and published so that a peer is able to correctly repeat
 it. At the other end of the spectrum, method reproducibility demands the
 greatest burden on the external researcher, as they must implement and run the
-experiment from scratch.  For the remainder of this paper, we refer to
+experiment from scratch. For the remainder of this paper, we refer to
 "reproducibility" as experiment reproducibility (repeatability). Tooling that is
 able to assist with documentation and organization of a published experiment
 reduces the amount of work for the original researcher and still allows for the
@@ -125,7 +126,7 @@ adaptation to make sense in the scientific software domain.
 
 Similar to this paper, two other works
 {cite:p}`deelmanWorkflowsEScienceOverview2009; wrattenReproducibleScalableShareable2021` discuss sets of design aspects
-and features that a workflow manager would need.  Deelman et al. describe the
+and features that a workflow manager would need. Deelman et al. describe the
 life cycle of a workflow as composition, mapping, execution, and provenance
 capture {cite:p}`deelmanWorkflowsEScienceOverview2009`. A workflow manager must
 then support each of these aspects. Composition is how the workflow is
@@ -144,13 +145,13 @@ provenance, portability, scalability, and re-entrancy
 {cite:p}`wrattenReproducibleScalableShareable2021`. Provenance is defined the
 same way as in {cite}`deelmanWorkflowsEScienceOverview2009`, and further states
 the need for generating reports that include the tracking information and
-metadata for the associated experiment run.  Portability - allowing set up
+metadata for the associated experiment run. Portability - allowing set up
 and execution of an experiment in a different environment - can be a
 challenge because of the dependency requirements of a given system and the ease
 with which the environment can be specified and reinitialized on a different
 machine or operating system. Scalability is important especially when large
 scale data, many compute-heavy steps, or both are involved throughout the
-workflow.  Scalability in a manager involves allowing execution on a
+workflow. Scalability in a manager involves allowing execution on a
 high-performance computing (HPC) system or with some form of parallel compute.
 Finally they mention re-entrancy, or the ability to resume execution of a
 compute step from where it last stopped, preventing unnecessary recomputation of
@@ -223,7 +224,7 @@ Comparing design features listed in various works.
 
 ## Orchestration
 
-*Orchestration* of an experiment refers to the mechanisms used to chain and
+_Orchestration_ of an experiment refers to the mechanisms used to chain and
 compose a sequence of smaller logical steps into an overarching pipeline. This
 provides a higher-level view of an experiment and helps abstract away some of
 the implementation details. Operation of most workflow managers is based on a
@@ -241,7 +242,7 @@ within the composition capability discussed in
 
 ## Parameterization
 
-*Parameterization* specifies how a compute pipeline is customized for a
+_Parameterization_ specifies how a compute pipeline is customized for a
 particular run by passing in configuration values to change aspects of the
 experiment. The ability to customize analysis code is crucial to conducting a
 compute-based experiment, providing a mechanism to manipulate a variable under
@@ -277,7 +278,7 @@ and removing the friction of constantly rerunning all intermediate steps every
 time an experiment is wrong can improve efficiency. Caching values between
 each step of an experiment allows execution to resume at a certain spot in the
 pipeline, rather than starting from scratch every time. This is defined as
-*re-entrancy* in {cite}`wrattenReproducibleScalableShareable2021`.
+_re-entrancy_ in {cite}`wrattenReproducibleScalableShareable2021`.
 
 In addition to increasing the speed of rerunning experiments and running new
 experiments that combine old results for analysis, caching is useful to help
@@ -301,7 +302,7 @@ portability from {cite}`wrattenReproducibleScalableShareable2021`, and the
 entire reproducibility support section of the taxonomy
 {cite:p}`quarantaTaxonomyToolsReproducible`.
 
-*Data provenance* is about tracking the history, configuration, and steps taken
+_Data provenance_ is about tracking the history, configuration, and steps taken
 to produce an intermediate or final data artifact. In ML this would include the
 cleaning/munging steps used and the intermediate tables created in the process,
 but provenance can apply more broadly to any type of artifact an experiment may
@@ -314,7 +315,7 @@ required to directly and exactly reproduce a given artifact is recorded, such as
 the manipulations applied to its predecessors and all hyperparameters used
 within those manipulations.
 
-*Portability* refers to the ability to take an experiment and execute it outside
+_Portability_ refers to the ability to take an experiment and execute it outside
 of the initial computing environment it was created in
 {cite}`wrattenReproducibleScalableShareable2021`. This can be a challenge if all
 software dependency versions are not strictly defined, or when some dependencies
@@ -329,7 +330,7 @@ the use of containerization, such as with Docker or Podman
 
 Reporting is an important step for analyzing the results of an experiment,
 through visualizations, summaries, comparisons of results, or combinations
-thereof. As a design capability, *reporting* refers to the mechanisms available for
+thereof. As a design capability, _reporting_ refers to the mechanisms available for
 the system to export or retrieve these results for human analysis. Although data
 visualization and analysis can be done manually by the scientist, tools to
 assist with making these steps easier and to keep results organized are valuable
@@ -384,7 +385,7 @@ design feature by each tool.
 ## DVC
 
 DVC {cite:p}`kuprieievDVCDataVersion2022` is a Git-like version control tool for
-datasets. Orchestration is done by specifying *stages*, or runnable script
+datasets. Orchestration is done by specifying _stages_, or runnable script
 commands, either in YAML or directly on the CLI. A stage is specified with output
 file paths and input file paths as dependencies, allowing an implicit
 pipeline or DAG to form, representing all the processing steps. Parameterization
@@ -478,12 +479,12 @@ support each of the six capabilities, and compare it with the tools discussed ab
 ## Orchestration
 
 Curifactory provides several abstractions, the lowest level of which is a
-*stage*. A stage is a function that takes a defined set of input variable names,
+_stage_. A stage is a function that takes a defined set of input variable names,
 a defined set of output variable names, and an optional set of caching
 strategies for the outputs. Stages are similar to Kedro's nodes but implemented
 with `@stage()` decorators on the target function rather than passing the
 target function to a `node()` call. One level up from a stage is an
-*experiment*: an experiment describes the orchestration of these stages as shown
+_experiment_: an experiment describes the orchestration of these stages as shown
 in {ref}`orch`, functionally chaining them together without
 needing to explicitly manage what variables are passed between the stages.
 

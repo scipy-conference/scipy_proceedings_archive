@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-cliff_kerr
+  banner: banner.png
   authors:
     - name: Cliff C. Kerr
       email: cliff@covasim.org

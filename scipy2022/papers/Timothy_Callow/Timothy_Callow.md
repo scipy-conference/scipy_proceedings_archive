@@ -1,5 +1,7 @@
 ---
 title: 'atoMEC: An open-source average-atom Python code'
+description: |
+  Average-atom models are an important tool in studying matter under extreme conditions, such as those conditions experienced in planetary cores, brown and white dwarfs, and during inertial confinement fusion.
 ---
 
 # Abstract
@@ -62,21 +64,21 @@ Any of these identical atoms represents the "average-atom". The effects of inter
 
 Properties of interest in the warm dense matter regime include the equation-of-state data, which is the relation between the density, energy, temperature and pressure of a material {cite:p}`hugoniot`; the mean ionization state and the electron ionization energies, which tell us about how tightly bound the electrons are to the nuclei; and the electrical and thermal conductivities.
 These properties yield information pertinent to our understanding of stellar and planetary physics, the Earth's core, inertial confinement fusion, and more besides.
-To exactly obtain these properties, one needs (in theory) to determine the thermodynamic ensemble of the quantum states (the so-called *wave-functions*) representing the electrons and nuclei.
+To exactly obtain these properties, one needs (in theory) to determine the thermodynamic ensemble of the quantum states (the so-called _wave-functions_) representing the electrons and nuclei.
 Fortunately, they can be obtained with reasonable accuracy using models such as average-atom models; in this section, we elaborate on how this is done.
 
 We shall briefly review the key theory underpinning the type of average-atom model implemented in atoMEC. This is intended for readers without a background in quantum mechanics, to give some context to the purposes and mechanisms of the code.
 For a comprehensive derivation of this average-atom model, we direct readers to {cite}`PRR_AA`.
-The average-atom model we shall describe falls into a class of models known as *ion-sphere* models, which are the simplest (and still most widely used) class of average-atom model.
-There are alternative (more advanced) classes of model such as *ion-correlation* {cite:p}`ioncorrelation` and *neutral pseudo-atom* models {cite:p}`NPA` which we have not yet implemented in atoMEC, and thus we do not elaborate on them here.
+The average-atom model we shall describe falls into a class of models known as _ion-sphere_ models, which are the simplest (and still most widely used) class of average-atom model.
+There are alternative (more advanced) classes of model such as _ion-correlation_ {cite:p}`ioncorrelation` and _neutral pseudo-atom_ models {cite:p}`NPA` which we have not yet implemented in atoMEC, and thus we do not elaborate on them here.
 
 As demonstrated in @fig1, the idea of the ion-sphere model is to map a fully-interacting system of many electrons and nuclei into a set of independent atoms which do not interact explicitly with any of the other spheres.
 Naturally, this depends on several assumptions and approximations, but there is formal justification for such a mapping {cite:p}`PRR_AA`.
 Furthermore, there are many examples in which average-atom models have shown good agreement with more accurate simulations and experimental data {cite:p}`AA_pressure`, which further justifies this mapping.
 
 Although the average-atom picture is significantly simplified relative to the full many-body problem, even determining the wave-functions and their ensemble weights for an atom at finite temperature is a complex problem.
-Fortunately, DFT reduces this complexity further, by establishing that the electron *density* — a far less complex entity than the wave-functions — is sufficient to determine all physical observables.
-The most popular formulation of DFT, known as Kohn–Sham DFT (KS-DFT) {cite:p}`KS65`, allows us to construct the *fully-interacting* density from a *non-interacting* system of electrons, simplifying the problem further still.
+Fortunately, DFT reduces this complexity further, by establishing that the electron _density_ — a far less complex entity than the wave-functions — is sufficient to determine all physical observables.
+The most popular formulation of DFT, known as Kohn–Sham DFT (KS-DFT) {cite:p}`KS65`, allows us to construct the _fully-interacting_ density from a _non-interacting_ system of electrons, simplifying the problem further still.
 Due to the spherical symmetry of the atom, the non-interacting electrons — known as KS electrons (or KS orbitals) — can be represented as a wave-function that is a product of radial and angular components,
 
 ```{math}
@@ -85,7 +87,7 @@ Due to the spherical symmetry of the atom, the non-interacting electrons — kno
 \phi_{nlm}(\mathbf{r}) = X_{nl}(r) Y_l^m(\theta, \phi)\,,
 ```
 
-where $n,\ l,\ \textrm{and}\ m$ are the *quantum numbers* of the orbitals, which come from the fact that the wave-function is an eigenfunction of the Hamiltonian operator, and $Y_l^m(\theta, \phi)$ are the spherical harmonic functions.[^f2] The radial coordinate $r$ represents the absolute distance from the nucleus.
+where $n,\ l,\ \textrm{and}\ m$ are the _quantum numbers_ of the orbitals, which come from the fact that the wave-function is an eigenfunction of the Hamiltonian operator, and $Y_l^m(\theta, \phi)$ are the spherical harmonic functions.[^f2] The radial coordinate $r$ represents the absolute distance from the nucleus.
 
 [^f2]: Please note that the notation in {ref}`eq:phi` does not imply Einstein summation notation. All summations in this paper are written explicitly; Einstein summation notation is not used.
 
@@ -211,7 +213,7 @@ Auto-generated print statement from calling the `atoMEC.Atom` object.
 
 By default, the above code automatically prints the output seen in @fig3. We see that the first two arguments of the `Atom` object are the chemical symbol of the element being studied, and the temperature.
 In addition, at least one of "density" or "radius" must be specified.
-In atoMEC, the default (and only permitted) units for the mass density are $\textrm{g cm}^{-3}$; *all* other input and output units in atoMEC are by default Hartree atomic units, and hence we specify "K" for Kelvin.
+In atoMEC, the default (and only permitted) units for the mass density are $\textrm{g cm}^{-3}$; _all_ other input and output units in atoMEC are by default Hartree atomic units, and hence we specify "K" for Kelvin.
 
 The information in @fig3 displays the chosen parameters in units commonly used in the plasma and condensed-matter physics communities, as well as some other information directly obtained from these parameters.
 The chemical symbol ("Al" in this case) is passed to the mendeleev library {cite:p}`mendeleev2014` to generate this data, which is used later in the calculation.
@@ -396,7 +398,7 @@ Of particular interest are the conditions under which helium is expected to unde
 These conditions are a typical example of the WDM regime.
 Besides predicting the point at which the insulator-to-metallic transition occurs in the density-temperature spectrum, other properties of interest include equation-of-state data (relating pressure, density, and temperature) and electrical conductivity.
 
-To calculate the insulator-to-metallic transition point, the key quantity is the electronic *band-gap*.
+To calculate the insulator-to-metallic transition point, the key quantity is the electronic _band-gap_.
 The concept of band-structures is a complicated topic, which we try to briefly describe in layman's terms.
 In solids, electrons can occupy certain energy ranges — we call these the energy bands.
 In insulating materials, there is a gap between these energy ranges that electrons are forbidden from occupying — this is the so-called band-gap.
@@ -448,7 +450,7 @@ The pressure increases with density and temperature (as expected), with a strong
 
 # Conclusions and future work
 
-In this paper, we have presented atoMEC: an  average-atom Python code for studying materials under extreme conditions.
+In this paper, we have presented atoMEC: an average-atom Python code for studying materials under extreme conditions.
 The open-source nature of atoMEC, and the choice to use (pure) Python as the programming language, is designed to improve the accessibility of average-atom models.
 
 We gave significant attention to the code structure in this paper, and tried as much as possible to connect the functions and objects in the code with the underlying theory.

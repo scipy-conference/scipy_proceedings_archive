@@ -1,13 +1,14 @@
 ---
 title: Bayesian Estimation and Forecasting of Time Series in statsmodels
+description: Statsmodels, a Python library for statistical and econometric analysis, has traditionally focused on frequentist inference, including in its models for time series data.
 ---
 
 # Abstract
 
-``Statsmodels``, a Python library for statistical and econometric analysis,
+`Statsmodels`, a Python library for statistical and econometric analysis,
 has traditionally focused on frequentist inference, including in its
 models for time series data. This paper introduces the powerful features
-for Bayesian inference of time series models that exist in ``statsmodels``, with
+for Bayesian inference of time series models that exist in `statsmodels`, with
 applications to model fitting, forecasting, time series decomposition,
 data simulation, and impulse response functions.
 
@@ -44,7 +45,8 @@ well-developed stable of time series models in `statsmodels`, and providing
 access to the rich associated feature set already mentioned, presents a
 complementary option to these more general-purpose libraries.[^footnote-1]
 
-[^footnote-1]: In addition, it is possible to combine the sampling algorithms of PyMC3
+[^footnote-1]:
+    In addition, it is possible to combine the sampling algorithms of PyMC3
     with the time series models of `statsmodels`, although we will not
     discuss this approach in detail here. See, for example,
     <https://www.statsmodels.org/v0.13.0/examples/notebooks/generated/statespace_sarimax_pymc3.html>.
@@ -64,7 +66,8 @@ of shocks over time.
 We now briefly review the models for time series data that are available in
 `statsmodels` and describe their features.[^footnote-2]
 
-[^footnote-2]: In addition to statistical models, `statsmodels` also provides a number
+[^footnote-2]:
+    In addition to statistical models, `statsmodels` also provides a number
     of tools for exploratory data analysis, diagnostics, and hypothesis
     testing related to time series data; see
     <https://www.statsmodels.org/stable/tsa.html>.
@@ -73,7 +76,7 @@ We now briefly review the models for time series data that are available in
 
 Exponential smoothing models are constructed by combining one or more simple
 equations that each describe some aspect of the evolution of univariate
-time series data. While originally somewhat *ad hoc*, these models can be
+time series data. While originally somewhat _ad hoc_, these models can be
 defined in terms of a proper statistical model (for example, see
 {cite}`hyndman_forecasting_2008`). They have enjoyed
 considerable popularity in forecasting (for example, see the implementation in
@@ -111,7 +114,8 @@ model_hw = sm.tsa.statespace.ExponentialSmoothing(
    y, trend=True, seasonal=12)
 ```
 
-[^footnote-3]: A second class, `ETSModel`, can also be used for both additive and
+[^footnote-3]:
+    A second class, `ETSModel`, can also be used for both additive and
     multiplicative models, and can exhibit superior performance with maximum
     likelihood estimation. However, it lacks some of the features relevant
     for Bayesian inference discussed in this paper.
@@ -184,7 +188,8 @@ model_sarimax = sm.tsa.ARIMA(
    y, order=(p, d, q), seasonal_order=(P, D, Q, s))
 ```
 
-[^footnote-4]: Note that in `statsmodels`, models with explanatory variables are in the
+[^footnote-4]:
+    Note that in `statsmodels`, models with explanatory variables are in the
     form of "regression with SARIMA errors".
 
 While this class of models often produces highly competitive forecasts, it does
@@ -217,11 +222,13 @@ z = (np.log(mdata['realgdp', 'realcons', 'cpi'])
 model_var = sm.tsa.VARMAX(z, order=(1, 0))
 ```
 
-[^footnote-5]: `statsmodels` also supports vector moving-average (VMA) models using the
+[^footnote-5]:
+    `statsmodels` also supports vector moving-average (VMA) models using the
     same model class as described here for the VAR case, but, for brevity,
     we do not explicitly discuss them here.
 
-[^footnote-6]: A second class, `VAR`, can also be used to fit VAR models, using
+[^footnote-6]:
+    A second class, `VAR`, can also be used to fit VAR models, using
     least squares. However, it lacks some of the features relevant for
     Bayesian inference discussed in this paper.
 
@@ -289,7 +296,8 @@ inference for these models.[^footnote-7] The implementation in `statsmodels` lar
 the treatment in {cite}`durbin_time_2012`, and is described in more detail in
 {cite}`fulton_estimating_2015`.
 
-[^footnote-7]: `Statsmodels` currently contains two implementations of simulation
+[^footnote-7]:
+    `Statsmodels` currently contains two implementations of simulation
     smoothers for the linear Gaussian state space model. The default is the
     "mean correction" simulation smoother of {cite}`durbin_simple_2002`. The
     precision-based simulation smoother of {cite}`chan_efficient_2009` can
@@ -347,7 +355,7 @@ perform Bayesian inference with these models.
 % - Fitting / loglikelihood (need the latter in the Bayesian section)
 % - Forecast
 % - Simulate
-%    + Simulation smoother
+% + Simulation smoother
 % - States (i.e. time series decomposition)
 % - Impulse responses
 % - News
@@ -385,7 +393,8 @@ sequence of sample values (of parameters and / or the unobserved state vector)
 that approximate draws from the posterior distribution arbitrarily well, as the
 number of length of the chain of samples becomes very large.
 
-[^footnote-8]: While a detailed description of these issues is out of the scope of this
+[^footnote-8]:
+    While a detailed description of these issues is out of the scope of this
     paper, there are many superb references on this topic. We refer the
     interested reader to {cite}`west_bayesian_1999`, which provides a
     book-length treatment of Bayesian inference for state space models, and
@@ -600,7 +609,8 @@ model = sm.tsa.UnobservedComponents(
    y, 'lltrend', seasonal=12)
 ```
 
-[^footnote-9]: This model is often referred to as a "local linear trend" model (with
+[^footnote-9]:
+    This model is often referred to as a "local linear trend" model (with
     additionally a seasonal component); `lltrend` is an abbreviation of this
     name.
 
@@ -638,7 +648,8 @@ which show the median values along with 80% credible intervals. Notably, the
 intervals shown incorporate for both the uncertainty arising from the stochastic
 terms in the model as well as the need to estimate the models' parameters.[^footnote-10]
 
-[^footnote-10]: The popular Prophet library, {cite}`taylor_forecasting_2017`, similarly
+[^footnote-10]:
+    The popular Prophet library, {cite}`taylor_forecasting_2017`, similarly
     uses an additive model combined with Bayesian sampling methods to produce
     forecasts and decompositions, although its underlying model is a GAM rather
     than a state space model.
@@ -657,7 +668,8 @@ An example of this approach is shown in {ref}`causalimpact`, in which we
 use this method to illustrate the effect of the COVID-19 pandemic on U.S. Sales
 in Manufacturing and Trade Industries.[^footnote-11]
 
-[^footnote-11]: In this example, we used a local linear trend model with no seasonal
+[^footnote-11]:
+    In this example, we used a local linear trend model with no seasonal
     component.
 
 # Extensions
@@ -679,7 +691,8 @@ stochastic volatility, and regime switching models, even though these are
 largely infeasible in `statsmodels` when using frequentist methods such as
 maximum likelihood estimation.[^footnote-13]
 
-[^footnote-13]: See, for example, {cite}`stock_core_2016` for an application of these
+[^footnote-13]:
+    See, for example, {cite}`stock_core_2016` for an application of these
     techniques that handles outliers, {cite}`kim_stochastic_1998` for
     stochastic volatility, and {cite}`kim_business_1998` for
     an application to dynamic factor models with regime switching.

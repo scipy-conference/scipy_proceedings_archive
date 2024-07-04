@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-scott_shambaugh
+  banner: banner.png
   authors:
     - name: W. Scott Shambaugh
       email: wsshambaugh@gmail.com

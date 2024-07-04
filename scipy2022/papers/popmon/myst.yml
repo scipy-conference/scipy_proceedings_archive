@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-popmon
+  banner: banner.png
   authors:
     - name: Simon Brugman
       email: simon.brugman@ing.com

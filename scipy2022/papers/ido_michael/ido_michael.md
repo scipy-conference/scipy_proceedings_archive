@@ -1,5 +1,6 @@
 ---
 title: Keeping your Jupyter notebook code quality bar high (and production ready) with Ploomber
+description: This paper walks through the ploomber interactive tutorial.
 ---
 
 # Abstract
@@ -64,7 +65,7 @@ ls playground
 ```
 
 We can see that we have a few new files. `pipeline.yaml` contains the
-pipeline declaration, and `tasks/` contains the *stages* that Soorgeon
+pipeline declaration, and `tasks/` contains the _stages_ that Soorgeon
 identified based on our H2 Markdown headings:
 
 ```{code} sh
@@ -89,7 +90,7 @@ tasks that were executed or failed to execute.
 In this pipeline none of the tasks were executed - it's all red.
 :::
 
-Soorgeon correctly identified the *stages* in our original `nb.ipynb`
+Soorgeon correctly identified the _stages_ in our original `nb.ipynb`
 notebook. It even detected that the last two tasks
 (`linear-regression`, and `random-forest-regressor`) are independent
 of each other!

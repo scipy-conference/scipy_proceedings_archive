@@ -1,5 +1,11 @@
 ---
 title: 'Awkward Packaging: building Scikit-HEP'
+description: |
+  Scikit-HEP has grown rapidly over the last few years, not just to serve the
+  needs of the High Energy Physics (HEP) community, but in many ways, the
+  Python ecosystem at large. AwkwardArray, boost-histogram/hist, and iminuit
+  are examples of libraries that are used beyond the original HEP focus. In
+  this paper we will look at key packages in the ecosystem.
 ---
 
 # Abstract
@@ -21,7 +27,7 @@ High Energy Physics (HEP) has always had intense computing needs due to the
 size and scale of the data collected. The World Wide Web was invented at the
 CERN Physics laboratory in Switzerland in 1989 when scientists in the EU were
 trying to communicate results and datasets with scientist in the US, and vice-versa
-{cite:p}`leiner2009brief`.  Today, HEP has the largest scientific machine in the
+{cite:p}`leiner2009brief`. Today, HEP has the largest scientific machine in the
 world, at CERN: the Large Hadron Collider (LHC), 27 km in circumference
 {cite:p}`evans2008lhc`, with multiple experiments with thousands of collaborators
 processing over a petabyte of raw data every day, with 100 petabytes being
@@ -55,7 +61,8 @@ scripting. ROOT started providing Python bindings in 2004
 use[^footnote-1]. Analyses still consisted largely of ROOT, with Python sometimes
 showing up.
 
-[^footnote-1]: Almost 20 years later ROOT's Python bindings have been rewritten for
+[^footnote-1]:
+    Almost 20 years later ROOT's Python bindings have been rewritten for
     easier Pythonizations, and installing ROOT in Conda is now much easier,
     thanks in large part to efforts from Scikit-HEP developers.
 
@@ -90,7 +97,7 @@ easier than the built-in PyROOT, such as the root-numpy and related root-pandas
 packages. The C++ MINUIT fitting library was integrated into ROOT, but the
 iminuit package {cite:p}`iminuit` provided an easy to install standalone Python
 package with an extracted copy of MINUIT. Several other specialized standalone
-C++ packages had bindings as well.  Many of the initial authors were
+C++ packages had bindings as well. Many of the initial authors were
 transitioning to a less-code centric role or leaving for industry, leaving
 projects like ROOTPy and iminuit without maintainers.
 
@@ -110,7 +117,8 @@ primarily interfacing to existing C++ simulation and tracking frameworks, also
 joined, like PyJet and NumPythia. Some of these libraries have been retired or
 replaced today, but were an important part of Scikit-HEP's initial growth.
 
-[^footnote-2]: The primary package of the ROOTPy project, also called ROOTPy, was not
+[^footnote-2]:
+    The primary package of the ROOTPy project, also called ROOTPy, was not
     transferred, but instead had a final release and then died. It was an
     inspiration for the new PyROOT bindings, and influenced later Scikit-HEP
     packages like mplhep. The transferred libraries have since been replaced
@@ -148,7 +156,7 @@ important and most general packages in Scikit-HEP. This package allows
 NumPy-like idioms for array-at-a-time manipulation on jagged data structures. A
 jagged array is a (possibly structured) array with a variable length dimension.
 These are very common and relevant in HEP; events have a variable number of
-tracks, tracks have a variable number of hits in the detector, etc.  Many other
+tracks, tracks have a variable number of hits in the detector, etc. Many other
 fields also have jagged data structures. While there are formats to store such
 structures, computations on jagged structures have usually been closer to SQL
 queries on multiple tables than direct object manipulation. Pandas handles this
@@ -211,10 +219,10 @@ them filled the requirements of HEP physicists: fills on pre-existing
 histograms, simple manipulation of multidimensional histograms, competitive
 performance, and easy to install in clusters or for students. Any new attempt
 here would have to be clearly better than the existing collection of diverse
-attempts (see {ref}`fig-github-histogram`).  The development of a library
+attempts (see {ref}`fig-github-histogram`). The development of a library
 with compiled components intended to be usable everywhere required good support
 for building libraries that was lacking both in Scikit-HEP and to an extent the
-broader Python ecosystem.  Previous advancements in the packaging ecosystem,
+broader Python ecosystem. Previous advancements in the packaging ecosystem,
 such as the wheel format for distributing binary platform dependent Python
 packages and the manylinux specification and docker image that allowed a single
 compiled wheel to target many distributions of Linux, but there still were many
@@ -226,7 +234,7 @@ a separate compile step or linking to external dependencies, which simplified
 the initial build process. All needed files were collected from git submodules
 and packed into a source distribution (SDist), and everything was built using
 only setuptools, making build-from-source simple on any system supporting
-C++14.  This did not include RHEL 7, a popular platform in HEP at the time, and
+C++14. This did not include RHEL 7, a popular platform in HEP at the time, and
 on any platform building could take several minutes and required several
 gigabytes of memory to resolve the heavy C++ templating in the Boost libraries
 and pybind11.
@@ -261,7 +269,7 @@ pybind11 became the Scikit-HEP recommended binding tool. We
 contributed a variety of fixes and features to pybind11, including positional-only
 and keyword-only arguments, the option to prepend to the overload chain, and an API
 for type access and manipulation. We also completely redesigned CMake integration, added a
-new pure-Setuptools helpers file, and completely redesigned the  CI using GitHub
+new pure-Setuptools helpers file, and completely redesigned the CI using GitHub
 Actions, running over 70 jobs on a variety of systems and compilers. We also helped
 modernize and improve all the example projects with simpler builds, new CI, and
 cibuildwheel support.
@@ -279,7 +287,7 @@ This also enabled further developments in backends {cite:p}`pivarski2020awkward`
 Scikit-HEP had become a "toolset" for HEP analysis in
 Python, a collection of packages that worked together, instead of a "toolkit"
 like ROOT, which is one monopackage that tries to provide everything
-{cite:p}`Rodrigues:2020syo`.  A toolset is more natural in the Python ecosystem,
+{cite:p}`Rodrigues:2020syo`. A toolset is more natural in the Python ecosystem,
 where we have good packaging tools and many existing libraries. Scikit-HEP only
 needed to fill existing gaps, instead of covering every possible aspect of an
 analysis like ROOT did. The original scikit-hep package had its
@@ -290,7 +298,7 @@ useful subset of our libraries for a physicist wanting to quickly get started
 on a new analysis.
 
 Scikit-HEP was quickly becoming the center of HEP specific Python software (see
-{ref}`fig-shells`).  Several other projects or packages joined Scikit-HEP
+{ref}`fig-shells`). Several other projects or packages joined Scikit-HEP
 iMinuit, a popular HEP and astrophysics fitting library, was probably the most
 widely used single package to have joined. PyHF and cabinetry also joined; these
 were larger frameworks that could drive a significant part of an analysis internally
@@ -303,8 +311,8 @@ packages, which allowed an external package to be listed on the Scikit-HEP
 website and encouraged collaboration. Coffea had a strong influence on
 histogram design, and zFit has contributed code to Scikit-HEP. Currently all
 affiliated packages have at least one Scikit-HEP developer as a maintainer,
-though that is currently not a requirement.  An affiliated package fills a
-particular need for the community.  Scikit-HEP doesn't have to, or need to,
+though that is currently not a requirement. An affiliated package fills a
+particular need for the community. Scikit-HEP doesn't have to, or need to,
 attempt to develop a package that others are providing, but rather tries to
 ensure that the externally provided package works well with the broader HEP
 ecosystem. The affiliated classification is also used on broader ecosystem
@@ -347,7 +355,7 @@ building redistributable wheels on multiple CI systems. Unlike our own
 azure-wheel-helpers or the competing multibuild package, it was written in
 Python, so good practices in Python package design could apply, like unit and
 integration tests, static checks, and it was easy to remain independent of the
-underlying CI system.  Building wheels on Linux requires a docker image, macOS
+underlying CI system. Building wheels on Linux requires a docker image, macOS
 requires the python.org Python, and Windows can use any copy of Python -
 cibuildwheel uses this to supply Python in all cases, which keeps it from
 depending on the CI's support for a particular Python version. We merged our
@@ -361,7 +369,7 @@ Our continued contributions to cibuildwheel included a TOML-based configuration
 system for cibuildwheel 2.0, an override system to make supporting multiple
 manylinux and musllinux targets easier, a way to build directly from SDists, an
 option to use build instead of pip, the automatic detection of Python
-version requirements, and better globbing support for build specifiers.  We
+version requirements, and better globbing support for build specifiers. We
 also helped improve the code quality in various ways, including fully
 statically typing the codebase, applying various checks and style controls,
 automating CI processes, and improving support for special platforms like
@@ -399,9 +407,9 @@ of the developer pages have been contributed to packaging.python.org, as well.
 
 The cookie cutter was developed to be able to support multiple build backends;
 the original design was to target both pure Python and Pybind11 based binary
-builds.  This has expanded to include 11 different backends by mid 2022,
+builds. This has expanded to include 11 different backends by mid 2022,
 including Rust extensions, many PEP 621 based backends, and a Scikit-Build
-based backend for pybind11 in addition to the classic Setuptools one.  This has
+based backend for pybind11 in addition to the classic Setuptools one. This has
 helped work out bugs and influence the design of several PEP 621 packages,
 including helping with the addition of PEP 621 to Setuptools.
 

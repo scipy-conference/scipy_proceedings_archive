@@ -2,6 +2,7 @@ version: 1
 extend: ../myst.yml
 project:
   id: scipy-2022-orhan_eroglu
+  banner: banner.png
   authors:
     - name: Orhan Eroglu
       email: oero@ucar.edu
