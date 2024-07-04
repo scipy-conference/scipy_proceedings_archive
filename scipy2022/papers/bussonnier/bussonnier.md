@@ -252,7 +252,7 @@ Let us make some remarks about the current stage of IRD format. The exact struct
 ### **IRD bundles**
 
 Once a library has collected IRD representation for all documentation items
-(functions, class, narrative sections, tutorials, examples), Papyri consolidates them into what we will refer to as IRD bundles. A Bundle gathers all IRD files and metadata for a single version of a library [^footnote-5]. Bundles are a
+(functions, class, narrative sections, tutorials, examples), Papyri consolidates them into what we will refer to as IRD bundles. A Bundle gathers all IRD files and metadata for a single version of a library[^footnote-5]. Bundles are a
 convenient unit to speak about publication, installation, or update of a given
 library documentation files.
 
