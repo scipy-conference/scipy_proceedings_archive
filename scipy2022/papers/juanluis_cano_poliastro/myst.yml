@@ -3,6 +3,7 @@ extend: ../myst.yml
 project:
   id: scipy-2022-juanluis_cano_poliastro
   banner: banner.png
+  thumbnail: thumbnail.png
   authors:
     - name: Juan Luis Cano Rodríguez
       email: hello@juanlu.space
