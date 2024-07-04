@@ -38,14 +38,10 @@ At the moment, poliastro is the longest-lived Python library for astrodynamics,
 has contributors from all around the world,
 and several New Space companies and people in academia use it.
 
-<!-- ```{raw} latex
-\newcommand{\diff}{\operatorname{d}}
-\renewcommand{\vec}[1]{\mathbf{#1}}
-``` -->
 
-```{iframe} https://www.youtube.com/watch?v=VCpTgU1pb5k
+<!-- ```{iframe} https://www.youtube.com/watch?v=VCpTgU1pb5k
 Juan Luis Cano - Per Python ad Astra
-```
+``` -->
 
 # Introduction
 
