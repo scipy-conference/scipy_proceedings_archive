@@ -36,7 +36,7 @@ It is now common to see headlines like *"AI has cracked the Navier-Stokes equati
 
 Though data-free PINN as an alternative to traditional CFD solvers may sound attractive,
 PINN can also be used under data-driven configurations, for which it is better suited.
-Cai et al. {cite}`cai_physics-informed_2021` state that PINN is not meant to be a replacement of existing CFD solvers due to its inferior accuracy and efficiency.
+{cite}`cai_physics-informed_2021` state that PINN is not meant to be a replacement of existing CFD solvers due to its inferior accuracy and efficiency.
 The most useful applications of PINN should be those with some given data, and thus the models are trained against the data.
 For example, when we have experimental measurements or partial simulation results (coarse-grid data, limited numbers of snapshots, etc.) from traditional CFD solvers, PINN may be useful to reconstruct the flow or to be a surrogate model.
 

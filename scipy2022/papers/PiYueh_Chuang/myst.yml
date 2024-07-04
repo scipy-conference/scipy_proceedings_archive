@@ -13,6 +13,7 @@ project:
           country: USA
     - name: Lorena A. Barba
       email: labarba@gwu.edu
+      orcid: 0000-0001-5812-2711
       affiliations:
         - gwu
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2022/papers/PiYueh_Chuang
