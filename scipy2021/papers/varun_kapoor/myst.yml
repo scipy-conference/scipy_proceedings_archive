@@ -1,0 +1,40 @@
+version: 1
+project:
+  id: scipy-2021-varun_kapoor
+  authors:
+    - name: Varun Kapoor
+      affiliations:
+        - id: institut-curie
+          name: Institut Curie, PSL Research University, Sorbonne University, CNRSUMR
+            3215, INSERM U934, Genetics and Developemental Biology, Paris,
+            France.
+    - name: Claudia Carabaña
+      affiliations:
+        - institut-curie
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/varun_kapoor
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-014
+  keywords:
+    - 3D segmentation
+    - cell tracking
+    - deep learning
+    - irregular shaped cells
+    - fluorescent microscopy.
+  title: Cell Tracking in 3D using deep learning segmentations
+  downloads:
+    - url: ./varun_kapoor.pdf
+      title: Download PDF
+    - url: ./varun_kapoor.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

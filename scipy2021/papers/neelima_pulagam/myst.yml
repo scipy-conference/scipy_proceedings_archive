@@ -1,0 +1,63 @@
+version: 1
+project:
+  id: scipy-2021-neelima_pulagam
+  authors:
+    - name: Neelima Pulagam
+      affiliations:
+        - id: department-of-computer-science
+          name: Department of Computer Science, University of Georgia, Athens, GA 30602
+            USA
+    - name: Marcus Hill
+      affiliations:
+        - department-of-computer-science
+    - name: Mojtaba Fazli
+      affiliations:
+        - department-of-computer-science
+    - name: Rachel Mattson
+      affiliations:
+        - id: department-of-cognitive-science
+          name: Department of Cognitive Science, University of Georgia, Athens, GA 30602
+            USA
+    - name: Meekail Zain
+      affiliations:
+        - department-of-computer-science
+    - name: Andrew Durden
+      affiliations:
+        - department-of-computer-science
+    - name: Frederick D Quinn
+      affiliations:
+        - id: department-of-infectious-diseases
+          name: Department of Infectious Diseases, University of Georgia, Athens, GA 30602
+            USA
+    - name: S Chakra Chennubhotla
+      affiliations:
+        - id: department-of-computational-and-systems-biology
+          name: Department of Computational and Systems Biology, University of Pittsburgh,
+            Pittsburgh, PA 15232 USA
+    - name: Shannon P Quinn
+      affiliations:
+        - department-of-computer-science
+        - id: department-of-cellular-biology
+          name: Department of Cellular Biology, University of Georgia, Athens, GA 30602
+            USA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/neelima_pulagam
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-00f
+  title: Classification of Diffuse Subcellular Morphologies
+  downloads:
+    - url: ./neelima_pulagam.pdf
+      title: Download PDF
+    - url: ./neelima_pulagam.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

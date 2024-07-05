@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2021-fred_reiss
+  authors:
+    - name: Frederick Reiss
+      affiliations:
+        - id: ibm-research
+          name: IBM Research
+    - name: Bryan Cutler
+      affiliations:
+        - id: ibm
+          name: IBM
+    - name: Zachary Eichenberger
+      affiliations:
+        - id: university-of-michigan
+          name: University of Michigan
+        - ibm-research
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/fred_reiss
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-006
+  keywords:
+    - natural language processing
+    - Pandas
+    - DataFrames
+  title: Natural Language Processing with Pandas DataFrames
+  downloads:
+    - url: ./fred_reiss.pdf
+      title: Download PDF
+    - url: ./fred_reiss.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

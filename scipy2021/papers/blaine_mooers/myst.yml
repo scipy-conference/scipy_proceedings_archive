@@ -1,0 +1,60 @@
+version: 1
+project:
+  id: scipy-2021-blaine_mooers
+  authors:
+    - name: " Blaine H. M. Mooers"
+      affiliations:
+        - id: dept-of-biochemistry-and-molecular-biology
+          name: Dept of Biochemistry and Molecular Biology, University of Oklahoma Health
+            Sciences Center, Oklahoma City, OK 97104
+        - id: stephenson-cancer-center
+          name: Stephenson Cancer Center, University of Oklahoma Health Sciences Center,
+            Oklahoma City, OK 97104
+        - id: laboratory-of-biomolecular-structure-and-function
+          name: Laboratory of Biomolecular Structure and Function, University of Oklahoma
+            Health Sciences Center, Oklahoma City, OK 97104
+        - id: biomolecular-structure-core
+          name: Biomolecular Structure Core, Oklahoma COBRE in Structural Biology,
+            University of Oklahoma Health Sciences Center, Oklahoma City, OK
+            97104
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/blaine_mooers
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-002
+  keywords:
+    - literate programming
+    - reproducible research
+    - scientific rigor
+    - electronic notebooks
+    - JupyterLab
+    - Jupyter notebooks
+    - computational structural biology
+    - computational crystallography
+    - biomolecular crystallography
+    - protein crystallography
+    - biomolecular structure
+    - biomedical research
+    - protein*drug interactions
+    - RNA*drug interactions
+    - molecular graphics
+    - molecular visualization
+    - scientific communication
+    - molecular artwork
+    - computational molecular biophysics
+  title: Modernizing computing by structural biologists with Jupyter and Colab
+  downloads:
+    - url: ./blaine_mooers.pdf
+      title: Download PDF
+    - url: ./blaine_mooers.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

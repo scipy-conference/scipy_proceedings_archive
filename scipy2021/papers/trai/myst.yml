@@ -1,0 +1,49 @@
+version: 1
+project:
+  id: scipy-2021-trai
+  authors:
+    - name: Marian-Leontin Pop
+      affiliations:
+        - id: technical-university-of-cluj-napoca
+          name: Technical University of Cluj-Napoca
+    - name: Szilard Molnar
+      affiliations:
+        - technical-university-of-cluj-napoca
+    - name: Alexandru Pop
+      affiliations:
+        - technical-university-of-cluj-napoca
+    - name: Benjamin Kelenyi
+      affiliations:
+        - technical-university-of-cluj-napoca
+    - name: Levente Tamas
+      affiliations:
+        - technical-university-of-cluj-napoca
+    - name: Andrei Cozma
+      affiliations:
+        - id: analog-devices-international
+          name: Analog Devices International
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/trai
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-013
+  keywords:
+    - transfer learning
+    - ToF
+    - python
+  title: CNN Based ToF Image Processing
+  downloads:
+    - url: ./trai.pdf
+      title: Download PDF
+    - url: ./trai.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,32 @@
+version: 1
+project:
+  id: scipy-2021-adi_sdg
+  authors:
+    - name: Mark Thoren
+      affiliations:
+        - id: analog-devices
+          name: Analog Devices, Inc.
+    - name: Cristina Suteu
+      affiliations:
+        - analog-devices
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/adi_sdg
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-001
+  title: Using Python for Analysis and Verification of Mixed-mode Signal Chains
+  downloads:
+    - url: ./adi_sdg.pdf
+      title: Download PDF
+    - url: ./adi_sdg.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

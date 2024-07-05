@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2021-lm_cognitive
+  authors:
+    - name: Amanda E. Kraft
+      affiliations:
+        - id: lockheed-martin-advanced-technology-laboratories
+          name: Lockheed Martin Advanced Technology Laboratories
+    - name: Matthew Widjaja
+      affiliations:
+        - lockheed-martin-advanced-technology-laboratories
+    - name: Trevor M. Sands
+      affiliations:
+        - lockheed-martin-advanced-technology-laboratories
+    - name: Brad J. Galego
+      affiliations:
+        - lockheed-martin-advanced-technology-laboratories
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/lm_cognitive
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-00c
+  keywords:
+    - cognitive bias
+    - software engineering
+    - natural language processing
+  title: Programmatically Identifying Cognitive Biases Present in Software Development
+  downloads:
+    - url: ./lm_cognitive.pdf
+      title: Download PDF
+    - url: ./lm_cognitive.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

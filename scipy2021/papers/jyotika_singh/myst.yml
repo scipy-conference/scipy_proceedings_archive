@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2021-jyotika_singh
+  authors:
+    - name: " Jyotika Singh"
+      affiliations:
+        - id: icx-media
+          name: ICX Media, Inc.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/jyotika_singh
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-009
+  keywords:
+    - nlp
+    - natural language processing
+    - social media data
+    - youtube
+    - named entitity recognition
+    - ner
+    - keyphrase extraction
+  title: Social Media Analysis using Natural Language Processing Techniques
+  downloads:
+    - url: ./jyotika_singh.pdf
+      title: Download PDF
+    - url: ./jyotika_singh.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

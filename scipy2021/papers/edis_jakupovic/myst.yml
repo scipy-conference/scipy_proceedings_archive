@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2021-edis_jakupovic
+  authors:
+    - name: Edis Jakupovic
+      affiliations:
+        - id: arizona-state-university
+          name: Arizona State University
+    - name: Oliver Beckstein
+      affiliations:
+        - arizona-state-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/edis_jakupovic
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-005
+  keywords:
+    - Molecular Dynamics Simulations
+    - High Performance Computing
+    - Python
+    - MDAnalysis
+    - HDF5
+    - H5MD
+    - MPI I/O
+  title: MPI-parallel Molecular Dynamics Trajectory Analysis with the H5MD Format
+    in the MDAnalysis Python Package
+  downloads:
+    - url: ./edis_jakupovic.pdf
+      title: Download PDF
+    - url: ./edis_jakupovic.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

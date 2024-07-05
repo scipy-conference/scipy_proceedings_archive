@@ -1,0 +1,52 @@
+version: 1
+project:
+  id: scipy-2021-james_fox
+  authors:
+    - name: James Fox
+      affiliations:
+        - id: university-of-oxford
+          name: University of Oxford
+    - name: Tom Everitt
+      affiliations:
+        - id: deepmind
+          name: DeepMind
+    - name: Ryan Carey
+      affiliations:
+        - university-of-oxford
+    - name: Eric Langlois
+      affiliations:
+        - id: university-of-toronto
+          name: University of Toronto
+    - name: Alessandro Abate
+      affiliations:
+        - university-of-oxford
+    - name: Michael Wooldridge
+      affiliations:
+        - university-of-oxford
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/james_fox
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-008
+  keywords:
+    - Influence Diagrams
+    - Causal Models
+    - Probabilistic Graphical Models
+    - Game Theory
+    - Decision Theory
+  title: "PyCID: A Python Library for Causal Influence Diagrams"
+  downloads:
+    - url: ./james_fox.pdf
+      title: Download PDF
+    - url: ./james_fox.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

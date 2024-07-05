@@ -1,0 +1,73 @@
+version: 1
+project:
+  id: scipy-2021-bradley_dice
+  authors:
+    - name: Bradley D. Dice
+      affiliations:
+        - id: department-of-physics
+          name: Department of Physics, University of Michigan, Ann Arbor
+    - name: Brandon L. Butler
+      affiliations:
+        - id: department-of-chemical-engineering
+          name: Department of Chemical Engineering, University of Michigan, Ann Arbor
+    - name: Vyas Ramasubramani
+      affiliations:
+        - department-of-chemical-engineering
+    - name: Alyssa Travitz
+      affiliations:
+        - id: macromolecular-science-and-engineering-program
+          name: Macromolecular Science and Engineering Program, University of Michigan,
+            Ann Arbor
+    - name: Michael M. Henry
+      affiliations:
+        - id: micron-school-of-materials-science-and-engineering
+          name: Micron School of Materials Science and Engineering, Boise State University
+    - name: Hardik Ojha
+      affiliations:
+        - department-of-chemical-engineering
+    - name: Kelly L. Wang
+      affiliations:
+        - macromolecular-science-and-engineering-program
+    - name: Carl S. Adorf
+      affiliations:
+        - department-of-chemical-engineering
+    - name: Eric Jankowski
+      affiliations:
+        - micron-school-of-materials-science-and-engineering
+    - name: Sharon C. Glotzer
+      affiliations:
+        - department-of-physics
+        - department-of-chemical-engineering
+        - macromolecular-science-and-engineering-program
+        - id: biointerfaces-institute
+          name: Biointerfaces Institute, University of Michigan, Ann Arbor
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/bradley_dice
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-003
+  keywords:
+    - data management
+    - data science
+    - database
+    - simulation
+    - collaboration
+    - workflow
+    - HPC
+    - reproducibility
+  title: "signac: Data Management and Workflows for Computational Researchers"
+  downloads:
+    - url: ./bradley_dice.pdf
+      title: Download PDF
+    - url: ./bradley_dice.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

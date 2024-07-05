@@ -1,0 +1,53 @@
+version: 1
+project:
+  id: scipy-2021-daniel_margala
+  authors:
+    - name: Daniel Margala
+      affiliations:
+        - id: lawrence-berkeley-national-laboratory
+          name: "Lawrence Berkeley National Laboratory: National Energy Scientific
+            Research and Computing Center"
+    - name: Laurie Stephey
+      affiliations:
+        - lawrence-berkeley-national-laboratory
+    - name: Rollin Thomas
+      affiliations:
+        - lawrence-berkeley-national-laboratory
+    - name: Stephen Bailey
+      affiliations:
+        - lawrence-berkeley-national-laboratory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/daniel_margala
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2021
+  subject: Research Article
+  date: 2021-07-12
+  thumbnail: thumbnail.webp
+  doi: 10.25080/majora-1b6fd038-004
+  keywords:
+    - Python
+    - HPC
+    - GPU
+    - CUDA
+    - MPI
+    - CuPy
+    - Numba
+    - mpi4py
+    - NumPy
+    - SciPy
+    - Astronomy
+    - Spectroscopy
+  title: Accelerating Spectroscopic Data Processing Using Python and GPUs on NERSC
+    Supercomputers
+  downloads:
+    - url: ./daniel_margala.pdf
+      title: Download PDF
+    - url: ./daniel_margala.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []
