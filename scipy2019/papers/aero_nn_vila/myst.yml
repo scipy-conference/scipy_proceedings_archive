@@ -1,0 +1,60 @@
+version: 1
+project:
+  id: scipy-2019-aero_nn_vila
+  authors:
+    - name: Andres Vila
+      affiliations:
+        - id: the-aerospace-corporation
+          name: The Aerospace Corporation
+    - name: Donna Branchevsky
+      affiliations:
+        - the-aerospace-corporation
+    - name: Kyle Logue
+      affiliations:
+        - the-aerospace-corporation
+    - name: Sebastian Olsen
+      affiliations:
+        - the-aerospace-corporation
+    - name: Esteban Valles
+      affiliations:
+        - the-aerospace-corporation
+    - name: Darren Semmen
+      affiliations:
+        - the-aerospace-corporation
+    - name: Alex Utter
+      affiliations:
+        - the-aerospace-corporation
+    - name: Eugene Grayver
+      affiliations:
+        - the-aerospace-corporation
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/aero_nn_vila
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-003
+  keywords:
+    - modulation classification
+    - neural networks
+    - deep learning
+    - machine learning
+    - ensemble learning
+    - wireless communications
+    - signals intelligence
+    - probability calibration
+  title: Deep and Ensemble Learning to Win the Army RCO AI Signal Classification
+    Challenge
+  downloads:
+    - url: ./aero_nn_vila.pdf
+      title: Download PDF
+    - url: ./aero_nn_vila.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

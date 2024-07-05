@@ -1,0 +1,60 @@
+version: 1
+project:
+  id: scipy-2019-aero_ef_logue
+  authors:
+    - name: Kyle Logue
+      affiliations:
+        - id: the-aerospace-corporation
+          name: The Aerospace Corporation
+    - name: Esteban Valles
+      affiliations:
+        - the-aerospace-corporation
+    - name: Andres Vila
+      affiliations:
+        - the-aerospace-corporation
+    - name: Alex Utter
+      affiliations:
+        - the-aerospace-corporation
+    - name: Darren Semmen
+      affiliations:
+        - the-aerospace-corporation
+    - name: Eugene Grayver
+      affiliations:
+        - the-aerospace-corporation
+    - name: Sebastian Olsen
+      affiliations:
+        - the-aerospace-corporation
+    - name: Donna Branchevsky
+      affiliations:
+        - the-aerospace-corporation
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/aero_ef_logue
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-002
+  keywords:
+    - modulation
+    - feature extraction
+    - neural networks
+    - machine learning
+    - decision trees
+    - wireless communication
+    - signals intelligence
+    - feature importance
+  title: Expert RF Feature Extraction to Win the Army RCO AI Signal Classification
+    Challenge
+  downloads:
+    - url: ./aero_ef_logue.pdf
+      title: Download PDF
+    - url: ./aero_ef_logue.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

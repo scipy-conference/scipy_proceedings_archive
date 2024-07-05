@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2020-75_lu
+  authors:
+    - name: Haw-minn Lu
+      affiliations:
+        - id: gary-and-mary-west-health-institute
+          name: Gary and Mary West Health Institute
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/75_lu
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-002
+  keywords:
+    - machine learning
+    - classification
+    - categorical encoding
+  title: Quasi-orthonormal Encoding for Machine Learning Applications
+  downloads:
+    - url: ./75_lu.pdf
+      title: Download PDF
+    - url: ./75_lu.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

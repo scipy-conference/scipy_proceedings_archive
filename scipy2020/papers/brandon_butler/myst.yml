@@ -1,0 +1,47 @@
+version: 1
+project:
+  id: scipy-2020-brandon_butler
+  authors:
+    - name: " Brandon L. Butler"
+      affiliations:
+        - id: university-of-michigan
+          name: University of Michigan, Department of Chemical Engineering
+    - name: " Vyas Ramasubramani"
+      affiliations:
+        - university-of-michigan
+    - name: Joshua A. Anderson
+      affiliations:
+        - university-of-michigan
+    - name: " Sharon C. Glotzer"
+      affiliations:
+        - university-of-michigan
+        - university-of-michigan
+        - university-of-michigan
+        - university-of-michigan
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/brandon_butler
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-004
+  keywords:
+    - molecular dynamics
+    - molecular simulations
+    - Monte Carlo simulations
+    - object-oriented
+  title: HOOMD-blue version 3.0 A Modern, Extensible, Flexible, Object-Oriented
+    API for Molecular Simulations
+  downloads:
+    - url: ./brandon_butler.pdf
+      title: Download PDF
+    - url: ./brandon_butler.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

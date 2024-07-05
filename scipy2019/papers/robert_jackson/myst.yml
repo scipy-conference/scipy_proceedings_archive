@@ -1,0 +1,51 @@
+version: 1
+project:
+  id: scipy-2019-robert_jackson
+  authors:
+    - name: Robert Jackson
+      affiliations:
+        - id: argonne-national-laboratory
+          name: Argonne National Laboratory, Argonne, IL, USA
+    - name: Scott Collis
+      affiliations:
+        - argonne-national-laboratory
+    - name: Timothy Lang
+      affiliations:
+        - id: nasa-marshall-space-flight-center
+          name: NASA Marshall Space Flight Center, Huntsville, AL, USA
+    - name: Corey Potvin
+      affiliations:
+        - id: noaa/oar-national-severe-storms-laboratory
+          name: NOAA/OAR National Severe Storms Laboratory, Norman, OK, USA
+        - id: school-of-meteorology
+          name: School of Meteorology, University of Oklahoma, Norman, OK, USA
+    - name: Todd Munson
+      affiliations:
+        - argonne-national-laboratory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/robert_jackson
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-010
+  keywords:
+    - wind
+    - retrieval
+    - hurricane
+    - tornado
+    - radar
+  title: "PyDDA: A new Pythonic Wind Retrieval Package"
+  downloads:
+    - url: ./robert_jackson.pdf
+      title: Download PDF
+    - url: ./robert_jackson.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

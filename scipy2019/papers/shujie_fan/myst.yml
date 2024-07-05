@@ -1,0 +1,55 @@
+version: 1
+project:
+  id: scipy-2019-shujie_fan
+  authors:
+    - name: Shujie Fan
+      affiliations:
+        - id: arizona-state-university
+          name: Arizona State University
+    - name: Max Linke
+      affiliations:
+        - id: max-planck-institute-of-biophysics
+          name: Max Planck Institute of Biophysics
+    - name: Ioannis Paraskevakos
+      affiliations:
+        - id: rutgers-university
+          name: Rutgers University
+    - name: Richard J. Gowers
+      affiliations:
+        - id: university-of-new-hampshire
+          name: University of New Hampshire
+        - id: present-address
+          name: "present address: NextMove Software Ltd."
+    - name: Michael Gecht
+      affiliations:
+        - max-planck-institute-of-biophysics
+    - name: Oliver Beckstein
+      affiliations:
+        - arizona-state-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/shujie_fan
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-013
+  keywords:
+    - Molecular Dynamics Simulations
+    - High Performance Computing
+    - Python
+    - Dask
+    - MDAnalysis
+  title: PMDA - Parallel Molecular Dynamics Analysis
+  downloads:
+    - url: ./shujie_fan.pdf
+      title: Download PDF
+    - url: ./shujie_fan.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

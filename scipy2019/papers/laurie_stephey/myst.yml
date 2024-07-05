@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2019-laurie_stephey
+  authors:
+    - name: Laurie A. Stephey
+      affiliations:
+        - id: nersc
+          name: NERSC
+    - name: Rollin C. Thomas
+      affiliations:
+        - nersc
+    - name: Stephen J. Bailey
+      affiliations:
+        - id: lbl
+          name: LBL
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/laurie_stephey
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-00a
+  keywords:
+    - NumPy
+    - SciPy
+    - Numba
+    - JIT compile
+    - spectroscopy
+    - HPC
+    - MPI
+    - Dask
+  title: Optimizing Python-Based Spectroscopic Data Processing on NERSC Supercomputers
+  downloads:
+    - url: ./laurie_stephey.pdf
+      title: Download PDF
+    - url: ./laurie_stephey.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

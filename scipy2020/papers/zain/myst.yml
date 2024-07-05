@@ -1,0 +1,71 @@
+version: 1
+project:
+  id: scipy-2020-zain
+  authors:
+    - name: " Meekail Zain"
+      affiliations:
+        - id: computer-science-department
+          name: Computer Science Department, Franklin College of Arts and Sciences
+        - id: mathematics-department
+          name: Mathematics Department, Franklin College of Arts and Sciences
+    - name: Sonia Rao
+      affiliations:
+        - computer-science-department
+    - name: Nathan Safir
+      affiliations:
+        - computer-science-department
+    - name: Quinn Wyner
+      affiliations:
+        - mathematics-department
+    - name: Isabella Humphrey
+      affiliations:
+        - computer-science-department
+        - mathematics-department
+    - name: Alex Eldridge
+      affiliations:
+        - mathematics-department
+    - name: Chenxiao Li
+      affiliations:
+        - id: comparative-biomedical-sciences
+          name: Comparative Biomedical Sciences, College of Veterinary Medicine
+    - name: BahaaEddin AlAila
+      affiliations:
+        - computer-science-department
+        - id: institute-for-artificial-intelligence
+          name: Institute for Artificial Intelligence, Franklin College of Arts and
+            Sciences
+    - name: Shannon Quinn
+      affiliations:
+        - computer-science-department
+        - id: cellular-biology-department
+          name: Cellular Biology Department, Franklin College
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/zain
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-017
+  keywords:
+    - Machine Learning
+    - Data Science
+    - Video Analysis
+    - Generative Modeling
+    - Variational Autoencoder
+    - Modular
+    - Pipeline
+  title: Towards an Unsupervised Spatiotemporal Representation of Cilia Video
+    Using A Modular Generative Pipeline
+  downloads:
+    - url: ./zain.pdf
+      title: Download PDF
+    - url: ./zain.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2019-Amal_Bhatnagar
+  authors:
+    - name: Eric Van Dusen
+      affiliations:
+        - id: university-of-california
+          name: University of California, Berkeley
+    - name: Anthony Suen
+      affiliations:
+        - university-of-california
+    - name: Alan Liang
+      affiliations:
+        - university-of-california
+    - name: Amal Bhatnagar
+      affiliations:
+        - university-of-california
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/Amal_Bhatnagar
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-000
+  keywords:
+    - data science education
+    - autograding
+    - undergraduate institutions
+  title: Accelerating the Advancement of Data Science Education
+  downloads:
+    - url: ./Amal_Bhatnagar.pdf
+      title: Download PDF
+    - url: ./Amal_Bhatnagar.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

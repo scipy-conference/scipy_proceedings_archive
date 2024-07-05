@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2019-paul_miles
+  authors:
+    - name: Paul R. Miles
+      affiliations:
+        - id: department-of-mathematics
+          name: Department of Mathematics, North Carolina State University, Raleigh, NC
+            27695
+    - name: Ralph C. Smith
+      affiliations:
+        - department-of-mathematics
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/paul_miles
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-00d
+  keywords:
+    - Markov Chain Monte Carlo (MCMC)
+    - Delayed Rejection Adaptive Metropolis (DRAM)
+    - Parameter Estimation
+    - Bayesian Inference
+  title: Parameter Estimation Using the Python Package pymcmcstat
+  downloads:
+    - url: ./paul_miles.pdf
+      title: Download PDF
+    - url: ./paul_miles.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

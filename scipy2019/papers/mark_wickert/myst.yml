@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2019-mark_wickert
+  authors:
+    - name: Mark Wickert
+      affiliations:
+        - id: university-of-colorado-colorado-springs
+          name: University of Colorado Colorado Springs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/mark_wickert
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-00b
+  keywords:
+    - Head-related impulse response (HRIR)
+    - Head-related transfer function (HRTF)
+    - binaural hearing
+    - virtual reality
+    - audiology
+    - hearing assistive devices (HAD)
+  title: A Real-Time 3D Audio Simulator for Cognitive Hearing Science
+  downloads:
+    - url: ./mark_wickert.pdf
+      title: Download PDF
+    - url: ./mark_wickert.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

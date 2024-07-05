@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2020-giancarlo_perrone
+  authors:
+    - name: Giancarlo Perrone
+      affiliations:
+        - id: gary-and-mary-west-health-institute
+          name: Gary and Mary West Health Institute
+    - name: Jose Unpingco
+      affiliations:
+        - gary-and-mary-west-health-institute
+    - name: Haw-minn Lu
+      affiliations:
+        - gary-and-mary-west-health-institute
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/giancarlo_perrone
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-008
+  keywords:
+    - networks
+    - graphs
+    - relationship
+  title: Network visualizations with Pyvis and VisJS
+  downloads:
+    - url: ./giancarlo_perrone.pdf
+      title: Download PDF
+    - url: ./giancarlo_perrone.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

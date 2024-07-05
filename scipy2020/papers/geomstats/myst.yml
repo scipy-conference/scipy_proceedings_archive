@@ -1,0 +1,74 @@
+version: 1
+project:
+  id: scipy-2020-geomstats
+  authors:
+    - name: " Nina Miolane"
+      affiliations:
+        - id: stanford-university
+          name: Stanford University
+    - name: " Nicolas Guigui"
+      affiliations:
+        - id: université-côte-d'azur
+          name: Université Côte d'Azur, Inria
+    - name: Hadi Zaatiti
+      affiliations: []
+    - name: Christian Shewmake
+      affiliations: []
+    - name: Hatem Hajri
+      affiliations: []
+    - name: Daniel Brooks
+      affiliations: []
+    - name: Alice Le Brigant
+      affiliations: []
+    - name: Johan Mathe
+      affiliations: []
+    - name: Benjamin Hou
+      affiliations: []
+    - name: Yann Thanwerdas
+      affiliations: []
+    - name: Stefan Heyder
+      affiliations: []
+    - name: Olivier Peltre
+      affiliations: []
+    - name: Niklas Koep
+      affiliations: []
+    - name: Yann Cabanes
+      affiliations: []
+    - name: Thomas Gerald
+      affiliations: []
+    - name: Paul Chauchat
+      affiliations: []
+    - name: Bernhard Kainz
+      affiliations: []
+    - name: Claire Donnat
+      affiliations: []
+    - name: Susan Holmes
+      affiliations: []
+    - name: Xavier Pennec
+      affiliations: []
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/geomstats
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-007
+  keywords:
+    - differential geometry
+    - statistics
+    - manifold
+    - machine learning
+  title: Introduction to Geometric Learning in Python with Geomstats
+  downloads:
+    - url: ./geomstats.pdf
+      title: Download PDF
+    - url: ./geomstats.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

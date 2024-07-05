@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2020-ryan_bunney
+  authors:
+    - name: Ryan W. Bunney
+      affiliations:
+        - id: international-centre-for-radio-astronomy-research
+          name: International Centre for Radio Astronomy Research
+        - id: university-of-western-australia
+          name: University of Western Australia
+    - name: Andreas Wicenec
+      affiliations:
+        - international-centre-for-radio-astronomy-research
+        - university-of-western-australia
+    - name: Mark Reynolds
+      affiliations:
+        - university-of-western-australia
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/ryan_bunney
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-014
+  title: "SHADOW: A workflow scheduling algorithm reference and testing framework"
+  downloads:
+    - url: ./ryan_bunney.pdf
+      title: Download PDF
+    - url: ./ryan_bunney.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

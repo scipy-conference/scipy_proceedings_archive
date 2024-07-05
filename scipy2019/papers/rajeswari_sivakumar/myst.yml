@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2019-rajeswari_sivakumar
+  authors:
+    - name: Rajeswari Sivakumar
+      affiliations:
+        - id: university-of-georgia
+          name: University of Georgia
+    - name: Shannon Quinn
+      affiliations:
+        - university-of-georgia
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/rajeswari_sivakumar
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-00f
+  keywords:
+    - tensor decomposition
+    - brain imaging
+    - diffusion tensor image
+    - Parkinsons disease
+  title: Parkinson's Classification and Feature Extraction from Diffusion Tensor
+    Images
+  downloads:
+    - url: ./rajeswari_sivakumar.pdf
+      title: Download PDF
+    - url: ./rajeswari_sivakumar.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

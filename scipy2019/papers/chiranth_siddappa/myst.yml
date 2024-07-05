@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2019-chiranth_siddappa
+  authors:
+    - name: Chiranth Siddappa
+      affiliations:
+        - id: university-of-colorado-colorado-springs
+          name: University of Colorado Colorado Springs
+    - name: Mark Wickert
+      affiliations:
+        - university-of-colorado-colorado-springs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/chiranth_siddappa
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-005
+  keywords:
+    - complex
+    - ambiguity
+    - function
+    - overlay
+    - verilog
+    - jinja
+    - jupyter
+    - xilinx
+    - fpga
+    - zynq
+    - pynq
+    - linux
+  title: CAF Implementation on FPGA Using Python Tools
+  downloads:
+    - url: ./chiranth_siddappa.pdf
+      title: Download PDF
+    - url: ./chiranth_siddappa.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

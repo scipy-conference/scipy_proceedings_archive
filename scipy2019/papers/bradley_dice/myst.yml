@@ -1,0 +1,61 @@
+version: 1
+project:
+  id: scipy-2019-bradley_dice
+  authors:
+    - name: Bradley D. Dice
+      affiliations:
+        - id: department-of-physics
+          name: Department of Physics, University of Michigan, Ann Arbor
+    - name: Vyas Ramasubramani
+      affiliations:
+        - id: department-of-chemical-engineering
+          name: Department of Chemical Engineering, University of Michigan, Ann Arbor
+    - name: Eric S. Harper
+      affiliations:
+        - id: department-of-materials-science-\&-engineering
+          name: Department of Materials Science \& Engineering, University of Michigan,
+            Ann Arbor
+    - name: Matthew P. Spellings
+      affiliations:
+        - department-of-chemical-engineering
+    - name: Joshua A. Anderson
+      affiliations:
+        - department-of-chemical-engineering
+    - name: Sharon C. Glotzer
+      affiliations:
+        - department-of-physics
+        - department-of-chemical-engineering
+        - id: department-of-materials-science-and-engineering
+          name: Department of Materials Science and Engineering, University of Michigan,
+            Ann Arbor
+        - id: biointerfaces-institute
+          name: Biointerfaces Institute, University of Michigan, Ann Arbor
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/bradley_dice
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-004
+  keywords:
+    - molecular dynamics
+    - analysis
+    - particle simulation
+    - particle system
+    - computational physics
+    - computational chemistry
+  title: Analyzing Particle Systems for Machine Learning and Data Visualization
+    with freud
+  downloads:
+    - url: ./bradley_dice.pdf
+      title: Download PDF
+    - url: ./bradley_dice.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

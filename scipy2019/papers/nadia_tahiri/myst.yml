@@ -1,0 +1,48 @@
+version: 1
+project:
+  id: scipy-2019-nadia_tahiri
+  authors:
+    - name: Nadia Tahiri
+      affiliations:
+        - id: département-d’informatique
+          name: Département d’Informatique, Université du Québec à Montréal, Case postale
+            8888, Succursale Centre-ville, H3C 3P8 Montréal, Canada
+    - name: Bogdan Mazoure
+      affiliations:
+        - id: montreal-institute-for-learning-algorithms-(mila)-and-mcgill-university
+          name: Montreal Institute for Learning Algorithms (MILA) and McGill
+            University,Montréal, Canada
+    - name: Vladimir Makarenkov
+      affiliations:
+        - département-d’informatique
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/nadia_tahiri
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-00c
+  keywords:
+    - Machine Learning
+    - Prediction
+    - Long short-term memory
+    - Convolutional Neural Network
+    - Gradient Tree Boosting
+    - Python
+    - Sklearn
+    - Tensorflow
+  title: An intelligent shopping list based on the application of partitioning and
+    machine learning algorithms
+  downloads:
+    - url: ./nadia_tahiri.pdf
+      title: Download PDF
+    - url: ./nadia_tahiri.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

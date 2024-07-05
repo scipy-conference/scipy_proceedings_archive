@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2020-oney_erge
+  authors:
+    - name: " Oney Erge"
+      affiliations:
+        - id: the-university-of-texas-at-austin
+          name: The University of Texas at Austin
+    - name: Eric van Oort
+      affiliations:
+        - the-university-of-texas-at-austin
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/oney_erge
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-011
+  keywords:
+    - deep learning
+    - machine learning
+    - combining physics-based modeling and data-driven modeling
+    - hydraulics modeling
+    - frictional pressure loss modeling.
+  title: Combining Physics-Based and Data-Driven Modeling for Pressure Prediction
+    in Well Construction
+  downloads:
+    - url: ./oney_erge.pdf
+      title: Download PDF
+    - url: ./oney_erge.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

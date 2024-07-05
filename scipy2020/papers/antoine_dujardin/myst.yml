@@ -1,0 +1,58 @@
+version: 1
+project:
+  id: scipy-2020-antoine_dujardin
+  authors:
+    - name: Antoine Dujardin
+      affiliations:
+        - id: slac-national-accelerator-laboratory
+          name: SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, CA
+            94025, USA
+    - name: Elliott Slaugther
+      affiliations:
+        - slac-national-accelerator-laboratory
+    - name: Jeffrey Donatelli
+      affiliations:
+        - id: department-of-applied-mathematics
+          name: Department of Applied Mathematics, Lawrence Berkeley National Laboratory,
+            Berkeley, CA USA 94720-8142
+        - id: center-for-advanced-mathematics-for-energy-research-applications
+          name: Center for Advanced Mathematics for Energy Research Applications, Lawrence
+            Berkeley National Laboratory, Berkeley, CA USA 94720-8142
+    - name: Peter Zwart
+      affiliations:
+        - id: molecular-biophysics-and-integrated-bio-imaging-division
+          name: Molecular Biophysics and Integrated Bio-Imaging Division, Lawrence
+            Berkeley National Laboratory, Berkeley, CA USA 94720-8142
+        - center-for-advanced-mathematics-for-energy-research-applications
+    - name: Amedeo Perazzo
+      affiliations:
+        - slac-national-accelerator-laboratory
+    - name: Chun Hong Yoon
+      affiliations:
+        - slac-national-accelerator-laboratory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/antoine_dujardin
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-003
+  keywords:
+    - fluctuation x-ray scattering
+    - free electron laser
+    - real-time analysis
+    - coherent diffractive imaging
+  title: Fluctuation X-ray Scattering real-time app
+  downloads:
+    - url: ./antoine_dujardin.pdf
+      title: Download PDF
+    - url: ./antoine_dujardin.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

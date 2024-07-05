@@ -1,0 +1,34 @@
+version: 1
+project:
+  id: scipy-2020-niels_bantilan
+  authors:
+    - name: " Niels Bantilan"
+      affiliations:
+        - id: talkspace
+          name: Talkspace
+        - id: pyopensci
+          name: pyOpenSci
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/niels_bantilan
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-010
+  keywords:
+    - data validation
+    - data engineering
+  title: "pandera: Statistical Data Validation of Pandas Dataframes"
+  downloads:
+    - url: ./niels_bantilan.pdf
+      title: Download PDF
+    - url: ./niels_bantilan.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

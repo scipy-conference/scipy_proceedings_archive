@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2020-compyle_pr_ab
+  authors:
+    - name: " Aditya Bhosale"
+      affiliations:
+        - id: department-of-aerospace-engineering
+          name: Department of Aerospace Engineering
+        - id: iit-bombay
+          name: IIT Bombay, Mumbai, India
+    - name: " Prabhu Ramachandran"
+      affiliations:
+        - department-of-aerospace-engineering
+        - iit-bombay
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/compyle_pr_ab
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-005
+  keywords:
+    - High-performance computing
+    - multi-core CPUs
+    - GPGPU accelerators
+    - parallel algorithms
+    - transpilation
+  title: "Compyle: a Python package for parallel computing"
+  downloads:
+    - url: ./compyle_pr_ab.pdf
+      title: Download PDF
+    - url: ./compyle_pr_ab.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,58 @@
+version: 1
+project:
+  id: scipy-2020-ralph_kube
+  authors:
+    - name: Ralph Kube
+      affiliations:
+        - id: princeton-plasma-physics-laboratory
+          name: Princeton Plasma Physics Laboratory
+    - name: R Michael Churchill
+      affiliations:
+        - princeton-plasma-physics-laboratory
+    - name: Jong Youl Choi
+      affiliations:
+        - id: oak-ridge-national-laboratory
+          name: Oak Ridge National Laboratory
+    - name: Ruonan Wang
+      affiliations:
+        - oak-ridge-national-laboratory
+    - name: Scott Klasky
+      affiliations:
+        - oak-ridge-national-laboratory
+    - name: CS Chang
+      affiliations:
+        - princeton-plasma-physics-laboratory
+    - name: Minjun J. Choi
+      affiliations:
+        - id: national-fusion-research-institute
+          name: National Fusion Research Institute, Daejeon 34133, Republic of Korea
+    - name: Jinseop Park
+      affiliations:
+        - national-fusion-research-institute
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/ralph_kube
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-013
+  keywords:
+    - streaming analysis
+    - mpi4py
+    - queue
+    - adios
+    - HPC
+  title: Leading magnetic fusion energy science into the big-and-fast data lane
+  downloads:
+    - url: ./ralph_kube.pdf
+      title: Download PDF
+    - url: ./ralph_kube.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2019-geoffrey_poore
+  authors:
+    - name: Geoffrey M. Poore
+      affiliations:
+        - id: union-university
+          name: Union University
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/geoffrey_poore
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-008
+  keywords:
+    - reproducibility
+    - dynamic report generation
+    - literate programming
+    - Python
+    - Pandoc
+    - Project Jupyter
+  title: "Codebraid: Live Code in Pandoc Markdown"
+  downloads:
+    - url: ./geoffrey_poore.pdf
+      title: Download PDF
+    - url: ./geoffrey_poore.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

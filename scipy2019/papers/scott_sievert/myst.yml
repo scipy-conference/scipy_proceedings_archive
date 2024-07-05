@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2019-scott_sievert
+  authors:
+    - name: Scott Sievert
+      affiliations:
+        - id: university-of-wisconsin–madison
+          name: University of Wisconsin–Madison
+        - id: relevant-work-performed-while-interning-for-anaconda
+          name: Relevant work performed while interning for Anaconda, Inc.
+    - name: Tom Augspurger
+      affiliations:
+        - id: anaconda
+          name: Anaconda, Inc.
+    - name: Matthew Rocklin
+      affiliations:
+        - id: nvidia
+          name: NVIDIA
+        - id: relevant-work-performed-while-employed-for-anaconda
+          name: Relevant work performed while employed for Anaconda, Inc.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/scott_sievert
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-011
+  keywords:
+    - distributed computation
+    - hyperparameter optimization
+    - machine learning
+  title: Better and faster hyperparameter optimization with Dask
+  downloads:
+    - url: ./scott_sievert.pdf
+      title: Download PDF
+    - url: ./scott_sievert.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

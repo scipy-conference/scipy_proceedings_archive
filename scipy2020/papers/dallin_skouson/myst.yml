@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2020-dallin_skouson
+  authors:
+    - name: Dallin Skouson
+      affiliations:
+        - id: nsf-center-for-space
+          name: NSF Center for Space, High-Performance, and Resilient Computing (SHREC)
+        - id: department-of-electrical-and-computer-engineering
+          name: Department of Electrical and Computer Engineering, Brigham Young
+            University
+    - name: " Andrew Keller"
+      affiliations:
+        - nsf-center-for-space
+        - department-of-electrical-and-computer-engineering
+    - name: " Michael Wirthlin"
+      affiliations:
+        - nsf-center-for-space
+        - department-of-electrical-and-computer-engineering
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/dallin_skouson
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-006
+  keywords:
+    - Hardware Design
+    - Netlists
+    - EDA
+    - CAD
+  title: Netlist Analysis and Transformations Using SpyDrNet
+  downloads:
+    - url: ./dallin_skouson.pdf
+      title: Download PDF
+    - url: ./dallin_skouson.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

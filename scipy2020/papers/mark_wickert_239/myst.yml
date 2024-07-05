@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2020-mark_wickert_239
+  authors:
+    - name: " Mark Wickert"
+      affiliations:
+        - id: university-of-colorado-colorado-springs
+          name: University of Colorado Colorado Springs
+    - name: David Peckham
+      affiliations:
+        - university-of-colorado-colorado-springs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/mark_wickert_239
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-00e
+  keywords:
+    - digital modulation
+    - pulse shaping
+    - phase-shift keying
+    - quadrature amplitude modulation
+  title: Matched Filter Mismatch Losses in MPSK and MQAM Using Semi-Analytic BEP
+    Modeling
+  downloads:
+    - url: ./mark_wickert_239.pdf
+      title: Download PDF
+    - url: ./mark_wickert_239.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

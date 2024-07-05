@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2020-72_lu
+  authors:
+    - name: Haw-minn Lu
+      affiliations:
+        - id: gary-and-mary-west-health-institute
+          name: Gary and Mary West Health Institute
+    - name: Adrian Kwong
+      affiliations:
+        - gary-and-mary-west-health-institute
+    - name: José Unpingco
+      affiliations:
+        - gary-and-mary-west-health-institute
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/72_lu
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-001
+  keywords:
+    - data science
+    - infrastructure
+    - jupyter
+    - rstudio
+  title: Securing Your Collaborative Jupyter Notebooks in the Cloud using
+    Container and Load Balancing Services
+  downloads:
+    - url: ./72_lu.pdf
+      title: Download PDF
+    - url: ./72_lu.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

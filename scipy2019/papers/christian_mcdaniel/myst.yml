@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2019-christian_mcdaniel
+  authors:
+    - name: Christian McDaniel
+      affiliations:
+        - id: university-of-georgia
+          name: University of Georgia
+    - name: Shannon Quinn, PhD
+      affiliations:
+        - university-of-georgia
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/christian_mcdaniel
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-006
+  title: "Developing a Graph Convolution-Based Analysis Pipeline for Multi-Modal
+    Neuroimage Data: An Application to Parkinson's Disease"
+  downloads:
+    - url: ./christian_mcdaniel.pdf
+      title: Download PDF
+    - url: ./christian_mcdaniel.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

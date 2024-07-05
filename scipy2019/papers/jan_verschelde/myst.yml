@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2019-jan_verschelde
+  authors:
+    - name: Jasmine Otto
+      affiliations:
+        - id: university-of-california
+          name: University of California, Santa Cruz
+    - name: Angus Forbes
+      affiliations:
+        - university-of-california
+    - name: Jan Verschelde
+      affiliations:
+        - id: university-of-illinois-at-chicago
+          name: University of Illinois at Chicago
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2019/papers/jan_verschelde
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2019
+  subject: Research Article
+  date: 2019-07-08
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7ddc1dd1-009
+  title: Solving Polynomial Systems with phcpy
+  downloads:
+    - url: ./jan_verschelde.pdf
+      title: Download PDF
+    - url: ./jan_verschelde.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

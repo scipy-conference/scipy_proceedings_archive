@@ -1,0 +1,47 @@
+version: 1
+project:
+  id: scipy-2020-henry_schreiner
+  authors:
+    - name: " Henry Schreiner"
+      affiliations:
+        - id: princeton-university
+          name: Princeton University
+    - name: " Hans Dembinski"
+      affiliations:
+        - id: tu-dortmund
+          name: TU Dortmund
+    - name: " Shuo Liu"
+      affiliations:
+        - id: sun-yat-sen-university
+          name: Sun Yat-sen University
+    - name: " Jim Pivarski"
+      affiliations:
+        - princeton-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/henry_schreiner
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-342d178e-009
+  keywords:
+    - Histogram
+    - Analysis
+    - Data processing
+    - Data reduction
+    - NumPy
+    - Aggregation
+  title: "Boost-histogram: High-Performance Histograms as Objects"
+  downloads:
+    - url: ./henry_schreiner.pdf
+      title: Download PDF
+    - url: ./henry_schreiner.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []
