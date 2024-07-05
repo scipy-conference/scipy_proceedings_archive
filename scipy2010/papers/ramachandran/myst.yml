@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2010-ramachandran
+  authors:
+    - name: Prabhu Ramachandran
+      affiliations:
+        - id: iit-bombay
+          name: IIT Bombay
+    - name: Chandrashekhar Kaushik
+      affiliations:
+        - iit-bombay
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/ramachandran
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-00f
+  keywords:
+    - parallel
+    - Cython
+    - fluid dynamics
+    - simulation
+  title: "PySPH: A Python Framework for Smoothed Particle Hydrodynamics"
+  downloads:
+    - url: ./ramachandran.pdf
+      title: Download PDF
+    - url: ./ramachandran.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

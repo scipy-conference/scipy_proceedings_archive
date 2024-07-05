@@ -1,0 +1,32 @@
+version: 1
+project:
+  id: scipy-2012-jacob_barhak
+  authors:
+    - name: Jacob Barhak
+      affiliations:
+        - id: freelancer
+          name: freelancer
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-007
+  keywords:
+    - Disease Models
+    - High Performance Computing
+    - Simulation
+  title: The Reference Model for Disease Progression
+  downloads:
+    - url: ./jacob_barhak.pdf
+      title: Download PDF
+    - url: ./jacob_barhak.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

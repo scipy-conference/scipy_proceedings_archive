@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2011-dewing
+  authors:
+    - name: Mark Dewing
+      affiliations:
+        - id: intel
+          name: Intel
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/dewing
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-006
+  keywords:
+    - SymPy
+    - code generation
+    - metaprogramming
+  title: Constructing scientific programs using SymPy
+  downloads:
+    - url: ./dewing.pdf
+      title: Download PDF
+    - url: ./dewing.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,35 @@
+version: 1
+project:
+  id: scipy-2012-alejandro_weinstein
+  authors:
+    - name: Alejandro Weinstein
+      affiliations:
+        - id: the-eecs-department-of-the-colorado-school-of-mines
+          name: the EECS department of the Colorado School of Mines
+    - name: Michael Wakin
+      affiliations:
+        - the-eecs-department-of-the-colorado-school-of-mines
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-002
+  keywords:
+    - reinforcement learning
+    - latent semantic analysis
+    - machine learning
+  title: A Tale of Four Libraries
+  downloads:
+    - url: ./alejandro_weinstein.pdf
+      title: Download PDF
+    - url: ./alejandro_weinstein.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

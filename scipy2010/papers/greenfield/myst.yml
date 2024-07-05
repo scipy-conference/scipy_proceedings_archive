@@ -1,0 +1,52 @@
+version: 1
+project:
+  id: scipy-2010-greenfield
+  authors:
+    - name: Perry Greenfield
+      affiliations:
+        - id: space-telescope-science-institute
+          name: Space Telescope Science Institute
+    - name: Ivo Busko
+      affiliations:
+        - space-telescope-science-institute
+    - name: Rosa Diaz
+      affiliations:
+        - space-telescope-science-institute
+    - name: Vicki Laidler
+      affiliations:
+        - space-telescope-science-institute
+    - name: Todd Miller
+      affiliations:
+        - space-telescope-science-institute
+    - name: Mark Sienkiewicz
+      affiliations:
+        - space-telescope-science-institute
+    - name: Megan Sosey
+      affiliations:
+        - space-telescope-science-institute
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/greenfield
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-007
+  keywords:
+    - astronomy
+    - telescope
+    - Java
+    - NASA
+  title: Rebuilding the Hubble Exposure Time Calculator
+  downloads:
+    - url: ./greenfield.pdf
+      title: Download PDF
+    - url: ./greenfield.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

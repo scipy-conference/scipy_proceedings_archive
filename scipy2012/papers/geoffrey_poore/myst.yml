@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2012-geoffrey_poore
+  authors:
+    - name: Geoffrey M. Poore
+      affiliations:
+        - id: union-university
+          name: Union University
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-005
+  keywords:
+    - LaTeX
+    - document preparation
+    - document automation
+    - matplotlib
+    - NumPy
+    - SymPy
+    - Pygments
+  title: "PythonTeX: Fast Access to Python from within LaTeX"
+  downloads:
+    - url: ./geoffrey_poore.pdf
+      title: Download PDF
+    - url: ./geoffrey_poore.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2012-matthew_rocklin
+  authors:
+    - name: Matthew Rocklin
+      affiliations:
+        - id: university-of-chicago
+          name: University of Chicago, Computer Science
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-009
+  keywords:
+    - Symbolics
+    - mathematical modeling
+    - uncertainty
+    - SymPy
+  title: Uncertainty Modeling with SymPy Stats
+  downloads:
+    - url: ./matthew_rocklin.pdf
+      title: Download PDF
+    - url: ./matthew_rocklin.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

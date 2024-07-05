@@ -1,0 +1,49 @@
+version: 1
+project:
+  id: scipy-2010-morley
+  authors:
+    - name: Steven K. Morley
+      affiliations:
+        - id: los-alamos-national-laboratory
+          name: Los Alamos National Laboratory
+    - name: Daniel T. Welling
+      affiliations:
+        - los-alamos-national-laboratory
+    - name: Josef Koller
+      affiliations:
+        - los-alamos-national-laboratory
+    - name: Brian A. Larsen
+      affiliations:
+        - los-alamos-national-laboratory
+    - name: Michael G. Henderson
+      affiliations:
+        - los-alamos-national-laboratory
+    - name: Jonathan Niehof
+      affiliations:
+        - los-alamos-national-laboratory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/morley
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-00c
+  keywords:
+    - astronomy
+    - atmospheric science
+    - space weather
+    - visualization
+  title: SpacePy - A Python-based Library of Tools for the Space Sciences
+  downloads:
+    - url: ./morley.pdf
+      title: Download PDF
+    - url: ./morley.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

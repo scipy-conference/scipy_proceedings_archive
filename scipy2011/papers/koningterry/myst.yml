@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2011-koningterry
+  authors:
+    - name: Matthew Terry
+      affiliations:
+        - id: lawrence-livermore-national-laboratory
+          name: Lawrence Livermore National Laboratory
+    - name: Joseph Koning
+      affiliations:
+        - lawrence-livermore-national-laboratory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/koningterry
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-009
+  keywords:
+    - inertial confinement fusion
+    - python
+    - automation
+  title: Automation of Inertial Fusion Target Design with Python
+  downloads:
+    - url: ./koningterry.pdf
+      title: Download PDF
+    - url: ./koningterry.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

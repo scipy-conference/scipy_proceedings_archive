@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2011-brefsdal
+  authors:
+    - name: Brian Refsdal
+      affiliations:
+        - id: smithsonian-astrophysical-observatory
+          name: Smithsonian Astrophysical Observatory
+    - name: Stephen Doe
+      affiliations:
+        - smithsonian-astrophysical-observatory
+    - name: Dan Nguyen
+      affiliations:
+        - smithsonian-astrophysical-observatory
+    - name: Aneta Siemiginowska
+      affiliations:
+        - smithsonian-astrophysical-observatory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/brefsdal
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-001
+  keywords:
+    - modeling
+    - fitting
+    - parameter
+    - confidence
+    - mcmc
+    - bayesian
+  title: Fitting and Estimating Parameter Confidence Limits with Sherpa
+  downloads:
+    - url: ./brefsdal.pdf
+      title: Download PDF
+    - url: ./brefsdal.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

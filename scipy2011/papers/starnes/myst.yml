@@ -1,0 +1,34 @@
+version: 1
+project:
+  id: scipy-2011-starnes
+  authors:
+    - name: Douglas A. Starnes
+      affiliations:
+        - id: university-of-memphis---institute-for-intelligent-systems
+          name: University of Memphis - Institute For Intelligent Systems
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/starnes
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-011
+  keywords:
+    - cloud computing
+    - web
+    - google
+    - application development
+  title: Google App Engine Python
+  downloads:
+    - url: ./starnes.pdf
+      title: Download PDF
+    - url: ./starnes.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

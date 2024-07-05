@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2011-tyler_mcewen
+  authors:
+    - name: Tyler McEwen
+      affiliations:
+        - id: texas-water-development-board
+          name: Texas Water Development Board
+    - name: Dharhas Pothina
+      affiliations:
+        - texas-water-development-board
+    - name: Solomon Negusse
+      affiliations:
+        - texas-water-development-board
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/tyler_mcewen
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-013
+  keywords:
+    - gis
+    - spatial interpolation
+    - hydrographic surveying
+    - bathymetry
+    - lake volume
+    - reservoir volume
+    - anisotropic
+    - inverse distance wieghted
+    - sedimentation
+  title: Improving efficiency and repeatability of lake volume estimates using Python
+  downloads:
+    - url: ./tyler_mcewen.pdf
+      title: Download PDF
+    - url: ./tyler_mcewen.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

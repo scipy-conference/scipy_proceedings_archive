@@ -1,0 +1,31 @@
+version: 1
+project:
+  id: scipy-2012-anthony_scopatz_flmake
+  authors:
+    - name: Anthony Scopatz
+      affiliations:
+        - id: the-flash-center-for-computational-science
+          name: The FLASH Center for Computational Science, The University of Chicago
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-003
+  keywords:
+    - FLASH
+    - reproducibility
+  title: "Total Recall: flmake and the Quest for Reproducibility"
+  downloads:
+    - url: ./anthony_scopatz_flmake.pdf
+      title: Download PDF
+    - url: ./anthony_scopatz_flmake.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

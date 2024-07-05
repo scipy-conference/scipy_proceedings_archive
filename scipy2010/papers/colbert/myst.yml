@@ -1,0 +1,47 @@
+version: 1
+project:
+  id: scipy-2010-colbert
+  authors:
+    - name: Steven C. Colbert
+      affiliations:
+        - id: university-of-south-florida
+          name: University of South Florida
+    - name: Gregor Franz
+      affiliations:
+        - id: university-of-applied-sciences-ravensburg-weingarten
+          name: University of Applied Sciences Ravensburg-Weingarten
+    - name: Konrad Woellhaf
+      affiliations:
+        - university-of-applied-sciences-ravensburg-weingarten
+    - name: Redwan Alqasemi
+      affiliations:
+        - university-of-south-florida
+    - name: Rajiv Dubey
+      affiliations:
+        - university-of-south-florida
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/colbert
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-004
+  keywords:
+    - computer vision
+    - real-time
+    - geometry
+    - robotics
+  title: A High Performance Robot Vision Algorithm Implemented in Python
+  downloads:
+    - url: ./colbert.pdf
+      title: Download PDF
+    - url: ./colbert.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

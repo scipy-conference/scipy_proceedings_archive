@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2012-robert_johansson
+  authors:
+    - name: Robert J. Johansson
+      affiliations:
+        - id: advanced-science-institute
+          name: Advanced Science Institute, RIKEN, Wako-shi, 351-0198 Japan
+    - name: Paul D. Nation
+      affiliations:
+        - advanced-science-institute
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-00a
+  keywords:
+    - quantum mechanics
+    - master equation
+    - monte-carlo
+  title: "QuTiP: A framework for the dynamics of open quantum systems using SciPy
+    and Cython"
+  downloads:
+    - url: ./robert_johansson.pdf
+      title: Download PDF
+    - url: ./robert_johansson.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

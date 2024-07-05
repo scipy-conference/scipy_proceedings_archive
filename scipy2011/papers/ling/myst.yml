@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2011-ling
+  authors:
+    - name: Martin J. Ling
+      affiliations:
+        - id: university-of-edinburgh
+          name: University of Edinburgh
+    - name: Alex D. Young
+      affiliations:
+        - university-of-edinburgh
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/ling
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-00b
+  keywords:
+    - simulation
+    - IMU
+    - accelerometer
+    - gyroscope
+    - magnetometer
+  title: IMUSim - Simulating inertial and magnetic sensor systems in Python
+  downloads:
+    - url: ./ling.pdf
+      title: Download PDF
+    - url: ./ling.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

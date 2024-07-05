@@ -1,0 +1,35 @@
+version: 1
+project:
+  id: scipy-2010-aldcroft
+  authors:
+    - name: Tom Aldcroft
+      affiliations:
+        - id: smithsonian-astrophysical-observatory
+          name: Smithsonian Astrophysical Observatory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/aldcroft
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-000
+  keywords:
+    - telescope
+    - NASA
+    - MPI
+    - astronomy
+    - control
+  title: Keeping the Chandra Satellite Cool with Python
+  downloads:
+    - url: ./aldcroft.pdf
+      title: Download PDF
+    - url: ./aldcroft.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

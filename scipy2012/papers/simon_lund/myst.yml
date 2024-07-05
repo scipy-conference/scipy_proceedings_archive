@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2012-simon_lund
+  authors:
+    - name: Mads Ruben Burgdorff Kristensen
+      affiliations:
+        - id: university-of-copenhagen
+          name: University of Copenhagen
+    - name: Simon Andreas Frimann Lund
+      affiliations:
+        - university-of-copenhagen
+    - name: Troels Blum
+      affiliations:
+        - university-of-copenhagen
+    - name: Brian Vinter
+      affiliations:
+        - university-of-copenhagen
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-00b
+  keywords:
+    - runtime optimization
+    - high-performance
+    - high-productivity
+  title: "cphVB: A System for Automated Runtime Optimization and Parallelization
+    of Vectorized Applications"
+  downloads:
+    - url: ./simon_lund.pdf
+      title: Download PDF
+    - url: ./simon_lund.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

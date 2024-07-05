@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2010-mckinney
+  authors:
+    - name: Wes McKinney
+      affiliations:
+        - id: aqr-capital-management
+          name: AQR Capital Management, LLC
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/mckinney
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-00a
+  keywords:
+    - data structure
+    - statistics
+    - R
+  title: Data Structures for Statistical Computing in Python
+  downloads:
+    - url: ./mckinney.pdf
+      title: Download PDF
+    - url: ./mckinney.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

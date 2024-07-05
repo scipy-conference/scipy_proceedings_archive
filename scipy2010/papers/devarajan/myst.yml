@@ -1,0 +1,46 @@
+version: 1
+project:
+  id: scipy-2010-devarajan
+  authors:
+    - name: Kadambari Devarajan
+      affiliations:
+        - id: university-of-illinois-at-chicago
+          name: University of Illinois at Chicago
+    - name: Maria A. Echeverry-Galvis
+      affiliations:
+        - id: princeton-university
+          name: Princeton University
+    - name: Rajmonda Sulo
+      affiliations:
+        - university-of-illinois-at-chicago
+    - name: Jennifer K. Peterson
+      affiliations:
+        - princeton-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/devarajan
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-005
+  keywords:
+    - ecology
+    - evolution
+    - biology
+    - ornithology
+    - machine learning
+    - visualization
+  title: "Unusual Relationships: Python and Weaver Birds"
+  downloads:
+    - url: ./devarajan.pdf
+      title: Download PDF
+    - url: ./devarajan.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

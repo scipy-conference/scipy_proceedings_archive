@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2011-lee
+  authors:
+    - name: Minwoo Lee
+      affiliations:
+        - id: colorado-state-university
+          name: Colorado State University
+    - name: Charles W. Anderson
+      affiliations:
+        - colorado-state-university
+    - name: Mark DeMaria
+      affiliations:
+        - id: noaa/nesdis/star
+          name: NOAA/NESDIS/STAR
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/lee
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-00a
+  keywords:
+    - hurricane
+    - prediction
+    - GFS
+    - SVM
+  title: Hurricane Prediction with Python
+  downloads:
+    - url: ./lee.pdf
+      title: Download PDF
+    - url: ./lee.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

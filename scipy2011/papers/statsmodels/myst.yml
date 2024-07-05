@@ -1,0 +1,47 @@
+version: 1
+project:
+  id: scipy-2011-statsmodels
+  authors:
+    - name: Wes McKinney
+      affiliations:
+        - id: duke-university
+          name: Duke University
+    - name: Josef Perktold
+      affiliations:
+        - id: university-of-north-carolina
+          name: University of North Carolina, Chapel Hill
+    - name: Skipper Seabold
+      affiliations:
+        - id: american-university
+          name: American University
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/statsmodels
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-012
+  keywords:
+    - time series analysis
+    - statistics
+    - econometrics
+    - AR
+    - ARMA
+    - VAR
+    - GLSAR
+    - filtering
+    - benchmarking
+  title: Time Series Analysis in Python with statsmodels
+  downloads:
+    - url: ./statsmodels.pdf
+      title: Download PDF
+    - url: ./statsmodels.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

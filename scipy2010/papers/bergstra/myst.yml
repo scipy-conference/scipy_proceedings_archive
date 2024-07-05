@@ -1,0 +1,60 @@
+version: 1
+project:
+  id: scipy-2010-bergstra
+  authors:
+    - name: James Bergstra
+      affiliations:
+        - id: université-de-montréal
+          name: Université de Montréal
+    - name: Olivier Breuleux
+      affiliations:
+        - université-de-montréal
+    - name: Frédéric Bastien
+      affiliations:
+        - université-de-montréal
+    - name: Pascal Lamblin
+      affiliations:
+        - université-de-montréal
+    - name: Razvan Pascanu
+      affiliations:
+        - université-de-montréal
+    - name: Guillaume Desjardins
+      affiliations:
+        - université-de-montréal
+    - name: Joseph Turian
+      affiliations:
+        - université-de-montréal
+    - name: David Warde-Farley
+      affiliations:
+        - université-de-montréal
+    - name: Yoshua Bengio
+      affiliations:
+        - université-de-montréal
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/bergstra
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-003
+  keywords:
+    - GPU
+    - CUDA
+    - machine learning
+    - optimization
+    - compiler
+    - NumPy
+  title: "Theano: A CPU and GPU Math Compiler in Python"
+  downloads:
+    - url: ./bergstra.pdf
+      title: Download PDF
+    - url: ./bergstra.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

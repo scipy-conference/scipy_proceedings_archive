@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2010-overholt
+  authors:
+    - name: Kristopher Overholt
+      affiliations:
+        - id: university-of-texas-at-austin
+          name: University of Texas at Austin
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/overholt
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-00d
+  keywords:
+    - fire protection engineering
+    - fluid dynamics
+    - visualization
+  title: "Numerical Pyromaniacs: The Use of Python in Fire Research"
+  downloads:
+    - url: ./overholt.pdf
+      title: Download PDF
+    - url: ./overholt.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

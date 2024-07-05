@@ -1,0 +1,51 @@
+version: 1
+project:
+  id: scipy-2011-mandli_etal
+  authors:
+    - name: Kyle T. Mandli
+      affiliations:
+        - id: university-of-washington
+          name: University of Washington
+    - name: Amal Alghamdi
+      affiliations:
+        - id: king-abdullah-university-of-science-and-technology
+          name: King Abdullah University of Science and Technology
+    - name: Aron Ahmadia
+      affiliations:
+        - king-abdullah-university-of-science-and-technology
+    - name: David I. Ketcheson
+      affiliations:
+        - king-abdullah-university-of-science-and-technology
+    - name: William Scullin
+      affiliations:
+        - id: argonne-national-labs
+          name: Argonne National Labs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/mandli_etal
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-00c
+  keywords:
+    - parallel
+    - scaling
+    - finite volume
+    - nonlinear waves
+    - PyClaw
+    - PetClaw
+    - Walla
+  title: Using Python to Construct a Scalable Parallel Nonlinear Wave Solver
+  downloads:
+    - url: ./mandli_etal.pdf
+      title: Download PDF
+    - url: ./mandli_etal.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2011-jacky
+  authors:
+    - name: Jonathan Jacky
+      affiliations:
+        - id: university-of-washington
+          name: University of Washington
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/jacky
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-008
+  keywords:
+    - testing
+    - model-based testing
+    - automated testing
+    - executable specification
+    - finite state machine
+    - nondeterminism
+    - exploration
+    - offline testing
+    - on-the-fly testing
+    - scenario
+    - composition
+  title: "PyModel: Model-based testing in Python"
+  downloads:
+    - url: ./jacky.pdf
+      title: Download PDF
+    - url: ./jacky.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

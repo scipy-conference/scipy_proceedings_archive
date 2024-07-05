@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2011-caraciolo
+  authors:
+    - name: Marcel Caraciolo
+      affiliations:
+        - id: muricoca-labs
+          name: Muricoca Labs
+    - name: Bruno Melo
+      affiliations:
+        - muricoca-labs
+    - name: Ricardo Caspirro
+      affiliations:
+        - muricoca-labs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/caraciolo
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-002
+  keywords:
+    - data mining
+    - machine learning
+    - recommendation systems
+    - information filtering
+    - framework
+    - web
+  title: "Crab: A Recommendation Engine Framework for Python"
+  downloads:
+    - url: ./caraciolo.pdf
+      title: Download PDF
+    - url: ./caraciolo.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

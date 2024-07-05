@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2011-shoaib_kamil
+  authors:
+    - name: Shoaib Kamil
+      affiliations:
+        - id: university-of-california
+          name: University of California, Berkeley
+    - name: Derrick Coetzee
+      affiliations:
+        - university-of-california
+    - name: Armando Fox
+      affiliations:
+        - university-of-california
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/shoaib_kamil
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-00f
+  keywords:
+    - parallel programming
+    - specialization
+  title: Bringing Parallel Performance to Python with Domain-Specific Selective
+    Embedded Just-in-Time Specialization
+  downloads:
+    - url: ./shoaib_kamil.pdf
+      title: Download PDF
+    - url: ./shoaib_kamil.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

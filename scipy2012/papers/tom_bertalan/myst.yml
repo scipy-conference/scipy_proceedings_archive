@@ -1,0 +1,43 @@
+version: 1
+project:
+  id: scipy-2012-tom_bertalan
+  authors:
+    - name: Tom S. Bertalan
+      affiliations:
+        - id: the-university-of-alabama
+          name: The University of Alabama, Department of Chemical and Biological
+            Engineering
+    - name: Akand W. Islam
+      affiliations:
+        - the-university-of-alabama
+    - name: Roger B. Sidje
+      affiliations:
+        - the-university-of-alabama
+    - name: Eric Carlson
+      affiliations:
+        - the-university-of-alabama
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-00c
+  keywords:
+    - python
+    - multigrid
+    - numpy
+    - partial differential equations
+  title: "OpenMG: A New Multigrid Implementation in Python"
+  downloads:
+    - url: ./tom_bertalan.pdf
+      title: Download PDF
+    - url: ./tom_bertalan.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2011-nick_bray
+  authors:
+    - name: Nick Bray
+      affiliations:
+        - id: google
+          name: Google
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/nick_bray
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-00e
+  keywords:
+    - pystream
+    - compiling python
+    - gpu
+  title: "PyStream: Compiling Python onto the GPU"
+  downloads:
+    - url: ./nick_bray.pdf
+      title: Download PDF
+    - url: ./nick_bray.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

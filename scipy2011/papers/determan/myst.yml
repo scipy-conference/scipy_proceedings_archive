@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2011-determan
+  authors:
+    - name: Scott Determan
+      affiliations:
+        - id: vision-spreadsheet
+          name: Vision Spreadsheet
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/determan
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-005
+  keywords:
+    - computer vision
+    - spreadsheet
+    - OpenCV
+  title: "Vision Spreadsheet: An Environment for Computer Vision"
+  downloads:
+    - url: ./determan.pdf
+      title: Download PDF
+    - url: ./determan.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

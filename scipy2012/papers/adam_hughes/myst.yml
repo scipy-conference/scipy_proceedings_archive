@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2012-adam_hughes
+  authors:
+    - name: Adam Hughes
+      affiliations:
+        - id: the-george-washington-university
+          name: The George Washington University
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2012
+  subject: Research Article
+  date: 2012-07-16
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-54c7f2c8-001
+  keywords:
+    - gold nanoparticles
+    - fiber optics
+    - biosensor
+    - Python
+    - immunoassay
+    - plasmonics
+    - proteins
+    - metallic colloids
+    - IPython
+    - Traits
+    - Chaco
+    - Pandas
+    - SEM
+  title: A Computational Framework for Plasmonic Nanobiosensing
+  downloads:
+    - url: ./adam_hughes.pdf
+      title: Download PDF
+    - url: ./adam_hughes.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

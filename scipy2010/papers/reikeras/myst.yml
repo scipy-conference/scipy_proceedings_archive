@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2010-reikeras
+  authors:
+    - name: Helge Reikeras
+      affiliations: []
+    - name: Ben Herbst
+      affiliations:
+        - id: stellenbosch-university
+          name: Stellenbosch University
+    - name: Johan du Preez
+      affiliations:
+        - stellenbosch-university
+    - name: Herman Engelbrecht
+      affiliations:
+        - stellenbosch-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010/papers/reikeras
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2010
+  subject: Research Article
+  date: 2010-06-28
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-92bf1922-010
+  keywords:
+    - speech recognition
+    - machine learning
+    - computer vision
+    - signal processing
+  title: Audio-Visual Speech Recognition using SciPy
+  downloads:
+    - url: ./reikeras.pdf
+      title: Download PDF
+    - url: ./reikeras.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

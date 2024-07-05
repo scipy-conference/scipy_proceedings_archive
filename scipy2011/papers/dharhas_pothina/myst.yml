@@ -1,0 +1,43 @@
+version: 1
+project:
+  id: scipy-2011-dharhas_pothina
+  authors:
+    - name: Dharhas Pothina
+      affiliations:
+        - id: texas-water-development-board
+          name: Texas Water Development Board
+    - name: Andrew Wilson
+      affiliations:
+        - texas-water-development-board
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/dharhas_pothina
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-007
+  keywords:
+    - time-series
+    - web services
+    - waterml
+    - data
+    - wofpy
+    - pyhis
+    - HIS
+    - hydrologic information system
+    - cyberinfrastructure
+  title: Using Python, Partnerships, Standards and Web Services to provide Water
+    Data for Texans
+  downloads:
+    - url: ./dharhas_pothina.pdf
+      title: Download PDF
+    - url: ./dharhas_pothina.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

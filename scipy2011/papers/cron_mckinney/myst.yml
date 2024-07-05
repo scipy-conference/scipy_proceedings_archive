@@ -1,0 +1,44 @@
+version: 1
+project:
+  id: scipy-2011-cron_mckinney
+  authors:
+    - name: Andrew Cron
+      affiliations:
+        - id: duke-university
+          name: Duke University
+    - name: Wes McKinney
+      affiliations:
+        - duke-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/cron_mckinney
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-003
+  keywords:
+    - GPU
+    - CUDA
+    - OpenCL
+    - Python
+    - statistical inference
+    - statistics
+    - metaprogramming
+    - sampling
+    - Markov Chain Monte Carlo (MCMC)
+    - PyMC
+    - big data
+  title: "gpustats: GPU Library for Statistical Computing in Python"
+  downloads:
+    - url: ./cron_mckinney.pdf
+      title: Download PDF
+    - url: ./cron_mckinney.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

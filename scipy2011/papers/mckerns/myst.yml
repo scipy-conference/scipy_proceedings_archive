@@ -1,0 +1,51 @@
+version: 1
+project:
+  id: scipy-2011-mckerns
+  authors:
+    - name: Michael M. McKerns
+      affiliations:
+        - id: california-institute-of-technology
+          name: California Institute of Technology
+    - name: Leif Strand
+      affiliations:
+        - california-institute-of-technology
+    - name: Tim Sullivan
+      affiliations:
+        - california-institute-of-technology
+    - name: Alta Fang
+      affiliations:
+        - california-institute-of-technology
+    - name: Michael A.G. Aivazis
+      affiliations:
+        - california-institute-of-technology
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/mckerns
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-00d
+  keywords:
+    - predictive science
+    - optimization
+    - uncertainty quantification
+    - verification
+    - validation
+    - sensitivity analysis
+    - parallel computing
+    - distributed computing
+    - heterogeneous computing
+  title: Building a Framework for Predictive Science
+  downloads:
+    - url: ./mckerns.pdf
+      title: Download PDF
+    - url: ./mckerns.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

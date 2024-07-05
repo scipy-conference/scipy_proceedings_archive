@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2011-amin
+  authors:
+    - name: Minesh B. Amin
+      affiliations:
+        - id: mba-sciences
+          name: MBA Sciences, Inc
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011/papers/amin
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2011
+  subject: Research Article
+  date: 2011-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-ebaa42b7-000
+  keywords:
+    - fault tolerance
+    - parallel closures
+    - parallel exceptions
+    - parallel invariants
+    - parallel programming
+    - parallel sequence points
+    - scalable vocabulary
+    - parallel management patterns
+  title: A Technical Anatomy of SPM.Python, a Scalable, Parallel Version of Python
+  downloads:
+    - url: ./amin.pdf
+      title: Download PDF
+    - url: ./amin.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []
