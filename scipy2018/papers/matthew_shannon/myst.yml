@@ -1,0 +1,47 @@
+version: 1
+project:
+  id: scipy-2018-matthew_shannon
+  authors:
+    - name: Matthew J. Shannon
+      affiliations:
+        - id: universities-space-research-association
+          name: Universities Space Research Association, Columbia, MD
+        - id: nasa-ames-research-center
+          name: NASA Ames Research Center, MS245-6, Moffett Field, CA 94035-1000
+    - name: Christiaan Boersma
+      affiliations:
+        - id: san-josé-state-university-research-foundation
+          name: San José State University Research Foundation, 210 N 4th St Fl 4, San
+            Jose, CA 95112
+        - nasa-ames-research-center
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/matthew_shannon
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-00f
+  keywords:
+    - astronomy
+    - databases
+    - fitting
+    - data analysis
+  title: 'Organic Molecules in Space: Insights from the NASA Ames Molecular
+    Database in the era of the James Webb Space Telescope'
+  downloads:
+    - url: ./matthew_shannon.pdf
+      title: Download PDF
+    - url: ./matthew_shannon.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    PAH: polycyclic aromatic hydrocarbons
+    PAHdb: PAH IR Spectroscopic Database
+
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

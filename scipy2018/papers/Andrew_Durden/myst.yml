@@ -1,0 +1,63 @@
+version: 1
+project:
+  id: scipy-2018-Andrew_Durden
+  authors:
+    - name: Andrew Durden
+      affiliations:
+        - id: department-of-computer-science
+          name: Department of Computer Science, University of Georgia, Athens, GA 30602
+            USA
+    - name: Allyson T Loy
+      affiliations:
+        - id: department-of-microbiology
+          name: Department of Microbiology, University of Georgia, Athens, GA 30602 USA
+    - name: Barbara Reaves
+      affiliations:
+        - id: department-of-infectious-diseases
+          name: Department of Infectious Diseases, University of Georgia, Athens, GA 30602
+            USA
+    - name: Mojtaba Fazli
+      affiliations:
+        - department-of-computer-science
+    - name: Abigail Courtney
+      affiliations:
+        - department-of-microbiology
+    - name: Frederick D Quinn
+      affiliations:
+        - department-of-infectious-diseases
+    - name: S Chakra Chennubhotla
+      affiliations:
+        - id: department-of-computational-and-systems-biology
+          name: Department of Computational and Systems Biology, University of Pittsburgh,
+            Pittsburgh, PA 15232 USA
+    - name: Shannon P Quinn
+      affiliations:
+        - department-of-computer-science
+        - id: department-of-cellular-biology
+          name: Department of Cellular Biology, University of Georgia, Athens, GA 30602
+            USA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/Andrew_Durden
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-000
+  keywords:
+    - Biomedical Imaging
+    - Graph Theory
+    - Social Networks
+  title: Dynamic Social Network Modeling of Diffuse Subcellular Morphologies
+  downloads:
+    - url: ./Andrew_Durden.pdf
+      title: Download PDF
+    - url: ./Andrew_Durden.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

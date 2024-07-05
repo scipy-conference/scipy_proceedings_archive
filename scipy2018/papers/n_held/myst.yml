@@ -1,0 +1,54 @@
+version: 1
+project:
+  id: scipy-2018-n_held
+  authors:
+    - name: Noelle A. Held
+      affiliations:
+        - id: massachusetts-institute-of-technology
+          name: Massachusetts Institute of Technology, Cambridge, MA
+        - id: woods-hole-oceanographic-institution
+          name: Woods Hole Oceanographic Institution, Woods Hole, MA
+    - name: Jaclyn K. Saunders
+      affiliations:
+        - woods-hole-oceanographic-institution
+        - massachusetts-institute-of-technology
+    - name: Joe Futrelle
+      affiliations:
+        - woods-hole-oceanographic-institution
+    - name: Mak A. Saito
+      affiliations:
+        - woods-hole-oceanographic-institution
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/n_held
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-010
+  keywords:
+    - oceanography
+    - microbial ecology
+    - biogeochemistry
+    - omics
+    - visualization
+    - bokeh
+    - datashader
+    - holoviews
+    - pandas
+    - dask
+    - jupyter
+  title: Harnessing the Power of Scientific Python to Investigate Biogeochemistry
+    and Metaproteomes of the Central Pacific Ocean
+  downloads:
+    - url: ./n_held.pdf
+      title: Download PDF
+    - url: ./n_held.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

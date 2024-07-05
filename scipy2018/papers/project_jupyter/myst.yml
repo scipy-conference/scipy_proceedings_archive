@@ -1,0 +1,93 @@
+version: 1
+project:
+  id: scipy-2018-project_jupyter
+  authors:
+    - name: Project Jupyter
+      affiliations:
+        - id: project-jupyter
+          name: Project Jupyter
+    - name: Matthias Bussonnier
+      affiliations:
+        - id: uc-berkeley
+          name: UC Berkeley
+    - name: Jessica Forde
+      affiliations:
+        - project-jupyter
+    - name: Jeremy Freeman
+      affiliations:
+        - id: ""
+          name: ""
+    - name: Brian Granger
+      affiliations:
+        - id: cal-poly
+          name: Cal Poly, San Luis Obispo
+    - name: Tim Head
+      affiliations:
+        - id: wild-tree-tech
+          name: Wild Tree Tech, Switzerland
+    - name: Chris Holdgraf
+      affiliations:
+        - uc-berkeley
+    - name: Kyle Kelley
+      affiliations:
+        - id: netflix
+          name: Netflix
+    - name: Gladys Nalvarte
+      affiliations:
+        - id: simula-research-lab
+          name: Simula Research Lab
+    - name: Andrew Osheroff
+      affiliations:
+        - ""
+    - name: M Pacer
+      affiliations:
+        - netflix
+    - name: Yuvi Panda
+      affiliations:
+        - uc-berkeley
+    - name: Fernando Perez
+      affiliations:
+        - uc-berkeley
+    - name: Benjamin Ragan-Kelley
+      affiliations:
+        - simula-research-lab
+    - name: Carol Willing
+      affiliations:
+        - cal-poly
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/project_jupyter
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-011
+  keywords:
+    - cloud computing
+    - reproducibility
+    - binder
+    - mybinder.org
+    - shared computing
+    - accessibility
+    - kubernetes
+    - dev ops
+    - jupyter
+    - jupyterhub
+    - jupyter notebooks
+    - github
+    - publishing
+    - interactivity
+  title: Binder 2.0 - Reproducible, interactive, sharable environments for science
+    at scale
+  downloads:
+    - url: ./project_jupyter.pdf
+      title: Download PDF
+    - url: ./project_jupyter.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

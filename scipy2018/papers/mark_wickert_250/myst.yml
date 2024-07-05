@@ -1,0 +1,34 @@
+version: 1
+project:
+  id: scipy-2018-mark_wickert_250
+  authors:
+    - name: Mark Wickert
+      affiliations:
+        - id: university-of-colorado-colorado-springs
+          name: University of Colorado Colorado Springs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/mark_wickert_250
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-00e
+  keywords:
+    - digital signal processing
+    - pyaudio
+    - real-time
+    - scikit-dsp-comm
+  title: Real-Time Digital Signal Processing Using pyaudio_helper and the ipywidgets
+  downloads:
+    - url: ./mark_wickert_250.pdf
+      title: Download PDF
+    - url: ./mark_wickert_250.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

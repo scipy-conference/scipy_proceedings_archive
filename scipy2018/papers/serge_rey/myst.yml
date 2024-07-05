@@ -1,0 +1,50 @@
+version: 1
+project:
+  id: scipy-2018-serge_rey
+  authors:
+    - name: Sergio Rey
+      affiliations:
+        - id: center-for-geospatial-sciences
+          name: Center for Geospatial Sciences, University of California, Riverside
+    - name: Elijah Knaap
+      affiliations:
+        - center-for-geospatial-sciences
+    - name: Su Han
+      affiliations:
+        - center-for-geospatial-sciences
+    - name: Levi Wolf
+      affiliations:
+        - id: school-of-geographical-sciences
+          name: School of Geographical Sciences, University of Bristol
+    - name: Wei Kang
+      affiliations:
+        - center-for-geospatial-sciences
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/serge_rey
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-012
+  keywords:
+    - neighborhoods
+    - GIS
+    - clustering
+    - dynamics
+  title: 'Spatio-temporal analysis of socioeconomic neighborhoods: The Open Source
+    Longitudinal Neighborhood Analysis Package (OSLNAP)'
+  downloads:
+    - url: ./serge_rey.pdf
+      title: Download PDF
+    - url: ./serge_rey.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    OSLNAP: Open Source Longitudinal Neighborhood Analysis Package
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

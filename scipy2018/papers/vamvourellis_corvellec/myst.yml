@@ -1,0 +1,40 @@
+version: 1
+project:
+  id: scipy-2018-vamvourellis_corvellec
+  authors:
+    - name: Konstantinos Vamvourellis
+      affiliations:
+        - id: london-school-of-economics-and-political-science
+          name: London School of Economics and Political Science
+    - name: Marianne Corvellec
+      affiliations:
+        - id: institute-for-globally-distributed-open-research-and-education-(igdore)
+          name: Institute for Globally Distributed Open Research and Education (IGDORE)
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/vamvourellis_corvellec
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-014
+  keywords:
+    - Bayesian statistics
+    - life sciences
+    - clinical trials
+    - probabilistic programming
+    - Stan
+    - PyStan
+  title: A Bayesian’s journey to a better research workflow
+  downloads:
+    - url: ./vamvourellis_corvellec.pdf
+      title: Download PDF
+    - url: ./vamvourellis_corvellec.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

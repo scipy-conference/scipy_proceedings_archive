@@ -1,0 +1,47 @@
+version: 1
+project:
+  id: scipy-2018-yaksh
+  authors:
+    - name: Prabhu Ramachandran
+      affiliations:
+        - id: department-of-aerospace-engineering
+          name: Department of Aerospace Engineering
+        - id: iit-bombay
+          name: IIT Bombay, Mumbai, India
+    - name: Prathamesh Salunke
+      affiliations:
+        - id: fossee-iit-bombay
+          name: FOSSEE IIT Bombay, Mumbai, India
+    - name: Ankit Javalkar
+      affiliations:
+        - fossee-iit-bombay
+    - name: Aditya Palaparthy
+      affiliations:
+        - fossee-iit-bombay
+    - name: Mahesh Gudi
+      affiliations:
+        - fossee-iit-bombay
+    - name: Hardik Ghaghada
+      affiliations:
+        - fossee-iit-bombay
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/yaksh
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-017
+  title: "Yaksh: Facilitating Learning by Doing"
+  downloads:
+    - url: ./yaksh.pdf
+      title: Download PDF
+    - url: ./yaksh.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

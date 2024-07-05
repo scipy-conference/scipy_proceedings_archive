@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2018-adam_richie-halford
+  authors:
+    - name: Adam Richie-Halford
+      affiliations:
+        - id: university-of-washington
+          name: University of Washington, Seattle, WA
+    - name: Ariel Rokem
+      affiliations:
+        - university-of-washington
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/adam_richie-halford
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-001
+  keywords:
+    - Cloud computing
+    - Amazon Web Services
+    - Distributed computing
+  title: "Cloudknot: A Python Library to Run your Existing Code on AWS Batch"
+  downloads:
+    - url: ./adam_richie-halford.pdf
+      title: Download PDF
+    - url: ./adam_richie-halford.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

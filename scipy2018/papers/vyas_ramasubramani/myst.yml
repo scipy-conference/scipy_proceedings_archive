@@ -1,0 +1,55 @@
+version: 1
+project:
+  id: scipy-2018-vyas_ramasubramani
+  authors:
+    - name: Vyas Ramasubramani
+      affiliations:
+        - id: department-of-chemical-engineering
+          name: Department of Chemical Engineering, University of Michigan, Ann Arbor
+    - name: Carl S. Adorf
+      affiliations:
+        - department-of-chemical-engineering
+    - name: Paul M. Dodd
+      affiliations:
+        - department-of-chemical-engineering
+    - name: Bradley D. Dice
+      affiliations:
+        - id: department-of-physics
+          name: Department of Physics, University of Michigan, Ann Arbor
+    - name: Sharon C. Glotzer
+      affiliations:
+        - department-of-chemical-engineering
+        - id: department-of-materials-science-and-engineering
+          name: Department of Materials Science and Engineering, University of Michigan,
+            Ann Arbor
+        - department-of-physics
+        - id: biointerfaces-institute
+          name: Biointerfaces Institute, University of Michigan, Ann Arbor
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/vyas_ramasubramani
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-016
+  keywords:
+    - data management
+    - database
+    - data sharing
+    - provenance
+    - computational workflow
+    - hpc
+  title: "signac: A Python framework for data and workflow management"
+  downloads:
+    - url: ./vyas_ramasubramani.pdf
+      title: Download PDF
+    - url: ./vyas_ramasubramani.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

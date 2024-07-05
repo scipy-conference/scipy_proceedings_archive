@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2018-dillon_niederhut
+  authors:
+    - name: Dillon Niederhut
+      affiliations:
+        - id: enthought
+          name: Enthought, Inc.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/dillon_niederhut
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-008
+  keywords:
+    - data science
+    - missing data
+    - imputation
+  title: Safe handling instructions for missing data
+  downloads:
+    - url: ./dillon_niederhut.pdf
+      title: Download PDF
+    - url: ./dillon_niederhut.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

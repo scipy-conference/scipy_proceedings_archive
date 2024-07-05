@@ -1,0 +1,55 @@
+version: 1
+project:
+  id: scipy-2018-anton_malakhov
+  authors:
+    - name: Anton Malakhov
+      affiliations:
+        - id: intel-corporation
+          name: Intel Corporation
+    - name: David Liu
+      affiliations:
+        - intel-corporation
+    - name: Anton Gorshkov
+      affiliations:
+        - intel-corporation
+    - name: Terry Wilmarth
+      affiliations:
+        - intel-corporation
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/anton_malakhov
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-003
+  keywords:
+    - Multi-threading
+    - Multi-processing
+    - Oversubscription
+    - Parallel Computations
+    - Nested Parallelism
+    - Multi-core
+    - Python
+    - GIL
+    - Dask
+    - Joblib
+    - NumPy
+    - SciPy
+    - TBB
+    - OpenMP
+  title: Composable Multi-Threading and Multi-Processing for Numeric Libraries
+  downloads:
+    - url: ./anton_malakhov.pdf
+      title: Download PDF
+    - url: ./anton_malakhov.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    TBB: Threading Building Blocks
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

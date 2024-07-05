@@ -1,0 +1,44 @@
+version: 1
+project:
+  id: scipy-2018-david_shupe
+  authors:
+    - name: David Shupe
+      affiliations:
+        - id: caltech/ipac
+          name: Caltech/IPAC
+    - name: Frank Masci
+      affiliations:
+        - caltech/ipac
+    - name: Russ Laher
+      affiliations:
+        - caltech/ipac
+    - name: Ben Rusholme
+      affiliations:
+        - caltech/ipac
+    - name: Lee Armus
+      affiliations:
+        - caltech/ipac
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/david_shupe
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-006
+  keywords:
+    - astronomy
+    - data processing
+  title: Practical Applications of Astropy
+  downloads:
+    - url: ./david_shupe.pdf
+      title: Download PDF
+    - url: ./david_shupe.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

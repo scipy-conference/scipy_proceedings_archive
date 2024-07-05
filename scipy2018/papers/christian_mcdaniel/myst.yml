@@ -1,0 +1,48 @@
+version: 1
+project:
+  id: scipy-2018-christian_mcdaniel
+  authors:
+    - name: Christian McDaniel
+      affiliations:
+        - id: university-of-georgia
+          name: University of Georgia
+    - name: Shannon Quinn
+      affiliations:
+        - university-of-georgia
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/christian_mcdaniel
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-005
+  keywords:
+    - Neural Network
+    - Human Activity Recognition
+    - Recurrent Neural Network
+    - Long Short-Term Memory
+    - Accelerometer
+    - Machine Learning
+    - Data Analysis
+    - Data Science
+    - Hyperparameter Optimization
+    - Hyperparameter
+  title: Developing a Start-to-Finish Pipeline for Accelerometer-Based Activity
+    Recognition Using Long Short-Term Memory Recurrent Neural Networks
+  downloads:
+    - url: ./christian_mcdaniel.pdf
+      title: Download PDF
+    - url: ./christian_mcdaniel.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    HAR: Human Activity Recognition
+    LSTM: Long Short-Term Memory
+    RNN: Recurrent Neural Networks
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2018-elizabeth_seiver
+  authors:
+    - name: Elizabeth Seiver
+      affiliations: []
+    - name: M Pacer
+      affiliations:
+        - id: netflix
+          name: Netflix
+    - name: Sebastian Bassi
+      affiliations:
+        - id: globant
+          name: Globant
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/elizabeth_seiver
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-009
+  keywords:
+    - Text and data mining
+    - metascience
+    - open access
+    - science publishing
+    - scientific articles
+    - XML
+  title: Text and data mining scientific articles with allofplos
+  downloads:
+    - url: ./elizabeth_seiver.pdf
+      title: Download PDF
+    - url: ./elizabeth_seiver.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

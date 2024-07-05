@@ -1,0 +1,52 @@
+version: 1
+project:
+  id: scipy-2018-tyler_martin
+  authors:
+    - name: Tyler B. Martin
+      affiliations:
+        - id: national-institute-of-standards-and-technology
+          name: National Institute of Standards and Technology
+    - name: Thomas E. Gartner III
+      affiliations:
+        - id: chemical-and-biomolecular-engineering
+          name: Chemical and Biomolecular Engineering, University of Delaware
+    - name: Ronald L. Jones
+      affiliations:
+        - national-institute-of-standards-and-technology
+    - name: Chad R. Snyder
+      affiliations:
+        - national-institute-of-standards-and-technology
+    - name: Arthi Jayaraman
+      affiliations:
+        - chemical-and-biomolecular-engineering
+        - id: materials-science-and-engineering
+          name: Materials Science and Engineering, University of Delaware
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/tyler_martin
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-013
+  keywords:
+    - polymer
+    - materials science
+    - modeling
+    - theory
+  title: 'Design and Implementation of pyPRISM: A Polymer Liquid-State Theory
+    Framework'
+  downloads:
+    - url: ./tyler_martin.pdf
+      title: Download PDF
+    - url: ./tyler_martin.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    PRISM: Polymer Reference Interaction Site Model
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2018-mark_wickert_247
+  authors:
+    - name: Mark Wickert
+      affiliations:
+        - id: university-of-colorado-colorado-springs
+          name: University of Colorado Colorado Springs
+    - name: Chiranth Siddappa
+      affiliations:
+        - university-of-colorado-colorado-springs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/mark_wickert_247
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-00d
+  keywords:
+    - Global positioning system
+    - Kalman filter
+    - Extended Kalman filter
+  title: Exploring the Extended Kalman Filter for GPS Positioning Using Simulated
+    User and Satellite Track Data
+  downloads:
+    - url: ./mark_wickert_247.pdf
+      title: Download PDF
+    - url: ./mark_wickert_247.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

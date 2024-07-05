@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2018-kyle_sunden
+  authors:
+    - name: Kyle F Sunden
+      affiliations:
+        - id: university-of-wisconsin-{}-madison
+          name: University of Wisconsin-{}-Madison
+    - name: Blaise J Thompson
+      affiliations:
+        - university-of-wisconsin-{}-madison
+    - name: John C Wright
+      affiliations:
+        - university-of-wisconsin-{}-madison
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/kyle_sunden
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2018
+  subject: Research Article
+  date: 2018-07-09
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-4af1f417-00c
+  keywords:
+    - Simulation
+    - spectroscopy
+    - PyCUDA
+    - numerical integration
+    - Quantum Mechanics
+    - multidimensional
+  title: "WrightSim: Using PyCUDA to Simulate Multidimensional Spectra"
+  downloads:
+    - url: ./kyle_sunden.pdf
+      title: Download PDF
+    - url: ./kyle_sunden.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []
