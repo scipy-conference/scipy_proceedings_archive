@@ -1,0 +1,40 @@
+version: 1
+project:
+  id: scipy-2015-sebastian_sepulveda
+  authors:
+    - name: Sebastián Sepúlveda
+      affiliations:
+        - id: escuela-de-ingeniería-civil-biomédica
+          name: Escuela de Ingeniería Civil Biomédica, Facultad de Ingeniería, Universidad
+            de Valparaíso
+    - name: Pablo Reyes
+      affiliations:
+        - escuela-de-ingeniería-civil-biomédica
+    - name: Alejandro Weinstein
+      affiliations:
+        - escuela-de-ingeniería-civil-biomédica
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/sebastian_sepulveda
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7b98e3ed-01c
+  keywords:
+    - real-time processing
+    - visualization
+    - signal processing
+  title: Visualizing physiological signals in real-time
+  downloads:
+    - url: ./sebastian_sepulveda.pdf
+      title: Download PDF
+    - url: ./sebastian_sepulveda.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

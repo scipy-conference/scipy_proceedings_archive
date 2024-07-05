@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2017-mahzad_khoslessan
+  authors:
+    - name: Mahzad Khoshlessan
+      affiliations:
+        - id: arizona-state-university
+          name: Arizona State University, Department of Physics, Tempe, AZ 85287, USA
+    - name: Ioannis Paraskevakos
+      affiliations:
+        - id: radical
+          name: RADICAL, ECE, Rutgers University, Piscataway, NJ 08854, USA
+    - name: Shantenu Jha
+      affiliations:
+        - radical
+    - name: Oliver Beckstein
+      affiliations:
+        - arizona-state-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/mahzad_khoslessan
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-00a
+  keywords:
+    - MDAnalysis
+    - High Performance Computing
+    - Dask
+    - Map-Reduce
+    - MPI for Python
+  title: Parallel Analysis in MDAnalysis using the Dask Parallel Computing Library
+  downloads:
+    - url: ./mahzad_khoslessan.pdf
+      title: Download PDF
+    - url: ./mahzad_khoslessan.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

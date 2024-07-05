@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2013-uieda
+  authors:
+    - name: Leonardo Uieda
+      affiliations:
+        - id: observatorio-nacional
+          name: Observatorio Nacional
+    - name: Vanderlei C. Oliveira Jr
+      affiliations:
+        - observatorio-nacional
+    - name: Valéria C. F. Barbosa
+      affiliations:
+        - observatorio-nacional
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013/papers/uieda
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2013
+  subject: Research Article
+  date: 2013-06-24
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-8b375195-010
+  keywords:
+    - geophysics
+    - modeling
+    - inverse problems
+  title: Modeling the Earth with Fatiando a Terra
+  downloads:
+    - url: ./uieda.pdf
+      title: Download PDF
+    - url: ./uieda.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

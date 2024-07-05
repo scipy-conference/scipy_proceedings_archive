@@ -1,0 +1,53 @@
+version: 1
+project:
+  id: scipy-2013-richards
+  authors:
+    - name: Adam J Richards
+      affiliations:
+        - id: biostatistics-\&-bioinformatics
+          name: Biostatistics \& Bioinformatics, Duke University Medical Center, Durham,
+            NC, 27710, USA and Station d'Ecologie Experimentale du CNRS, Moulis,
+            09200, France.
+    - name: Andrzej S. Kosinski
+      affiliations:
+        - biostatistics-\&-bioinformatics
+    - name: Camille Bonneaud
+      affiliations:
+        - id: station-d'ecologie-experimentale-du-cnrs
+          name: Station d'Ecologie Experimentale du CNRS, Moulis, 09200, France and Centre
+            for Ecology and Conservation, University of Exeter Cornwall, Penryn,
+            UK.
+    - name: Delphine Legrand
+      affiliations:
+        - station-d'ecologie-experimentale-du-cnrs
+    - name: Kouros Owzar
+      affiliations:
+        - id: duke-cancer-institute
+          name: Duke Cancer Institute, Duke University Medical Center, Durham, NC, 27710,
+            USA.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013/papers/richards
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2013
+  subject: Research Article
+  date: 2013-06-24
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-8b375195-00e
+  keywords:
+    - reproducible research
+    - text editor
+    - RNA-seq
+  title: "lpEdit: an editor to facilitate reproducible analysis via literate
+    programming"
+  downloads:
+    - url: ./richards.pdf
+      title: Download PDF
+    - url: ./richards.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

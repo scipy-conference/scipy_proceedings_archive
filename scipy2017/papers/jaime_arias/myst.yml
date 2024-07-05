@@ -1,0 +1,61 @@
+version: 1
+project:
+  id: scipy-2017-jaime_arias
+  authors:
+    - name: Jaime Arias
+      affiliations:
+        - id: univ.-grenoble-alpes
+          name: Univ. Grenoble Alpes, Inria, MISTIS, LJK, F-38000 Grenoble, France
+    - name: Philippe Ciuciu
+      affiliations:
+        - id: cea/neurospin-and-inria-saclay
+          name: CEA/NeuroSpin and Inria Saclay, Parietal, France
+    - name: Michel Dojat
+      affiliations:
+        - id: inserm
+          name: Inserm, U1216, F-38000 Grenoble, France
+        - univ.-grenoble-alpes
+    - name: Florence Forbes
+      affiliations:
+        - univ.-grenoble-alpes
+    - name: Aina Frau-Pascual
+      affiliations:
+        - univ.-grenoble-alpes
+    - name: Thomas Perret
+      affiliations:
+        - univ.-grenoble-alpes
+    - name: Jan M. Warnking
+      affiliations:
+        - inserm
+        - univ.-grenoble-alpes
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/jaime_arias
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-006
+  keywords:
+    - BOLD response
+    - fMRI
+    - hemodynamic response function
+  title: 'PyHRF: A Python Library for the Analysis of fMRI Data Based on Local
+    Estimation of the Hemodynamic Response Function'
+  downloads:
+    - url: ./jaime_arias.pdf
+      title: Download PDF
+    - url: ./jaime_arias.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    fMRI: Functional Magnetic Resonance Imaging
+    BOLD: Blood Oxygenation Level
+    HRF: Hemodynamic Response Function
+    JDE: Joint Detection-Estimation
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

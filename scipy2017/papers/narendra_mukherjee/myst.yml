@@ -1,0 +1,46 @@
+version: 1
+project:
+  id: scipy-2017-narendra_mukherjee
+  authors:
+    - name: Narendra Mukherjee
+      affiliations:
+        - id: graduate-program-in-neuroscience
+          name: Graduate Program in Neuroscience, Brandeis University, Waltham, MA, USA
+    - name: Joseph Wachutka
+      affiliations:
+        - graduate-program-in-neuroscience
+    - name: Donald B Katz
+      affiliations:
+        - id: department-of-psychology
+          name: Department of Psychology, Brandeis University, Waltham, MA, USA
+        - id: volen-national-center-for-complex-systems
+          name: Volen National Center for Complex Systems, Brandeis University, Waltham,
+            MA, USA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/narendra_mukherjee
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-00e
+  keywords:
+    - in-vivo electrophysiology
+    - Python
+    - open-source
+    - HDF5
+    - spike sorting
+  title: "Python meets systems neuroscience: affordable, scalable and open-source
+    electrophysiology in awake, behaving rodents"
+  downloads:
+    - url: ./narendra_mukherjee.pdf
+      title: Download PDF
+    - url: ./narendra_mukherjee.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

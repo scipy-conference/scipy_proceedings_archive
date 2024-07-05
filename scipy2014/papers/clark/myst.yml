@@ -1,0 +1,44 @@
+version: 1
+project:
+  id: scipy-2014-clark
+  authors:
+    - name: Dav Clark
+      affiliations:
+        - id: uc-berkeley
+          name: UC Berkeley
+    - name: Aaron Culich
+      affiliations:
+        - uc-berkeley
+    - name: Brian Hamlin
+      affiliations:
+        - id: osgeo-california-chapter
+          name: OSGeo California Chapter
+    - name: Ryan Lovett
+      affiliations:
+        - uc-berkeley
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/clark
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-002
+  keywords:
+    - education
+    - reproducibility
+    - virtualization
+  title: "BCE: Berkeley's Common Scientific Compute Environment for Research and
+    Education"
+  downloads:
+    - url: ./clark.pdf
+      title: Download PDF
+    - url: ./clark.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2016-yu_feng
+  authors:
+    - name: Yu Feng
+      affiliations:
+        - id: berkeley-center-for-cosmological-physics
+          name: Berkeley Center for Cosmological Physics, University of California,
+            Berkeley CA 94720
+        - id: berkeley-institute-for-data-science
+          name: Berkeley Institute for Data Science, University of California, Berkeley CA
+            94720
+    - name: Nick Hand
+      affiliations:
+        - berkeley-center-for-cosmological-physics
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/yu_feng
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-013
+  keywords:
+    - Python
+    - high performance computing
+    - development environment
+    - application
+  title: Launching Python Applications on Peta-scale Massively Parallel Systems
+  downloads:
+    - url: ./yu_feng.pdf
+      title: Download PDF
+    - url: ./yu_feng.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

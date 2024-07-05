@@ -1,0 +1,32 @@
+version: 1
+project:
+  id: scipy-2015-scott_james
+  authors:
+    - name: Scott James
+      affiliations:
+        - id: noblis
+          name: Noblis
+    - name: James Larkin
+      affiliations:
+        - noblis
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/scott_james
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7b98e3ed-01a
+  title: "Relation: The Missing Container"
+  downloads:
+    - url: ./scott_james.pdf
+      title: Download PDF
+    - url: ./scott_james.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

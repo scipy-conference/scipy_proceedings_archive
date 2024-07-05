@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2014-laura
+  authors:
+    - name: Jason Laura
+      affiliations:
+        - id: school-of-geographical-sciences-and-urban-planning
+          name: School of Geographical Sciences and Urban Planning, Arizona State
+            University
+    - name: Sergio J. Rey
+      affiliations:
+        - school-of-geographical-sciences-and-urban-planning
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/laura
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-008
+  keywords:
+    - adjacency
+    - spatial analysis
+    - spatial weights
+  title: Scaling Polygon Adjacency Algorithms to Big Data Geospatial Analysis
+  downloads:
+    - url: ./laura.pdf
+      title: Download PDF
+    - url: ./laura.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

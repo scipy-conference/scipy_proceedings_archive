@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2017-joseph_hellerstein
+  authors:
+    - name: Alicia Clark
+      affiliations:
+        - id: department-of-mechanical-engineering
+          name: Department of Mechanical Engineering, University of Washington
+    - name: Joseph L. Hellerstein
+      affiliations:
+        - id: escience-institute-and-school-of-computer-science
+          name: eScience Institute and School of Computer Science, University of
+            Washington. This work was made possible by the Moore/Sloan Data
+            Science Environments Project at the University of Washington
+            supported by grants from the Gordon and Betty Moore Foundation
+            (Award \#3835) and the Alfred P. Sloan Foundation (Award
+            \#2013-10-29).
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/joseph_hellerstein
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-007
+  keywords:
+    - software engineering
+  title: "SciSheets: Providing the Power of Programming With The Simplicity of
+    Spreadsheets"
+  downloads:
+    - url: ./joseph_hellerstein.pdf
+      title: Download PDF
+    - url: ./joseph_hellerstein.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

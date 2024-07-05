@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2015-yannick_congo
+  authors:
+    - name: Faical Yannick Palingwende Congo
+      affiliations:
+        - id: limos---umr-cnrs-6158
+          name: LIMOS - UMR CNRS 6158, Blaise Pascal Univerity, Campus Universitaire des
+            Cezeaux, 2 Rue de la Chebarde, TSA 60125 - CS, 60026, 63178 Aubière
+            CEDEX FRANCE
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/yannick_congo
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7b98e3ed-01d
+  keywords:
+    - metadata
+    - simulations
+    - repeatable
+    - reproducible
+    - Sumatra
+    - cloud
+    - Docker.
+  title: Building a Cloud Service for Reproducible Simulation Management
+  downloads:
+    - url: ./yannick_congo.pdf
+      title: Download PDF
+    - url: ./yannick_congo.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

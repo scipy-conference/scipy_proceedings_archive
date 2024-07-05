@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2016-david_nicholson
+  authors:
+    - name: David Nicholson
+      affiliations:
+        - id: emory-university
+          name: Emory University, graduate program in Neuroscience, Biology department
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/david_nicholson
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-008
+  keywords:
+    - machine learning
+    - birdsong
+    - scikit-learn
+  title: Comparison of machine learning methods applied to birdsong element
+    classification
+  downloads:
+    - url: ./david_nicholson.pdf
+      title: Download PDF
+    - url: ./david_nicholson.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    SVM: Support Vector Machines
+    k-NN: K-Nearest Neighbours
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

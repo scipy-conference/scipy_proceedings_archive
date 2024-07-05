@@ -1,0 +1,53 @@
+version: 1
+project:
+  id: scipy-2017-michael_lange
+  authors:
+    - name: Michael Lange
+      affiliations:
+        - id: imperial-college-london
+          name: Imperial College London
+    - name: Navjot Kukreja
+      affiliations:
+        - imperial-college-london
+    - name: Fabio Luporini
+      affiliations:
+        - imperial-college-london
+    - name: Mathias Louboutin
+      affiliations:
+        - id: the-university-of-british-columbia
+          name: The University of British Columbia
+    - name: Charles Yount
+      affiliations:
+        - id: intel-corporation
+          name: Intel Corporation
+    - name: Jan Hückelheim
+      affiliations:
+        - imperial-college-london
+    - name: Gerard J. Gorman
+      affiliations:
+        - imperial-college-london
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/michael_lange
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-00d
+  keywords:
+    - Finite difference
+    - domain-specific languages
+    - symbolic Python
+  title: Optimised finite difference computation from symbolic equations
+  downloads:
+    - url: ./michael_lange.pdf
+      title: Download PDF
+    - url: ./michael_lange.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

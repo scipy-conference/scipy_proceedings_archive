@@ -1,0 +1,49 @@
+version: 1
+project:
+  id: scipy-2016-david_dotson
+  authors:
+    - name: David L. Dotson
+      affiliations:
+        - id: arizona-state-university
+          name: Arizona State University, Tempe, Arizona, USA
+    - name: Sean L. Seyler
+      affiliations:
+        - arizona-state-university
+    - name: Max Linke
+      affiliations:
+        - id: max-planck-institut-für-biophysik
+          name: Max Planck Institut für Biophysik, Frankfurt, Germany
+    - name: Richard J. Gowers
+      affiliations:
+        - id: university-of-manchester
+          name: University of Manchester, Manchester, UK
+        - id: university-of-edinburgh
+          name: University of Edinburgh, Edinburgh, UK
+    - name: Oliver Beckstein
+      affiliations:
+        - arizona-state-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/david_dotson
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-007
+  keywords:
+    - data management
+    - science
+    - filesystems
+  title: "datreant: persistent, Pythonic trees for heterogeneous data"
+  downloads:
+    - url: ./david_dotson.pdf
+      title: Download PDF
+    - url: ./david_dotson.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

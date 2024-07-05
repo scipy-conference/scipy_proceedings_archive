@@ -1,0 +1,59 @@
+version: 1
+project:
+  id: scipy-2017-oleksandr_pavlyk
+  authors:
+    - name: Oleksandr Pavlyk
+      affiliations:
+        - id: intel-corporation
+          name: Intel Corporation
+    - name: Denis Nagorny
+      affiliations:
+        - intel-corporation
+    - name: Andres Guzman-Ballen
+      affiliations:
+        - intel-corporation
+    - name: Anton Malakhov
+      affiliations:
+        - intel-corporation
+    - name: Hai Liu
+      affiliations:
+        - intel-corporation
+    - name: Ehsan Totoni
+      affiliations:
+        - intel-corporation
+    - name: Todd A. Anderson
+      affiliations:
+        - intel-corporation
+    - name: Sergey Maidanov
+      affiliations:
+        - intel-corporation
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/oleksandr_pavlyk
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-00f
+  keywords:
+    - numpy
+    - scipy
+    - scikit-learn
+    - numba
+    - simd
+    - parallel
+    - optimization
+    - performance
+  title: Accelerating Scientific Python with Intel Optimizations
+  downloads:
+    - url: ./oleksandr_pavlyk.pdf
+      title: Download PDF
+    - url: ./oleksandr_pavlyk.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

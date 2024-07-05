@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2017-will_barnes
+  authors:
+    - name: Will T. Barnes
+      affiliations:
+        - id: department-of-physics-and-astronomy
+          name: Department of Physics and Astronomy, Rice University, Houston, TX, USA
+    - name: Kenneth P. Dere
+      affiliations:
+        - department-of-physics-and-astronomy
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/will_barnes
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-011
+  keywords:
+    - solar physics
+    - atomic physics
+    - astrophysics
+    - spectroscopy
+  title: "ChiantiPy: a Python package for Astrophysical Spectroscopy"
+  downloads:
+    - url: ./will_barnes.pdf
+      title: Download PDF
+    - url: ./will_barnes.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2014-kuiper
+  authors:
+    - name: James A. Kuiper
+      affiliations:
+        - id: argonne-national-laboratory
+          name: Argonne National Laboratory
+    - name: Andrew J. Ayers
+      affiliations:
+        - argonne-national-laboratory
+    - name: Michael E. Holm
+      affiliations:
+        - argonne-national-laboratory
+    - name: Michael J. Nowak
+      affiliations:
+        - argonne-national-laboratory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/kuiper
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-007
+  keywords:
+    - GIS
+    - web-based mapping
+    - PyWPS
+    - PostGIS
+    - GRASS
+    - spatial modeling
+  title: Python Coding of Geospatial Processing in Web-based Mapping Applications
+  downloads:
+    - url: ./kuiper.pdf
+      title: Download PDF
+    - url: ./kuiper.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

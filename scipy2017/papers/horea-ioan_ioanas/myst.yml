@@ -1,0 +1,51 @@
+version: 1
+project:
+  id: scipy-2017-horea-ioan_ioanas
+  authors:
+    - name: Horea-Ioan Ioanas
+      affiliations:
+        - id: institute-for-biomedical-engineering
+          name: Institute for Biomedical Engineering, ETH and University of Zurich
+    - name: Bechara John Saab
+      affiliations:
+        - id: preclinical-laboratory-for-translational-research-into-affective-disorders
+          name: Preclinical Laboratory for Translational Research into Affective
+            Disorders, DPPP, Psychiatric Hospital, University of Zurich
+    - name: Markus Rudin
+      affiliations:
+        - institute-for-biomedical-engineering
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/horea-ioan_ioanas
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-004
+  keywords:
+    - laboratory notebook
+    - labbook
+    - wet work
+    - record keeping
+    - internet of things
+    - reports
+    - life science
+    - biology
+    - neuroscience
+    - behaviour
+    - relational database
+    - normalization
+    - SQL
+  title: "LabbookDB: A Wet-Work-Tracking Database Application Framework"
+  downloads:
+    - url: ./horea-ioan_ioanas.pdf
+      title: Download PDF
+    - url: ./horea-ioan_ioanas.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

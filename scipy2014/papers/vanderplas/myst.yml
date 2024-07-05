@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2014-vanderplas
+  authors:
+    - name: Jake VanderPlas
+      affiliations:
+        - id: escience-institute
+          name: eScience Institute, University of Washington
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/vanderplas
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-00e
+  keywords:
+    - statistics
+    - frequentism
+    - Bayesian inference
+  title: "Frequentism and Bayesianism: A Python-driven Primer"
+  downloads:
+    - url: ./vanderplas.pdf
+      title: Download PDF
+    - url: ./vanderplas.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

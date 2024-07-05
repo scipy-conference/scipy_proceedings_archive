@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2013-01_intro
+  authors:
+    - name: Andy Terrel
+      affiliations:
+        - id: university-of-texas-at-austin
+          name: University of Texas at Austin
+    - name: Jonathan Rocher
+      affiliations:
+        - id: enthought
+          name: Enthought, Inc.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013/papers/01_intro
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2013
+  subject: Research Article
+  date: 2013-06-24
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-8b375195-000
+  title: Preface
+  downloads:
+    - url: ./01_intro.pdf
+      title: Download PDF
+    - url: ./01_intro.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

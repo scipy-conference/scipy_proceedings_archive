@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2017-brendt_wohlberg
+  authors:
+    - name: Brendt Wohlberg
+      affiliations:
+        - id: theoretical-division
+          name: Theoretical Division, Los Alamos National Laboratory
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/brendt_wohlberg
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-001
+  keywords:
+    - sparse representations
+    - convolutional sparse representations
+    - sparse coding
+    - convolutional sparse coding
+    - dictionary learning
+    - convolutional dictionary learning
+    - alternating direction method of multipliers
+  title: 'SPORCO: A Python package for standard and convolutional sparse
+    representations'
+  downloads:
+    - url: ./brendt_wohlberg.pdf
+      title: Download PDF
+    - url: ./brendt_wohlberg.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    SPORCO: SParse Optimization Research COde
+    ADMM: Alternating Direction Method of Multipliers
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

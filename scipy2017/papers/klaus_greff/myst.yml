@@ -1,0 +1,55 @@
+version: 1
+project:
+  id: scipy-2017-klaus_greff
+  authors:
+    - name: Klaus Greff
+      affiliations:
+        - id: istituto-dalle-molle-di-studi-sull'intelligenza-artificiale-(idsia)
+          name: Istituto Dalle Molle di Studi sull'Intelligenza Artificiale (IDSIA)
+        - id: università-della-svizzera-italiana-(usi)
+          name: Università della Svizzera italiana (USI)
+        - id: scuola-universitaria-professionale-della-svizzera-italiana-(supsi)
+          name: Scuola universitaria professionale della Svizzera italiana (SUPSI)
+    - name: Aaron Klein
+      affiliations:
+        - id: university-of-freiburg
+          name: University of Freiburg
+    - name: Martin Chovanec
+      affiliations:
+        - id: czech-technical-university-in-prague
+          name: Czech Technical University in Prague
+    - name: Frank Hutter
+      affiliations:
+        - university-of-freiburg
+    - name: Jürgen Schmidhuber
+      affiliations:
+        - istituto-dalle-molle-di-studi-sull'intelligenza-artificiale-(idsia)
+        - università-della-svizzera-italiana-(usi)
+        - scuola-universitaria-professionale-della-svizzera-italiana-(supsi)
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/klaus_greff
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-008
+  keywords:
+    - reproducible research
+    - Python
+    - machine learning
+    - database
+    - hyperparameter optimization
+  title: The Sacred Infrastructure for Computational Research
+  downloads:
+    - url: ./klaus_greff.pdf
+      title: Download PDF
+    - url: ./klaus_greff.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

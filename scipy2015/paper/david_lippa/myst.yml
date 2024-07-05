@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2015-david_lippa
+  authors:
+    - name: David Lippa
+      affiliations:
+        - id: realmassive
+          name: RealMassive, Inc.
+    - name: Jason Vertrees
+      affiliations:
+        - realmassive
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/david_lippa
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7b98e3ed-006
+  keywords:
+    - algorithms
+    - clustering
+    - recommendation engine
+    - remote sensing
+  title: Creating a Real-Time Recommendation Engine using Modified K-Means
+    Clustering and Remote Sensing Signature Matching Algorithms
+  downloads:
+    - url: ./david_lippa.pdf
+      title: Download PDF
+    - url: ./david_lippa.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

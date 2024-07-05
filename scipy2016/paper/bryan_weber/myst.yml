@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2016-bryan_weber
+  authors:
+    - name: Bryan W. Weber
+      affiliations:
+        - id: mechanical-engineering-department
+          name: Mechanical Engineering Department, University of Connecticut, Storrs, CT
+            06269
+    - name: Chih-Jen Sung
+      affiliations:
+        - mechanical-engineering-department
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/bryan_weber
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-005
+  keywords:
+    - rapid compression machine
+    - engineering
+    - kinetic models
+  title: 'UConnRCMPy: Python-based data analysis for Rapid Compression Machines'
+  downloads:
+    - url: ./bryan_weber.pdf
+      title: Download PDF
+    - url: ./bryan_weber.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    RCM: Rapid Compression Machine
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

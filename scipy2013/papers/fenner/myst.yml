@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2013-fenner
+  authors:
+    - name: Mark E Fenner
+      affiliations:
+        - id: coveros
+          name: Coveros, Inc., Fairfax, VA
+    - name: Barbara M. Fenner
+      affiliations:
+        - id: king's-college
+          name: King's College, Wilkes-Barre, PA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013/papers/fenner
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2013
+  subject: Research Article
+  date: 2013-06-24
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-8b375195-006
+  keywords:
+    - confocal microscopy
+    - immunofluorescence
+    - thresholding
+    - colocalization coefficients
+  title: Automating Quantitative Confocal Microscopy Analysis
+  downloads:
+    - url: ./fenner.pdf
+      title: Download PDF
+    - url: ./fenner.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

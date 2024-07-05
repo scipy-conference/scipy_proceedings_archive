@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2014-00_intro
+  authors:
+    - name: Andy Terrel
+      affiliations:
+        - id: continuum-analytics
+          name: Continuum Analytics
+    - name: Jonathan Rocher
+      affiliations:
+        - id: enthought
+          name: Enthought, Inc.
+    - name: Stéfan van der Walt
+      affiliations:
+        - id: university-of-california
+          name: University of California, Berkeley
+    - name: James Bergstra
+      affiliations:
+        - id: university-of-waterloo
+          name: University of Waterloo
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/00_intro
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-000
+  title: Preface
+  downloads:
+    - url: ./00_intro.pdf
+      title: Download PDF
+    - url: ./00_intro.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

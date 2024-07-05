@@ -1,0 +1,48 @@
+version: 1
+project:
+  id: scipy-2016-brett_naul
+  authors:
+    - name: Brett Naul
+      affiliations:
+        - id: university-of-california
+          name: University of California, Berkeley
+    - name: Stéfan van der Walt
+      affiliations:
+        - university-of-california
+    - name: Arien Crellin-Quick
+      affiliations:
+        - university-of-california
+    - name: Joshua S. Bloom
+      affiliations:
+        - id: lawrence-berkeley-national-laboratory
+          name: Lawrence Berkeley National Laboratory
+        - university-of-california
+    - name: Fernando Pérez
+      affiliations:
+        - lawrence-berkeley-national-laboratory
+        - university-of-california
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/brett_naul
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-004
+  keywords:
+    - time series
+    - machine learning
+    - reproducible science
+  title: "cesium: Open-Source Platform for Time-Series Inference"
+  downloads:
+    - url: ./brett_naul.pdf
+      title: Download PDF
+    - url: ./brett_naul.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

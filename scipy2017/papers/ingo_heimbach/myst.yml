@@ -1,0 +1,49 @@
+version: 1
+project:
+  id: scipy-2017-ingo_heimbach
+  authors:
+    - name: Ingo Heimbach
+      affiliations:
+        - id: pgi-1-and-pgi/jcns-ta
+          name: PGI-1 and PGI/JCNS-TA, Forschungszentrum Jülich, D-52425 Jülich, Germany
+    - name: Florian Rhiem
+      affiliations:
+        - pgi-1-and-pgi/jcns-ta
+    - name: Fabian Beule
+      affiliations:
+        - pgi-1-and-pgi/jcns-ta
+    - name: David Knodt
+      affiliations:
+        - pgi-1-and-pgi/jcns-ta
+    - name: Josef Heinen
+      affiliations:
+        - pgi-1-and-pgi/jcns-ta
+    - name: Robert O. Jones
+      affiliations:
+        - pgi-1-and-pgi/jcns-ta
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/ingo_heimbach
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-005
+  keywords:
+    - Cavity shape
+    - volume
+    - and surface area; Python; marching cubes; split and merge
+  title: "pyMolDyn: Identification, structure, and properties of cavities in
+    condensed matter and molecules"
+  downloads:
+    - url: ./ingo_heimbach.pdf
+      title: Download PDF
+    - url: ./ingo_heimbach.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

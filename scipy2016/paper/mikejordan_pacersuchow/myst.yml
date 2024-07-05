@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2016-mikejordan_pacersuchow
+  authors:
+    - name: Michael D. Pacer
+      affiliations:
+        - id: university-of-california
+          name: University of California, Berkeley
+    - name: Jordan W. Suchow
+      affiliations:
+        - university-of-california
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/mikejordan_pacersuchow
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-00d
+  keywords:
+    - linters
+    - writing tools
+    - copyediting
+  title: Linting science prose and the science of prose linting
+  downloads:
+    - url: ./mikejordan_pacersuchow.pdf
+      title: Download PDF
+    - url: ./mikejordan_pacersuchow.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

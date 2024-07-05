@@ -1,0 +1,33 @@
+version: 1
+project:
+  id: scipy-2013-poore
+  authors:
+    - name: Geoffrey M Poore
+      affiliations:
+        - id: union-university
+          name: Union University
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013/papers/poore
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2013
+  subject: Research Article
+  date: 2013-06-24
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-8b375195-00d
+  keywords:
+    - reproducible science
+    - reproducible documents
+    - dynamic report generation
+  title: Reproducible Documents with PythonTeX
+  downloads:
+    - url: ./poore.pdf
+      title: Download PDF
+    - url: ./poore.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

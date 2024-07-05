@@ -1,0 +1,48 @@
+version: 1
+project:
+  id: scipy-2017-michael_beyeler
+  authors:
+    - name: Michael Beyeler
+      affiliations:
+        - id: department-of-psychology
+          name: Department of Psychology, University of Washington
+        - id: institute-for-neuroengineering
+          name: Institute for Neuroengineering, University of Washington
+        - id: escience-institute
+          name: eScience Institute, University of Washington
+    - name: Geoffrey M. Boynton
+      affiliations:
+        - department-of-psychology
+    - name: Ione Fine
+      affiliations:
+        - department-of-psychology
+    - name: Ariel Rokem
+      affiliations:
+        - escience-institute
+        - institute-for-neuroengineering
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2017/papers/michael_beyeler
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2017
+  subject: Research Article
+  date: 2017-07-10
+  thumbnail: thumbnail.webp
+  doi: 10.25080/shinma-7f4c6e7-00c
+  keywords:
+    - bionic vision
+    - retinal implant
+    - pulse2percept
+    - prosthesis
+  title: "pulse2percept: A Python-based simulation framework for bionic vision"
+  downloads:
+    - url: ./michael_beyeler.pdf
+      title: Download PDF
+    - url: ./michael_beyeler.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2016-patrick_pedersen
+  authors:
+    - name: Patrick Steffen Pedersen
+      affiliations:
+        - id: faculty-of-engineering-and-science
+          name: Faculty of Engineering and Science, Department of Electronic Systems,
+            Section of Signal and Information Processing, Aalborg University,
+            9220 Aalborg, Denmark
+    - name: Christian Schou Oxvig
+      affiliations:
+        - faculty-of-engineering-and-science
+    - name: Jan Østergaard
+      affiliations:
+        - faculty-of-engineering-and-science
+    - name: Torben Larsen
+      affiliations:
+        - faculty-of-engineering-and-science
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/patrick_pedersen
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-00f
+  keywords:
+    - Function Argument Validation
+    - Application-driven Data Types
+    - Signal Processing
+    - Computational Science
+  title: Validating Function Arguments in Python Signal Processing Applications
+  downloads:
+    - url: ./patrick_pedersen.pdf
+      title: Download PDF
+    - url: ./patrick_pedersen.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

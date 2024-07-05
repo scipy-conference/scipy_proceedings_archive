@@ -1,0 +1,46 @@
+version: 1
+project:
+  id: scipy-2016-alejandro_weinstein
+  authors:
+    - name: Alejandro Weinstein
+      affiliations:
+        - id: universidad-de-valparaiso
+          name: Universidad de Valparaiso, Chile
+        - id: advanced-center-for-electrical-and-electronic-engineering
+          name: Advanced Center for Electrical and Electronic Engineering
+    - name: Wael El-Deredy
+      affiliations:
+        - universidad-de-valparaiso
+        - advanced-center-for-electrical-and-electronic-engineering
+    - name: Stéren Chabert
+      affiliations:
+        - universidad-de-valparaiso
+    - name: Myriam Fuentes
+      affiliations:
+        - universidad-de-valparaiso
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/alejandro_weinstein
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-000
+  keywords:
+    - decision making modeling
+    - reinforcement learning
+  title: Fitting Human Decision Making Models using Python
+  downloads:
+    - url: ./alejandro_weinstein.pdf
+      title: Download PDF
+    - url: ./alejandro_weinstein.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+  abbreviations:
+    RL: Reinforcement Learning
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

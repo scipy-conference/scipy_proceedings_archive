@@ -1,0 +1,49 @@
+version: 1
+project:
+  id: scipy-2013-mumford
+  authors:
+    - name: Stuart Mumford
+      affiliations:
+        - id: the-university-of-sheffield
+          name: The University of Sheffield
+    - name: David Pérez-Suárez
+      affiliations:
+        - id: finnish-meteorological-institute
+          name: Finnish Meteorological Institute
+    - name: Steven Christe
+      affiliations:
+        - id: nasa-goddard-space-flight-center
+          name: NASA Goddard Space Flight Center
+    - name: Florian Mayer
+      affiliations:
+        - id: vienna-university-of-technology
+          name: Vienna University of Technology
+    - name: Russell J. Hewett
+      affiliations:
+        - id: massachusetts-institute-of-technology
+          name: Massachusetts Institute of Technology
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013/papers/mumford
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2013
+  subject: Research Article
+  date: 2013-06-24
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-8b375195-00c
+  keywords:
+    - Python
+    - Solar Physics
+    - Scientific Python
+  title: "SunPy: Python for Solar Physicists"
+  downloads:
+    - url: ./mumford.pdf
+      title: Download PDF
+    - url: ./mumford.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

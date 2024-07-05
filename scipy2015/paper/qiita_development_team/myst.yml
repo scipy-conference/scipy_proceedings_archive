@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2015-qiita_development_team
+  authors:
+    - name: The Qiita Development Team
+      affiliations:
+        - id: university-of-california
+          name: University of California, San Diego
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/qiita_development_team
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-7b98e3ed-018
+  keywords:
+    - Microbiome
+    - multi-omics
+    - open science
+    - metagenomics
+    - metatranscriptomics
+    - metaproteomics
+    - metabolomics
+  title: "Qiita: report of progress towards an open access microbiome data
+    analysis and visualization platform"
+  downloads:
+    - url: ./qiita_development_team.pdf
+      title: Download PDF
+    - url: ./qiita_development_team.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

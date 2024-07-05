@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2016-andrew_fraser
+  authors:
+    - name: Andrew M. Fraser
+      affiliations:
+        - id: xcp-8
+          name: XCP-8, Los Alamos National Laboratory
+    - name: Stephen A. Andrews
+      affiliations:
+        - xcp-8
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/andrew_fraser
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-629e541a-001
+  keywords:
+    - python
+    - uncertainty quantification
+    - Bayesian inference
+    - convex optimization
+    - reproducible research
+    - function estimation
+    - equation of state
+    - inverse problems
+  title: Functional Uncertainty Constrained by Law and Experiment
+  downloads:
+    - url: ./andrew_fraser.pdf
+      title: Download PDF
+    - url: ./andrew_fraser.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

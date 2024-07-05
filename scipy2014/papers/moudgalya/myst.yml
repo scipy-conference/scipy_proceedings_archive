@@ -1,0 +1,34 @@
+version: 1
+project:
+  id: scipy-2014-moudgalya
+  authors:
+    - name: Kannan M. Moudgalya
+      affiliations:
+        - id: dept.-of-chemical-engineering
+          name: Dept. of Chemical Engineering, Education Technology, and System and
+            Control Groups, IIT Bombay, India
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/moudgalya
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-009
+  keywords:
+    - Python
+    - spoken tutorials
+    - FOSSEE
+  title: Campaign for IT literacy through FOSS and Spoken Tutorials
+  downloads:
+    - url: ./moudgalya.pdf
+      title: Download PDF
+    - url: ./moudgalya.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

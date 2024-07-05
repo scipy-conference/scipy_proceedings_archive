@@ -1,0 +1,35 @@
+version: 1
+project:
+  id: scipy-2014-ketcheson
+  authors:
+    - name: David I. Ketcheson
+      affiliations:
+        - id: king-abdullah-university-of-science-and-technology
+          name: King Abdullah University of Science and Technology
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/ketcheson
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-004
+  keywords:
+    - IPython
+    - IPython notebook
+    - teaching
+    - numerical methods
+    - inquiry-based learning
+  title: Teaching numerical methods with IPython notebooks and inquiry-based learning
+  downloads:
+    - url: ./ketcheson.pdf
+      title: Download PDF
+    - url: ./ketcheson.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

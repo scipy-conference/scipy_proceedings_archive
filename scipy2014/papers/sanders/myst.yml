@@ -1,0 +1,40 @@
+version: 1
+project:
+  id: scipy-2014-sanders
+  authors:
+    - name: David P. Sanders
+      affiliations:
+        - id: department-of-physics
+          name: Department of Physics, Faculty of Sciences, National Autonomous University
+            of Mexico (UNAM), Ciudad Universitaria, México D.F. 04510, Mexico
+    - name: Luis Benet
+      affiliations:
+        - id: institute-of-physical-sciences
+          name: Institute of Physical Sciences, National Autonomous University of Mexico
+            (UNAM), Apartado postal 48-3, Cuernavaca 62551, Morelos, Mexico
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/sanders
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-00b
+  keywords:
+    - validated numerics
+    - Newton method
+    - floating point
+    - interval arithmetic
+  title: "Validated numerics with Python: the ValidiPy package"
+  downloads:
+    - url: ./sanders.pdf
+      title: Download PDF
+    - url: ./sanders.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

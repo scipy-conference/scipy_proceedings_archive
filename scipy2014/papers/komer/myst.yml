@@ -1,0 +1,40 @@
+version: 1
+project:
+  id: scipy-2014-komer
+  authors:
+    - name: Brent Komer
+      affiliations:
+        - id: centre-for-theoretical-neuroscience
+          name: Centre for Theoretical Neuroscience, University of Waterloo
+    - name: James Bergstra
+      affiliations:
+        - centre-for-theoretical-neuroscience
+    - name: Chris Eliasmith
+      affiliations:
+        - centre-for-theoretical-neuroscience
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/komer
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-006
+  keywords:
+    - bayesian optimization
+    - model selection
+    - hyperparameter optimization
+    - scikit-learn
+  title: "Hyperopt-Sklearn: Automatic Hyperparameter Configuration for Scikit-Learn"
+  downloads:
+    - url: ./komer.pdf
+      title: Download PDF
+    - url: ./komer.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

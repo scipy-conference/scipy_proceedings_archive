@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2014-thyng
+  authors:
+    - name: Kristen M. Thyng
+      affiliations:
+        - id: texas-a\&m-university
+          name: Texas A\&M University
+    - name: Robert D. Hetland
+      affiliations:
+        - texas-a\&m-university
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/thyng
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-00d
+  keywords:
+    - Lagrangian tracking
+    - numerical drifters
+    - Python wrapper
+  title: "TracPy: Wrapping the Fortran Lagrangian trajectory model TRACMASS"
+  downloads:
+    - url: ./thyng.pdf
+      title: Download PDF
+    - url: ./thyng.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

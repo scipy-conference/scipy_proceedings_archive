@@ -1,0 +1,44 @@
+version: 1
+project:
+  id: scipy-2014-wiebe
+  authors:
+    - name: Mark Wiebe
+      affiliations:
+        - id: continuum-analytics
+          name: Continuum Analytics
+    - name: Matthew Rocklin
+      affiliations:
+        - continuum-analytics
+    - name: TJ Alumbaugh
+      affiliations:
+        - continuum-analytics
+    - name: Andy Terrel
+      affiliations:
+        - continuum-analytics
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/wiebe
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2014
+  subject: Research Article
+  date: 2014-07-06
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-14bd3278-00f
+  keywords:
+    - array programming
+    - big data
+    - numpy
+    - scipy
+    - pandas
+  title: "Blaze: Building A Foundation for Array-Oriented Computing in Python"
+  downloads:
+    - url: ./wiebe.pdf
+      title: Download PDF
+    - url: ./wiebe.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

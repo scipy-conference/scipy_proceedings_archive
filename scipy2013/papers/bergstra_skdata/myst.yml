@@ -1,0 +1,41 @@
+version: 1
+project:
+  id: scipy-2013-bergstra_skdata
+  authors:
+    - name: James Bergstra
+      affiliations:
+        - id: university-of-waterloo
+          name: University of Waterloo
+    - name: Nicolas Pinto
+      affiliations:
+        - id: massachusetts-institute-of-technology
+          name: Massachusetts Institute of Technology
+    - name: David D. Cox
+      affiliations:
+        - id: harvard-university
+          name: Harvard University
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013/papers/bergstra_skdata
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2013
+  subject: Research Article
+  date: 2013-06-24
+  thumbnail: thumbnail.webp
+  doi: 10.25080/Majora-8b375195-004
+  keywords:
+    - machine learning
+    - cross validation
+    - reproducibility
+  title: "SkData: Data Sets and Algorithm Evaluation Protocols in Python"
+  downloads:
+    - url: ./bergstra_skdata.pdf
+      title: Download PDF
+    - url: ./bergstra_skdata.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []
