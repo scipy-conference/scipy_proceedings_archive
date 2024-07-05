@@ -1,0 +1,43 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 20XX
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 22nd Python in Science Conference
+  description: |
+    The 22nd annual SciPy conference was held in Austin, Texas at the AT&T Center, July 10-16, 2023.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2023
+  open_access: true
+  license: CC-BY-3.0
+  id: scipy-2023-proceedings
+  doi: 10.25080/gerudo-f2bc6f59-039
+  date: 2023-07-10
+  venue: SciPy 2023
+  subject: Proceedings
+  editors:
+    - name: Meghann Agarwal
+      email: agarwal.meghann@gmail.com
+      corresponding: false
+    - name: Chris Calloway
+      email: cbc@unc.edu
+      corresponding: false
+    - name: Rohit Goswami
+      email: rgoswami@quansight.com
+      corresponding: false
+    - name: Dillon Niederhut
+      email: dillon.niederhut@gmail.com
+      corresponding: false
+  subtitle: SciPy 2023, Austin, Texas July 10 - July 16
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+    - url: ./proc-scipy-2023.bib
+      title: Download Bibtex
+  bibliography: []
+  plugins:
+    - scipy.plugin.mjs
+  banner: banner.png
+  thumbnail: thumbnail.png
