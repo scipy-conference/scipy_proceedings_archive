@@ -1,0 +1,35 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 2010
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 9th Python in Science Conference
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2010
+  open_access: true
+  license: CC-BY-3.0
+  id: scipy-2010-proceedings
+  doi: 10.25080/Majora-92bf1922-012
+  date: '2010-06-28'
+  venue: SciPy 2010
+  subject: Proceedings
+  subtitle: SciPy 2010, Austin, Texas June 28 - July 3
+  plugins:
+    - scipy.plugin.mjs
+  description: >-
+    The 9th annual SciPy conference was held in Austin, Texas, June 28 - July 3,
+    2010.
+  editors:
+    - name: Stéfan van der Walt
+      corresponding: false
+    - name: Jarrod Millman
+      corresponding: false
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+    - url: ./proc-scipy-2010.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
