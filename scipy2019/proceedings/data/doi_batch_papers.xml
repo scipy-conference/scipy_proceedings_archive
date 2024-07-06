@@ -1,0 +1,680 @@
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.crossref.org/schema/4.4.2" version="4.4.2" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schemas/crossref4.4.2.xsd">
+  <head>
+  <doi_batch_id>Majora.7ddc1dd1-16c1d71522e</doi_batch_id>
+  <timestamp>1563883661</timestamp>
+  <depositor>
+  <depositor_name>Dillon Niederhut</depositor_name>
+  <email_address>dillon.niederhut@gmail.com</email_address>
+  </depositor>
+  <registrant>Crossref</registrant>
+  </head>
+  <body>
+  <conference>
+  <event_metadata>
+  <conference_name>Python in Science Conference</conference_name>
+  <conference_acronym>SciPy</conference_acronym>
+  <conference_number>18th</conference_number>
+  <conference_location>Austin, Texas</conference_location>
+  <conference_date>July 8 - July 14 2019</conference_date>
+  </event_metadata>
+  <proceedings_series_metadata>
+  <series_metadata>
+  <titles>
+  <title>Proceedings of the Python in Science Conference</title>
+  <original_language_title>Proceedings of the Python in Science Conference</original_language_title>
+  </titles>
+  <issn>2575-9752</issn>
+  <doi_data>
+  <doi>10.25080/issn.2575-9752</doi>
+  <resource>https://conference.scipy.org/proceedings</resource>
+  </doi_data>
+  </series_metadata>
+  <proceedings_title>Proceedings of the 18th Python in Science Conference</proceedings_title>
+  <proceedings_subject>Scientific Computing with Python</proceedings_subject>
+  <publisher>
+  <publisher_name>SciPy</publisher_name>
+  </publisher>
+  <publication_date>
+  <year>2019</year>
+  </publication_date>
+  <noisbn reason="simple_series"/>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-026</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019</resource>
+  </doi_data>
+  </proceedings_series_metadata>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Eric</given_name>
+  <surname>Van Dusen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Anthony</given_name>
+  <surname>Suen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Alan</given_name>
+  <surname>Liang</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Amal</given_name>
+  <surname>Bhatnagar</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Accelerating the Advancement of Data Science Education</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>1</first_page>
+  <last_page>4</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-000</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/Amal_Bhatnagar.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Hongsup</given_name>
+  <surname>Shin</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Case study: Real-world machine learning application for hardware failure detection</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>5</first_page>
+  <last_page>12</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-001</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/Hongsup_Shin.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Kyle</given_name>
+  <surname>Logue</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Esteban</given_name>
+  <surname>Valles</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Andres</given_name>
+  <surname>Vila</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Alex</given_name>
+  <surname>Utter</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Darren</given_name>
+  <surname>Semmen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Eugene</given_name>
+  <surname>Grayver</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Sebastian</given_name>
+  <surname>Olsen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Donna</given_name>
+  <surname>Branchevsky</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Expert RF Feature Extraction to Win the Army RCO AI Signal Classification Challenge</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>13</first_page>
+  <last_page>20</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-002</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/aero_ef_logue.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Andres</given_name>
+  <surname>Vila</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Donna</given_name>
+  <surname>Branchevsky</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Kyle</given_name>
+  <surname>Logue</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Sebastian</given_name>
+  <surname>Olsen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Esteban</given_name>
+  <surname>Valles</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Darren</given_name>
+  <surname>Semmen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Alex</given_name>
+  <surname>Utter</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Eugene</given_name>
+  <surname>Grayver</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Deep and Ensemble Learning to Win the Army RCO AI Signal Classification Challenge</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>21</first_page>
+  <last_page>26</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-003</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/aero_nn_vila.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Bradley</given_name>
+  <surname>Dice</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Vyas</given_name>
+  <surname>Ramasubramani</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Eric</given_name>
+  <surname>Harper</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Matthew</given_name>
+  <surname>Spellings</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Joshua</given_name>
+  <surname>Anderson</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Sharon</given_name>
+  <surname>Glotzer</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Analyzing Particle Systems for Machine Learning and Data Visualization with freud</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>27</first_page>
+  <last_page>33</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-004</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/bradley_dice.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Chiranth</given_name>
+  <surname>Siddappa</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Mark</given_name>
+  <surname>Wickert</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>CAF Implementation on FPGA Using Python Tools</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>34</first_page>
+  <last_page>41</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-005</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/chiranth_siddappa.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Christian</given_name>
+  <surname>McDaniel</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Shannon</given_name>
+  <surname>Quinn</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Developing a Graph Convolution-Based Analysis Pipeline for Multi-Modal Neuroimage Data: An Application to Parkinson's Disease</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>42</first_page>
+  <last_page>49</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-006</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/christian_mcdaniel.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Eric</given_name>
+  <surname>J.</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Zachary</given_name>
+  <surname>Barry</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Sam</given_name>
+  <surname>Zuckerman</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Zachary</given_name>
+  <surname>Sailer</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>pyjanitor: A Cleaner API for Cleaning Data</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>50</first_page>
+  <last_page>53</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-007</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/eric_ma.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Geoffrey</given_name>
+  <surname>Poore</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Codebraid: Live Code in Pandoc Markdown</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>54</first_page>
+  <last_page>61</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-008</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/geoffrey_poore.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Jasmine</given_name>
+  <surname>Otto</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Angus</given_name>
+  <surname>Forbes</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Jan</given_name>
+  <surname>Verschelde</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Solving Polynomial Systems with phcpy</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>62</first_page>
+  <last_page>68</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-009</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/jan_verschelde.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Laurie</given_name>
+  <surname>Stephey</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Rollin</given_name>
+  <surname>Thomas</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Stephen</given_name>
+  <surname>Bailey</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Optimizing Python-Based Spectroscopic Data Processing on NERSC Supercomputers</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>69</first_page>
+  <last_page>76</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-00a</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/laurie_stephey.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Mark</given_name>
+  <surname>Wickert</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>A Real-Time 3D Audio Simulator for Cognitive Hearing Science</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>77</first_page>
+  <last_page>84</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-00b</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/mark_wickert.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Nadia</given_name>
+  <surname>Tahiri</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Bogdan</given_name>
+  <surname>Mazoure</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Vladimir</given_name>
+  <surname>Makarenkov</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>An intelligent shopping list based on the application of partitioning and machine learning algorithms</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>85</first_page>
+  <last_page>92</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-00c</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/nadia_tahiri.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Paul</given_name>
+  <surname>Miles</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Ralph</given_name>
+  <surname>Smith</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Parameter Estimation Using the Python Package pymcmcstat</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>93</first_page>
+  <last_page>100</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-00d</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/paul_miles.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Edward</given_name>
+  <surname>Raff</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Joe</given_name>
+  <surname>Aurelio</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Charles</given_name>
+  <surname>Nicholas</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>PyLZJD: An Easy to Use Tool for Machine Learning</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>101</first_page>
+  <last_page>106</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-00e</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/pylzjd.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Rajeswari</given_name>
+  <surname>Sivakumar</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Shannon</given_name>
+  <surname>Quinn</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Parkinson's Classification and Feature Extraction from Diffusion Tensor Images</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>107</first_page>
+  <last_page>110</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-00f</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/rajeswari_sivakumar.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Robert</given_name>
+  <surname>Jackson</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Scott</given_name>
+  <surname>Collis</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Timothy</given_name>
+  <surname>Lang</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Corey</given_name>
+  <surname>Potvin</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Todd</given_name>
+  <surname>Munson</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>PyDDA: A new Pythonic Wind Retrieval Package</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>111</first_page>
+  <last_page>117</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-010</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/robert_jackson.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Scott</given_name>
+  <surname>Sievert</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Tom</given_name>
+  <surname>Augspurger</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Matthew</given_name>
+  <surname>Rocklin</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Better and faster hyperparameter optimization with Dask</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>118</first_page>
+  <last_page>125</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-011</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/scott_sievert.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Shammamah</given_name>
+  <surname>Hossain</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Visualization of Bioinformatics Data with Dash Bio</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>126</first_page>
+  <last_page>133</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-012</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/shammamah_hossain.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Shujie</given_name>
+  <surname>Fan</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Max</given_name>
+  <surname>Linke</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Ioannis</given_name>
+  <surname>Paraskevakos</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Richard</given_name>
+  <surname>Gowers</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Michael</given_name>
+  <surname>Gecht</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Oliver</given_name>
+  <surname>Beckstein</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>PMDA - Parallel Molecular Dynamics Analysis</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2019</year>
+  </publication_date>
+  <pages>
+  <first_page>134</first_page>
+  <last_page>142</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-7ddc1dd1-013</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2019/shujie_fan.html</resource>
+  </doi_data>
+  </conference_paper>
+  </conference>
+  </body>
+  </doi_batch>

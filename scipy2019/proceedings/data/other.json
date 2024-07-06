@@ -1,0 +1,170 @@
+{
+  "slides": [
+    {
+      "title": "Better and Faster Hyperparameter Optimization with Dask",
+      "authors": [
+        { "name": "Scott Sievert" },
+        { "name": "Tom Augspurger" },
+        { "name": "Matthew Rocklin" }
+      ],
+      "doi": "10.25080/Majora-a6455521-001"
+    },
+    {
+      "title": "Multi-dimensional linked-data exploration with glue",
+      "authors": [{ "name": "Thomas Robitaille" }],
+      "doi": "10.25080/Majora-a6455521-002"
+    },
+    {
+      "title": "To a Billion and Beyond: How to Visually Explore, Compare and Share Large Quantitative Datasets with HiGlass",
+      "authors": [
+        { "name": "Peter Kerpedjiev" },
+        { "name": "Nezar Abdennur" },
+        { "name": "Fritz Lekschas" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-01c"
+    },
+    {
+      "title": "Inside NumPy: Preparing for the next decade",
+      "authors": [
+        { "name": "Ralf Gommers" },
+        { "name": "Sebastian Berg" },
+        { "name": "Matti Picus" },
+        { "name": "Tyler Reddy" },
+        { "name": "Stéfan van der Walt" },
+        { "name": "Charles Harris" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-01d"
+    },
+    {
+      "title": "Turning HPC Systems into Interactive Data Analysis Platforms using Jupyter and Dask",
+      "authors": [
+        { "name": "Anderson Banihirwe" },
+        { "name": "Matthew Rocklin" },
+        { "name": "Joseph Hamman" },
+        { "name": "Julia Kent" },
+        { "name": "Kevin Paul" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-01e"
+    },
+    {
+      "title": "Visualization of Bioinformatics Data with Dash Bio",
+      "authors": [{ "name": "Shammamah Hossain" }],
+      "doi": "10.25080/Majora-7ddc1dd1-01f"
+    },
+    {
+      "title": "Optimizing Python-Based Spectroscopic Data Processing on NERSC Supercomputers",
+      "authors": [
+        { "name": "Laurie A. Stephey" },
+        { "name": "Rollin C. Thomas" },
+        { "name": "Stephen J. Bailey" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-020"
+    },
+    {
+      "title": "Building and Replicating Models of Visual Search Behavior with Tensorflow and the Scientific Python Stack",
+      "authors": [{ "name": "David Nicholson" }],
+      "doi": "10.25080/Majora-7ddc1dd1-021"
+    }
+  ],
+  "posters": [
+    {
+      "title": "PyMeasRF: Automating RF Device Measurements Using Python",
+      "authors": [{ "name": "Jackson Anderson" }, { "name": "Dana Weinstein" }],
+      "doi": "10.25080/Majora-7ddc1dd1-014"
+    },
+    {
+      "title": "A Pythonic Equivalent Circuit Model for Battery Research",
+      "authors": [
+        { "name": "Gavin Wiggins" },
+        { "name": "Srikanth Allu" },
+        { "name": "Hsin Wang" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-015"
+    },
+    {
+      "title": "An intelligent shopping list based on the application of partitioning and machine learning algorithms",
+      "authors": [
+        { "name": "Nadia Tahiri" },
+        { "name": "Bogdan Mazoure" },
+        { "name": "Vladimir Makarenkov" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-016"
+    },
+    {
+      "title": "Python Workflow for High-Fidelity Modeling of Overland Hydrocarbon Flows with GeoClaw and Cloud Computing",
+      "authors": [
+        { "name": "Pi-Yueh Chuang" },
+        { "name": "Tracy Thorleifson" },
+        { "name": "Lorena A. Barba" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-017"
+    },
+    {
+      "title": "The PyDataWeaver: A data integration platform",
+      "authors": [
+        { "name": "Henry Senyondo" },
+        { "name": "Andrew Zhang" },
+        { "name": "Ethan P. White" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-018"
+    },
+    {
+      "title": "pyhf: a pure Python statistical fitting library for High Energy Physics with tensors and autograd",
+      "authors": [
+        { "name": "Matthew Feickert" },
+        { "name": "Lukas Heinrich" },
+        { "name": "Giordon Stark" },
+        { "name": "Kyle Cranmer" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-019"
+    },
+    {
+      "title": "Using Python to Model Biomass Pyrolysis Reactors",
+      "authors": [{ "name": "Gavin Wiggins" }],
+      "doi": "10.25080/Majora-7ddc1dd1-01a"
+    },
+    {
+      "title": "Class-based ODE solvers and event detection in SciPy",
+      "authors": [{ "name": "David R Hagen" }, { "name": "Nikolay Mayorov" }],
+      "doi": "10.25080/Majora-7ddc1dd1-01b"
+    }
+  ],
+  "tools": [
+    {
+      "title": "SciPy: not just a conference!",
+      "authors": [{ "name": "Matt Haberland" }],
+      "doi": "10.25080/Majora-7ddc1dd1-022"
+    }
+  ],
+  "lightning": [
+    {
+      "title": "The Mouse Aging Cell Atlas: cell biology meets Python",
+      "authors": [
+        { "name": "The Tabula Muris consortium" },
+        { "name": "Angela Oliveira Pisco" },
+        { "name": "Nicholas Schaum" },
+        { "name": "Aaron McGeever" },
+        { "name": "Jim Karkanias" },
+        { "name": "Norma F. Neff" },
+        { "name": "Spyros Darmanis" },
+        { "name": "Tony Wyss-Coray" },
+        { "name": "Stephen R. Quake" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-023"
+    },
+    {
+      "title": "Automated Annotation of Animal Vocalizations",
+      "authors": [{ "name": "David Nicholson" }],
+      "doi": "10.25080/Majora-7ddc1dd1-024"
+    },
+    {
+      "title": "US Research Software Sustainability Institute (URSSI) Pilot 'Summer' School",
+      "authors": [
+        { "name": "Kyle E. Niemeyer" },
+        { "name": "Jeffrey Carver" },
+        { "name": "Karthik Ram" }
+      ],
+      "doi": "10.25080/Majora-7ddc1dd1-025"
+    }
+  ]
+}

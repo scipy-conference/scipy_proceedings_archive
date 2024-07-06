@@ -1,0 +1,358 @@
+{
+  "proceedings": {
+    "location": "Austin, Texas",
+    "editor": [
+      "Chris Calloway",
+      "David Lippa",
+      "Dillon Niederhut",
+      "David Shupe"
+    ],
+    "citation_key": "proc-scipy-2019",
+    "copyright": {
+      "proceedings": [
+        "The articles in the Proceedings of the Python in Science Conference are copyrighted and owned by their original authors",
+        "This is an open-access publication and is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+        "For more information, please see:  http://creativecommons.org/licenses/by/3.0/"
+      ],
+      "license": "Creative Commons Attribution License (CCAL)",
+      "article": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited."
+    },
+    "editor_email": [
+      "cbc@unc.edu",
+      "dalippa@gmail.com",
+      "dillon.niederhut@gmail.com",
+      "dave.shupe@gmail.com"
+    ],
+    "number": 1,
+    "volume": 4,
+    "dates": "July 8 - July 14",
+    "xref": {
+      "depositor_name": "Dillon Niederhut",
+      "resource_url": "https://conference.scipy.org/proceedings",
+      "depositor_email": "dillon.niederhut@gmail.com",
+      "prefix": "10.25080",
+      "registrant": "Crossref"
+    },
+    "year": "2019",
+    "doi": "10.25080/Majora-7ddc1dd1-026",
+    "isbn": "noisbn",
+    "title": {
+      "conference": "Python in Science Conference",
+      "ordinal": "18th",
+      "short": "PROC. OF THE 18th PYTHON IN SCIENCE CONF. (SCIPY 2019)",
+      "acronym": "SciPy",
+      "full": "Proceedings of the 18th Python in Science Conference"
+    }
+  },
+
+  "scipy_scholarship": [
+    {
+      "org": "UCLouvain, Belgium",
+      "name": "Mridul Seth"
+    },
+    {
+      "org": "Quansight",
+      "name": "Ivan Ogassavara"
+    },
+    {
+      "org": "NOAA/IOOS",
+      "name": "Filipe Fernandes"
+    },
+    {
+      "org": "Prodigy Finance",
+      "name": "Simon Cross"
+    },
+    {
+      "org": "Institute Galilée - Université Paris 13",
+      "name": "Jamie Arias"
+    },
+    {
+      "org": "University of California, Santa Barbara",
+      "name": "Ryan Avery"
+    },
+    {
+      "org": "University of Colorado, Boulder",
+      "name": "Tzu-Chi Yen"
+    },
+    {
+      "org": "Code Park Houston",
+      "name": "Wanjun Zhang"
+    },
+    {
+      "org": "Clear Creek ISD",
+      "name": "Andy Gaworecki"
+    }
+  ],
+  "diversity_scholarship": [
+    {
+      "org": "Federal University of Santa Catarina",
+      "name": "Melissa Weber Mendonça"
+    },
+    {
+      "org": "KLS Gogte Institute of Technology",
+      "name": "Gajendra Deshpande"
+    },
+    {
+      "org": "Centre for Neuroscience, Indian Institute of Science",
+      "name": "Parul Sethi"
+    },
+    {
+      "org": "The Carpentries",
+      "name": "Serah Njambi"
+    },
+    {
+      "org": "UQAM / Plotly",
+      "name": "Nadia Tahiri"
+    },
+    {
+      "org": "Sparrow",
+      "name": "Deborah Hanus"
+    },
+    {
+      "org": "",
+      "name": "Veronica Hanus"
+    },
+    {
+      "org": "Vanderbilt University",
+      "name": "Abigail Searfoss"
+    },
+    {
+      "org": "Matplotlib",
+      "name": "Hannah Aizenman"
+    },
+    {
+      "org": "University of Illinois, Urbana Champaign",
+      "name": "Margaret Ng"
+    },
+    {
+      "org": "Evangelical University in Africa",
+      "name": "Bwihangane Birindwa"
+    }
+  ],
+  "organization": [
+    {
+      "name": "Conference Chairs",
+      "members": [
+        {
+          "name": "Serge Rey",
+          "org": "Arizona State University"
+        },
+        {
+          "name": "Corran Webster",
+          "org": "Enthought, Inc."
+        }
+      ]
+    },
+    {
+      "name": "Program Chairs",
+      "members": [
+        {
+          "name": "Gil Forsyth",
+          "org": "George Washington University"
+        },
+        {
+          "name": "Nelle Varoquaux",
+          "org": "Berkeley Institute for Data Science"
+        }
+      ]
+    },
+    {
+      "name": "Communications",
+      "members": [
+        {
+          "name": "Paul Ivanov",
+          "org": "Bloomberg"
+        }
+      ]
+    },
+    {
+      "name": "Birds of a Feather",
+      "members": [
+        {
+          "name": "Matthias Bussonnier",
+          "org": "University of California, Merced"
+        },
+        {
+          "name": "Lindsey Heagy",
+          "org": "University of California, Berkeley"
+        }
+      ]
+    },
+    {
+      "name": "Proceedings",
+      "members": [
+        {
+          "name": "Chris Calloway",
+          "org": "University of North Carolina"
+        },
+        {
+          "name": "David Lippa",
+          "org": "Amazon"
+        },
+        {
+          "name": "Dillon Niederhut",
+          "org": "Enthought"
+        },
+        {
+          "name": "David Shupe",
+          "org": "Caltech's IPAC Astronomy Data Center"
+        }
+      ]
+    },
+    {
+      "name": "Financial Aid",
+      "members": [
+        {
+          "name": "Celia Cintas",
+          "org": "IBM Research Africa"
+        },
+        {
+          "name": "Scott Collis",
+          "org": "Argonne National Laboratory"
+        },
+        {
+          "name": "Eric Ma",
+          "org": "Novartis Institutes for Biomedical Research"
+        }
+      ]
+    },
+    {
+      "name": "Tutorials",
+      "members": [
+        {
+          "name": "Alexandre Chabot-Leclerc",
+          "org": "Enthought, Inc."
+        },
+        {
+          "name": "Allen Downey",
+          "org": "Franklin W. Olin College of Engineering"
+        },
+        {
+          "name": "Mike Hearne",
+          "org": "USGS"
+        }
+      ]
+    },
+    {
+      "name": "Sprints",
+      "members": [
+        {
+          "name": "Ryan May",
+          "org": "University Corporation for Atmospheric Research"
+        },
+        {
+          "name": "Kuya Takami",
+          "org": "Enthought, Inc."
+        }
+      ]
+    },
+    {
+      "name": "Diversity",
+      "members": [
+        {
+          "name": "Nathan Goldbaum",
+          "org": "University of Illinois"
+        },
+        {
+          "name": "Melissa Mendonca",
+          "org": "Federal University of Santa Catarina"
+        }
+      ]
+    },
+    {
+      "name": "Activities",
+      "members": [
+        {
+          "name": "Kyle Niemeyer",
+          "org": "Oregon State University"
+        },
+        {
+          "name": "Julia Pasquarella",
+          "org": "Enthought"
+        }
+      ]
+    },
+    {
+      "name": "Sponsors",
+      "members": [
+        {
+          "name": "Jill Cowan",
+          "org": "Enthought"
+        }
+      ]
+    },
+    {
+      "name": "Financial",
+      "members": [
+        {
+          "name": "Chris Chan",
+          "org": "Enthought, Inc."
+        },
+        {
+          "name": "Bill Cowan",
+          "org": "Enthought, Inc."
+        },
+        {
+          "name": "Jodi Havranek",
+          "org": "Enthought, Inc."
+        }
+      ]
+    },
+    {
+      "name": "Logistics",
+      "members": [
+        {
+          "name": "Jill Cowan",
+          "org": "Enthought, Inc."
+        }
+      ]
+    },
+    {
+      "name": "Proceedings Reviewers",
+      "members": [
+        { "name": "Alberto Antonietti" },
+        { "name": "Alejandro Weinstein" },
+        { "name": "Amir Kalighi" },
+        { "name": "Angelos Krypotos" },
+        { "name": "Ankur Ankan" },
+        { "name": "Awalin Sopan" },
+        { "name": "Brian McFee" },
+        { "name": "Catherine Ordun" },
+        { "name": "Christine Choirat" },
+        { "name": "Cyrus Harrison" },
+        { "name": "David Nicholson" },
+        { "name": "Filipe Fernandes" },
+        { "name": "Haruna Abdu" },
+        { "name": "Jaime Arias Almeida" },
+        { "name": "James Bednar" },
+        { "name": "Kirtan Dave" },
+        { "name": "Laura Kahn" },
+        { "name": "Mahdi Sadjadi" },
+        { "name": "Marc Wouts" },
+        { "name": "Mark Fenner" },
+        { "name": "Matt Craig" },
+        { "name": "Matthew Seal" },
+        { "name": "Meghann Agarwal" },
+        { "name": "Nicholas Malaya" },
+        { "name": "Patrick Huck" },
+        { "name": "Scott Sievert" },
+        { "name": "Senol Piskin" },
+        { "name": "Shuai Tang" },
+        { "name": "Stefan van der Walt" },
+        { "name": "Tania Lorido Botran" },
+        { "name": "Yingwei Yu" },
+        { "name": "Zach Golkhou" }
+      ]
+    }
+  ],
+  "series": {
+    "xref": {
+      "issn": "2575-9752",
+      "resource_url": "https://conference.scipy.org/proceedings"
+    },
+    "doi": "10.25080/issn.2575-9752",
+    "title": {
+      "full": "Proceedings of the Python in Science Conference"
+    }
+  }
+}
