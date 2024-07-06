@@ -1,0 +1,37 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 2012
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 11th Python in Science Conference
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2012
+  open_access: true
+  license: CC-BY-3.0
+  id: scipy-2012-proceedings
+  doi: 10.25080/Majora-54c7f2c8-00d
+  date: '2012-07-16'
+  venue: SciPy 2012
+  subject: Proceedings
+  subtitle: SciPy 2012, Austin, Texas July 16 - 21, 2012
+  plugins:
+    - scipy.plugin.mjs
+  description: >-
+    The 11th annual SciPy conference was held in Austin, Texas, July 16 - 21,
+    2012, 2012.
+  editors:
+    - name: Aron Ahmadia
+      corresponding: false
+    - name: Jarrod Millman
+      corresponding: false
+    - name: Stéfan van der Walt
+      corresponding: false
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+    - url: ./proc-scipy-2012.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
