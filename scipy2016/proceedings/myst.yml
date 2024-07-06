@@ -1,0 +1,35 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 2016
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 15th Python in Science Conference
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016
+  open_access: true
+  license: CC-BY-3.0
+  id: scipy-2016-proceedings
+  doi: 10.25080/Majora-629e541a-014
+  date: '2016-07-11'
+  venue: SciPy 2016
+  subject: Proceedings
+  subtitle: SciPy 2016, Austin, Texas July 11 - July 17
+  plugins:
+    - scipy.plugin.mjs
+  description: >-
+    The 15th annual SciPy conference was held in Austin, Texas, July 11 - July
+    17, 2016.
+  editors:
+    - name: Sebastian Benthall
+      corresponding: false
+    - name: Scott Rostrup
+      corresponding: false
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+    - url: ./proc-scipy-2016.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
