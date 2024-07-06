@@ -1,0 +1,220 @@
+{
+  "slides": [
+    {
+      "title": "Addressing Multithreading and Multiprocessing in Transparent and Pythonic Methods",
+      "authors": [{ "name": "David Liu" }, { "name": "Anton Malakhov" }]
+    },
+    {
+      "title": "Apache Arrow: A Cross-Language Development Platform for In-memory Data",
+      "authors": [{ "name": "Wes McKinney" }]
+    },
+    {
+      "title": "Binder 2.0: The Next Generation of Reproducible Scientific Environments with repo2docker and BinderHub",
+      "authors": [{ "name": "Chris Holdgraf" }, { "name": "Min Ragan-Kelley" }]
+    },
+    {
+      "title": "Bringing ipywidgets Support to plotly.py",
+      "authors": [{ "name": "Jon Mease" }]
+    },
+    {
+      "title": "Building an object-oriented Python interface for the Generic Mapping Tools",
+      "authors": [{ "name": "Leonardo Uieda" }],
+      "doi": "10.6084/m9.figshare.6814052"
+    },
+    {
+      "title": "cis_interface: A Python package for connecting scientific models across scales and languages",
+      "authors": [{ "name": "Meagan Lang" }]
+    },
+    {
+      "title": "Cloudknot: A Python library to run your existing code on AWS Batch",
+      "authors": [{ "name": "Adam Richie-Halford" }]
+    },
+    {
+      "title": "Convex Optimization in Python with CVXPY",
+      "authors": []
+    },
+    {
+      "title": "Data Visualization for Scientists",
+      "authors": [{ "name": "Zan Armstrong" }]
+    },
+    {
+      "title": "dask-ml: scalable machine learning",
+      "authors": []
+    },
+    {
+      "title": "Detecting anomalies using statistical distances",
+      "authors": [{ "name": "Charles Masson" }]
+    },
+    {
+      "title": "Development of MetPy’s Declarative Plotting Interface",
+      "authors": []
+    },
+    {
+      "title": "Devops Empowered Data Science with Ansible",
+      "authors": [{ "name": "Tim Hopper" }]
+    },
+    {
+      "title": "Harnessing the Power of Scientific Python to Investigate the Biogeochemistry of the South Pacific",
+      "authors": [{ "name": "Noelle Held" }, { "name": "Jaclyn Saunders" }]
+    },
+    {
+      "title": "Econ-ARK and HARK: Open Source Tools for Computational Economics",
+      "authors": [{ "name": "Matthew N. White" }]
+    },
+    {
+      "title": "ITK: The Insight Segmentation and Registration Toolkit",
+      "authors": [{ "name": "Matthew McCormick" }]
+    },
+    {
+      "title": "Jupyter Notebook Driven Development with PYNT (PYthon iNTeractive)",
+      "authors": [{ "name": "Edward Banner" }]
+    },
+    {
+      "title": "Learning mechanical vibrations through computation thinking",
+      "authors": [{ "name": "Jason Moore" }, { "name": "Kenneth Lyons" }]
+    },
+    {
+      "title": "Pangeo: A Big-data Ecosystem for Scalable Earth System Science",
+      "authors": [{ "name": "Joe Hamman" }]
+    },
+    {
+      "title": "Parsl: Enabling Scalable Interactive Computing in Python",
+      "authors": [{ "name": "Kyle Chard" }]
+    },
+    {
+      "title": "Safe Handling Instructions for Missing Data",
+      "authors": [{ "name": "Dillon Niederhut" }]
+    },
+    {
+      "title": "Scalable Computer Vision with Aerial and Satellite Imagery",
+      "authors": [{ "name": "Virginia Ng" }]
+    },
+    {
+      "title": "scikit-build: A Build System Generator for CPython C/C++/Fortran/Cython Extensions",
+      "authors": [{ "name": "Jean-Christophe Fillion-Robin" }]
+    },
+    {
+      "title": "\"Resurrecting Ancient Proteins in Python\"",
+      "authors": [{ "name": "Zach Sailer" }]
+    },
+    {
+      "title": "SatPy - A Python Library for Weather Satellite Imagery",
+      "authors": [{ "name": "David Hoese" }]
+    },
+    {
+      "title": "Should this Drug be Approved? A Bayesian’s Answer with Stan",
+      "authors": [
+        { "name": "Konstantinos Vamvourellis" },
+        { "name": "Marianne Corvellec" }
+      ]
+    },
+    {
+      "title": "Sneaking Data into Containers with the Whole Tale",
+      "authors": [{ "name": "Kacper Kowalik" }]
+    },
+    {
+      "title": "UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction",
+      "authors": [{ "name": "Leland McInnes" }]
+    },
+    {
+      "title": "Website for interacting with oceanographic data and numerical model output",
+      "authors": [{ "name": "Kristen Thyng" }]
+    },
+    {
+      "title": "Yaksh: Facilitating Learning by Doing",
+      "authors": [{ "name": "Prabhu Ramachandran" }]
+    },
+    {
+      "title": "\"Leveraging Jupyter, Rust, and WebAssembly for Browser-Based Visual Data Exploration\"",
+      "authors": [{ "name": "Madicken Munk" }]
+    }
+  ],
+  "tools": [
+    {
+      "title": "cartopy"
+    },
+    {
+      "title": "conda"
+    },
+    {
+      "title": "geopandas"
+    },
+    {
+      "title": "girder"
+    },
+    {
+      "title": "jupyter"
+    },
+    {
+      "title": "matplotlib"
+    },
+    {
+      "title": "mayavi"
+    },
+    {
+      "title": "numba"
+    },
+    {
+      "title": "numpy"
+    },
+    {
+      "title": "pandas"
+    },
+    {
+      "title": "pymc3"
+    },
+    {
+      "title": "pythonplot"
+    },
+    {
+      "title": "pyviz"
+    },
+    {
+      "title": "quest"
+    },
+    {
+      "title": "scikit-image"
+    },
+    {
+      "title": "sympy"
+    },
+    {
+      "title": "vispy"
+    },
+    {
+      "title": "xarray"
+    },
+    {
+      "title": "xtensor"
+    },
+    {
+      "title": "yt"
+    }
+  ],
+  "posters": [
+    {
+      "title": "itk-jupyter-widgets: Interactive 2D and 3D Image Visualization for Jupyter",
+      "authors": [{ "name": "Matthew McCormick" }]
+    },
+    {
+      "title": "PyKED: a Python-based tool supporting data analysis and experimental reproducibility in combustion",
+      "authors": [{ "name": "Kyle Niemeyer" }, { "name": "Bryan Weber" }],
+      "doi": "10.5281/zenodo.1312239"
+    },
+    {
+      "title": "Oxidizing Python: writing extensions in Rust",
+      "authors": [{ "name": "Luiz Irber" }],
+      "doi": "10.7490/f1000research.1115726.1"
+    }
+  ],
+  "lightning": [
+    {
+      "title": "Introducing JOSE: The Journal of Open Source Education",
+      "authors": [{ "name": "Kyle Niemeyer" }]
+    },
+    {
+      "title": "Slicer, Python, Xeus and Jupyter",
+      "authors": [{ "name": "Jean-Christophe Fillion-Robin" }]
+    }
+  ]
+}
