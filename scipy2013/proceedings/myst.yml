@@ -1,0 +1,37 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 2013
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 12th Python in Science Conference
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2013
+  open_access: true
+  license: CC-BY-3.0
+  id: scipy-2013-proceedings
+  doi: 10.25080/Majora-8b375195-011
+  date: '2013-06-24'
+  venue: SciPy 2013
+  subject: Proceedings
+  subtitle: SciPy 2013, Austin, Texas June 24 - June 29
+  plugins:
+    - scipy.plugin.mjs
+  description: >-
+    The 12th annual SciPy conference was held in Austin, Texas, June 24 - June
+    29, 2013.
+  editors:
+    - name: Stéfan van der Walt
+      corresponding: false
+    - name: Jarrod Millman
+      corresponding: false
+    - name: Katy Huff
+      corresponding: false
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+    - url: ./proc-scipy-2013.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
