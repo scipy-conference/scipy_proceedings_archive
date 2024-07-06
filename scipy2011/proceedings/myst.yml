@@ -1,0 +1,35 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 2011
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 10th Python in Science Conference
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2011
+  open_access: true
+  license: CC-BY-3.0
+  id: scipy-2011-proceedings
+  doi: 10.25080/Majora-ebaa42b7-014
+  date: '2011-07-11'
+  venue: SciPy 2011
+  subject: Proceedings
+  subtitle: SciPy 2011, Austin, Texas July 11 - 16
+  plugins:
+    - scipy.plugin.mjs
+  description: >-
+    The 10th annual SciPy conference was held in Austin, Texas, July 11 - 16,
+    2011.
+  editors:
+    - name: Stéfan van der Walt
+      corresponding: false
+    - name: Jarrod Millman
+      corresponding: false
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+    - url: ./proc-scipy-2011.bib
+      title: Download Bibtex
+  banner: banner.png
+  bibliography: []
