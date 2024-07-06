@@ -1,0 +1,618 @@
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.crossref.org/schema/4.4.0" version="4.4.0" xsi:schemaLocation="http://www.crossref.org/schema/4.4.0 http://www.crossref.org/schemas/crossref4.4.0.xsd">
+  <head>
+  <doi_batch_id>Majora.c9725a0-163b44c56f4</doi_batch_id>
+  <timestamp>1527759891</timestamp>
+  <depositor>
+  <depositor_name>Dillon Niederhut</depositor_name>
+  <email_address>dniederhut@enthought.com</email_address>
+  </depositor>
+  <registrant>Crossref</registrant>
+  </head>
+  <body>
+  <conference>
+  <event_metadata>
+  <conference_name>Python in Science Conference</conference_name>
+  <conference_acronym>SciPy</conference_acronym>
+  <conference_number>16th</conference_number>
+  <conference_location>Austin, Texas</conference_location>
+  <conference_date>July 10 - July 16 2017</conference_date>
+  </event_metadata>
+  <proceedings_series_metadata>
+  <series_metadata>
+  <titles>
+  <title>Proceedings of the Python in Science Conference</title>
+  <original_language_title>Proceedings of the Python in Science Conference</original_language_title>
+  </titles>
+  <issn>2575-9752</issn>
+  <doi_data>
+  <doi>10.25080/issn.2575-9752</doi>
+  <resource>https://conference.scipy.org/proceedings</resource>
+  </doi_data>
+  </series_metadata>
+  <proceedings_title>Proceedings of the 16th Python in Science Conference</proceedings_title>
+  <proceedings_subject>Scientific Computing with Python</proceedings_subject>
+  <publisher>
+  <publisher_name>SciPy</publisher_name>
+  </publisher>
+  <publication_date>
+  <year>2017</year>
+  </publication_date>
+  <noisbn reason="simple_series"/>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-011</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017</resource>
+  </doi_data>
+  </proceedings_series_metadata>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Brendt</given_name>
+  <surname>Wohlberg</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>SPORCO: A Python package for standard and convolutional sparse representations</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>1</first_page>
+  <last_page>8</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-000</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/brendt_wohlberg.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Dillon</given_name>
+  <surname>Niederhut</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Software Transactional Memory in Pure Python</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>9</first_page>
+  <last_page>11</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-001</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/dillon_niederhut.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Geoffrey</given_name>
+  <surname>Poore</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>BespON: Extensible config files with multiline strings, lossless round-tripping, and hex floats</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>12</first_page>
+  <last_page>19</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-002</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/geoffrey_poore.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Horea-Ioan</given_name>
+  <surname>Ioanas</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Bechara</given_name>
+  <surname>Saab</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Markus</given_name>
+  <surname>Rudin</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>LabbookDB: A Wet-Work-Tracking Database Application Framework</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>20</first_page>
+  <last_page>27</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-003</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/horea-ioan_ioanas.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Ingo</given_name>
+  <surname>Heimbach</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Florian</given_name>
+  <surname>Rhiem</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Fabian</given_name>
+  <surname>Beule</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>David</given_name>
+  <surname>Knodt</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Josef</given_name>
+  <surname>Heinen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Robert</given_name>
+  <surname>Jones</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>pyMolDyn: Identification, structure, and properties of cavities in condensed matter and molecules</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>28</first_page>
+  <last_page>33</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-004</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/ingo_heimbach.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Jaime</given_name>
+  <surname>Arias</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Philippe</given_name>
+  <surname>Ciuciu</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Michel</given_name>
+  <surname>Dojat</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Florence</given_name>
+  <surname>Forbes</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Aina</given_name>
+  <surname>Frau-Pascual</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Thomas</given_name>
+  <surname>Perret</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Jan</given_name>
+  <surname>Warnking</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>PyHRF: A Python Library for the Analysis of fMRI Data Based on Local Estimation of the Hemodynamic Response Function</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>34</first_page>
+  <last_page>40</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-005</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/jaime_arias.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Alicia</given_name>
+  <surname>Clark</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Joseph</given_name>
+  <surname>Hellerstein</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>SciSheets: Providing the Power of Programming With The Simplicity of Spreadsheets</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>41</first_page>
+  <last_page>48</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-006</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/joseph_hellerstein.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Klaus</given_name>
+  <surname>Greff</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Aaron</given_name>
+  <surname>Klein</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Martin</given_name>
+  <surname>Chovanec</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Frank</given_name>
+  <surname>Hutter</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Jürgen</given_name>
+  <surname>Schmidhuber</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>The Sacred Infrastructure for Computational Research</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>49</first_page>
+  <last_page>56</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-007</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/klaus_greff.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Theodore</given_name>
+  <surname>Lindsay</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Peter</given_name>
+  <surname>Weir</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Floris</given_name>
+  <surname>van Breugel</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>FigureFirst: A Layout-first Approach for Scientific Figures</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>57</first_page>
+  <last_page>63</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-008</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/lindsay.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Mahzad</given_name>
+  <surname>Khoshlessan</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Ioannis</given_name>
+  <surname>Paraskevakos</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Shantenu</given_name>
+  <surname>Jha</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Oliver</given_name>
+  <surname>Beckstein</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Parallel Analysis in MDAnalysis using the Dask Parallel Computing Library</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>64</first_page>
+  <last_page>72</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-009</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/mahzad_khoslessan.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Manuel</given_name>
+  <surname>Krebber</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Henrik</given_name>
+  <surname>Bartels</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Paolo</given_name>
+  <surname>Bientinesi</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>MatchPy: A Pattern Matching Library</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>73</first_page>
+  <last_page>80</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-00a</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/manuel_krebber.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Michael</given_name>
+  <surname>Beyeler</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Geoffrey</given_name>
+  <surname>Boynton</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Ione</given_name>
+  <surname>Fine</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Ariel</given_name>
+  <surname>Rokem</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>pulse2percept: A Python-based simulation framework for bionic vision</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>81</first_page>
+  <last_page>88</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-00b</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/michael_beyeler.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Michael</given_name>
+  <surname>Lange</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Navjot</given_name>
+  <surname>Kukreja</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Fabio</given_name>
+  <surname>Luporini</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Mathias</given_name>
+  <surname>Louboutin</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Charles</given_name>
+  <surname>Yount</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Jan</given_name>
+  <surname>Hückelheim</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Gerard</given_name>
+  <surname>Gorman</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Optimised finite difference computation from symbolic equations</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>89</first_page>
+  <last_page>97</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-00c</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/michael_lange.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Narendra</given_name>
+  <surname>Mukherjee</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Joseph</given_name>
+  <surname>Wachutka</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Donald</given_name>
+  <surname>Katz</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Python meets systems neuroscience: affordable, scalable and open-source electrophysiology in awake, behaving rodents</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>98</first_page>
+  <last_page>105</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-00d</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/narendra_mukherjee.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Oleksandr</given_name>
+  <surname>Pavlyk</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Denis</given_name>
+  <surname>Nagorny</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Andres</given_name>
+  <surname>Guzman-Ballen</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Anton</given_name>
+  <surname>Malakhov</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Hai</given_name>
+  <surname>Liu</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Ehsan</given_name>
+  <surname>Totoni</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Todd</given_name>
+  <surname>Anderson</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Sergey</given_name>
+  <surname>Maidanov</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>Accelerating Scientific Python with Intel Optimizations</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>106</first_page>
+  <last_page>112</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-00e</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/oleksandr_pavlyk.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Scott</given_name>
+  <surname>Sievert</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Daniel</given_name>
+  <surname>Ross</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Lalit</given_name>
+  <surname>Jain</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Kevin</given_name>
+  <surname>Jamieson</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Rob</given_name>
+  <surname>Nowak</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Robert</given_name>
+  <surname>Mankoff</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>NEXT: A system to easily connect crowdsourcing and adaptive data collection</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>113</first_page>
+  <last_page>119</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-00f</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/scott_sievert.html</resource>
+  </doi_data>
+  </conference_paper>
+  <conference_paper>
+  <contributors>
+  <person_name contributor_role="author" sequence="first">
+  <given_name>Will</given_name>
+  <surname>Barnes</surname>
+  </person_name>
+  <person_name contributor_role="author" sequence="additional">
+  <given_name>Kenneth</given_name>
+  <surname>Dere</surname>
+  </person_name>
+  </contributors>
+  <titles>
+  <title>ChiantiPy: a Python package for Astrophysical Spectroscopy</title>
+  </titles>
+  <publication_date media_type="print">
+  <year>2017</year>
+  </publication_date>
+  <pages>
+  <first_page>120</first_page>
+  <last_page>127</last_page>
+  </pages>
+  <doi_data>
+  <doi>10.25080/Majora-c9725a0-010</doi>
+  <resource>https://conference.scipy.org/proceedings/scipy2017/will_barnes.html</resource>
+  </doi_data>
+  </conference_paper>
+  </conference>
+  </body>
+  </doi_batch>
