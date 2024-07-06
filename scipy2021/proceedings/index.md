@@ -4,5 +4,6 @@ title: null
 
 # Accepted Papers
 
-:::{scipy:articles} ../metadata/doi_batch_papers.xml
+:::{scipy:articles} data/doi_batch_papers.xml
+:show-thumbnails: true
 :::

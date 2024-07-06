@@ -2,7 +2,7 @@ version: 1
 site:
   title: Proceedings Template
   options:
-    logo_text: SciPy 20XX
+    logo_text: SciPy 2020
   nav: []
   template: article-theme
 project:
@@ -12,26 +12,32 @@ project:
   license: CC-BY-3.0
   id: scipy-2020-proceedings
   doi: 10.25080/Majora-342d178e-02b
-  date: 2020-07-06
+  date: '2020-07-06'
   venue: SciPy 2020
   subject: Proceedings
-  authors: []
   subtitle: SciPy 2020, Austin, Texas July 6 - July 12
+  plugins:
+    - scipy.plugin.mjs
+  description: >-
+    The 19th annual SciPy conference was held in Austin, Texas, July 6 - July
+    12, 2020.
+  editors:
+    - name: Meghann Agarwal
+      email: agarwal.meghann@gmail.com
+      corresponding: false
+    - name: Chris Calloway
+      email: cbc@unc.edu
+      corresponding: false
+    - name: Dillon Niederhut
+      email: dillon.niederhut@gmail.com
+      corresponding: false
+    - name: David Shupe
+      email: dave.shupe@gmail.com
+      corresponding: false
   downloads:
     - url: ./proceedings.pdf
       title: Download PDF
     - url: ./proc-scipy-2020.bib
       title: Download Bibtex
-  bibliography: []
-  plugins:
-    - scipy.plugin.mjs
-  editors:
-    - name: Meghann Agarwal
-      email: agarwal.meghann@gmail.com
-    - name: Chris Calloway
-      email: cbc@unc.edu
-    - name: Dillon Niederhut
-      email: dillon.niederhut@gmail.com
-    - name: David Shupe
-      email: dave.shupe@gmail.com
   banner: banner.png
+  bibliography: []

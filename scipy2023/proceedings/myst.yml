@@ -2,7 +2,7 @@ version: 1
 site:
   title: Proceedings Template
   options:
-    logo_text: SciPy 20XX
+    logo_text: SciPy 2023
   nav: []
   template: article-theme
 project:
@@ -14,9 +14,13 @@ project:
   license: CC-BY-3.0
   id: scipy-2023-proceedings
   doi: 10.25080/gerudo-f2bc6f59-039
-  date: 2023-07-10
+  date: '2023-07-10'
   venue: SciPy 2023
   subject: Proceedings
+  subtitle: SciPy 2023, Austin, Texas July 10 - July 16
+  thumbnail: thumbnail.png
+  plugins:
+    - scipy.plugin.mjs
   editors:
     - name: Meghann Agarwal
       email: agarwal.meghann@gmail.com
@@ -30,14 +34,10 @@ project:
     - name: Dillon Niederhut
       email: dillon.niederhut@gmail.com
       corresponding: false
-  subtitle: SciPy 2023, Austin, Texas July 10 - July 16
   downloads:
     - url: ./proceedings.pdf
       title: Download PDF
     - url: ./proc-scipy-2023.bib
       title: Download Bibtex
-  bibliography: []
-  plugins:
-    - scipy.plugin.mjs
   banner: banner.png
-  thumbnail: thumbnail.png
+  bibliography: []

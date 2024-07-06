@@ -2,7 +2,7 @@ version: 1
 site:
   title: Proceedings Template
   options:
-    logo_text: SciPy 20XX
+    logo_text: SciPy 2022
   nav: []
   template: article-theme
 project:
@@ -12,26 +12,32 @@ project:
   license: CC-BY-3.0
   id: scipy-2022-proceedings
   doi: 10.25080/majora-212e5952-046
-  date: 2022-07-11
+  date: '2022-07-11'
   venue: SciPy 2022
   subject: Proceedings
-  authors: []
   subtitle: SciPy 2022, Austin, Texas July 11 - July 17
+  plugins:
+    - scipy.plugin.mjs
+  description: >-
+    The 21st annual SciPy conference was held in Austin, Texas, July 11 - July
+    17, 2022.
+  editors:
+    - name: Meghann Agarwal
+      email: agarwal.meghann@gmail.com
+      corresponding: false
+    - name: Chris Calloway
+      email: cbc@unc.edu
+      corresponding: false
+    - name: Dillon Niederhut
+      email: dillon.niederhut@gmail.com
+      corresponding: false
+    - name: David Shupe
+      email: dave.shupe@gmail.com
+      corresponding: false
   downloads:
     - url: ./proceedings.pdf
       title: Download PDF
     - url: ./proc-scipy-2022.bib
       title: Download Bibtex
-  bibliography: []
-  plugins:
-    - scipy.plugin.mjs
-  editors:
-    - name: Meghann Agarwal
-      email: agarwal.meghann@gmail.com
-    - name: Chris Calloway
-      email: cbc@unc.edu
-    - name: Dillon Niederhut
-      email: dillon.niederhut@gmail.com
-    - name: David Shupe
-      email: dave.shupe@gmail.com
   banner: banner.png
+  bibliography: []
