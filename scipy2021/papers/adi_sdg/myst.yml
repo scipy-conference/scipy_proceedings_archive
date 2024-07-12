@@ -3,10 +3,13 @@ project:
   id: scipy-2021-adi_sdg
   authors:
     - name: Mark Thoren
+      email: mark.thoren@analog.com
       affiliations:
         - id: analog-devices
           name: Analog Devices, Inc.
     - name: Cristina Suteu
+      email: cristina.suteu@analog.com
+      corresponding: true
       affiliations:
         - analog-devices
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/adi_sdg
@@ -15,16 +18,35 @@ project:
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-001
   title: Using Python for Analysis and Verification of Mixed-mode Signal Chains
   downloads:
     - url: ./adi_sdg.pdf
       title: Download PDF
-    - url: ./adi_sdg.bib
-      title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+    ADC: Analog to Digital Converter
+    DAC: Digital to Analog Converter
+    IIO: Industrial Input Output
+    PGA: Programmable Gain Amplifier
+    SAR: Successive Approximation Register
+    ENBW: equivalent noise bandwidth
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - footnote-1
+        - footnote-3
+        - footnote-4
+        - footnote-5
+        - footnote-6
+        - footnote-7
+        - footnote-8
+        - footnote-10
+        - footnote-11
+        - footnote-12
+        - footnote-13
+        - footnote-14
 site:
   template: article-theme
   nav: []
