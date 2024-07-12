@@ -3,51 +3,133 @@ project:
   id: scipy-2021-bradley_dice
   authors:
     - name: Bradley D. Dice
+      email: bdice@umich.edu
+      equal_contributor: true
+      corresponding: true
+      roles:
+        - conceptualization
+        - data curation
+        - methodology
+        - project administration
+        - software
+        - visualization
+        - writing – original draft
+        - writing – review & editing
       affiliations:
-        - id: department-of-physics
-          name: Department of Physics, University of Michigan, Ann Arbor
+        - id: physics-um
+          name: Department of Physics, University of Michigan
+          city: Ann Arbor
     - name: Brandon L. Butler
+      email: butlerbr@umich.edu
+      equal_contributor: true
+      corresponding: true
+      roles:
+        - conceptualization
+        - data curation
+        - methodology
+        - project administration
+        - software
+        - visualization
+        - writing – original draft
+        - writing – review & editing
       affiliations:
-        - id: department-of-chemical-engineering
-          name: Department of Chemical Engineering, University of Michigan, Ann Arbor
+        - id: chem-um
+          name: Department of Chemical Engineering, University of Michigan
+          city: Ann Arbor
     - name: Vyas Ramasubramani
+      email: vramasub@umich.edu
+      roles:
+        - conceptualization
+        - data curation
+        - methodology
+        - project administration
+        - software
+        - writing – original draft
+        - writing – review & editing
       affiliations:
-        - department-of-chemical-engineering
+        - chem-um
     - name: Alyssa Travitz
+      email: atravitz@umich.edu
+      roles:
+        - conceptualization
+        - data curation
+        - methodology
+        - project administration
+        - software
+        - visualization
+        - writing – original draft
+        - writing – review & editing
       affiliations:
-        - id: macromolecular-science-and-engineering-program
-          name: Macromolecular Science and Engineering Program, University of Michigan,
-            Ann Arbor
+        - id: macromolecular-um
+          name: Macromolecular Science and Engineering Program, University of Michigan
+          city: Ann Arbor
     - name: Michael M. Henry
+      email: mikehenry@u.boisestate.edu
+      roles:
+        - conceptualization
+        - data curation
+        - methodology
+        - project administration
+        - software
+        - writing – review & editing
       affiliations:
-        - id: micron-school-of-materials-science-and-engineering
+        - id: micron
           name: Micron School of Materials Science and Engineering, Boise State University
     - name: Hardik Ojha
+      email: hojha@ch.iitr.ac.in
+      roles:
+        - conceptualization
+        - data curation
+        - methodology
+        - project administration
+        - software
+        - writing – original draft
+        - writing – review & editing
       affiliations:
-        - department-of-chemical-engineering
+        - name: Department of Chemical Engineering, Indian Institute of Technology Roorkee
     - name: Kelly L. Wang
+      email: kelwang@umich.edu
+      roles:
+        - visualization
+        - writing – review & editing
       affiliations:
-        - macromolecular-science-and-engineering-program
+        - macromolecular-um
     - name: Carl S. Adorf
+      email: csadorf@umich.edu
+      roles:
+        - conceptualization
+        - data curation
+        - methodology
+        - project administration
+        - software
+        - writing – review & editing
       affiliations:
-        - department-of-chemical-engineering
+        - chem-um
     - name: Eric Jankowski
+      email: ericjankowski@boisestate.edu
+      roles:
+        - funding acquisition
       affiliations:
-        - micron-school-of-materials-science-and-engineering
+        - micron
     - name: Sharon C. Glotzer
+      email: sglotzer@umich.edu
+      roles:
+        - funding acquisition
+        - supervision
+        - writing – review & editing
       affiliations:
-        - department-of-physics
-        - department-of-chemical-engineering
-        - macromolecular-science-and-engineering-program
-        - id: biointerfaces-institute
-          name: Biointerfaces Institute, University of Michigan, Ann Arbor
+        - physics-um
+        - chem-um
+        - macromolecular-um
+        - name: Biointerfaces Institute, University of Michigan
+          city: Ann Arbor
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/bradley_dice
   open_access: true
   license: CC-BY-4.0
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
+  thumbnail: thumbnail.png
   doi: 10.25080/majora-1b6fd038-003
   keywords:
     - data management
@@ -58,14 +140,32 @@ project:
     - workflow
     - HPC
     - reproducibility
-  title: "signac: Data Management and Workflows for Computational Researchers"
+  title: 'signac: Data Management and Workflows for Computational Researchers'
   downloads:
     - url: ./bradley_dice.pdf
       title: Download PDF
-    - url: ./bradley_dice.bib
-      title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+    HPC: high performance computing
+    MoSDeF: Molecular Simulation Design Framework
+    CSSI: Cyberinfrastructure for Sustained Scientific Innovation
+    RCWA: Rigorous Coupled Wave Analysis
+    GSoC: Google Summer of Code
+    XSEDE: Extreme Science and Engineering Discovery Environment
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - dask
+        - rapids
+        - keras
+        - scikit-learn
+        - tensorflow
+        - collette2013
+        - hdf5
+        - jupyter
+        - snakeviz
+        - networkx
 site:
   template: article-theme
   nav: []
