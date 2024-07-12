@@ -2,28 +2,32 @@ version: 1
 project:
   id: scipy-2021-blaine_mooers
   authors:
-    - name: " Blaine H. M. Mooers"
+    - name: Blaine H. M. Mooers
+      email: blaine-mooers@ouhsc.edu
+      orcid: 0000-0001-8181-8987
       affiliations:
-        - id: dept-of-biochemistry-and-molecular-biology
-          name: Dept of Biochemistry and Molecular Biology, University of Oklahoma Health
-            Sciences Center, Oklahoma City, OK 97104
-        - id: stephenson-cancer-center
-          name: Stephenson Cancer Center, University of Oklahoma Health Sciences Center,
-            Oklahoma City, OK 97104
-        - id: laboratory-of-biomolecular-structure-and-function
-          name: Laboratory of Biomolecular Structure and Function, University of Oklahoma
-            Health Sciences Center, Oklahoma City, OK 97104
-        - id: biomolecular-structure-core
-          name: Biomolecular Structure Core, Oklahoma COBRE in Structural Biology,
-            University of Oklahoma Health Sciences Center, Oklahoma City, OK
-            97104
+        - name: Dept of Biochemistry and Molecular Biology, University of Oklahoma Health Sciences Center
+          city: Oklahoma City
+          state: OK
+          postal_code: '97104'
+        - name: Stephenson Cancer Center, University of Oklahoma Health Sciences Center
+          city: Oklahoma City
+          state: OK
+          postal_code: '97104'
+        - name: Laboratory of Biomolecular Structure and Function, University of Oklahoma Health Sciences Center
+          city: Oklahoma City
+          state: OK
+          postal_code: '97104'
+        - name: Biomolecular Structure Core, Oklahoma COBRE in Structural Biology, University of Oklahoma Health Sciences Center
+          city: Oklahoma City
+          state: OK
+          postal_code: '97104'
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/blaine_mooers
   open_access: true
   license: CC-BY-4.0
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-002
   keywords:
     - literate programming
@@ -49,10 +53,30 @@ project:
   downloads:
     - url: ./blaine_mooers.pdf
       title: Download PDF
-    - url: ./blaine_mooers.bib
-      title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+    NMR: nuclear magnetic resonance
+    cryo-EM: cryo electron microscopy
+    IDE: integrated development environment
+    GCP: Google Cloud Platform
+    BLNL: Berkeley-Lawrence National Laboratory
+    CCTBX: Computational Crystallography Tool Box
+    MD: molecular dynamics
+    PDB: Protein Data Bank
+    VSC: Visual Studio Code
+    DSL: domain specific language
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cite_jlsnip
+        - cite_elsn
+        - cite_rese20
+        - cite_cola21
+        - cite_elyra
+        - cite_mlgh
+        - cite_berm03
+        - cite_pymo21
 site:
   template: article-theme
   nav: []
