@@ -3,26 +3,30 @@ project:
   id: scipy-2021-daniel_margala
   authors:
     - name: Daniel Margala
+      email: danielmargala@lbl.gov
       affiliations:
-        - id: lawrence-berkeley-national-laboratory
-          name: "Lawrence Berkeley National Laboratory: National Energy Scientific
-            Research and Computing Center"
+        - id: lbnl
+          name: Lawrence Berkeley National Laboratory
+          department: National Energy Scientific Research and Computing Center
     - name: Laurie Stephey
+      email: lastephey@lbl.gov
       affiliations:
-        - lawrence-berkeley-national-laboratory
+        - lbnl
     - name: Rollin Thomas
+      email: rcthomas@lbl.gov
       affiliations:
-        - lawrence-berkeley-national-laboratory
+        - lbnl
     - name: Stephen Bailey
+      email: sbailey@lbl.gov
       affiliations:
-        - lawrence-berkeley-national-laboratory
+        - name: Lawrence Berkeley National Laboratory
+          department: Physics Division
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/daniel_margala
   open_access: true
   license: CC-BY-4.0
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-004
   keywords:
     - Python
@@ -37,15 +41,29 @@ project:
     - SciPy
     - Astronomy
     - Spectroscopy
-  title: Accelerating Spectroscopic Data Processing Using Python and GPUs on NERSC
-    Supercomputers
+  title: Accelerating Spectroscopic Data Processing Using Python and GPUs on NERSC Supercomputers
   downloads:
     - url: ./daniel_margala.pdf
       title: Download PDF
-    - url: ./daniel_margala.bib
-      title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+    DESI: Dark Energy Spectroscopic Instrument
+    NERSC: National Energy Scientific Research and Computing Center
+    MPI: Message Passing Interface
+    SPMD: Single Program Multiple Data
+    MPS: Multi-Process Service
+    FPNH: frames-per-node-hour
+    FoM: figure of merit
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - cupy_learningsys2017
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - https://docs.nersc.gov/systems/cori/
+        - https://docs.nersc.gov/systems/perlmutter/
 site:
   template: article-theme
   nav: []
