@@ -3,13 +3,14 @@ project:
   id: scipy-2021-ivan_nesic
   authors:
     - name: Romeo Kienzler
+      email: romeo.kienzler@ch.ibm.com
       affiliations:
-        - id: ibm
-          name: IBM, Center for Open Source Data and AI Technologies (CODAIT)
-    - name: ' Ivan Nesic'
+        - name: IBM, Center for Open Source Data and AI Technologies (CODAIT)
+    - name: Ivan Nesic
+      email: ivan.nesic@usb.ch
+      orcid: 0000-0002-4373-8860
       affiliations:
-        - id: university-hospital-of-basel
-          name: University Hospital of Basel
+        - name: University Hospital of Basel
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/ivan_nesic
   open_access: true
   license: CC-BY-4.0
@@ -31,14 +32,57 @@ project:
   downloads:
     - url: ./ivan_nesic.pdf
       title: Download PDF
-    - url: ./ivan_nesic.bib
-      title: Download Bibtex
   banner: banner.png
   abbreviations:
+    CT: Computed Tomography
+    CDS: Citizen Data Scientists
+    AI: Artificial Intelligence
+    ML: Machine Learning
+    ETL: Extract, Transform, Load
+    CNCF: Cloud Native Computing Foundation
+    IDE: Integrated Development Environment
+    IaaS: Infrastructure as a service
+    aaS: as a service
+    SPHN: Swiss Personalized Health Network
+    MLX: Machine Learning Exchange
+    KF: Kubeflow
+    AF: Airflow
+    SM: Snakemake
   error_rules:
     - rule: doi-exists
       severity: ignore
       keys:
+        - covidata
+        - citizends
+        - slurm
+        - snakemake
+        - qsub
+        - htcondor
+        - nifi
+        - openwdl
+        - cwl
+        - cromwell
+        - cncf
+        - ibmcncf
+        - tf
+        - tfeager
+        - tfbook
+        - kubeflow
+        - jupyter-standard
+        - elyra
+        - aif360
+        - art
+        - scicore
+        - sphn
+        - sib
+        - complib
+        - tfimgprep
+        - katib
+        - aix360
+        - kfserving
+        - c3
+        - mlx
+        - galaxy-ui
 site:
   template: article-theme
   nav: []
