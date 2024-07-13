@@ -3,36 +3,42 @@ project:
   id: scipy-2021-kumaran_baskaran
   authors:
     - name: Kumaran Baskaran
+      email: baskaran@uchc.edu
       affiliations:
         - id: uconn-health
           name: UCONN Health, Molecular Biology and Biophysics
-        - id: 263-farmington-ave.-farmington
-          name: 263 Farmington Ave. Farmington, CT 06030-3305, USA
+          address: 263 Farmington Ave.
+          city: Farmington
+          state: CT
+          postal_code: 06030-3305
+          country: USA
     - name: Jonathan R Wedell
+      email: wedell@uchc.edu
       affiliations:
         - uconn-health
-        - 263-farmington-ave.-farmington
     - name: Eldon L. Ulrich
+      email: ulrich@uchc.edu
       affiliations:
         - uconn-health
-        - 263-farmington-ave.-farmington
     - name: Jeffery C. Hoch
+      email: hoch@uchc.edu
       affiliations:
         - uconn-health
-        - 263-farmington-ave.-farmington
     - name: John L. Markley
+      email: markley@biochem.wisc.edu
       affiliations:
-        - id: department-of-biochemistry
-          name: Department of Biochemistry, University of Wisconsin-Madison
-        - id: 433-babcock-drive
-          name: 433 Babcock Drive, Madison, Wisconsin 53606-1544, USA
+        - name: Department of Biochemistry, University of Wisconsin-Madison
+          address: 433 Babcock Drive
+          city: Madison
+          state: Wisconsin
+          postal_code: 53606-1544
+          country: USA
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/kumaran_baskaran
   open_access: true
   license: CC-BY-4.0
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-00a
   keywords:
     - NMR Spectroscopy
@@ -42,14 +48,21 @@ project:
     - NMR-STAR
     - chemical shift histogram
     - HSQC
-  title: "PyBMRB: Data visualization tool for BioMagResBank"
+  title: 'PyBMRB: Data visualization tool for BioMagResBank'
   downloads:
     - url: ./kumaran_baskaran.pdf
       title: Download PDF
-    - url: ./kumaran_baskaran.bib
-      title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+    NMR: Nuclear Magnetic Resonance
+    API: Application Program Interface
+    BMRB: BioMagResBank
+    wwPDB: World Wide Protein Data Bank
+    STAR: Self-defining Text Archival and Retrieval
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []
