@@ -1,0 +1,32 @@
+version: 1
+project:
+  id: scipy-2015-chris_drake
+  authors:
+    - name: Chris Drake
+      affiliations:
+        - id: drake-enterprises
+          name: Drake Enterprises
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/chris_drake
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-004
+  title: 'PyEDA: Data Structures and Algorithms for Electronic Design Automation'
+  downloads:
+    - url: ./chris_drake.pdf
+      title: Download PDF
+    - url: ./chris_drake.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

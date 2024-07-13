@@ -12,7 +12,6 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-00a
   keywords:
     - sparse
@@ -21,14 +20,18 @@ project:
     - scipy.sparse
     - ndarray
     - ndarray interface
-  title: "Sparse: A more modern sparse array library"
+  title: 'Sparse: A more modern sparse array library'
   downloads:
     - url: ./hameer_abbasi.pdf
       title: Download PDF
     - url: ./hameer_abbasi.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

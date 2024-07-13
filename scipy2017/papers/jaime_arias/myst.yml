@@ -34,7 +34,6 @@ project:
   venue: SciPy 2017
   subject: Research Article
   date: 2017-07-10
-  thumbnail: thumbnail.webp
   doi: 10.25080/shinma-7f4c6e7-006
   keywords:
     - BOLD response
@@ -48,7 +47,11 @@ project:
     - url: ./jaime_arias.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
   abbreviations:
     fMRI: Functional Magnetic Resonance Imaging
     BOLD: Blood Oxygenation Level

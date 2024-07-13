@@ -2,22 +2,22 @@ version: 1
 project:
   id: scipy-2020-jim_pivarski
   authors:
-    - name: " Jim Pivarski"
+    - name: ' Jim Pivarski'
       affiliations:
         - id: princeton-university
           name: Princeton University
-    - name: " Ianna Osborne"
+    - name: ' Ianna Osborne'
       affiliations:
         - princeton-university
-    - name: " Pratyush Das"
+    - name: ' Pratyush Das'
       affiliations:
         - id: institute-of-engineering-and-management
           name: Institute of Engineering and Management
-    - name: " Anish Biswas"
+    - name: ' Anish Biswas'
       affiliations:
         - id: manipal-institute-of-technology
           name: Manipal Institute of Technology
-    - name: " Peter Elmer"
+    - name: ' Peter Elmer'
       affiliations:
         - princeton-university
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/jim_pivarski
@@ -26,7 +26,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-00b
   keywords:
     - NumPy
@@ -39,14 +38,18 @@ project:
     - Ragged array
     - Jagged array
     - JSON
-  title: "Awkward Array: JSON-like data, NumPy-like idioms"
+  title: 'Awkward Array: JSON-like data, NumPy-like idioms'
   downloads:
     - url: ./jim_pivarski.pdf
       title: Download PDF
     - url: ./jim_pivarski.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

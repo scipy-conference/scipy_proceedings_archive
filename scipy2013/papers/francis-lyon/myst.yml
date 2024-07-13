@@ -18,14 +18,14 @@ project:
   venue: SciPy 2013
   subject: Research Article
   date: 2013-06-24
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-8b375195-007
   keywords:
     - machine learning
     - support vector machine
     - genetic risk factors
     - gene interactions
-  title: Detection and characterization of interactions of genetic risk factors in
+  title:
+    Detection and characterization of interactions of genetic risk factors in
     disease
   downloads:
     - url: ./francis-lyon.pdf
@@ -33,7 +33,11 @@ project:
     - url: ./francis-lyon.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

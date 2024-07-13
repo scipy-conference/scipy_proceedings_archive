@@ -30,20 +30,23 @@ project:
   venue: SciPy 2017
   subject: Research Article
   date: 2017-07-10
-  thumbnail: thumbnail.webp
   doi: null
   keywords:
     - crowdsourcing
     - adaptive sampling
     - system
-  title: "NEXT: A system to easily connect crowdsourcing and adaptive data collection"
+  title: 'NEXT: A system to easily connect crowdsourcing and adaptive data collection'
   downloads:
     - url: ./scott_sievert.pdf
       title: Download PDF
     - url: ./scott_sievert.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

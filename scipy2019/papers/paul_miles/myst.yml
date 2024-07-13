@@ -5,7 +5,8 @@ project:
     - name: Paul R. Miles
       affiliations:
         - id: department-of-mathematics
-          name: Department of Mathematics, North Carolina State University, Raleigh, NC
+          name:
+            Department of Mathematics, North Carolina State University, Raleigh, NC
             27695
     - name: Ralph C. Smith
       affiliations:
@@ -16,7 +17,6 @@ project:
   venue: SciPy 2019
   subject: Research Article
   date: 2019-07-08
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-7ddc1dd1-00d
   keywords:
     - Markov Chain Monte Carlo (MCMC)
@@ -30,7 +30,11 @@ project:
     - url: ./paul_miles.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

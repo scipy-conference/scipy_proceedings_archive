@@ -2,7 +2,7 @@ version: 1
 project:
   id: scipy-2020-zain
   authors:
-    - name: " Meekail Zain"
+    - name: ' Meekail Zain'
       affiliations:
         - id: computer-science-department
           name: Computer Science Department, Franklin College of Arts and Sciences
@@ -32,7 +32,8 @@ project:
       affiliations:
         - computer-science-department
         - id: institute-for-artificial-intelligence
-          name: Institute for Artificial Intelligence, Franklin College of Arts and
+          name:
+            Institute for Artificial Intelligence, Franklin College of Arts and
             Sciences
     - name: Shannon Quinn
       affiliations:
@@ -45,7 +46,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-017
   keywords:
     - Machine Learning
@@ -63,7 +63,11 @@ project:
     - url: ./zain.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

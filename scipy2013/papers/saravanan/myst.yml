@@ -12,7 +12,6 @@ project:
   venue: SciPy 2013
   subject: Research Article
   date: 2013-06-24
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-8b375195-00f
   keywords:
     - GUI
@@ -21,15 +20,19 @@ project:
     - command line interface
     - notebook interface
     - graphical shell
-  title: "GraphTerm: A notebook-like graphical terminal interface for
-    collaboration and inline data visualization"
+  title: 'GraphTerm: A notebook-like graphical terminal interface for
+    collaboration and inline data visualization'
   downloads:
     - url: ./saravanan.pdf
       title: Download PDF
     - url: ./saravanan.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

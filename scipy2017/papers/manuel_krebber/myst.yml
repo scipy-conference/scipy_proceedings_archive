@@ -18,21 +18,24 @@ project:
   venue: SciPy 2017
   subject: Research Article
   date: 2017-07-10
-  thumbnail: thumbnail.webp
   doi: 10.25080/shinma-7f4c6e7-00b
   keywords:
     - pattern matching
     - symbolic computation
     - discrimination nets
     - term rewriting systems
-  title: "MatchPy: A Pattern Matching Library"
+  title: 'MatchPy: A Pattern Matching Library'
   downloads:
     - url: ./manuel_krebber.pdf
       title: Download PDF
     - url: ./manuel_krebber.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

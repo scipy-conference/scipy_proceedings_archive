@@ -33,7 +33,6 @@ project:
   venue: SciPy 2019
   subject: Research Article
   date: 2019-07-08
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-7ddc1dd1-002
   keywords:
     - modulation
@@ -44,7 +43,8 @@ project:
     - wireless communication
     - signals intelligence
     - feature importance
-  title: Expert RF Feature Extraction to Win the Army RCO AI Signal Classification
+  title:
+    Expert RF Feature Extraction to Win the Army RCO AI Signal Classification
     Challenge
   downloads:
     - url: ./aero_ef_logue.pdf
@@ -52,7 +52,11 @@ project:
     - url: ./aero_ef_logue.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

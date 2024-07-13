@@ -2,11 +2,11 @@ version: 1
 project:
   id: scipy-2020-geomstats
   authors:
-    - name: " Nina Miolane"
+    - name: ' Nina Miolane'
       affiliations:
         - id: stanford-university
           name: Stanford University
-    - name: " Nicolas Guigui"
+    - name: ' Nicolas Guigui'
       affiliations:
         - id: université-côte-d'azur
           name: Université Côte d'Azur, Inria
@@ -52,7 +52,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-007
   keywords:
     - differential geometry
@@ -66,7 +65,11 @@ project:
     - url: ./geomstats.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

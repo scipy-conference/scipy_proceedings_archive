@@ -5,7 +5,8 @@ project:
     - name: Kannan M. Moudgalya
       affiliations:
         - id: dept.-of-chemical-engineering
-          name: Dept. of Chemical Engineering, Education Technology, and System and
+          name:
+            Dept. of Chemical Engineering, Education Technology, and System and
             Control Groups, IIT Bombay, India
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/moudgalya
   open_access: true
@@ -13,7 +14,6 @@ project:
   venue: SciPy 2014
   subject: Research Article
   date: 2014-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-14bd3278-009
   keywords:
     - Python
@@ -26,7 +26,11 @@ project:
     - url: ./moudgalya.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

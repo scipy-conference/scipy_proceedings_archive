@@ -18,7 +18,6 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-00c
   keywords:
     - Simulation
@@ -27,14 +26,18 @@ project:
     - numerical integration
     - Quantum Mechanics
     - multidimensional
-  title: "WrightSim: Using PyCUDA to Simulate Multidimensional Spectra"
+  title: 'WrightSim: Using PyCUDA to Simulate Multidimensional Spectra'
   downloads:
     - url: ./kyle_sunden.pdf
       title: Download PDF
     - url: ./kyle_sunden.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

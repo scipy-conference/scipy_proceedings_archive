@@ -2,17 +2,17 @@ version: 1
 project:
   id: scipy-2020-brandon_butler
   authors:
-    - name: " Brandon L. Butler"
+    - name: ' Brandon L. Butler'
       affiliations:
         - id: university-of-michigan
           name: University of Michigan, Department of Chemical Engineering
-    - name: " Vyas Ramasubramani"
+    - name: ' Vyas Ramasubramani'
       affiliations:
         - university-of-michigan
     - name: Joshua A. Anderson
       affiliations:
         - university-of-michigan
-    - name: " Sharon C. Glotzer"
+    - name: ' Sharon C. Glotzer'
       affiliations:
         - university-of-michigan
         - university-of-michigan
@@ -24,7 +24,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-004
   keywords:
     - molecular dynamics
@@ -39,7 +38,11 @@ project:
     - url: ./brandon_butler.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

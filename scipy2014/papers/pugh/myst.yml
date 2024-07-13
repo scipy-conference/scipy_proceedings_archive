@@ -5,7 +5,8 @@ project:
     - name: David R. Pugh
       affiliations:
         - id: school-of-economics
-          name: School of Economics, University of Edinburgh; Institute for New Economic
+          name:
+            School of Economics, University of Edinburgh; Institute for New Economic
             Thinking at the Oxford Martin School and Oxford Mathematical
             Institute, University of Oxford
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/pugh
@@ -14,7 +15,6 @@ project:
   venue: SciPy 2014
   subject: Research Article
   date: 2014-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-14bd3278-00a
   keywords:
     - python
@@ -28,7 +28,11 @@ project:
     - url: ./pugh.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

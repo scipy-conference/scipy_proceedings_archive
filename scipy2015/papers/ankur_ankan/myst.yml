@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2015-ankur_ankan
+  authors:
+    - name: Ankur Ankan
+      affiliations: []
+    - name: Abinash Panda
+      affiliations: []
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/ankur_ankan
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-001
+  keywords:
+    - Graphical Models
+    - Bayesian Networks
+    - Markov Networks
+    - Variable Elimination
+  title: 'pgmpy: Probabilistic Graphical Models using Python'
+  downloads:
+    - url: ./ankur_ankan.pdf
+      title: Download PDF
+    - url: ./ankur_ankan.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+  abbreviations:
+    PGM: Probabilistic Graphical Models
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

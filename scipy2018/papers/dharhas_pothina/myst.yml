@@ -34,7 +34,6 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-007
   keywords:
     - python
@@ -44,15 +43,19 @@ project:
     - hydrology
     - hydrodynamics
     - grid generation
-  title: "EarthSim: Flexible Environmental Simulation Workflows Entirely Within
-    Jupyter Notebooks"
+  title: 'EarthSim: Flexible Environmental Simulation Workflows Entirely Within
+    Jupyter Notebooks'
   downloads:
     - url: ./dharhas_pothina.pdf
       title: Download PDF
     - url: ./dharhas_pothina.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

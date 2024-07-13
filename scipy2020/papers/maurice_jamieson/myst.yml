@@ -6,7 +6,7 @@ project:
       affiliations:
         - id: epcc-at-the-university-of-edinburgh
           name: EPCC at the University of Edinburgh
-    - name: " Nick Brown"
+    - name: ' Nick Brown'
       affiliations:
         - epcc-at-the-university-of-edinburgh
     - name: Sihang Liu
@@ -18,7 +18,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-00f
   keywords:
     - ePython
@@ -27,15 +26,19 @@ project:
     - MicroBlaze
     - PicoRV32
     - Epiphany
-  title: "Having your cake and eating it: Exploiting Python for programmer
-    productivity and performance on micro-core architectures using ePython"
+  title: 'Having your cake and eating it: Exploiting Python for programmer
+    productivity and performance on micro-core architectures using ePython'
   downloads:
     - url: ./maurice_jamieson.pdf
       title: Download PDF
     - url: ./maurice_jamieson.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

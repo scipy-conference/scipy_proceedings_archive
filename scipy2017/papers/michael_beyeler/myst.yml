@@ -26,21 +26,24 @@ project:
   venue: SciPy 2017
   subject: Research Article
   date: 2017-07-10
-  thumbnail: thumbnail.webp
   doi: 10.25080/shinma-7f4c6e7-00c
   keywords:
     - bionic vision
     - retinal implant
     - pulse2percept
     - prosthesis
-  title: "pulse2percept: A Python-based simulation framework for bionic vision"
+  title: 'pulse2percept: A Python-based simulation framework for bionic vision'
   downloads:
     - url: ./michael_beyeler.pdf
       title: Download PDF
     - url: ./michael_beyeler.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

@@ -5,7 +5,8 @@ project:
     - name: Nadia Tahiri
       affiliations:
         - id: département-d’informatique
-          name: Département d’Informatique, Université du Québec à Montréal, Case postale
+          name:
+            Département d’Informatique, Université du Québec à Montréal, Case postale
             8888, Succursale Centre-ville, H3C 3P8 Montréal, Canada
     - name: Bogdan Mazoure
       affiliations:
@@ -21,7 +22,6 @@ project:
   venue: SciPy 2019
   subject: Research Article
   date: 2019-07-08
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-7ddc1dd1-00c
   keywords:
     - Machine Learning
@@ -32,7 +32,8 @@ project:
     - Python
     - Sklearn
     - Tensorflow
-  title: An intelligent shopping list based on the application of partitioning and
+  title:
+    An intelligent shopping list based on the application of partitioning and
     machine learning algorithms
   downloads:
     - url: ./nadia_tahiri.pdf
@@ -40,7 +41,11 @@ project:
     - url: ./nadia_tahiri.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

@@ -2,7 +2,7 @@ version: 1
 project:
   id: scipy-2020-sebastian_benthall
   authors:
-    - name: " Sebastian Benthall"
+    - name: ' Sebastian Benthall'
       affiliations:
         - id: new-york-university-school-of-law
           name: New York University School of Law
@@ -17,21 +17,24 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-015
   keywords:
     - computational method
     - computional thinking
     - constructionist learning
     - research software engineering
-  title: "Software Engineering as Research Method: Aligning Roles in Econ-ARK"
+  title: 'Software Engineering as Research Method: Aligning Roles in Econ-ARK'
   downloads:
     - url: ./sebastian_benthall.pdf
       title: Download PDF
     - url: ./sebastian_benthall.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

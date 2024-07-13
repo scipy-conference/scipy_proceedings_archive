@@ -22,7 +22,6 @@ project:
   venue: SciPy 2014
   subject: Research Article
   date: 2014-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-14bd3278-002
   keywords:
     - education
@@ -36,7 +35,11 @@ project:
     - url: ./clark.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

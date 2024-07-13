@@ -20,21 +20,24 @@ project:
   venue: SciPy 2012
   subject: Research Article
   date: 2012-07-16
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-54c7f2c8-00b
   keywords:
     - runtime optimization
     - high-performance
     - high-productivity
-  title: "cphVB: A System for Automated Runtime Optimization and Parallelization
-    of Vectorized Applications"
+  title: 'cphVB: A System for Automated Runtime Optimization and Parallelization
+    of Vectorized Applications'
   downloads:
     - url: ./simon_lund.pdf
       title: Download PDF
     - url: ./simon_lund.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

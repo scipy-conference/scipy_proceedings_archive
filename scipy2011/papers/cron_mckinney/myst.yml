@@ -15,7 +15,6 @@ project:
   venue: SciPy 2011
   subject: Research Article
   date: 2011-07-11
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-ebaa42b7-003
   keywords:
     - GPU
@@ -29,14 +28,18 @@ project:
     - Markov Chain Monte Carlo (MCMC)
     - PyMC
     - big data
-  title: "gpustats: GPU Library for Statistical Computing in Python"
+  title: 'gpustats: GPU Library for Statistical Computing in Python'
   downloads:
     - url: ./cron_mckinney.pdf
       title: Download PDF
     - url: ./cron_mckinney.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

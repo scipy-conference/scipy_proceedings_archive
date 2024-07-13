@@ -2,30 +2,30 @@ version: 1
 project:
   id: scipy-2020-pydra
   authors:
-    - name: " Dorota Jarecka"
+    - name: ' Dorota Jarecka'
       affiliations:
         - id: massachusetts-institute-of-technology
           name: Massachusetts Institute of Technology, Cambridge, MA, USA
-    - name: " Mathias Goncalves"
+    - name: ' Mathias Goncalves'
       affiliations:
         - id: stanford-university
           name: Stanford University, Stanford, CA, USA
         - massachusetts-institute-of-technology
-    - name: " Christopher J. Markiewicz"
+    - name: ' Christopher J. Markiewicz'
       affiliations:
         - stanford-university
-    - name: " Oscar Esteban"
+    - name: ' Oscar Esteban'
       affiliations:
         - stanford-university
-    - name: " Nicole Lo"
+    - name: ' Nicole Lo'
       affiliations:
         - massachusetts-institute-of-technology
-    - name: " Jakub Kaczmarzyk"
+    - name: ' Jakub Kaczmarzyk'
       affiliations:
         - id: stony-brook-university-school-of-medicine
           name: Stony Brook University School of Medicine, Stony Brook, NY, USA
         - massachusetts-institute-of-technology
-    - name: " Satrajit Ghosh"
+    - name: ' Satrajit Ghosh'
       affiliations:
         - massachusetts-institute-of-technology
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/pydra
@@ -34,7 +34,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-012
   keywords:
     - dataflow engine
@@ -47,7 +46,11 @@ project:
     - url: ./pydra.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

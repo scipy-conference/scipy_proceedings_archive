@@ -12,20 +12,23 @@ project:
   venue: SciPy 2010
   subject: Research Article
   date: 2010-06-28
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-92bf1922-00d
   keywords:
     - fire protection engineering
     - fluid dynamics
     - visualization
-  title: "Numerical Pyromaniacs: The Use of Python in Fire Research"
+  title: 'Numerical Pyromaniacs: The Use of Python in Fire Research'
   downloads:
     - url: ./overholt.pdf
       title: Download PDF
     - url: ./overholt.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

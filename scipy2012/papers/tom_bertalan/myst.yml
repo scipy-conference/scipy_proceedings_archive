@@ -21,21 +21,24 @@ project:
   venue: SciPy 2012
   subject: Research Article
   date: 2012-07-16
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-54c7f2c8-00c
   keywords:
     - python
     - multigrid
     - numpy
     - partial differential equations
-  title: "OpenMG: A New Multigrid Implementation in Python"
+  title: 'OpenMG: A New Multigrid Implementation in Python'
   downloads:
     - url: ./tom_bertalan.pdf
       title: Download PDF
     - url: ./tom_bertalan.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2015-ian_henriksen
+  authors:
+    - name: Ian Henriksen
+      affiliations:
+        - id: brigham-young-university-math-department
+          name: Brigham Young University Math Department
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/ian_henriksen
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-008
+  keywords:
+    - Cython
+    - BLAS
+    - LAPACK
+    - SciPy
+  title: "Circumventing The Linker: Using SciPy's BLAS and LAPACK Within Cython"
+  downloads:
+    - url: ./ian_henriksen.pdf
+      title: Download PDF
+    - url: ./ian_henriksen.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

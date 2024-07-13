@@ -1,0 +1,39 @@
+version: 1
+project:
+  id: scipy-2016-kyle_niemeyer
+  authors:
+    - name: Kyle E. Niemeyer
+      affiliations:
+        - id: school-of-mechanical
+          name:
+            School of Mechanical, Industrial, and Manufacturing Engineering, Oregon
+            State University
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/kyle_niemeyer
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  doi: 10.25080/Majora-629e541a-00c
+  keywords:
+    - combustion
+    - chemical kinetics
+    - model validation
+  title: 'PyTeCK: a Python-based automatic testing package for chemical kinetic
+    models'
+  downloads:
+    - url: ./kyle_niemeyer.pdf
+      title: Download PDF
+    - url: ./kyle_niemeyer.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

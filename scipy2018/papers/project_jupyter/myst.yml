@@ -15,8 +15,8 @@ project:
         - project-jupyter
     - name: Jeremy Freeman
       affiliations:
-        - id: ""
-          name: ""
+        - id: ''
+          name: ''
     - name: Brian Granger
       affiliations:
         - id: cal-poly
@@ -38,7 +38,7 @@ project:
           name: Simula Research Lab
     - name: Andrew Osheroff
       affiliations:
-        - ""
+        - ''
     - name: M Pacer
       affiliations:
         - netflix
@@ -60,7 +60,6 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-011
   keywords:
     - cloud computing
@@ -77,7 +76,8 @@ project:
     - github
     - publishing
     - interactivity
-  title: Binder 2.0 - Reproducible, interactive, sharable environments for science
+  title:
+    Binder 2.0 - Reproducible, interactive, sharable environments for science
     at scale
   downloads:
     - url: ./project_jupyter.pdf
@@ -85,7 +85,11 @@ project:
     - url: ./project_jupyter.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

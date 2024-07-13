@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2015-mellissa_cross_p
+  authors:
+    - name: Mellissa Cross
+      affiliations:
+        - id: department-of-earth-sciences
+          name: Department of Earth Sciences, University of Minnesota
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/mellissa_cross_p
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-014
+  keywords:
+    - HYSPLIT
+    - trajectory analysis
+    - matplotlib Basemap
+  title: 'PySPLIT: a Package for the Generation, Analysis, and Visualization of
+    HYSPLIT Air Parcel Trajectories'
+  downloads:
+    - url: ./mellissa_cross_p.pdf
+      title: Download PDF
+    - url: ./mellissa_cross_p.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

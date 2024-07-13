@@ -33,7 +33,6 @@ project:
   venue: SciPy 2019
   subject: Research Article
   date: 2019-07-08
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-7ddc1dd1-003
   keywords:
     - modulation classification
@@ -52,7 +51,11 @@ project:
     - url: ./aero_nn_vila.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

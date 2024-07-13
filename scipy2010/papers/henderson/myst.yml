@@ -18,7 +18,6 @@ project:
   venue: SciPy 2010
   subject: Research Article
   date: 2010-06-28
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-92bf1922-009
   keywords:
     - sudoku
@@ -31,7 +30,11 @@ project:
     - url: ./henderson.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

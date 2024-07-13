@@ -1,0 +1,37 @@
+version: 1
+project:
+  id: scipy-2016-prabhu_ramachandran_fossee
+  authors:
+    - name: Prabhu Ramachandran
+      affiliations:
+        - id: department-of-aerospace-engineering
+          name: Department of Aerospace Engineering
+        - id: iit-bombay
+          name: IIT Bombay, Mumbai, India
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/prabhu_ramachandran_fossee
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  doi: 10.25080/Majora-629e541a-010
+  title: 'Spreading the Adoption of Python in India: the FOSSEE Python Project'
+  downloads:
+    - url: ./prabhu_ramachandran_fossee.pdf
+      title: Download PDF
+    - url: ./prabhu_ramachandran_fossee.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+  abbreviations:
+    FOSSEE: Free Open Source Software for Science and Engineering Education
+    MHRD: Ministry of Human Resources and Development
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

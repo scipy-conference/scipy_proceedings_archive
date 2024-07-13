@@ -20,7 +20,6 @@ project:
   venue: SciPy 2017
   subject: Research Article
   date: 2017-07-10
-  thumbnail: thumbnail.webp
   doi: 10.25080/shinma-7f4c6e7-004
   keywords:
     - laboratory notebook
@@ -36,14 +35,18 @@ project:
     - relational database
     - normalization
     - SQL
-  title: "LabbookDB: A Wet-Work-Tracking Database Application Framework"
+  title: 'LabbookDB: A Wet-Work-Tracking Database Application Framework'
   downloads:
     - url: ./horea-ioan_ioanas.pdf
       title: Download PDF
     - url: ./horea-ioan_ioanas.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2015-kathryn_huff
+  authors:
+    - name: Kathryn Huff
+      affiliations:
+        - id: university-of-california
+          name: University of California, Berkeley
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/kathryn_huff
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-00d
+  keywords:
+    - engineering
+    - nuclear reactor
+    - package
+  title: 'PyRK: A Python Package For Nuclear Reactor Kinetics'
+  downloads:
+    - url: ./kathryn_huff.pdf
+      title: Download PDF
+    - url: ./kathryn_huff.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

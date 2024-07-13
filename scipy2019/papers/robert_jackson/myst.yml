@@ -28,7 +28,6 @@ project:
   venue: SciPy 2019
   subject: Research Article
   date: 2019-07-08
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-7ddc1dd1-010
   keywords:
     - wind
@@ -36,14 +35,18 @@ project:
     - hurricane
     - tornado
     - radar
-  title: "PyDDA: A new Pythonic Wind Retrieval Package"
+  title: 'PyDDA: A new Pythonic Wind Retrieval Package'
   downloads:
     - url: ./robert_jackson.pdf
       title: Download PDF
     - url: ./robert_jackson.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

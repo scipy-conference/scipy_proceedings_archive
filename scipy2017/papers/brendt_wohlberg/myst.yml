@@ -12,7 +12,6 @@ project:
   venue: SciPy 2017
   subject: Research Article
   date: 2017-07-10
-  thumbnail: thumbnail.webp
   doi: 10.25080/shinma-7f4c6e7-001
   keywords:
     - sparse representations
@@ -30,7 +29,11 @@ project:
     - url: ./brendt_wohlberg.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
   abbreviations:
     SPORCO: SParse Optimization Research COde
     ADMM: Alternating Direction Method of Multipliers

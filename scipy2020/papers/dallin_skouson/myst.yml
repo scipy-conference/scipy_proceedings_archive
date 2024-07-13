@@ -9,11 +9,11 @@ project:
         - id: department-of-electrical-and-computer-engineering
           name: Department of Electrical and Computer Engineering, Brigham Young
             University
-    - name: " Andrew Keller"
+    - name: ' Andrew Keller'
       affiliations:
         - nsf-center-for-space
         - department-of-electrical-and-computer-engineering
-    - name: " Michael Wirthlin"
+    - name: ' Michael Wirthlin'
       affiliations:
         - nsf-center-for-space
         - department-of-electrical-and-computer-engineering
@@ -23,7 +23,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-006
   keywords:
     - Hardware Design
@@ -37,7 +36,11 @@ project:
     - url: ./dallin_skouson.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

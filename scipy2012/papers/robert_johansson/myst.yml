@@ -14,21 +14,25 @@ project:
   venue: SciPy 2012
   subject: Research Article
   date: 2012-07-16
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-54c7f2c8-00a
   keywords:
     - quantum mechanics
     - master equation
     - monte-carlo
-  title: "QuTiP: A framework for the dynamics of open quantum systems using SciPy
-    and Cython"
+  title:
+    'QuTiP: A framework for the dynamics of open quantum systems using SciPy
+    and Cython'
   downloads:
     - url: ./robert_johansson.pdf
       title: Download PDF
     - url: ./robert_johansson.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

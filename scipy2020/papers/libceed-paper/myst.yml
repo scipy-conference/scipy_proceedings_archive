@@ -2,17 +2,17 @@ version: 1
 project:
   id: scipy-2020-libceed-paper
   authors:
-    - name: " Valeria Barra"
+    - name: ' Valeria Barra'
       affiliations:
         - id: university-of-colorado-boulder
           name: University of Colorado Boulder
-    - name: " Jed Brown"
+    - name: ' Jed Brown'
       affiliations:
         - university-of-colorado-boulder
-    - name: " Jeremy Thompson"
+    - name: ' Jeremy Thompson'
       affiliations:
         - university-of-colorado-boulder
-    - name: " Yohann Dudouit"
+    - name: ' Yohann Dudouit'
       affiliations:
         - id: lawrence-livermore-national-laboratory
           name: Lawrence Livermore National Laboratory
@@ -22,7 +22,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-00c
   keywords:
     - High-performance Python
@@ -30,7 +29,8 @@ project:
     - scalability
     - parallelism
     - high-order finite elements
-  title: "High-performance operator evaluations with ease of use: libCEED's Python
+  title:
+    "High-performance operator evaluations with ease of use: libCEED's Python
     interface"
   downloads:
     - url: ./libceed-paper.pdf
@@ -38,7 +38,11 @@ project:
     - url: ./libceed-paper.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

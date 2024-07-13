@@ -2,7 +2,7 @@ version: 1
 project:
   id: scipy-2020-mark_wickert_239
   authors:
-    - name: " Mark Wickert"
+    - name: ' Mark Wickert'
       affiliations:
         - id: university-of-colorado-colorado-springs
           name: University of Colorado Colorado Springs
@@ -15,7 +15,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-00e
   keywords:
     - digital modulation
@@ -30,7 +29,11 @@ project:
     - url: ./mark_wickert_239.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

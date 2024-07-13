@@ -1,0 +1,42 @@
+version: 1
+project:
+  id: scipy-2015-jacqueline_kazil
+  authors:
+    - name: David Masad
+      affiliations:
+        - id: department-of-computational-social-science
+          name: Department of Computational Social Science, George Mason University
+    - name: Jacqueline Kazil
+      affiliations:
+        - department-of-computational-social-science
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/jacqueline_kazil
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-009
+  keywords:
+    - agent-based modeling
+    - multi-agent systems
+    - cellular automata
+    - complexity
+    - modeling
+    - simulation
+  title: 'Mesa: An Agent-Based Modeling Framework'
+  downloads:
+    - url: ./jacqueline_kazil.pdf
+      title: Download PDF
+    - url: ./jacqueline_kazil.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

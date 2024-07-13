@@ -1,0 +1,38 @@
+version: 1
+project:
+  id: scipy-2015-mark_wickert
+  authors:
+    - name: Mark Wickert
+      affiliations:
+        - id: university-of-colorado-colorado-springs
+          name: University of Colorado Colorado Springs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/mark_wickert
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-010
+  keywords:
+    - numerical computing
+    - signal processing
+    - communications systems
+    - system modeling
+  title: 'Signal Processing and Communications: Teaching and Research Using
+    IPython Notebook'
+  downloads:
+    - url: ./mark_wickert.pdf
+      title: Download PDF
+    - url: ./mark_wickert.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

@@ -13,7 +13,8 @@ project:
     - name: Eric S. Harper
       affiliations:
         - id: department-of-materials-science-\&-engineering
-          name: Department of Materials Science \& Engineering, University of Michigan,
+          name:
+            Department of Materials Science \& Engineering, University of Michigan,
             Ann Arbor
     - name: Matthew P. Spellings
       affiliations:
@@ -26,7 +27,8 @@ project:
         - department-of-physics
         - department-of-chemical-engineering
         - id: department-of-materials-science-and-engineering
-          name: Department of Materials Science and Engineering, University of Michigan,
+          name:
+            Department of Materials Science and Engineering, University of Michigan,
             Ann Arbor
         - id: biointerfaces-institute
           name: Biointerfaces Institute, University of Michigan, Ann Arbor
@@ -36,7 +38,6 @@ project:
   venue: SciPy 2019
   subject: Research Article
   date: 2019-07-08
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-7ddc1dd1-004
   keywords:
     - molecular dynamics
@@ -53,7 +54,11 @@ project:
     - url: ./bradley_dice.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

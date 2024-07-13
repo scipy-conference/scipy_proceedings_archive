@@ -20,7 +20,8 @@ project:
       affiliations:
         - department-of-chemical-engineering
         - id: department-of-materials-science-and-engineering
-          name: Department of Materials Science and Engineering, University of Michigan,
+          name:
+            Department of Materials Science and Engineering, University of Michigan,
             Ann Arbor
         - department-of-physics
         - id: biointerfaces-institute
@@ -31,7 +32,6 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-016
   keywords:
     - data management
@@ -40,14 +40,18 @@ project:
     - provenance
     - computational workflow
     - hpc
-  title: "signac: A Python framework for data and workflow management"
+  title: 'signac: A Python framework for data and workflow management'
   downloads:
     - url: ./vyas_ramasubramani.pdf
       title: Download PDF
     - url: ./vyas_ramasubramani.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

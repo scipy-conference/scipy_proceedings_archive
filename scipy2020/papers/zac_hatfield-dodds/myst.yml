@@ -2,7 +2,7 @@ version: 1
 project:
   id: scipy-2020-zac_hatfield-dodds
   authors:
-    - name: " Zac Hatfield-Dodds"
+    - name: ' Zac Hatfield-Dodds'
       affiliations:
         - id: australian-national-university
           name: Australian National University
@@ -12,22 +12,25 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-016
   keywords:
     - methods
     - software
     - validation
     - property-based testing
-  title: "Falsify your Software: validating scientific code with property-based
-    testing"
+  title: 'Falsify your Software: validating scientific code with property-based
+    testing'
   downloads:
     - url: ./zac_hatfield-dodds.pdf
       title: Download PDF
     - url: ./zac_hatfield-dodds.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

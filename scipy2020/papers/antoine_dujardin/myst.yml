@@ -5,7 +5,8 @@ project:
     - name: Antoine Dujardin
       affiliations:
         - id: slac-national-accelerator-laboratory
-          name: SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, CA
+          name:
+            SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, CA
             94025, USA
     - name: Elliott Slaugther
       affiliations:
@@ -13,15 +14,18 @@ project:
     - name: Jeffrey Donatelli
       affiliations:
         - id: department-of-applied-mathematics
-          name: Department of Applied Mathematics, Lawrence Berkeley National Laboratory,
+          name:
+            Department of Applied Mathematics, Lawrence Berkeley National Laboratory,
             Berkeley, CA USA 94720-8142
         - id: center-for-advanced-mathematics-for-energy-research-applications
-          name: Center for Advanced Mathematics for Energy Research Applications, Lawrence
+          name:
+            Center for Advanced Mathematics for Energy Research Applications, Lawrence
             Berkeley National Laboratory, Berkeley, CA USA 94720-8142
     - name: Peter Zwart
       affiliations:
         - id: molecular-biophysics-and-integrated-bio-imaging-division
-          name: Molecular Biophysics and Integrated Bio-Imaging Division, Lawrence
+          name:
+            Molecular Biophysics and Integrated Bio-Imaging Division, Lawrence
             Berkeley National Laboratory, Berkeley, CA USA 94720-8142
         - center-for-advanced-mathematics-for-energy-research-applications
     - name: Amedeo Perazzo
@@ -36,7 +40,6 @@ project:
   venue: SciPy 2020
   subject: Research Article
   date: 2020-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-342d178e-003
   keywords:
     - fluctuation x-ray scattering
@@ -50,7 +53,11 @@ project:
     - url: ./antoine_dujardin.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

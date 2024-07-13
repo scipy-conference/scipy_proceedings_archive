@@ -1,0 +1,48 @@
+version: 1
+project:
+  id: scipy-2016-anton_malakhov
+  authors:
+    - name: Anton Malakhov
+      affiliations:
+        - id: intel-corporation
+          name: Intel Corporation
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/anton_malakhov
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  doi: 10.25080/Majora-629e541a-002
+  keywords:
+    - Multi-threading
+    - Over-subscription
+    - Parallel Computations
+    - Nested Parallelism
+    - Multi-core
+    - Python
+    - GIL
+    - Dask
+    - Joblib
+    - NumPy
+    - SciPy
+    - Numba
+    - TBB
+  title: Composable Multi-Threading for Python Libraries
+  downloads:
+    - url: ./anton_malakhov.pdf
+      title: Download PDF
+    - url: ./anton_malakhov.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+  abbreviations:
+    TBB: Threading Building Block
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

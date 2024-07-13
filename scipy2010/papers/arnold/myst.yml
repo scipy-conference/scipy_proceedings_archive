@@ -19,7 +19,6 @@ project:
   venue: SciPy 2010
   subject: Research Article
   date: 2010-06-28
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-92bf1922-002
   keywords:
     - SVD
@@ -27,14 +26,18 @@ project:
     - linear algebra
     - semantic networks
     - graph theory
-  title: "Divisi: Learning from Semantic Networks and Sparse SVD"
+  title: 'Divisi: Learning from Semantic Networks and Sparse SVD'
   downloads:
     - url: ./arnold.pdf
       title: Download PDF
     - url: ./arnold.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

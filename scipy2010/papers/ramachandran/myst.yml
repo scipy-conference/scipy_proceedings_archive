@@ -15,21 +15,24 @@ project:
   venue: SciPy 2010
   subject: Research Article
   date: 2010-06-28
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-92bf1922-00f
   keywords:
     - parallel
     - Cython
     - fluid dynamics
     - simulation
-  title: "PySPH: A Python Framework for Smoothed Particle Hydrodynamics"
+  title: 'PySPH: A Python Framework for Smoothed Particle Hydrodynamics'
   downloads:
     - url: ./ramachandran.pdf
       title: Download PDF
     - url: ./ramachandran.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

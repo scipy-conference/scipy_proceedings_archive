@@ -1,0 +1,45 @@
+version: 1
+project:
+  id: scipy-2016-christian_oxvig
+  authors:
+    - name: Christian Schou Oxvig
+      affiliations:
+        - id: faculty-of-engineering-and-science
+          name:
+            Faculty of Engineering and Science, Department of Electronic Systems,
+            Aalborg University, 9220 Aalborg, Denmark
+    - name: Thomas Arildsen
+      affiliations:
+        - faculty-of-engineering-and-science
+    - name: Torben Larsen
+      affiliations:
+        - faculty-of-engineering-and-science
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/christian_oxvig
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  doi: 10.25080/Majora-629e541a-006
+  keywords:
+    - Reproducibility
+    - Computational Science
+    - HDF5
+  title: Storing Reproducible Results from Computational Experiments using
+    Scientific Python Packages
+  downloads:
+    - url: ./christian_oxvig.pdf
+      title: Download PDF
+    - url: ./christian_oxvig.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

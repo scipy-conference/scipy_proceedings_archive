@@ -19,7 +19,7 @@ project:
         - id: university-of-new-hampshire
           name: University of New Hampshire
         - id: present-address
-          name: "present address: NextMove Software Ltd."
+          name: 'present address: NextMove Software Ltd.'
     - name: Michael Gecht
       affiliations:
         - max-planck-institute-of-biophysics
@@ -32,7 +32,6 @@ project:
   venue: SciPy 2019
   subject: Research Article
   date: 2019-07-08
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-7ddc1dd1-013
   keywords:
     - Molecular Dynamics Simulations
@@ -47,7 +46,11 @@ project:
     - url: ./shujie_fan.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

@@ -1,0 +1,36 @@
+version: 1
+project:
+  id: scipy-2015-josh_walawender
+  authors:
+    - name: Josh Walawender
+      affiliations:
+        - id: subaru-telescope
+          name: Subaru Telescope, National Astronomical Observatory of Japan
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2015/papers/josh_walawender
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2015
+  subject: Research Article
+  date: 2015-07-06
+  doi: 10.25080/Majora-7b98e3ed-00c
+  keywords:
+    - astronomy
+    - automated telescopes
+    - image quality
+  title: Automated Image Quality Monitoring with IQMon
+  downloads:
+    - url: ./josh_walawender.pdf
+      title: Download PDF
+    - url: ./josh_walawender.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

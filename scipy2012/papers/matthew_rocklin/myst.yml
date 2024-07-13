@@ -11,7 +11,6 @@ project:
   venue: SciPy 2012
   subject: Research Article
   date: 2012-07-16
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-54c7f2c8-009
   keywords:
     - Symbolics
@@ -25,7 +24,11 @@ project:
     - url: ./matthew_rocklin.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

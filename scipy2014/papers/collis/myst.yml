@@ -27,7 +27,8 @@ project:
     - name: Adam Theisen
       affiliations:
         - id: university-of-oklahoma
-          name: University of Oklahoma, Cooperative Institute for Mesoscale Meteorological
+          name:
+            University of Oklahoma, Cooperative Institute for Mesoscale Meteorological
             Studies, ARM Climate Research Facility Data Quality Office.
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/collis
   open_access: true
@@ -35,21 +36,24 @@ project:
   venue: SciPy 2014
   subject: Research Article
   date: 2014-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-14bd3278-003
   keywords:
     - Remote sensing
     - radar
     - meteorology
     - hydrology
-  title: "Measuring rainshafts: Bringing Python to bear on remote sensing data"
+  title: 'Measuring rainshafts: Bringing Python to bear on remote sensing data'
   downloads:
     - url: ./collis.pdf
       title: Download PDF
     - url: ./collis.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

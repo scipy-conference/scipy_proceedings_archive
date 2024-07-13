@@ -1,0 +1,43 @@
+version: 1
+project:
+  id: scipy-2016-jonathon_smith
+  authors:
+    - name: Jonathon Smith, William Taber, Theodore Drain, Scott Evans, James Evans,
+        Michelle Guevara, William Schulze, Richard Sunseri, Hsi-Cheng Wu
+      affiliations:
+        - id: jet-propulsion-laboratory
+          name: Jet Propulsion Laboratory, California Institute of Technology / NASA
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2016/papers/jonathon_smith
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2016
+  subject: Research Article
+  date: 2016-07-11
+  doi: 10.25080/Majora-629e541a-009
+  keywords:
+    - astrodynamics
+    - aerospace
+    - orbit
+    - trajectory
+    - JPL
+    - NASA
+  title: MONTE Python for Deep Space Navigation
+  downloads:
+    - url: ./jonathon_smith.pdf
+      title: Download PDF
+    - url: ./jonathon_smith.bib
+      title: Download Bibtex
+  banner: banner.png
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+  abbreviations:
+    MONTE: Mission Analysis, Operations, and Navigation Toolkit Environment
+    JPL: Jet Propulsion Laboratory
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []

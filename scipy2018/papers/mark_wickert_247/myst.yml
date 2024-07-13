@@ -15,13 +15,13 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-00d
   keywords:
     - Global positioning system
     - Kalman filter
     - Extended Kalman filter
-  title: Exploring the Extended Kalman Filter for GPS Positioning Using Simulated
+  title:
+    Exploring the Extended Kalman Filter for GPS Positioning Using Simulated
     User and Satellite Track Data
   downloads:
     - url: ./mark_wickert_247.pdf
@@ -29,7 +29,11 @@ project:
     - url: ./mark_wickert_247.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

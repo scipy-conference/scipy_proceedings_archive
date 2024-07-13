@@ -24,7 +24,6 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-010
   keywords:
     - oceanography
@@ -38,7 +37,8 @@ project:
     - pandas
     - dask
     - jupyter
-  title: Harnessing the Power of Scientific Python to Investigate Biogeochemistry
+  title:
+    Harnessing the Power of Scientific Python to Investigate Biogeochemistry
     and Metaproteomes of the Central Pacific Ocean
   downloads:
     - url: ./n_held.pdf
@@ -46,7 +46,11 @@ project:
     - url: ./n_held.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

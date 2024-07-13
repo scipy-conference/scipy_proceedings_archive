@@ -12,20 +12,23 @@ project:
   venue: SciPy 2014
   subject: Research Article
   date: 2014-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-14bd3278-00e
   keywords:
     - statistics
     - frequentism
     - Bayesian inference
-  title: "Frequentism and Bayesianism: A Python-driven Primer"
+  title: 'Frequentism and Bayesianism: A Python-driven Primer'
   downloads:
     - url: ./vanderplas.pdf
       title: Download PDF
     - url: ./vanderplas.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

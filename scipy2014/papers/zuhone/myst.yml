@@ -5,22 +5,26 @@ project:
     - name: John A. ZuHone
       affiliations:
         - id: astrophysics-science-division
-          name: Astrophysics Science Division, Laboratory for High Energy Astrophysics,
+          name:
+            Astrophysics Science Division, Laboratory for High Energy Astrophysics,
             Code 662, NASA/Goddard Space Flight Center, Greenbelt, MD 20771
     - name: Veronica Biffi
       affiliations:
         - id: sissa---scuola-internazionale-superiore-di-studi-avanzati
-          name: SISSA - Scuola Internazionale Superiore di Studi Avanzati, Via Bonomea
+          name:
+            SISSA - Scuola Internazionale Superiore di Studi Avanzati, Via Bonomea
             265, 34136 Trieste, Italy
     - name: Eric J. Hallman
       affiliations:
         - id: center-for-astrophysics-and-space-astronomy
-          name: Center for Astrophysics and Space Astronomy, Department of Astrophysical
+          name:
+            Center for Astrophysics and Space Astronomy, Department of Astrophysical
             \& Planetary Science, University of Colorado, Boulder, CO 80309
     - name: Scott W. Randall
       affiliations:
         - id: harvard-smithsonian-center-for-astrophysics
-          name: Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge,
+          name:
+            Harvard-Smithsonian Center for Astrophysics, 60 Garden Street, Cambridge,
             MA 02138
     - name: Adam R. Foster
       affiliations:
@@ -28,7 +32,8 @@ project:
     - name: Christian Schmid
       affiliations:
         - id: dr.-karl-remeis-sternwarte-\&-ecap
-          name: Dr. Karl Remeis-Sternwarte \& ECAP, Sternwartstr. 7, 96049 Bamberg,
+          name:
+            Dr. Karl Remeis-Sternwarte \& ECAP, Sternwartstr. 7, 96049 Bamberg,
             Germany
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2014/papers/zuhone
   open_access: true
@@ -36,7 +41,6 @@ project:
   venue: SciPy 2014
   subject: Research Article
   date: 2014-07-06
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-14bd3278-010
   keywords:
     - astronomical observations
@@ -49,7 +53,11 @@ project:
     - url: ./zuhone.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

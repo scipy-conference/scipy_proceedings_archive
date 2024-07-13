@@ -5,7 +5,8 @@ project:
     - name: Andrew Durden
       affiliations:
         - id: department-of-computer-science
-          name: Department of Computer Science, University of Georgia, Athens, GA 30602
+          name:
+            Department of Computer Science, University of Georgia, Athens, GA 30602
             USA
     - name: Allyson T Loy
       affiliations:
@@ -14,7 +15,8 @@ project:
     - name: Barbara Reaves
       affiliations:
         - id: department-of-infectious-diseases
-          name: Department of Infectious Diseases, University of Georgia, Athens, GA 30602
+          name:
+            Department of Infectious Diseases, University of Georgia, Athens, GA 30602
             USA
     - name: Mojtaba Fazli
       affiliations:
@@ -28,13 +30,15 @@ project:
     - name: S Chakra Chennubhotla
       affiliations:
         - id: department-of-computational-and-systems-biology
-          name: Department of Computational and Systems Biology, University of Pittsburgh,
+          name:
+            Department of Computational and Systems Biology, University of Pittsburgh,
             Pittsburgh, PA 15232 USA
     - name: Shannon P Quinn
       affiliations:
         - department-of-computer-science
         - id: department-of-cellular-biology
-          name: Department of Cellular Biology, University of Georgia, Athens, GA 30602
+          name:
+            Department of Cellular Biology, University of Georgia, Athens, GA 30602
             USA
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2018/papers/Andrew_Durden
   open_access: true
@@ -42,7 +46,6 @@ project:
   venue: SciPy 2018
   subject: Research Article
   date: 2018-07-09
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-4af1f417-000
   keywords:
     - Biomedical Imaging
@@ -55,7 +58,11 @@ project:
     - url: ./Andrew_Durden.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

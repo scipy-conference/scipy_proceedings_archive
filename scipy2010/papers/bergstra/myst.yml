@@ -36,7 +36,6 @@ project:
   venue: SciPy 2010
   subject: Research Article
   date: 2010-06-28
-  thumbnail: thumbnail.webp
   doi: 10.25080/Majora-92bf1922-003
   keywords:
     - GPU
@@ -45,14 +44,18 @@ project:
     - optimization
     - compiler
     - NumPy
-  title: "Theano: A CPU and GPU Math Compiler in Python"
+  title: 'Theano: A CPU and GPU Math Compiler in Python'
   downloads:
     - url: ./bergstra.pdf
       title: Download PDF
     - url: ./bergstra.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []
