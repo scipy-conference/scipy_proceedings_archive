@@ -2,7 +2,7 @@ version: 1
 project:
   id: scipy-2021-jyotika_singh
   authors:
-    - name: " Jyotika Singh"
+    - name: ' Jyotika Singh'
       affiliations:
         - id: icx-media
           name: ICX Media, Inc.
@@ -12,7 +12,6 @@ project:
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-009
   keywords:
     - nlp
@@ -29,7 +28,11 @@ project:
     - url: ./jyotika_singh.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

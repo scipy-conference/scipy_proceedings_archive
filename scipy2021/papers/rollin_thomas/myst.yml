@@ -2,19 +2,20 @@ version: 1
 project:
   id: scipy-2021-rollin_thomas
   authors:
-    - name: " Rollin Thomas"
+    - name: ' Rollin Thomas'
       affiliations:
         - id: national-energy-research-scientific-computing-center
-          name: National Energy Research Scientific Computing Center, Lawrence Berkeley
+          name:
+            National Energy Research Scientific Computing Center, Lawrence Berkeley
             National Laboratory, 1 Cyclotron Road MS59-4010A, Berkeley,
             California, 94720
-    - name: " Laurie Stephey"
+    - name: ' Laurie Stephey'
       affiliations:
         - national-energy-research-scientific-computing-center
-    - name: " Annette Greiner"
+    - name: ' Annette Greiner'
       affiliations:
         - national-energy-research-scientific-computing-center
-    - name: " Brandon Cook"
+    - name: ' Brandon Cook'
       affiliations:
         - national-energy-research-scientific-computing-center
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/rollin_thomas
@@ -23,7 +24,6 @@ project:
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-010
   keywords:
     - HPC
@@ -39,7 +39,11 @@ project:
     - url: ./rollin_thomas.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

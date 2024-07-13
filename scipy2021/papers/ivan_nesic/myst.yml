@@ -6,7 +6,7 @@ project:
       affiliations:
         - id: ibm
           name: IBM, Center for Open Source Data and AI Technologies (CODAIT)
-    - name: " Ivan Nesic"
+    - name: ' Ivan Nesic'
       affiliations:
         - id: university-hospital-of-basel
           name: University Hospital of Basel
@@ -16,7 +16,6 @@ project:
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-007
   keywords:
     - Kubernetes
@@ -35,7 +34,11 @@ project:
     - url: ./ivan_nesic.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

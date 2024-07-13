@@ -29,7 +29,6 @@ project:
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-008
   keywords:
     - Influence Diagrams
@@ -37,14 +36,18 @@ project:
     - Probabilistic Graphical Models
     - Game Theory
     - Decision Theory
-  title: "PyCID: A Python Library for Causal Influence Diagrams"
+  title: 'PyCID: A Python Library for Causal Influence Diagrams'
   downloads:
     - url: ./james_fox.pdf
       title: Download PDF
     - url: ./james_fox.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []

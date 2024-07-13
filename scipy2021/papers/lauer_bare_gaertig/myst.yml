@@ -15,7 +15,6 @@ project:
   venue: SciPy 2021
   subject: Research Article
   date: 2021-07-12
-  thumbnail: thumbnail.webp
   doi: 10.25080/majora-1b6fd038-00b
   keywords:
     - Physical modeling
@@ -24,15 +23,20 @@ project:
     - Flow force
     - Conformal mapping
     - SymPy
-  title: "Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling
-    in Physics"
+  title:
+    'Conformal Mappings with SymPy: Towards Python-driven Analytical Modeling
+    in Physics'
   downloads:
     - url: ./lauer_bare_gaertig.pdf
       title: Download PDF
     - url: ./lauer_bare_gaertig.bib
       title: Download Bibtex
   banner: banner.png
-  bibliography: []
+  abbreviations:
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
 site:
   template: article-theme
   nav: []
