@@ -3,12 +3,15 @@ project:
   id: scipy-2021-edis_jakupovic
   authors:
     - name: Edis Jakupovic
+      email: ejakupov@asu.edu
       affiliations:
-        - id: arizona-state-university
+        - id: asu
           name: Arizona State University
     - name: Oliver Beckstein
+      email: obeckste@asu.edu
+      corresponding: true
       affiliations:
-        - arizona-state-university
+        - asu
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/edis_jakupovic
   open_access: true
   license: CC-BY-4.0
@@ -30,14 +33,27 @@ project:
   downloads:
     - url: ./edis_jakupovic.pdf
       title: Download PDF
-    - url: ./edis_jakupovic.bib
-      title: Download Bibtex
   banner: banner.png
   abbreviations:
+    MD: molecular dynamics
+    HPC: high performance computing
+    MPI: message passing interface
+    XSEDE: Extreme Science and Engineering Discovery Environment
+    OST: object storage targets
+    RMSD: root mean squared distance
   error_rules:
     - rule: doi-exists
       severity: ignore
       keys:
+        - Beckstein:2018
+        - Collette:2014
+        - howison_tuning_2010
+    - rule: links-resolve
+      severity: ignore
+      keys:
+        - https://www.nics.tennessee.edu/computing-resources/file-systems/lustre-striping-guide
+        - https://cores.research.asu.edu/research-computing/user-guide
+        - https://portal.xsede.org/psc-bridges
 site:
   template: article-theme
   nav: []
