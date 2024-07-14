@@ -1,0 +1,23 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+chapters:
+  - file: proceedings
+  - file: '2023'
+  - file: '2022'
+  - file: '2021'
+  - file: '2020'
+  - file: '2019'
+  - file: '2018'
+  - file: '2017'
+  - file: '2016'
+  - file: '2015'
+  - file: '2014'
+  - file: '2013'
+  - file: '2012'
+  - file: '2011'
+  - file: '2010'
+  - file: past-conferences
+  - file: news
