@@ -3,24 +3,29 @@ project:
   id: scipy-2021-james_fox
   authors:
     - name: James Fox
+      email: james.fox@cs.ox.ac.uk
       affiliations:
         - id: university-of-oxford
           name: University of Oxford
     - name: Tom Everitt
+      email: tomeveritt@google.com
       affiliations:
-        - id: deepmind
           name: DeepMind
     - name: Ryan Carey
+      email: ryan.carey@jesus.ox.ac.uk
       affiliations:
         - university-of-oxford
     - name: Eric Langlois
+      email: edl@cs.toronto.edu
       affiliations:
         - id: university-of-toronto
           name: University of Toronto
     - name: Alessandro Abate
+      email: aabate@cs.ox.ac.uk
       affiliations:
         - university-of-oxford
     - name: Michael Wooldridge
+      email: mjw@cs.ox.ac.uk
       affiliations:
         - university-of-oxford
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2021/papers/james_fox
@@ -40,14 +45,48 @@ project:
   downloads:
     - url: ./james_fox.pdf
       title: Download PDF
-    - url: ./james_fox.bib
-      title: Download Bibtex
   banner: banner.png
   abbreviations:
+    ID: influence diagram
+    DAG: directed acyclic graph
+    IM: influence model
+    CIM: causal influence model
+    CPD: conditional probability distribution
+    (C)ID: (causal) influence diagram
+    (C)IM: (causal) influence model
+    MACID: multi-agent causal influence diagram
+    MACIM: multi-agent causal influence model
+    MAID: multi-agent influence diagram
+    MAIM: multi-agent influence model
+    MA(C)ID: multi-agent (causal) influence diagram
+    MA(C)IM: multi-agent (causal) influence model
+    (MA)CID: (multi-agent) causal influence diagram
+    (MA)CIM: (multi-agent) causal influence model
+    (MA)(C)ID: (multi-agent) (causal) influence diagram
+    (MA)(C)IM: (multi-agent) (causal) influence model
+    NE: Nash equilibrium
+    SPE: subgame perfect equilibrium
   error_rules:
     - rule: doi-exists
       severity: ignore
       keys:
+        - everitt2021agent
+        - pearl2009causality
+        - hammond2021equilibrium
+        - causalgames
+        - kjaerulff2008bayesian
+        - carey2020incentives
+        - everitt2019modeling
+        - langlois2021rl
+        - hal-02911619
+        - pySMILE
+        - hagberg2008exploring
+        - howard1966information
+        - shachter1986evaluating
+        - pfeffer2007reasoning
+        - selten1965spieltheoretische
+        - Kusner2017
+        - multidecision
 site:
   template: article-theme
   nav: []
