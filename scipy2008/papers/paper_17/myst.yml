@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2008-rahul_garg
+  title: 'unPython: Converting Python Numerical Programs into C'
+  description: unPython is a Python-to-C compiler intended for numerical Python programs. The compiler takes as input type-annotated Python source and produces C source code for an equivalent extension module.
+  authors:
+    - name: Rahul Garg
+      email: garg1@cs.ualberta.ca
+      affiliation: University of Alberta, Canada
+    - name: Jose Nelson Amaral
+      email: amaral@cs.ualberta.ca
+      affiliation: University of Alberta, Canada
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2008
+  date: 2008-06-28
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 73
+    last_page: 76
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

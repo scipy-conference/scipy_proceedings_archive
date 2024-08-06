@@ -1,0 +1,38 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2008-victoria_laidler
+  title: 'Pysynphot: A Python Re-Implementation of a Legacy App in Astronomy'
+  description: |
+    Pysynphot is a package that allows astronomers to model, combine, and
+    manipulate the spectra of stars or galaxies in simulated observations. It is being developed to replace a widely used legacy
+    application, SYNPHOT.
+  authors:
+    - name: Victoria G. Laidler
+      email: laidler@stsci.edu
+      affiliation: Computer Sciences Corporation, Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218 USA
+    - name: Perry Greenfield
+      email: perry@stsci.edu
+      affiliation: Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218 USA
+    - name: Ivo Busko
+      email: busko@stsci.edu
+      affiliation: Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218 USA
+    - name: Robert Jedrzejewski
+      email: rij@stsci.edu
+      affiliation: Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218 USA
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2008
+  date: 2008-06-28
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 36
+    last_page: 38
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

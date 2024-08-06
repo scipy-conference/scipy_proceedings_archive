@@ -1,0 +1,33 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2008-prabhu_ramachandran
+  title: 'Mayavi: Making 3D Data Visualization Reusable'
+  description: |
+    Mayavi is a general-purpose 3D scientific visualization package. 
+    In this article, we focus on how Mayavi addresses the needs of different users with a common
+    code-base, rather than describing the data visualization functionalities
+    of Mayavi, or the visualization model exposed to the user.
+  authors:
+    - name: Prabhu Ramachandran
+      email: prabhu@aero.iitb.ac.in
+      affiliation: Indian Institute of Technology Bombay, Powai, Mumbai 400076 India
+    - name: Gaël Varoquaux
+      email: gael.varoquaux@normalesup.org
+      affiliation: NeuroSpin, CEA Saclay, Bât 145, 91191 Gif-sur-Yvette France
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2008
+  date: 2008-06-28
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 51
+    last_page: 56
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

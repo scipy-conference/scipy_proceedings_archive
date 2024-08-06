@@ -1,0 +1,34 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2008-viral_shah
+  title: 'Circuitscape: A Tool for Landscape Ecology'
+  description: |
+    The modeling of ecological connectivity across networks and landscapes
+    is an active research area that spans the disciplines of ecology,
+    conservation, and population genetics. Here we describe Circuitscape, a
+    computational tool developed for modeling landscape connectivity using
+    circuit theory.
+  authors:
+    - name: Viral B. Shah
+      email: vshah@interactivesupercomputing.com
+      affiliation: Interactive Supercomputing, Waltham, MA. USA
+    - name: Brad McRae
+      email: bmcrae@tnc.org
+      affiliation: The Nature Conservancy, Seattle, WA. USA
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2008
+  date: 2008-06-28
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 62
+    last_page: 65
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

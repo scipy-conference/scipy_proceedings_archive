@@ -1,0 +1,29 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2008-jarrod_millman
+  title: The State of SciPy
+  description: The annual SciPy conference provides a unique opportunity to reflect on the state of scientific programming in Python.  In this paper, we will look back on where we have been, discuss where we are, and ask where we are going as a community.
+  authors:
+    - name: Jarrod Millman
+      email: millman@berkeley.edu
+      affiliation: University of California Berkeley, Berkeley, CA USA
+    - name: Travis Vaught
+      email: travis@enthought.com
+      affiliation: Enthought, Austin, TX USA
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2008
+  date: 2008-06-28
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 5
+    last_page: 10
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

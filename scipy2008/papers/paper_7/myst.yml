@@ -1,0 +1,30 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2008-joseph_harrington
+  title: The SciPy Documentation Project
+  description: |
+    The SciPy Documentation Project seeks to provide NumPy and SciPy with
+    professional documentation and documentation access tools in a variety
+    of formats. As our first effort, we have sponsored the SciPy Documentation
+    Marathon 2008, whose goal is to produce reference documentation for the most-used portions of NumPy.
+  authors:
+    - name: Joseph Harrington
+      email: jh@physics.ucf.edu
+      affiliation: University of Central Florida, USA
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2008
+  date: 2008-06-28
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 33
+    last_page: 35
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true
