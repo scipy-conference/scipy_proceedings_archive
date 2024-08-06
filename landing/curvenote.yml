@@ -20,5 +20,3 @@ project:
   open_access: true
   license: {}
   subject: SciPy Proceedings
-  plugins:
-    - banner.mjs

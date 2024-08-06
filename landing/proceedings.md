@@ -24,7 +24,7 @@ The `doi` referenced proceedings index articles (including slides, posters, orga
 
 +++
 
-**SciPy 2019**](https://conference.scipy.org/proceedings/scipy2019) _18th Python in Science Conference - Austin, Texas (July 8 - 14, 2019)_
+[**SciPy 2019**](https://conference.scipy.org/proceedings/scipy2019) _18th Python in Science Conference - Austin, Texas (July 8 - 14, 2019)_
 
 [**SciPy 2018**](https://conference.scipy.org/proceedings/scipy2018) _17th Python in Science Conference - Austin, Texas (July 9 - 15, 2018)_
 
