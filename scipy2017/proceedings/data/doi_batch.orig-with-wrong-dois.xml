@@ -39,7 +39,7 @@
   </publication_date>
   <noisbn reason="simple_series"/>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-000</doi>
+  <doi>10.25080/Majora-c9725a0-011</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017</resource>
   </doi_data>
   </proceedings_series_metadata>
@@ -61,7 +61,7 @@
   <last_page>8</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-001</doi>
+  <doi>10.25080/Majora-c9725a0-000</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/brendt_wohlberg.html</resource>
   </doi_data>
   </conference_paper>
@@ -83,7 +83,7 @@
   <last_page>11</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-002</doi>
+  <doi>10.25080/Majora-c9725a0-001</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/dillon_niederhut.html</resource>
   </doi_data>
   </conference_paper>
@@ -105,7 +105,7 @@
   <last_page>19</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-003</doi>
+  <doi>10.25080/Majora-c9725a0-002</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/geoffrey_poore.html</resource>
   </doi_data>
   </conference_paper>
@@ -135,7 +135,7 @@
   <last_page>27</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-004</doi>
+  <doi>10.25080/Majora-c9725a0-003</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/horea-ioan_ioanas.html</resource>
   </doi_data>
   </conference_paper>
@@ -177,7 +177,7 @@
   <last_page>33</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-005</doi>
+  <doi>10.25080/Majora-c9725a0-004</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/ingo_heimbach.html</resource>
   </doi_data>
   </conference_paper>
@@ -223,7 +223,7 @@
   <last_page>40</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-006</doi>
+  <doi>10.25080/Majora-c9725a0-005</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/jaime_arias.html</resource>
   </doi_data>
   </conference_paper>
@@ -249,7 +249,7 @@
   <last_page>48</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-007</doi>
+  <doi>10.25080/Majora-c9725a0-006</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/joseph_hellerstein.html</resource>
   </doi_data>
   </conference_paper>
@@ -287,7 +287,7 @@
   <last_page>56</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-008</doi>
+  <doi>10.25080/Majora-c9725a0-007</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/klaus_greff.html</resource>
   </doi_data>
   </conference_paper>
@@ -317,7 +317,7 @@
   <last_page>63</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-009</doi>
+  <doi>10.25080/Majora-c9725a0-008</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/lindsay.html</resource>
   </doi_data>
   </conference_paper>
@@ -351,7 +351,7 @@
   <last_page>72</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-00a</doi>
+  <doi>10.25080/Majora-c9725a0-009</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/mahzad_khoslessan.html</resource>
   </doi_data>
   </conference_paper>
@@ -381,7 +381,7 @@
   <last_page>80</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-00b</doi>
+  <doi>10.25080/Majora-c9725a0-00a</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/manuel_krebber.html</resource>
   </doi_data>
   </conference_paper>
@@ -415,7 +415,7 @@
   <last_page>88</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-00c</doi>
+  <doi>10.25080/Majora-c9725a0-00b</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/michael_beyeler.html</resource>
   </doi_data>
   </conference_paper>
@@ -461,7 +461,7 @@
   <last_page>97</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-00d</doi>
+  <doi>10.25080/Majora-c9725a0-00c</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/michael_lange.html</resource>
   </doi_data>
   </conference_paper>
@@ -491,7 +491,7 @@
   <last_page>105</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-00e</doi>
+  <doi>10.25080/Majora-c9725a0-00d</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/narendra_mukherjee.html</resource>
   </doi_data>
   </conference_paper>
@@ -541,7 +541,7 @@
   <last_page>112</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-00f</doi>
+  <doi>10.25080/Majora-c9725a0-00e</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/oleksandr_pavlyk.html</resource>
   </doi_data>
   </conference_paper>
@@ -583,7 +583,7 @@
   <last_page>119</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-010</doi>
+  <doi>10.25080/Majora-c9725a0-00f</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/scott_sievert.html</resource>
   </doi_data>
   </conference_paper>
@@ -609,7 +609,7 @@
   <last_page>127</last_page>
   </pages>
   <doi_data>
-  <doi>10.25080/shinma-7f4c6e7-011</doi>
+  <doi>10.25080/Majora-c9725a0-010</doi>
   <resource>https://conference.scipy.org/proceedings/scipy2017/will_barnes.html</resource>
   </doi_data>
   </conference_paper>
