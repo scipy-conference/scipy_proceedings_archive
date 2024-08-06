@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2009-p_a_kienzle
+  title: 'Parallel Kernels: An Architecture for Distributed Parallel Computing'
+  description: Global optimization problems can involve huge computational resources. The need to prepare, schedule and monitor hundreds of runs and interactively explore and analyze data is a challenging problem. Managing such a complex computational environment requires a sophisticated software framework which can distribute the computation on remote nodes hiding the complexity of the communication in such a way that scientist can concentrate on the details of computation. We present PARK, the computational job management framework being developed as a part of DANSE project, which will offer a simple, efficient and consistent user experience in a variety of heterogeneous environments from multi-core workstations to global Grid systems. PARK will provide a single environment for developing and testing algorithms locally and executing them on remote clusters, while providing user full access to their job history including their configuration and input/output. This paper will introduce the PARK philosophy, the PARK architecture and current and future strategy in the context of global optimization algorithms.
+  authors:
+    - name: P. A. Kienzle
+      email: pkienzle@nist.gov
+      affiliation: NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899 USA
+    - name: N. Patel
+      email: npatel17@umd.edu
+      affiliation: Department of Materials Science and Engineering, University of Maryland, College Park, Maryland 20742 USA
+    - name: M. McKerns
+      email: mmckerns@caltech.edu
+      affiliation: Materials Science, California Institute of Technology, Pasadena, California 91125 USA
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2009
+  date: 2009-08-18
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 36
+    last_page: 40
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

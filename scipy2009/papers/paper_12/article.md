@@ -1,0 +1,4 @@
+---
+title: Multiprocess System for Virtual Instruments in Python
+abstract: Programs written for controlling laboratory equipment and interfacing numerical calculations share the need for a simple graphical user interface (GUI) frontend and a multithreaded or multiprocess structure to allow control and data display to remain usable while other actions are performed. We introduce Pythics, a system for running "virtual instruments", which are simple programs typically used for data acquisition and analysis. Pythics provides a simple means of creating a virtual instrument and customizing its appearance and functionality without the need for toolkit specific knowledge. It utilizes a robust, multiprocess structure which separates the GUI and the back end of each instrument to allow for effective usage of system resources without sacrificing functionality.
+---

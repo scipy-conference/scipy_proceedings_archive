@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2009-christopher_lee
+  title: Exploring the future of bioinformatics data sharing and mining with Pygr and Worldbase
+  description: Worldbase is a virtual namespace for scientific data sharing that can be accessed via `from pygr import worldbase`. Worldbase enables users to access, save and share complex datasets as easily as simply giving a specific name for a commonly-used dataset
+  authors:
+    - name: Christopher Lee
+      email: leec@chem.ucla.edu
+      affiliation: Department of Chemistry &amp; Biochemistry, UCLA, 611 Charles Young Dr. East, Los Angeles, CA 90095 USA
+    - name: Alexander Alekseyenko
+      email: alexander.alekseyenko@nyumc.org
+      affiliation: Center for Health Informatics and Bioinformatics, Department of Medicine, New York University School of Medicine, New York, NY 10016 USA
+    - name: C. Titus Brown
+      email: ctb@msu.edu
+      affiliation: Dept. of Computer Science and Engineering, Dept. of Microbiology and Molecular Genetics, Michigan State University, East Lansing, Michigan 48824 USA
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2009
+  date: 2009-08-18
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 62
+    last_page: 67
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

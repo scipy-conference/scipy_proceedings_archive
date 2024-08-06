@@ -1,0 +1,30 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2009-damian_eads
+  title: 'Convert-XY: type-safe interchange of C++ and Python containers for NumPy extensions'
+  description: |
+    We present Convert-XY: a new, header-only template library for converting containers between C++ and Python with a simple, succinct syntax. At compile-time, template-based recursive pattern matching is performed on the static structure of the C++ type to build dynamic type checkers and conversion functions.
+  authors:
+    - name: Damian Eads
+      email: eads@soe.ucsc.edu
+      affiliation: University of California, 1156 High Street, Santa Cruz USA
+    - name: Edward Rosten
+      email: er258@cam.ac.uk
+      affiliation: University of Cambridge, Trumpington Street, Cambridge UK
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2009
+  date: 2009-08-18
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 29
+    last_page: 35
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

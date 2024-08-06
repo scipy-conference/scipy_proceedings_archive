@@ -1,0 +1,32 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: scipy-2009-andrew_friedley
+  title: High-Performance Code Generation Using CorePy
+  description: We present the CoreFunc framework, which utilizes CorePy to provide an environment for applying element-wise arithmetic operations (such as addition) to arrays and achieving high performance while     doing so. To evaluate the framework, we develop and experiment with several ufunc operations of varying complexity. Our results show that CoreFunc is an  excellent tool for accelerating NumPy-based applications.
+  authors:
+    - name: Andrew Friedley
+      email: afriedle@indiana.edu
+      affiliation: Indiana University, USA
+    - name: Christopher Mueller
+      email: chemuell@indiana.edu
+      affiliation: Indiana University, USA
+    - name: Andrew Lumsdaine
+      email: lums@indiana.edu
+      affiliation: Indiana University, USA
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue: SciPy 2009
+  date: 2009-08-18
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    first_page: 23
+    last_page: 28
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true
