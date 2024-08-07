@@ -17,7 +17,7 @@ abstract: MDAnalysis is an object-oriented Python library to analyze
   MDAnalysis through a task-based approach with the Dask library. We implement a
   simple split-apply-combine scheme for parallel trajectory analysis. The
   trajectory is split into blocks, analysis is performed separately and in
-  parallel on each block (\textquotedbl{}apply\textquotedbl{}), then results
+  parallel on each block ("apply"), then results
   from each block are gathered and combined. PMDA allows one to perform parallel
   trajectory analysis with pre-defined analysis tasks. In addition, it provides
   a common interface that makes it easy to create user-defined parallel analysis
@@ -30,7 +30,7 @@ abstract: MDAnalysis is an object-oriented Python library to analyze
   Although still in alpha stage, it is already used on resources ranging from
   multi-core laptops to XSEDE supercomputers to speed up analysis of molecular
   dynamics trajectories. PMDA is available as open source under the GNU General
-  Public License, version 2 and can be easily installed via the pip and conda
+  Public License, version 2 and can be easily installed via the `pip` and `conda`
   package managers.
 ---
 
