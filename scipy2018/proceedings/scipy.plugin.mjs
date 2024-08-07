@@ -1547,7 +1547,9 @@ var scipyStudents = {
 };
 
 // src/scipy.slides.ts
-import { fileError as fileError3 } from "myst-common";
+import {
+  fileError as fileError3
+} from "myst-common";
 import fs3 from "fs";
 import { u as u3 } from "unist-builder";
 
@@ -1576,14 +1578,25 @@ function createCardDirective(title, body, footer, link, kind = "curvenoteArticle
 // src/scipy.slides.ts
 function createSlidesCardDirective(item, parseMyst) {
   const { title, authors, description, zenodo_url, doi } = item;
-  const body = [
-    u3("paragraph", [parseMyst(description)]),
-    u3("paragraph", [u3("emphasis", [u3("text", `${authors.map((a) => a.name).join(", ")}`)])])
-  ];
-  const footer = [u3("emphasis", [u3("text", doi)])];
+  const body = [];
+  if (description) {
+    body.push(u3("paragraph", [parseMyst(description)]));
+  }
+  body.push(
+    u3("paragraph", [
+      u3("emphasis", [u3("text", `${authors.map((a) => a.name).join(", ")}`)])
+    ])
+  );
+  const footer = doi ? [u3("emphasis", [u3("text", doi)])] : void 0;
   const link = doi;
   const kind = "curvenoteExternalListItem";
-  const card = createCardDirective([parseMyst(title)], body, footer, link, kind);
+  const card = createCardDirective(
+    [parseMyst(title)],
+    body,
+    footer,
+    link,
+    kind
+  );
   card.data = {
     ...card.data,
     json: {
@@ -1591,11 +1604,11 @@ function createSlidesCardDirective(item, parseMyst) {
       authors,
       description,
       doi,
-      zenodo: zenodo_url
+      zenodo: zenodo_url ?? ""
     },
     parsed: {
       title: parseMyst(title),
-      description: parseMyst(description)
+      description: description ? parseMyst(description) : void 0
     }
   };
   return card;
@@ -1654,7 +1667,9 @@ var scipySlides = {
       nodes.push(
         u3("block", [
           u3("heading", { depth: 2 }, [u3("text", "Accepted Posters")]),
-          ...posters.map((item) => createSlidesCardDirective(item, opts.parseMyst))
+          ...posters.map(
+            (item) => createSlidesCardDirective(item, opts.parseMyst)
+          )
         ])
       );
     }
@@ -1662,7 +1677,9 @@ var scipySlides = {
       nodes.push(
         u3("block", [
           u3("heading", { depth: 2 }, [u3("text", "SciPy Tools Plenaries")]),
-          ...tools.map((item) => createSlidesCardDirective(item, opts.parseMyst))
+          ...tools.map(
+            (item) => createSlidesCardDirective(item, opts.parseMyst)
+          )
         ])
       );
     }
@@ -1670,7 +1687,9 @@ var scipySlides = {
       nodes.push(
         u3("block", [
           u3("heading", { depth: 2 }, [u3("text", "Lightning Talks")]),
-          ...lightning.map((item) => createSlidesCardDirective(item, opts.parseMyst))
+          ...lightning.map(
+            (item) => createSlidesCardDirective(item, opts.parseMyst)
+          )
         ])
       );
     }

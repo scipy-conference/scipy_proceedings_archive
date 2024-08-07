@@ -94,7 +94,7 @@
       "authors": [{ "name": "Jean-Christophe Fillion-Robin" }]
     },
     {
-      "title": "\"Resurrecting Ancient Proteins in Python\"",
+      "title": "Resurrecting Ancient Proteins in Python",
       "authors": [{ "name": "Zach Sailer" }]
     },
     {
@@ -125,70 +125,90 @@
       "authors": [{ "name": "Prabhu Ramachandran" }]
     },
     {
-      "title": "\"Leveraging Jupyter, Rust, and WebAssembly for Browser-Based Visual Data Exploration\"",
+      "title": "Leveraging Jupyter, Rust, and WebAssembly for Browser-Based Visual Data Exploration",
       "authors": [{ "name": "Madicken Munk" }]
     }
   ],
   "tools": [
     {
-      "title": "cartopy"
+      "title": "cartopy",
+      "authors": []
     },
     {
-      "title": "conda"
+      "title": "conda",
+      "authors": []
     },
     {
-      "title": "geopandas"
+      "title": "geopandas",
+      "authors": []
     },
     {
-      "title": "girder"
+      "title": "girder",
+      "authors": []
     },
     {
-      "title": "jupyter"
+      "title": "jupyter",
+      "authors": []
     },
     {
-      "title": "matplotlib"
+      "title": "matplotlib",
+      "authors": []
     },
     {
-      "title": "mayavi"
+      "title": "mayavi",
+      "authors": []
     },
     {
-      "title": "numba"
+      "title": "numba",
+      "authors": []
     },
     {
-      "title": "numpy"
+      "title": "numpy",
+      "authors": []
     },
     {
-      "title": "pandas"
+      "title": "pandas",
+      "authors": []
     },
     {
-      "title": "pymc3"
+      "title": "pymc3",
+      "authors": []
     },
     {
-      "title": "pythonplot"
+      "title": "pythonplot",
+      "authors": []
     },
     {
-      "title": "pyviz"
+      "title": "pyviz",
+      "authors": []
     },
     {
-      "title": "quest"
+      "title": "quest",
+      "authors": []
     },
     {
-      "title": "scikit-image"
+      "title": "scikit-image",
+      "authors": []
     },
     {
-      "title": "sympy"
+      "title": "sympy",
+      "authors": []
     },
     {
-      "title": "vispy"
+      "title": "vispy",
+      "authors": []
     },
     {
-      "title": "xarray"
+      "title": "xarray",
+      "authors": []
     },
     {
-      "title": "xtensor"
+      "title": "xtensor",
+      "authors": []
     },
     {
-      "title": "yt"
+      "title": "yt",
+      "authors": []
     }
   ],
   "posters": [
