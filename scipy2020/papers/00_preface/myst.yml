@@ -1,0 +1,31 @@
+version: 1
+project:
+  id: scipy-2020-00_preface
+  authors:
+    - name: Meghann Agarwal
+      affiliation: Oracle
+    - name: Julie Hollek
+      email: julie.hollek@gmail.com
+      affiliation: Mozilla
+    - name: Dillon Niederhut
+      corresponding: true
+      email: dillon.niederhut@gmail.com
+      affiliation: Novi Labs
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2020/papers/00_preface
+  open_access: true
+  license: CC-BY-4.0
+  venue: SciPy 2020
+  subject: Research Article
+  date: 2020-07-06
+  doi: 10.25080/Majora-342d178e-000
+  title: Preface
+  downloads:
+    - url: ./00_preface.pdf
+      title: Download PDF
+  banner: banner.png
+  thumbnail: thumbnail.webp
+site:
+  template: article-theme
+  nav: []
+  actions: []
+  domains: []
