@@ -1,6 +1,6 @@
 ---
 title: Preface
-description: SciPy 2014, the thirteenth annual Scientific Computing with Python conference, was held July 6–12th in Austin, Texas. SciPyis a community dedicated to the advancement of scientific computing through open source Python software for mathematics,science, and engineering
+description: SciPy 2014, the thirteenth annual Scientific Computing with Python conference, was held July 6–12th in Austin, Texas. SciPy is a community dedicated to the advancement of scientific computing through open source Python software for mathematics, science, and engineering
 ---
 
 SciPy 2014, the thirteenth annual Scientific Computing with Python conference, was held July 6–12th in Austin, Texas. SciPy is a community dedicated to the advancement of scientific computing through open source Python software for mathematics, science, and engineering.
@@ -9,7 +9,7 @@ The SciPy conferences have become a prominent forum for Python users from the ac
 
 It is an exciting time to be part of this community that has spent the last decade developing sophisticated tools — tools that are now ideally suited to address technical problems arising at the blooming intersection of specialized domains and computation. Many contributors to the community have been hired at university data institutions, Python has become the number one language for undergraduate teaching, and many productive partnerships have been formed with industry.
 
-The conference continues to grow with almost 500 participantsfrom across the globe. More than half of attendees are now from industry, the rest split between government laboratories and the academy. The organizing committee is committed to increasing representation from underrepresented groups. This year, 15% of attendees were women, a significant increase from 3% in 2013. A Diversity Committee was formed to ensure that this trend continues.
+The conference continues to grow with almost 500 participants from across the globe. More than half of attendees are now from industry, the rest split between government laboratories and the academy. The organizing committee is committed to increasing representation from underrepresented groups. This year, 15% of attendees were women, a significant increase from 3% in 2013. A Diversity Committee was formed to ensure that this trend continues.
 
 Geospatial Computing and Education were central themes this year, with additional mini-symposia on the following topics:
 
@@ -26,4 +26,4 @@ We were privileged to have three prominent community members present keynotes. G
 
 These proceedings contain 16 peer-reviewed contributions, based on talks presented at the conference. They provide a peek into the current state of the ever-evolving landscape of Python in Science. We hope you find pleasure in the effort the authors have made to carefully present their work in a clear and accessible fashion.
 
-On behalf of the SciPy2014 organizers, Andy Terrel & Kelsey Jordahl, conference chairsStéfan van der Walt & James Bergstra, proceedings chairs.
+On behalf of the SciPy2014 organizers, Andy Terrel & Kelsey Jordahl, conference chairs, and Stéfan van der Walt & James Bergstra, proceedings chairs.
