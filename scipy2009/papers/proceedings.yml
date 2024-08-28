@@ -20,8 +20,6 @@ project:
     title: Proceedings of the 8th Python in Science Conference
     subject: Scientific Computing with Python
     doi: 10.25080/RJFG8479
-    first_page: 2
-    last_page: 3
   editors:
     - name: Gael Varoquaux
       email: gael.varoquaux@normalesup.org
