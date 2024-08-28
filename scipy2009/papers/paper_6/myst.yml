@@ -1,9 +1,10 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/YMFH4086
   id: scipy-2009-marcin_cieslik
   title: 'PaPy: Parallel and distributed data-processing pipelines in Python'
-  description: |
+  description: >-
     PaPy, which stands for parallel pipelines in Python, is a highly flexible
     framework that enables the construction of robust, scalable workflows for
     either generating or processing voluminous datasets. The simplicity and flexibility of
@@ -17,19 +18,7 @@ project:
     - name: Cameron Mura
       email: cmura@virginia.edu
       affiliation: University of Virginia, U.S.
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2009
-  date: 2009-08-18
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 41
     last_page: 47
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml

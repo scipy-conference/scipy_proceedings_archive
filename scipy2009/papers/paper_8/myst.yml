@@ -1,13 +1,14 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/DVMY8107
   id: scipy-2009-brian_refsdal
   title: 'Sherpa: 1D/2D modeling and fitting in Python'
-  description: |
+  description: >-
     Sherpa is a modern, general purpose fitting and modeling application
-    available in Python.  It contains a set of robust optimization methods
+    available in Python. It contains a set of robust optimization methods
     that are critical to the forward fitting technique used in parametric
-    data modeling.  The Python implementation provides a powerful software
+    data modeling. The Python implementation provides a powerful software
     package that is flexible and extensible with direct access to all
     internal data objects.
   authors:
@@ -53,19 +54,7 @@ project:
     - name: Michael A. Nowak
       email: mnowak@space.mit.edu
       affiliation: MIT Kavli Institute, USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2009
-  date: 2009-08-18
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 51
     last_page: 57
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml

@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/PGHE8514
   id: scipy-2009-christopher_lee
   title: Exploring the future of bioinformatics data sharing and mining with Pygr and Worldbase
   description: Worldbase is a virtual namespace for scientific data sharing that can be accessed via `from pygr import worldbase`. Worldbase enables users to access, save and share complex datasets as easily as simply giving a specific name for a commonly-used dataset
@@ -14,19 +15,7 @@ project:
     - name: C. Titus Brown
       email: ctb@msu.edu
       affiliation: Dept. of Computer Science and Engineering, Dept. of Microbiology and Molecular Genetics, Michigan State University, East Lansing, Michigan 48824 USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2009
-  date: 2009-08-18
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 62
     last_page: 67
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml

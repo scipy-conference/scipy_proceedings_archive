@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/DJHK4763
   id: scipy-2009-pavel_solin
   title: The FEMhub Project and Classroom Teaching of Numerical Methods
   description: We introduce briefly the open source project FEMhub and focus on describing how it can be used for live demonstrations of elementary numerical methods in daily classroom teaching.
@@ -14,19 +15,7 @@ project:
     - name: Sameer Regmi
       email: sregmi@unr.edu
       affiliation: University of Nevada, Reno, USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2009
-  date: 2009-08-18
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 58
     last_page: 61
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml

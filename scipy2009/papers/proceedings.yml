@@ -1,0 +1,40 @@
+version: 1
+project:
+  subject: Research Article
+  open_access: true
+  license: CC-BY-3.0
+  venue:
+    title: Python in Science Conference
+    short_title: SciPy
+    number: 8th
+    location: Pasadena, California
+    date: August 18 - August 23, 2009
+    publisher: SciPy
+    series: Proceedings of the Python in Science Conference
+    issn: 2575-9752
+    doi: 10.25080/issn.2575-9752
+  date: 2009-08-18
+  banner: ../banner.png
+  thumbnail: thumbnail.png
+  biblio:
+    title: Proceedings of the 8th Python in Science Conference
+    subject: Scientific Computing with Python
+    doi: 10.25080/RJFG8479
+    first_page: 2
+    last_page: 3
+  editors:
+    - name: Gael Varoquaux
+      email: gael.varoquaux@normalesup.org
+      affiliation: INRIA, Saclay France
+    - name: Stéfan van der Walt
+      email: stefan@sun.ac.za
+      affiliation: University of Stellenbosch, Stellenbosch South Africa
+    - name: Jarrod Millman
+      email: millman@berkeley.edu
+      affiliation: UC Berkeley, Berkeley, CA USA
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: full_text.pdf
+      static: true

@@ -1,6 +1,6 @@
 ---
 title: 'PaPy: Parallel and distributed data-processing pipelines in Python'
-abstract: |
+abstract: >-
   PaPy, which stands for parallel pipelines in Python, is a highly flexible
   framework that enables the construction of robust, scalable workflows for
   either generating or processing voluminous datasets. A workflow is created from

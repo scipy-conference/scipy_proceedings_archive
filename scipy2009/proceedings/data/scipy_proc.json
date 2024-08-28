@@ -1,0 +1,181 @@
+{
+  "proceedings": {
+    "doi": "10.25080/RJFG8479",
+    "xref": {
+      "prefix": "10.25080",
+      "registrant": "Crossref",
+      "resource_url": "https://doi.curvenote.com/10.25080/RJFG8479",
+      "depositor_name": "Curvenote",
+      "depositor_email": "doi@curvenote.com"
+    },
+    "copyright": {
+      "proceedings": [
+        "The articles in the Proceedings of the Python in Science Conference are copyrighted and owned by their original authors",
+        "This is an open-access publication and is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+        "For more information, please see: http://creativecommons.org/licenses/by/3.0/"
+      ],
+      "article": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "license": "Creative Commons Attribution License (CCAL)"
+    },
+    "title": {
+      "conference": "Python in Science Conference",
+      "full": "Proceedings of the 8th Python in Science Conference",
+      "short": "PROC. OF THE 8th PYTHON IN SCIENCE CONF. (SCIPY 2009)",
+      "acronym": "SciPy",
+      "ordinal": "8th"
+    },
+    "citation_key": "proc-scipy-2009",
+    "editor_email": [
+      "gael.varoquaux@normalesup.org",
+      "stefan@sun.ac.za",
+      "millman@berkeley.edu"
+    ],
+    "dates": "August 18 - August 23",
+    "editor": ["Gael Varoquaux", "Stéfan van der Walt", "Jarrod Millman"],
+    "location": "Pasadena, California",
+    "number": 1,
+    "isbn": "noisbn",
+    "year": "2009"
+  },
+  "organization": [
+    {
+      "name": "Conference Chair",
+      "members": [
+        {
+          "org": "UC Berkeley (USA)",
+          "name": "K. Jarrod Millman"
+        }
+      ]
+    },
+    {
+      "name": "Program Chairs",
+      "members": [
+        {
+          "org": "INRIA Saclay (France)",
+          "name": "Gaël Varoquaux"
+        },
+        {
+          "org": "University of Stellenbosch (South Africa)",
+          "name": "Stéfan van der Walt"
+        }
+      ]
+    },
+    {
+      "name": "Program Committee",
+      "members": [
+        {
+          "name": "Michael Aivazis",
+          "org": "Center for Advanced Computing Research, California Institute of Technology (USA)"
+        },
+        {
+          "name": "Brian Granger",
+          "org": "Physics Department, California Polytechnic State University, San Luis Obispo (USA)"
+        },
+        {
+          "name": "Aric Hagberg",
+          "org": "Theoretical Division, Los Alamos National Laboratory (USA)"
+        },
+        {
+          "name": "Konrad Hinsen",
+          "org": "Centre de Biophysique Moléculaire, CNRS Orléeans (France)"
+        },
+        {
+          "name": "Randall LeVeque",
+          "org": "Mathematics, University of Washington, Seattle (USA)"
+        },
+        {
+          "name": "Travis Oliphant",
+          "org": "Enthought Inc. (USA)"
+        },
+        {
+          "name": "Prabhu Ramachandran",
+          "org": "Department of Aerospace Engineering, IIT Bombay (India)"
+        },
+        {
+          "name": "Raphael Ritz",
+          "org": "International Neuroinformatics Coordinating Facility (Sweden)"
+        },
+        {
+          "name": "William Stein",
+          "org": "Mathematics, University of Washington, Seattle (USA)"
+        }
+      ]
+    },
+    {
+      "name": "Tutorial Coordinators",
+      "members": [
+        {
+          "name": "Fernando Pérez",
+          "org": "UC Berkeley (USA)"
+        },
+        {
+          "name": "Dave Peterson",
+          "org": "Enthought (USA)"
+        }
+      ]
+    },
+    {
+      "name": "Proceedings Reviewers",
+      "members": [
+        {
+          "name": "Francesc Alted",
+          "org": "Pytables (Spain)"
+        },
+        {
+          "name": "Philippe Ciuciu",
+          "org": "Neurospin, CEA - Saclay (France)"
+        },
+        {
+          "name": "Yann Cointepas",
+          "org": "Neurospin, CEA - Saclay (France)"
+        },
+        {
+          "name": "Emmanuelle Gouillart",
+          "org": "CNRS Saint Gobain (France)"
+        },
+        {
+          "name": "Jonathan Guyer",
+          "org": "NIST (USA)"
+        },
+        {
+          "name": "Ben Herbst",
+          "org": "Stellenbosh University, (South Africa)"
+        },
+        {
+          "name": "Paul Kienzle",
+          "org": "NIST (USA)"
+        },
+        {
+          "name": "Michael McKerns",
+          "org": "Center for Advanced Computing Research, California (USA)"
+        },
+        {
+          "name": "Sturla Molden",
+          "org": "University of Oslo (Norway)"
+        },
+        {
+          "name": "Jean-Baptiste Poline",
+          "org": "Neurospin, CEA - Saclay (France)"
+        },
+        {
+          "name": "Dag Sverre Seljebotni",
+          "org": "University of Oslo (Norway)"
+        },
+        {
+          "name": "Gregor Thalhammer",
+          "org": "University of Florence (Italy)"
+        }
+      ]
+    }
+  ],
+  "series": {
+    "title": {
+      "full": "Proceedings of the Python in Science Conference"
+    },
+    "doi": "10.25080/issn.2575-9752",
+    "xref": {
+      "issn": "2575-9752",
+      "resource_url": "https://proceedings.scipy.org"
+    }
+  }
+}

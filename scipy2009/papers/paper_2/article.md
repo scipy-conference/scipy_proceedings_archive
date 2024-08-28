@@ -1,6 +1,6 @@
 ---
 title: Fast numerical computations with Cython
-abstract: |
+abstract: >-
   Cython has recently gained popularity as a tool for conveniently
   performing numerical computations in the Python
   environment, as well as mixing efficient calls to natively compiled libraries with Python

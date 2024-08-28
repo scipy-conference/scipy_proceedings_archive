@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/MNPK7710
   id: scipy-2009-piotr_zolnierczuk
   title: Neutron-scattering data acquisition and experiment automation with Python
   description: PyDas is a set of Python modules that are used to integrate various components of the Data Acquisition System at Spallation Neutron Source (SNS). PyDas enables customized automation of neutron scattering experiments in a rapid and flexible manner. It provides wxPython-based GUIs for routine experiments as well as IPython command line scripting environment.
@@ -11,19 +12,7 @@ project:
     - name: Richard E. Riedel
       email: riedelra@ornl.gov
       affiliation: Oak Ridge National Lab, USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2009
-  date: 2009-08-18
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 81
     last_page: 83
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml
