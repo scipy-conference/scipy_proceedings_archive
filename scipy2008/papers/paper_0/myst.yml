@@ -1,6 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/HXDH2061
   id: scipy-2008-editorial
   title: Editorial
   description: This year marked the 7th edition of the conference; however, it is the first edition for which proceedings are to be published. We are thrilled by this new development. These proceedings are the sign of a maturing community not only of developers, but also of scientific users. Python’s use as a tool for producing scientific results is, by now, well established. Its status as the subject of research and academic publication is now being recognized and we hope that the proceedings of the SciPy Conference will help communicate how scientists and engineers are using and building upon various Python tools to solve their problems.
@@ -14,19 +15,8 @@ project:
     - name: Jarrod Millman
       email: millman@berkeley.edu
       affiliation: University of California Berkeley, Berkeley CA USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2008
-  date: 2008-06-28
-  banner: ../banner.png
   thumbnail: thumbnail.webp
   biblio:
     first_page: 3
     last_page: 4
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml

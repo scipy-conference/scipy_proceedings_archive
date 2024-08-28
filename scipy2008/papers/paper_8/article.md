@@ -1,6 +1,6 @@
 ---
 title: 'Pysynphot: A Python Re-Implementation of a Legacy App in Astronomy'
-abstract: |
+abstract: >-
   Pysynphot is a package that allows astronomers to model, combine, and
   manipulate the spectra of stars or galaxies in simulated observations. It is being developed to replace a widely used legacy
   application, SYNPHOT. While retaining the data-driven philosophy of the original

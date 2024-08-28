@@ -1,6 +1,6 @@
 ---
 title: Exploring Network Structure, Dynamics, and Function using NetworkX
-abstract: |
+abstract: >-
   NetworkX is a Python language package for exploration and analysis of
   networks and network algorithms. The core package provides data
   structures for representing many types of networks, or graphs,

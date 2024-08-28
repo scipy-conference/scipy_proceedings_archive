@@ -1,9 +1,10 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/GKXP5132
   id: scipy-2008-ryan_krauss
   title: Finite Element Modeling of Contact and Impact Problems Using Python
-  description: |
+  description: >-
     This paper discusses an on going project to improve the accuracy of
     automotive crash simulations. An existing Python package for finite element analysis,
     SfePy, is presented along with plans to contribute additional features
@@ -13,19 +14,7 @@ project:
     - name: Ryan Krauss
       email: rkrauss@siue.edu
       affiliation: Southern Illinois University Edwardsville, USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2008
-  date: 2008-06-28
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 57
     last_page: 61
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml

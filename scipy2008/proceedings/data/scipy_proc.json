@@ -1,0 +1,135 @@
+{
+  "proceedings": {
+    "doi": "10.25080/PFVC8793",
+    "xref": {
+      "prefix": "10.25080",
+      "registrant": "Crossref",
+      "resource_url": "https://doi.curvenote.com/10.25080/PFVC8793",
+      "depositor_name": "Curvenote",
+      "depositor_email": "doi@curvenote.com"
+    },
+    "copyright": {
+      "proceedings": [
+        "The articles in the Proceedings of the Python in Science Conference are copyrighted and owned by their original authors",
+        "This is an open-access publication and is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+        "For more information, please see: http://creativecommons.org/licenses/by/3.0/"
+      ],
+      "article": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "license": "Creative Commons Attribution License (CCAL)"
+    },
+    "title": {
+      "conference": "Python in Science Conference",
+      "full": "Proceedings of the 7th Python in Science Conference",
+      "short": "PROC. OF THE 7th PYTHON IN SCIENCE CONF. (SCIPY 2008)",
+      "acronym": "SciPy",
+      "ordinal": "7th"
+    },
+    "citation_key": "proc-scipy-2008",
+    "editor_email": [
+      "gael.varoquaux@normalesup.org",
+      "tvaught@enthought.com",
+      "millman@berkeley.edu"
+    ],
+    "dates": "August 19 - August 24",
+    "editor": ["Gael Varoquaux", "Travis Vaught", "Jarrod Millman"],
+    "location": "Pasadena, California",
+    "number": 1,
+    "isbn": "noisbn",
+    "year": "2008"
+  },
+  "organization": [
+    {
+      "name": "Conference Chairs",
+      "members": [
+        {
+          "org": "UC Berkeley (USA)",
+          "name": "Jarrod Millman"
+        },
+        {
+          "org": "Enthought (USA)",
+          "name": "Travis Vaught"
+        }
+      ]
+    },
+    {
+      "name": "Program Chair",
+      "members": [
+        {
+          "org": "Neurospin, CEA - Saclay (France)",
+          "name": "Gaël Varoquaux"
+        }
+      ]
+    },
+    {
+      "name": "Program Committee",
+      "members": [
+        {
+          "name": "Anne Archibald",
+          "org": "McGill University (Canada)"
+        },
+        {
+          "name": "Matthew Brett",
+          "org": "MRC Cognition and Brain Sciences Unit (UK)"
+        },
+        {
+          "name": "Perry Greenfield",
+          "org": "Space Telescope Science Institute (USA)"
+        },
+        {
+          "name": "Charles Harris",
+          "org": "Space Dynamics Laboratory (USA)"
+        },
+        {
+          "name": "Ryan Krauss",
+          "org": "Southern Illinois University Edwardsville (USA)"
+        },
+        {
+          "name": "Stéfan van der Walt",
+          "org": "University of Stellenbosch (South Africa)"
+        }
+      ]
+    },
+    {
+      "name": "Tutorial Coordinators",
+      "members": [
+        {
+          "name": "Fernando Pérez",
+          "org": "UC Berkeley (USA)"
+        },
+        {
+          "name": "Travis Oliphant",
+          "org": "Enthought (USA)"
+        }
+      ]
+    },
+    {
+      "name": "Proceedings Reviewers",
+      "members": [
+        {
+          "name": "Matthew Brett",
+          "org": "MRC Cognition and Brain Sciences Unit (UK)"
+        },
+        { "name": "Jarrow Millman", "org": "UC Berkeley (USA)" },
+        {
+          "name": "Stéfan van der Walt",
+          "org": "University of Stellenbosch (South Africa)"
+        },
+        {
+          "name": "Ryan Krauss",
+          "org": "Southern Illinois University Edwardsville (USA)"
+        },
+        { "name": "Gaël Varoquaux", "org": "Neurospin, CEA - Saclay (France)" }
+      ]
+    }
+  ],
+  "series": {
+    "title": {
+      "full": "Proceedings of the Python in Science Conference"
+    },
+    "doi": "10.25080/issn.2575-9752",
+    "xref": {
+      "issn": "2575-9752",
+      "resource_url": "https://proceedings.scipy.org"
+    }
+  }
+}

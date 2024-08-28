@@ -1,9 +1,10 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/TCWV9851
   id: scipy-2008-aric_hagberg
   title: Exploring Network Structure, Dynamics, and Function using NetworkX
-  description: |
+  description: >-
     NetworkX is a Python language package for exploration and analysis of
     networks and network algorithms. We discuss some of our recent work
     studying synchronization of coupled oscillators to demonstrate how
@@ -18,19 +19,7 @@ project:
     - name: Pieter J. Swart
       email: swart@lanl.gov
       affiliation: Los Alamos National Laboratory, Los Alamos, New Mexico USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2008
-  date: 2008-06-28
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 11
     last_page: 15
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml

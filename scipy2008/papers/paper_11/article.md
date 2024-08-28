@@ -1,6 +1,6 @@
 ---
 title: Analysis and Visualization of Multi-Scale Astrophysical Simulations Using Python and NumPy
-abstract: |
+abstract: >-
   The study the origins of cosmic structure requires large-scale computer
   simulations beginning with well-constrained, observationally-determined, initial
   conditions. We use Adaptive Mesh Refinement to

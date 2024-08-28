@@ -1,6 +1,6 @@
 ---
 title: Finite Element Modeling of Contact and Impact Problems Using Python
-abstract: |
+abstract: >-
   This paper discusses an on going project to improve the accuracy of
   automotive crash simulations. Two likely causes for discrepancy
   between simulations and the results of real, physical tests are

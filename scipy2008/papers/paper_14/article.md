@@ -1,6 +1,6 @@
 ---
 title: 'Circuitscape: A Tool for Landscape Ecology'
-abstract: |
+abstract: >-
   The modeling of ecological connectivity across networks and landscapes
   is an active research area that spans the disciplines of ecology,
   conservation, and population genetics. Recently, concepts and

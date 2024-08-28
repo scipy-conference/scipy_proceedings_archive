@@ -1,6 +1,6 @@
 ---
 title: The SciPy Documentation Project (Technical Overview)
-abstract: |
+abstract: >-
   This summer saw the first NumPy Documentation Marathon, during 
   which many thousands of lines of documentation 
   were written. In addition, a web framework was developed which allows the community to contribute 

@@ -1,6 +1,6 @@
 ---
 title: 'Mayavi: Making 3D Data Visualization Reusable'
-abstract: |
+abstract: >-
   Mayavi is a general-purpose 3D scientific visualization package. 
   We believe 3D data visualization is a difficult task and different users can
   benefit from an easy-to-use tool for this purpose. In this article, we

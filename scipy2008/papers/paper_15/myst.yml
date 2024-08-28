@@ -1,28 +1,17 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.25080/XYFC8951
   id: scipy-2008-karl_young
   title: Summarizing Complexity in High Dimensional Spaces
-  description: |
+  description: >-
     As the need to analyze high dimensional, multi-spectral data
     on complex physical systems becomes more common, the value of methods that glean useful summary information from the data increases. This paper describes a method that uses information theoretic based complexity estimation measures to provide diagnostic summary information from medical images.
   authors:
     - name: Karl Young
       email: karl.young@ucsf.edu
       affiliation: University of California, San Francisco, USA
-  subject: Research Article
-  open_access: true
-  license: CC-BY-3.0
-  venue: SciPy 2008
-  date: 2008-06-28
-  banner: ../banner.png
-  thumbnail: thumbnail.png
   biblio:
     first_page: 66
     last_page: 69
-site:
-  template: article-theme
-  actions:
-    - title: pdf
-      url: full_text.pdf
-      static: true
+extends: ../proceedings.yml
