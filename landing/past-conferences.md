@@ -3,12 +3,19 @@ title: Conferences
 description: ''
 date: '2024-01-09T10:37:55.980Z'
 name: past-conferences
-oxa: oxa:SB8OiXZDvFEIzCMnnuGf/iLhGQQDmRldIR1QfZd9i
 tags: []
 keywords: []
 ---
 
-+++ {"oxa":"oxa:SB8OiXZDvFEIzCMnnuGf/eNQfxEFy6voQTqmb5BAC.1","tags":[]}
+## **2024**
+
+- [SciPy 2024](https://www.scipy2024.scipy.org/)
+- [EuroSciPy 2024](https://www.euroscipy.org/2024/)
+
+## **2023**
+
+- [SciPy 2023](https://www.scipy2023.scipy.org/)
+- [EuroSciPy 2023](https://www.euroscipy.org/2023/)
 
 ## **2022**
 

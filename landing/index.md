@@ -41,3 +41,5 @@ The annual SciPy Conferences allows participants from academic, commercial, and 
 - collaborate on code development.
 
 The conferences generally consists of multiple days of tutorials followed by two-three days of presentations, and concludes with 1-2 days developer sprints on projects of interest to the attendees.
+
+https://doi.org/10.25080/issn.2575-9752

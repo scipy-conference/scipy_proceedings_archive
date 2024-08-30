@@ -4,7 +4,6 @@
 format: jb-book
 root: index
 chapters:
-  - file: proceedings
   - file: '2023'
   - file: '2022'
   - file: '2021'
@@ -21,5 +20,5 @@ chapters:
   - file: '2010'
   - file: '2009'
   - file: '2008'
+  - file: euroscipy-proceedings
   - file: past-conferences
-  - file: news
