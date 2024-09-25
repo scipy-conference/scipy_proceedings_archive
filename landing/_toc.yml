@@ -4,6 +4,7 @@
 format: jb-book
 root: index
 chapters:
+  - file: '2024'
   - file: '2023'
   - file: '2022'
   - file: '2021'
