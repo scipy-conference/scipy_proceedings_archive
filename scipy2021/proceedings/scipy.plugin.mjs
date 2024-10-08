@@ -1440,12 +1440,18 @@ var scipyOrganization = {
 };
 
 // src/scipy.students.ts
-import { fileError as fileError2, fileInfo } from "myst-common";
+import {
+  fileError as fileError2,
+  fileInfo
+} from "myst-common";
 import fs2 from "fs";
 import { u as u2 } from "unist-builder";
 function studentToMdast(student) {
   if (student.org) {
-    return u2("listItem", [u2("text", student.name), u2("emphasis", [u2("text", `, ${student.org}`)])]);
+    return u2("listItem", [
+      u2("text", student.name),
+      u2("emphasis", [u2("text", `, ${student.org}`)])
+    ]);
   }
   return u2("listItem", [u2("text", student.name)]);
 }
@@ -1471,7 +1477,10 @@ var scipyStudents = {
     const json = JSON.parse(fs2.readFileSync(String(data.arg), "utf-8"));
     const { scipy_scholarship, diversity_scholarship } = json;
     if (!scipy_scholarship) {
-      fileError2(vfile, `the scipy_scholarship key is missing from the json file.`);
+      fileError2(
+        vfile,
+        `the scipy_scholarship key is missing from the json file.`
+      );
     }
     if (!diversity_scholarship || diversity_scholarship.length === 0) {
       fileInfo(vfile, `no diversity_scholarship items found, skipping.`);
@@ -1501,8 +1510,14 @@ var scipyStudents = {
           }
         },
         [
-          u2("heading", { depth: 2, tight: true }, [u2("text", "Scholarship Recipients")]),
-          u2("list", { ordered: false }, json.scipy_scholarship.map(studentToMdast))
+          u2("heading", { depth: 2, tight: true }, [
+            u2("text", "Scholarship Recipients")
+          ]),
+          u2(
+            "list",
+            { ordered: false },
+            json.scipy_scholarship.map(studentToMdast)
+          )
         ]
       )
     ];
@@ -1512,7 +1527,7 @@ var scipyStudents = {
           "block",
           {
             data: {
-              heading: "Jump Trading and NumFOCUS Diversity Scholarship Recipients",
+              heading: "NumFOCUS Diversity Scholarship Recipients",
               items: json.diversity_scholarship.map((student) => {
                 return {
                   name: student.name,
@@ -1523,7 +1538,7 @@ var scipyStudents = {
           },
           [
             u2("heading", { depth: 2 }, [
-              u2("text", "Jump Trading and NumFOCUS Diversity Scholarship Recipients")
+              u2("text", "NumFOCUS Diversity Scholarship Recipients")
             ]),
             u2(
               "list",
@@ -1547,7 +1562,9 @@ var scipyStudents = {
 };
 
 // src/scipy.slides.ts
-import { fileError as fileError3 } from "myst-common";
+import {
+  fileError as fileError3
+} from "myst-common";
 import fs3 from "fs";
 import { u as u3 } from "unist-builder";
 
@@ -1576,14 +1593,25 @@ function createCardDirective(title, body, footer, link, kind = "curvenoteArticle
 // src/scipy.slides.ts
 function createSlidesCardDirective(item, parseMyst) {
   const { title, authors, description, zenodo_url, doi } = item;
-  const body = [
-    u3("paragraph", [parseMyst(description)]),
-    u3("paragraph", [u3("emphasis", [u3("text", `${authors.map((a) => a.name).join(", ")}`)])])
-  ];
-  const footer = [u3("emphasis", [u3("text", doi)])];
+  const body = [];
+  if (description) {
+    body.push(u3("paragraph", [parseMyst(description)]));
+  }
+  body.push(
+    u3("paragraph", [
+      u3("emphasis", [u3("text", `${authors.map((a) => a.name).join(", ")}`)])
+    ])
+  );
+  const footer = doi ? [u3("emphasis", [u3("text", doi)])] : void 0;
   const link = doi;
   const kind = "curvenoteExternalListItem";
-  const card = createCardDirective([parseMyst(title)], body, footer, link, kind);
+  const card = createCardDirective(
+    [parseMyst(title)],
+    body,
+    footer,
+    link,
+    kind
+  );
   card.data = {
     ...card.data,
     json: {
@@ -1591,11 +1619,11 @@ function createSlidesCardDirective(item, parseMyst) {
       authors,
       description,
       doi,
-      zenodo: zenodo_url
+      zenodo: zenodo_url ?? ""
     },
     parsed: {
       title: parseMyst(title),
-      description: parseMyst(description)
+      description: description ? parseMyst(description) : void 0
     }
   };
   return card;
@@ -1654,7 +1682,9 @@ var scipySlides = {
       nodes.push(
         u3("block", [
           u3("heading", { depth: 2 }, [u3("text", "Accepted Posters")]),
-          ...posters.map((item) => createSlidesCardDirective(item, opts.parseMyst))
+          ...posters.map(
+            (item) => createSlidesCardDirective(item, opts.parseMyst)
+          )
         ])
       );
     }
@@ -1662,7 +1692,9 @@ var scipySlides = {
       nodes.push(
         u3("block", [
           u3("heading", { depth: 2 }, [u3("text", "SciPy Tools Plenaries")]),
-          ...tools.map((item) => createSlidesCardDirective(item, opts.parseMyst))
+          ...tools.map(
+            (item) => createSlidesCardDirective(item, opts.parseMyst)
+          )
         ])
       );
     }
@@ -1670,7 +1702,9 @@ var scipySlides = {
       nodes.push(
         u3("block", [
           u3("heading", { depth: 2 }, [u3("text", "Lightning Talks")]),
-          ...lightning.map((item) => createSlidesCardDirective(item, opts.parseMyst))
+          ...lightning.map(
+            (item) => createSlidesCardDirective(item, opts.parseMyst)
+          )
         ])
       );
     }
@@ -1679,7 +1713,9 @@ var scipySlides = {
 };
 
 // src/scipy.articles.ts
-import { fileError as fileError4 } from "myst-common";
+import {
+  fileError as fileError4
+} from "myst-common";
 import fs4 from "fs";
 import { u as u4 } from "unist-builder";
 
@@ -2152,12 +2188,15 @@ var DoiBatchReader = class {
 function createConferencePaperCardDirective(item, parseMyst, showThumbnail) {
   const { title, authors, doi, year, pages } = item;
   const body = [
-    u4("paragraph", [u4("emphasis", [u4("text", `${authors.map((a) => a.name).join(", ")}`)])])
+    u4("paragraph", [
+      u4("emphasis", [u4("text", `${authors.map((a) => a.name).join(", ")}`)])
+    ])
   ];
-  const footer = [
-    u4("emphasis", [u4("text", `doi: ${doi}, `)]),
-    u4("emphasis", [u4("text", `pages: ${pages[0]}-${pages[1]}`)])
-  ];
+  const footer = [u4("emphasis", [u4("text", `doi: ${doi}`)])];
+  if (pages) {
+    footer.push(u4("emphasis", [u4("text", `, `)]));
+    footer.push(u4("emphasis", [u4("text", `pages: ${pages[0]}-${pages[1]}`)]));
+  }
   const link = doi;
   const card = createCardDirective(
     [parseMyst(title)],
