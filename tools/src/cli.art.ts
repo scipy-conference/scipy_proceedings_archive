@@ -5,7 +5,7 @@ import { exec } from './cli.utils.js';
 export async function submitArticle(folderpath: string, collection: string) {
   let retval;
   try {
-    console.log(`\Submitting... ${folderpath} to ${collection}`);
+    console.log(`\nSubmitting... ${folderpath} to ${collection}`);
     retval = await exec(`curvenote submit scipy --collection ${collection} -y --max-size-webp 5`, {
       cwd: folderpath,
     });

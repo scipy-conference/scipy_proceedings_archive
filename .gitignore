@@ -2,4 +2,3 @@ _build
 node_modules
 .DS_Store
 dist
-*.mjs

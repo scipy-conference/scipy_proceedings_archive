@@ -1,0 +1,1253 @@
+{
+  "keynote": [
+    {
+      "title": "Explainable AI for Climate Science: Opening the Black Box to Reveal Planet Earth",
+      "authors": [
+        {
+          "name": "Elizabeth A. Barnes",
+          "affiliation": "Colorado State University",
+          "orcid": "0000-0003-4284-9320"
+        }
+      ],
+      "description": "Earth’s climate is chaotic and noisy. Finding usable signals amidst all of the noise can be challenging: be it predicting if it will rain, knowing which direction a hurricane will go, understanding the implications of melting Arctic ice, or detecting the impacts of humans on the earth’s surface. Here, I will demonstrate how explainable artificial intelligence (XAI) techniques can sift through vast amounts of climate data and push the bounds of scientific discovery: allowing scientists to ask \"why?\" but now with the power of machine learning.",
+      "zenodo_url": "https://zenodo.org/records/13942222",
+      "slide_id": "barnes-elizabeth",
+      "doi": "10.25080/yhec5334"
+    },
+    {
+      "title": "Particles, People, and Pull Requests",
+      "authors": [
+        {
+          "name": "Kyle Cranmer",
+          "affiliation": "University of Wisconsin-Madison",
+          "orcid": "0000-0002-5769-7094"
+        }
+      ],
+      "description": "I will tell the story of how the statistical challenges in the search for the Higgs boson and exotic new physics at the Large Hadron Collider led to new approaches to collaborative, open science. The story centers around computational and sociological challenges where software and cyberinfrastructure play a key role. I will highlight a few important changes in perspective that were critical for progress including embracing declarative specifications, pivoting from reproducibility to reuse, and the abstraction that led to the field of simulation-based inference.",
+      "zenodo_url": "https://zenodo.org/records/13942226",
+      "slide_id": "cranmer-kyle",
+      "doi": "10.25080/rkcg9834"
+    },
+    {
+      "title": "The Right Tool for the Job",
+      "authors": [
+        {
+          "name": "Julia Silge",
+          "affiliation": "Posit PBC",
+          "orcid": "0000-0002-3671-836X"
+        }
+      ],
+      "description": "There are many programming languages that we might choose for scientific computing, and we each bring a complex set of preferences and experiences to such a decision. There are significant barriers to learning about other programming languages outside our comfort zone, and seeing another person or community make a different choice can be baffling. In this talk, hear about the costs that arise from exploring or using multiple programming languages, what we can gain by being open to different languages, and how curiosity and interest in other programming languages supports sharing across communities. We’ll explore these three points with practical examples from software built for flexible storage and model deployment, as well as a brand new project for scientific computing.",
+      "zenodo_url": "https://zenodo.org/records/13942230",
+      "slide_id": "silge-julia",
+      "doi": "10.25080/xwen4438"
+    }
+  ],
+  "lightning": [
+    {
+      "title": "Deploying Python environments on top of Mt. Rainier",
+      "authors": [
+        {
+          "name": "Benoit Hamelin",
+          "affiliation": "Tutte Institute for Mathematics and Computing",
+          "orcid": "0000-0001-7333-5635"
+        }
+      ],
+      "description": "A process for building preparing artifacts that enable the deployment of a Python computing environment in a place where there is no Internet access.",
+      "zenodo_url": "https://zenodo.org/records/13942232",
+      "slide_id": "deploying-python-environments-on-top-of-mt-rainier",
+      "doi": "10.25080/pyyu4582"
+    },
+    {
+      "title": "Hello Project!",
+      "authors": [
+        {
+          "name": "Hannah Aizenman",
+          "affiliation": "matplotlib",
+          "orcid": "0000-0002-4622-4427"
+        }
+      ],
+      "description": "tips for onboarding into contributing to open source",
+      "zenodo_url": "https://zenodo.org/records/13942234",
+      "slide_id": "hello_project",
+      "doi": "10.25080/hxxk4957"
+    },
+    {
+      "title": "swiftascmaps: A colour map library for swifties",
+      "authors": [
+        {
+          "name": "Josh Borrow",
+          "affiliation": "Department of Physics and Astronomy, University of Pennsylvania, 209 South 33rd Street, Philadelphia, PA, USA 19104",
+          "orcid": "0000-0002-1327-1921"
+        }
+      ],
+      "description": "A hopefully comedic talk about the colour map library swiftascmaps.",
+      "zenodo_url": "https://zenodo.org/records/13942236",
+      "slide_id": "josh_borrow",
+      "doi": "10.25080/uncn2995"
+    },
+    {
+      "title": "Sciris: Simplifying scientific Python",
+      "authors": [
+        {
+          "name": "Cliff Kerr",
+          "affiliation": "Bill & Melinda Gates Foundation",
+          "orcid": "0000-0003-2517-2354"
+        },
+        {
+          "name": "Paula Sanz-Leon",
+          "affiliation": "Bill & Melinda Gates Foundation",
+          "orcid": "0000-0002-1545-6380"
+        },
+        {
+          "name": "Romesh Abeysuriya",
+          "affiliation": "Burnet Institute",
+          "orcid": "0000-0002-9618-6457"
+        }
+      ],
+      "description": "Sciris aims to streamline the development of scientific Python code by making it easier to perform common tasks. This example illustrates how the same block of fairly typical scientific Python code -- which performs tasks like collecting data from a function running in parallel, saving and loading files, and 3D plotting -- looks like when written in 'vanilla Python' compared to using Sciris.",
+      "zenodo_url": "https://zenodo.org/records/13942240",
+      "slide_id": "kerr_sciris",
+      "doi": "10.25080/knjj9332"
+    },
+    {
+      "title": "Plotting Slides in Matplotlib",
+      "authors": [
+        {
+          "name": "Elliott Sales de Andrade",
+          "affiliation": "Matplotlib",
+          "orcid": "0000-0001-7310-8942"
+        }
+      ],
+      "description": "Matplotlib makes easy things easy and hard things possible, like this silly idea of making slides in it.",
+      "zenodo_url": "https://zenodo.org/records/13942242",
+      "slide_id": "matplotlib-slides",
+      "doi": "10.25080/wrvp6756"
+    },
+    {
+      "title": "For the python evangelist",
+      "authors": [
+        {
+          "name": "Christine Smit",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0000-0002-3135-1191"
+        }
+      ],
+      "description": "Because clearly python needs to make music.",
+      "zenodo_url": "https://zenodo.org/records/13942244",
+      "slide_id": "python_evangelist",
+      "doi": "10.25080/hcya9443"
+    },
+    {
+      "title": "Renovate: Automating Dependency Management",
+      "authors": [
+        {
+          "name": "Patrick J. Roddy",
+          "affiliation": "University College London",
+          "orcid": "0000-0002-6271-1700"
+        }
+      ],
+      "description": "A brief introduction to Renovate, a tool for automating dependency management in software projects. The slides can be accessed at https://paddyroddy.github.io/talks/renovate-automating-dependency-management. Two example parent configurations I maintain are available at https://github.com/paddyroddy/.github/tree/main/renovate and https://github.com/UCL-ARC/.github/tree/main/renovate.",
+      "zenodo_url": "https://zenodo.org/records/13942246",
+      "slide_id": "renovate-automating-dependency-management",
+      "doi": "10.25080/tkky5633"
+    }
+  ],
+  "posters": [
+    {
+      "title": "Training a Supervised Cilia Segmentation Model from Self-Supervision",
+      "authors": [
+        {
+          "name": "Seyed Alireza Vaezi",
+          "affiliation": "University of Georgia",
+          "orcid": "0009-0000-2089-8362"
+        },
+        {
+          "name": "Shannon Quinn",
+          "affiliation": "University of Georgia",
+          "orcid": "0000-0002-8916-6335"
+        }
+      ],
+      "description": "Understanding cilia behavior is essential in diagnosing and treating such diseases. But, the tasks of automatically analysing cilia are often a labor and time-intensive since there is a lack of automated segmentation. In this work we overcome this bottleneck by developing a robust, self-supervised framework exploiting the visual similarity of normal and dysfunctional cilia. This framework generates pseudolabels from optical flow motion vectors, which serve as training data for a semi-supervised neural network. Our approach eliminates the need for manual annotations, enabling accurate and efficient segmentation of both motile and immotile cilia.",
+      "zenodo_url": "https://zenodo.org/records/13942248",
+      "slide_id": "Alireza_Vaezi",
+      "doi": "10.25080/hfew4757"
+    },
+    {
+      "title": "Domovyk: Multilingual Transliteration for Cyrillic Text",
+      "authors": [
+        {
+          "name": "Ian Goodale",
+          "affiliation": "UT-Austin",
+          "orcid": "0000-0002-6685-2949"
+        }
+      ],
+      "description": "The Domovyk package provides transliteration to and from Cyrillic alphabets in a way that addresses some limitations in existing packages, providing multilingual functionality, support for composite Unicode characters, and support for languages not addressed in other packages, such as Church Slavonic and Carpatho-Rusyn. Domovyk aims to increase the accessibility of transliteration technologies for users working in these languages, focusing on use cases that require thorough and accurate transliteration.",
+      "zenodo_url": "https://zenodo.org/records/13942250",
+      "slide_id": "Domovyk_Multilingual Transliteration for Cyrillic Text",
+      "doi": "10.25080/udkt5322"
+    },
+    {
+      "title": "ncompare: A Python Package for Comparing netCDF Structures",
+      "authors": [
+        {
+          "name": "Daniel E. Kaufman",
+          "affiliation": "NASA Langley Research Center, Atmospheric Science Data Center, Hampton, VA, USA; Booz Allen Hamilton, Inc.",
+          "orcid": "0000-0002-1487-7298"
+        },
+        {
+          "name": "Walter E. Baskin",
+          "affiliation": "NASA Langley Research Center, Atmospheric Science Data Center, Hampton, VA, USA; Adnet Systems, Inc.",
+          "orcid": "0000-0002-2241-3266"
+        },
+        {
+          "name": "Julia S. Lowndes",
+          "affiliation": "Openscapes, Santa Barbara, California, USA",
+          "orcid": "0000-0003-1682-3872"
+        }
+      ],
+      "description": "As netCDF (Network Common Data Form) files are widely used in Earth science — with climate models, oceanographic or atmospheric reanalyses, and observational data — improved means of evaluating netCDF files can help enable a wide range of applications. We have developed a reusable open source approach through `ncompare`, which is a Python package for comparing netCDF structures. `ncompare` facilitates rapid comparisons by generating a formatted display of the matching and non-matching groups, variables, and associated metadata between two NetCDF datasets. The user has the option to colorize the terminal output for ease of viewing, and `ncompare` can optionally save comparison reports in text, comma-separated value (CSV), and/or Microsoft Excel formats.",
+      "zenodo_url": "https://zenodo.org/records/13942252",
+      "slide_id": "KaufmanEtAl-ncompare",
+      "doi": "10.25080/etnj4973"
+    },
+    {
+      "title": "Development and Application of CWGID: the California Wildfire GeoImaging Dataset for Deep Learning Driven Forest Wildfire Detection",
+      "authors": [
+        {
+          "name": "Valeria Martin",
+          "affiliation": "PhD Student, Graduate Research Assistant, Intelligent Systems and Robotics, University of West Florida",
+          "orcid": "0009-0000-3668-5003"
+        },
+        {
+          "name": "K. Brent Venable",
+          "affiliation": "Director of the Intelligent Systems and Robotics Doctoral Program, Department of Intelligent Systems and Robotics, University of West Florida",
+          "orcid": "0000-0002-1092-9759"
+        },
+        {
+          "name": "Derek Morgan",
+          "affiliation": "Associate Professor, Department of Earth and Environmental Sciences, University of West Florida",
+          "orcid": "0000-0003-2321-3765"
+        }
+      ],
+      "description": "This poster presents the development and application of the CWGID (California Wildfire GeoImaging Dataset), a comprehensive dataset for deep learning-driven forest wildfire detection. The study explores the dataset creation process, its application in wildfire detection using deep learning techniques, and the results obtained.",
+      "zenodo_url": "https://zenodo.org/records/13942256",
+      "slide_id": "Martin_Valeria",
+      "doi": "10.25080/kgpe7737"
+    },
+    {
+      "title": "Fast and Easy Graph Analytics with the NetworkX Ecosystem of Backends",
+      "authors": [
+        {
+          "name": "Rick Ratzel",
+          "affiliation": "NVIDIA Corporation",
+          "orcid": "0000-0001-5464-2920"
+        },
+        {
+          "name": "Dan Schult",
+          "affiliation": "Colgate University",
+          "orcid": "0000-0001-9016-0654"
+        }
+      ],
+      "description": "Poster describing the function dispatching features of NetworkX and the various backends currently available.",
+      "zenodo_url": "https://zenodo.org/records/13942258",
+      "slide_id": "NetworkX-Ecosystem-of-Backends",
+      "doi": "10.25080/ryga7653"
+    },
+    {
+      "title": "RoughPy: Streaming data is rarely smooth",
+      "authors": [
+        {
+          "name": "Sam Morley",
+          "affiliation": "University of Oxford",
+          "orcid": "0000-0001-5971-7418"
+        }
+      ],
+      "description": "RoughPy is a library that aims to connect data science with the mathematics of rough paths to provide a new perspective for working with streamed data. The Stream object provided by the library is an abstraction of streamed data so that it can be viewed through the lens of rough path theory. This makes the high order representation of the data (the signature) available as a tool to be used in data science and machine learning applications. This poster outlines the mathematics, the applications and data, and how RoughPy brings both sides together.",
+      "zenodo_url": "https://zenodo.org/records/13942260",
+      "slide_id": "RoughPy",
+      "doi": "10.25080/yfnx8796"
+    },
+    {
+      "title": "Mamba Models:A Potential Replacement for Transformers?",
+      "authors": [
+        {
+          "name": "Suvrakamal Das",
+          "affiliation": "Academy of Technology (Maulana Abul Kalam Azad University of Technology)",
+          "orcid": "0009-0002-4791-9244"
+        }
+      ],
+      "description": "Mamba models leverage State Space Models and the HiPPO framework to efficiently handle long-range dependencies, reducing computational complexity compared to traditional transformers.",
+      "zenodo_url": "https://zenodo.org/records/13942262",
+      "slide_id": "Suvrakamal_poster",
+      "doi": "10.25080/txwe5647"
+    },
+    {
+      "title": "Employing the strengths of Generative AI supports the execution of time series analysis and forecasting",
+      "authors": [
+        {
+          "name": "Ying-Jung Chen",
+          "affiliation": "Georgia Institute of Technology, College of Computing",
+          "orcid": "0000-0002-5946-7831"
+        }
+      ],
+      "description": "This poster explores the use of Generative AI models for time series analysis and forecasting, specifically in the context of energy consumption. It compares traditional statistical methods, such as ARIMA, with advanced AI-based techniques like AutoGluon-TimeSeries, xLSTM, and TimeGPT. The study aims to demonstrate the efficiency and accuracy of these methods using real-world energy data from the PJM Interconnection LLC. Results indicate that AI-based models, particularly xLSTM and AutoGluon-TimeSeries, outperform traditional models in forecasting accuracy, showcasing their potential for better resource management and decision-making in climate change mitigation.",
+      "zenodo_url": "https://zenodo.org/records/13942264",
+      "slide_id": "YJC_poster",
+      "doi": "10.25080/xtng2642"
+    },
+    {
+      "title": "Parallel Graph Algorithms and Building Backends with Entry Points",
+      "authors": [
+        {
+          "name": "Aditi Juneja",
+          "affiliation": "Independent"
+        }
+      ],
+      "description": "Hi! Have you ever wished your pure Python libraries were faster? Or wanted to fundamentally improve a Python library by rewriting everything in a faster language like C or Rust? Well, wish no more... NetworkX's backend dispatching mechanism redirects your plain old NetworkX function calls to a FASTER implementation present in a separate backend package by leveraging Python's `entry_point` specification! NetworkX is a popular, pure Python library used for graph (aka network) analysis. But when the graph size increases (like a network of everyone in the world), NetworkX algorithms could take days to solve a simple graph analysis problem. To address these performance issues, this backend dispatching mechanism was recently developed. This poster explores NetworkX's parallel backend that utilizes Joblib to run graph algorithms on multiple CPU cores and how we can use it just by specifying a `backend` keyword argument or by passing the backend graph object (type-based dispatching). It also goes over some of the future ToDos for the nx-parallel backend, the speedups obtained, and some important notes to ponder about. Last but not at all the least, it depicts the ideal pipeline starting from networkx, going on to nx-parallel, then to joblib, and then towards the various parallel libraries. (nx-parallel GitHub repo - https://github.com/networkx/nx-parallel) Thank you :)",
+      "zenodo_url": "https://zenodo.org/records/13942266",
+      "slide_id": "aditi_juneja_networkx_poster",
+      "doi": "10.25080/ypkc2577"
+    },
+    {
+      "title": "Aeromancy: Towards More Reproducible AI and Machine Learning",
+      "authors": [
+        {
+          "name": "David McClosky",
+          "affiliation": "QuantAQ Inc.",
+          "orcid": "0009-0005-8897-0793"
+        }
+      ],
+      "description": "We present Aeromancy, an opinionated philosophy and open-sourced framework that closely tracks experimental runtime environments for more reproducible machine learning. In existing experiment trackers, it’s easy to miss important details about how an experiment was run, e.g., which version of a dataset was used as input or the exact versions of library dependencies. Missing these details can make replicability more difficult. Aeromancy aims to make this process smoother by providing both new infrastructure (a more comprehensive versioning scheme including both system runtimes and external datasets) and a corresponding set of best practices to ensure experiments are maximally trackable.",
+      "zenodo_url": "https://zenodo.org/records/13942268",
+      "slide_id": "aeromancy",
+      "doi": "10.25080/yyvd5799"
+    },
+    {
+      "title": "Leveraging FAIR principles for efficient management of meteorological radar data",
+      "authors": [
+        {
+          "name": "Alfonso Ladino",
+          "affiliation": "University of Illinois at Urbana-Champaign",
+          "orcid": "0000-0001-8081-7827"
+        },
+        {
+          "name": "Maxwell Grover",
+          "affiliation": "Argonne National Laboratory",
+          "orcid": "0000-0002-0370-8974"
+        },
+        {
+          "name": "Stephen Nesbitt",
+          "affiliation": "University of Illinois at Urbana-Champaign",
+          "orcid": "0000-0003-0348-0452"
+        },
+        {
+          "name": "Kai Mühlbauer",
+          "affiliation": "University of Bonn"
+        }
+      ],
+      "description": "Radars are crucial in meteorology for their precise spatio-temporal resolution, enabling early detection and tracking of severe weather. This capability aids meteorologists in issuing timely alerts, thus safeguarding lives and reducing property damage. Radar data also supports offline applications like cloud and precipitation analysis, climatology, and insurance risk assessment, all relying on its time-series nature. However, storing radar data traditionally involves proprietary formats with high I/O demands, leading to slow computations and resource-intensive requirements.\n\nTo address these challenges, a new data model is proposed using the CF format-based FM301 hierarchical tree structure and ARCO formats. This model efficiently organizes radar data into cloud-storage buckets using Python libraries like Xarray, Xradar, Wradlib, and Zarr. Demonstrated with Carimagua, Colombia radar data, the model shows faster processing times than legacy methods on standard hardware. Emphasizing FAIR principles (Findable, Accessible, Interoperable, Reusable), this approach enhances accessibility to radar data on cloud platforms, promoting open science and wider societal benefit.",
+      "zenodo_url": "https://zenodo.org/records/13942270",
+      "slide_id": "aladino",
+      "doi": "10.25080/wnaf9823"
+    },
+    {
+      "title": "Building Quantum Bridges: Advancing Drug Discovery with QAOA and Explaining Quantum Computing with Building Blocks",
+      "authors": [
+        {
+          "name": "B. Maurice Benson",
+          "affiliation": "Polaris Quantum Biotech",
+          "orcid": "0009-0009-4913-2577"
+        }
+      ],
+      "description": "Using quantum computers to solve combinatorial optimization problems",
+      "zenodo_url": "https://zenodo.org/records/13942272",
+      "slide_id": "benson_pqb_quantum_sampling",
+      "doi": "10.25080/mtdn2862"
+    },
+    {
+      "title": "Building sustainability and community in a small project: lessons from working on SaltProc",
+      "authors": [
+        {
+          "name": "Oleksandr R. Yardas",
+          "affiliation": "University of Illinois Urbana Champaign",
+          "orcid": "0000-0003-0715-585X"
+        },
+        {
+          "name": "Madicken Munk",
+          "affiliation": "University of Illinois Urbana Champaign",
+          "orcid": "0000-0003-0117-5366"
+        }
+      ],
+      "description": "SaltProc is an open source tool for simulating batch-wise reprocessing of fuel in nuclear reactors developed around an export controlled depedency. This limited the size of the userbase. I contributed features to SaltProc to support an open-source alternative, and found that this change attracted new users.",
+      "zenodo_url": "https://zenodo.org/records/13942274",
+      "slide_id": "building_sustainability_community_saltproc",
+      "doi": "10.25080/ercj5799"
+    },
+    {
+      "title": "Open Source Farm to Open Science Table: Project Pythia's Cook-off Hackathons",
+      "authors": [
+        {
+          "name": "M. Drew Camron",
+          "affiliation": "UCAR / NSF Unidata",
+          "orcid": "0000-0001-7246-6502"
+        },
+        {
+          "name": "Kevin Tyle",
+          "affiliation": "University at Albany, State University of New York",
+          "orcid": "0000-0001-5249-9665"
+        }
+      ],
+      "description": "This poster describes Project Pythia's annual community hackathons, aka Cook-offs. These summer sprints blur the lines between scientist and software developer at an individual and group level, and seed excitement and commitment to the open source, open science community.",
+      "zenodo_url": "https://zenodo.org/records/13942276",
+      "slide_id": "camron_tyle",
+      "doi": "10.25080/rrdv2565"
+    },
+    {
+      "title": "Accelerating the use of Lagrangian data with Clouddrift",
+      "authors": [
+        {
+          "name": "Santana, Kevin",
+          "affiliation": "Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami",
+          "orcid": "0009-0003-8383-1212"
+        },
+        {
+          "name": "Elipot, Shane",
+          "affiliation": "Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami",
+          "orcid": "0000-0001-6051-5426"
+        },
+        {
+          "name": "Miron, Philippe",
+          "affiliation": "Florida State University",
+          "orcid": "0000-0002-8520-6221"
+        },
+        {
+          "name": "Curcic, Milan",
+          "affiliation": "Rosenstiel School of Marine, Atmospheric, and Earth Science, University of Miami",
+          "orcid": "0000-0002-8822-7749"
+        }
+      ],
+      "description": "clouddrift is a python library built to accelerate and simplify the use of lagrangian datasets in science. To achieve this the library adapts datasets into cloud optimized ragged arrays, provides analysis and query methods to work with lagrangian datasets as ragged arrays.",
+      "zenodo_url": "https://zenodo.org/records/13942278",
+      "slide_id": "clouddrift",
+      "doi": "10.25080/ftyc2662"
+    },
+    {
+      "title": "Geist: a multimodal data transformation, query, and reporting language",
+      "authors": [
+        {
+          "name": "Meng Li",
+          "affiliation": "School of Information Sciences, University of Illinois at Urbana-Champaign",
+          "orcid": "0000-0002-2542-2141"
+        },
+        {
+          "name": "Timothy McPhillips",
+          "affiliation": "School of Information Sciences, University of Illinois at Urbana-Champaign",
+          "orcid": "0000-0002-8238-2449"
+        },
+        {
+          "name": "Bertram Ludäscher",
+          "affiliation": "School of Information Sciences, University of Illinois at Urbana-Champaign",
+          "orcid": "0000-0001-9140-936X"
+        }
+      ],
+      "description": "Geist is a new templating language for declarative data manipulation, query, and report generation. Building on the Jinja template engine, Geist is designed to support diverse data backends and query engines via predefined tags and filters, and may be extended with custom tags. A single Geist template may include multiple queries expressed in different languages, e.g. SQL and SPARQL, to leverage the strengths of each for clarity and ease of maintenance. Because Geist both can generate reports in diverse formats and perform inserts and updates on new or existing databases during template expansion, Geist templates may orchestrate data extraction, transformation, and load operations spanning multiple tools and data storage systems. Geist also enables modularity in query languages and eliminates messy procedural programs. Geist aims to enable developers to use whatever language or tools they like regardless of where the data is stored.",
+      "zenodo_url": "https://zenodo.org/records/13942280",
+      "slide_id": "geist",
+      "doi": "10.25080/geaj2635"
+    },
+    {
+      "title": "zfit: scalable pythonic likelihood fitting",
+      "authors": [
+        {
+          "name": "Jonas Eschle",
+          "affiliation": "Syracuse University",
+          "orcid": "0000-0002-7312-3699"
+        },
+        {
+          "name": "Albert Puig Navarro",
+          "affiliation": "Proton AG",
+          "orcid": "0000-0001-8868-2947"
+        },
+        {
+          "name": "Rafael Silva Coutinho",
+          "affiliation": "Syracuse University",
+          "orcid": "0000-0002-1545-959X"
+        },
+        {
+          "name": "Matthieu Marinangeli",
+          "affiliation": "Argusa",
+          "orcid": "0000-0002-8361-9356"
+        },
+        {
+          "name": "Nicola Serra",
+          "affiliation": "University of Zurich",
+          "orcid": "0000-0002-5033-0580"
+        },
+        {
+          "name": "Iason Krommydas",
+          "affiliation": "Rice University",
+          "orcid": "0000-0001-7849-8863"
+        }
+      ],
+      "description": "zfit is a highly scalable and customizable model manipulation and likelihood fitting library. It uses the same computational backend as TensorFlow and is optimised for simple and direct manipulation of probability density functions.",
+      "zenodo_url": "https://zenodo.org/records/13942282",
+      "slide_id": "je_zfit",
+      "doi": "10.25080/xwwd2556"
+    },
+    {
+      "title": "Convolutional Autoencoders for Denoising Solar Images",
+      "authors": [
+        {
+          "name": "Jimmy Lynch",
+          "affiliation": "Lockheed Martin Solar and Astrophysics Lab"
+        }
+      ],
+      "description": "Using scientific packages in Python, we trained convolutional autoencoders to improve the quality of solar images taken from the Atmospheric Imaging Array (AIA).",
+      "zenodo_url": "https://zenodo.org/records/13942284",
+      "slide_id": "jlynch-poster",
+      "doi": "10.25080/fpju4745"
+    },
+    {
+      "title": "Facilitating scientific investigations from long-tail data with Python",
+      "authors": [
+        {
+          "name": "Deborah Khider",
+          "affiliation": "USC Information Sciences Institute",
+          "orcid": "0000-0001-7501-8430"
+        },
+        {
+          "name": "Varun Ratnakar",
+          "affiliation": "USC Information Sciences Institute",
+          "orcid": "0000-0001-9381-705X"
+        },
+        {
+          "name": "Julien Emile-Geay",
+          "affiliation": "University of Southern California",
+          "orcid": "0000-0001-5920-4751"
+        },
+        {
+          "name": "Kim Pevey",
+          "affiliation": "Quansight"
+        },
+        {
+          "name": "Marco Gorelli",
+          "affiliation": "Quansight"
+        },
+        {
+          "name": "Nicholas McKay",
+          "affiliation": "Northern Arizona University",
+          "orcid": "0000-0003-3598-5113"
+        },
+        {
+          "name": "Alexander James",
+          "affiliation": "University of Southern California",
+          "orcid": "0000-0001-8561-3188"
+        },
+        {
+          "name": "Jordan Landers",
+          "affiliation": "University of Southern California",
+          "orcid": "0000-0001-9772-7617"
+        }
+      ],
+      "description": "This presentation walks through our work on creating a non-nanosecond datetime for Pandas and the development of Python toolboxes to query databases and analyze datasets using Pandas objects for interoperability.",
+      "zenodo_url": "https://zenodo.org/records/13942288",
+      "slide_id": "khider_LinkedEarth_2024",
+      "doi": "10.25080/jfcn6576"
+    },
+    {
+      "title": "Climatic and Geographic Influences on Cumacea Genetics in the Northern North Atlantic",
+      "authors": [
+        {
+          "name": "Justin Gagnon",
+          "affiliation": "Department of Biology, University of Sherbrooke, 2500, boulevard de l'Université, J1K 2R1, QC, Canada"
+        },
+        {
+          "name": "Nadia Tahiri",
+          "affiliation": "Department of Computer Science, University of Sherbrooke, 2500, boulevard de l'Université, J1K 2R1, QC, Canada",
+          "orcid": "0000-0002-1818-208X"
+        }
+      ],
+      "description": "Cumacea crustaceans serve as vital indicators of benthic health in marine ecosystems. This study investigates the influence of environmental parameters on their genetic makeup in the North Atlantic, focusing on Icelandic waters. We analyze mitochondrial 16S rRNA gene sequences from 62 Cumacea specimens collected across varying depths.",
+      "zenodo_url": "https://zenodo.org/records/13942290",
+      "slide_id": "poster_Gagnon_Tahiri",
+      "doi": "10.25080/eage2654"
+    },
+    {
+      "title": "From concept to compute: accelerating research with workflow management in `pyiron`",
+      "authors": [
+        {
+          "name": "Liam Huber",
+          "affiliation": "Grey Haven Solutions",
+          "orcid": "0009-0009-2560-5851"
+        },
+        {
+          "name": "Joerg Neugebauer",
+          "affiliation": "Max Planck Institute fuer Nachhaltige Materialien",
+          "orcid": "0000-0002-7903-2472"
+        }
+      ],
+      "description": "`pyiron_workflow` is a python framework for developing research workflows based on composing individual function nodes together into computational graphs. Each node class can be defined by simply applying a decorator to a regular python function, allowing user-developers to extend `pyiron` functionality even without deep knowledge of Object-Oriented Programming. Nodes can be grouped together into macro nodes using the same simple function-and-decorator approach, such that complex workflows can be built up and simply represented by composing and nesting these graphs. In contrast to user workflows being defined via a series of Jupyter notebook cells, this approach rigorously defines workflows by their graph topology and allows them to be easily shared -- and incorporated into new contexts -- by sharing/importing the workflow as a macro node. Interoperability can be controlled with (optional) type checking on data connections between nodes.",
+      "zenodo_url": "https://zenodo.org/records/13942292",
+      "slide_id": "pyiron_workflow",
+      "doi": "10.25080/xwwj3999"
+    },
+    {
+      "title": "3D plotting and mesh analysis through a streamlined interface for the Visualization Toolkit (VTK)",
+      "authors": [
+        {
+          "name": "Tetsuo Koyama",
+          "affiliation": "PyVista Organization",
+          "orcid": "0000-0001-9859-9565"
+        }
+      ],
+      "description": "VTK implements an object-oriented approach to 3D visualization, and PyVista adheres to that underlying structure to provide an API that expands on VTK's data types. These expanded, wrapped types hold methods and attributes for quickly accessing scalar arrays, inspecting properties of the dataset, or using filtering algorithms to transform datasets. PyVista wrapped objects have a suite of common filters ready for immediate use directly on the objects. These filters are commonly used algorithms in the VTK library that have been made more accessible by binding a method to control that algorithm directly onto all PyVista datasets, providing a shared set of functionality. Through the use of these bound filtering methods, powerful VTK algorithms can be leveraged and controlled via keyword arguments designed to be intuitive for novice users.",
+      "zenodo_url": "https://zenodo.org/records/13942294",
+      "slide_id": "pyvista",
+      "doi": "10.25080/vxvf4964"
+    },
+    {
+      "title": "Vectorized Quadrature, Series Summation, Differentiation, Optimization, and Rootfinding in SciPy",
+      "authors": [
+        {
+          "name": "Matt Haberland",
+          "affiliation": "Cal Poly, San Luis Obispo",
+          "orcid": "0000-0003-4806-3601"
+        },
+        {
+          "name": "Albert Steppi",
+          "affiliation": "Quansight Labs",
+          "orcid": "0000-0001-5871-6245"
+        },
+        {
+          "name": "Pamphile T. Roy",
+          "affiliation": "Consulting Manao GmbH",
+          "orcid": "0000-0001-9816-1416"
+        }
+      ],
+      "description": "Until recently, SciPy’s best options for scalar quadrature, minimization, and root finding called compiled code, which could not take advantage of a vectorized Python integrand, objective function, or residual function; SciPy offered no functions for accurate numerical differentiation or series summation. These gaps are being filled with a family of pure-Python, array API compatible functions for dramatically faster vectorized calculation of scalar integrals, infinite sums, derivatives, minimizers, and roots.",
+      "zenodo_url": "https://zenodo.org/records/13942296",
+      "slide_id": "scipy_elementwise",
+      "doi": "10.25080/uyyk2727"
+    },
+    {
+      "title": "Spyder and the NumFOCUS SDG program: better UI/UX, improved code completion and lessons learned",
+      "authors": [
+        {
+          "name": "Daniel Althviz Moré",
+          "affiliation": "Quansight",
+          "orcid": "0000-0003-1759-4194"
+        },
+        {
+          "name": "Juan Sebastian Bautista Rojas",
+          "affiliation": "Spyder"
+        }
+      ],
+      "description": "Spyder is a free and open source scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts. Thanks to the NumFOCUS Small Development Grants (SDG) program, from late 2022 through the beginning of 2024 we’ve made many improvements to Spyder’s UI/UX and to its support for external code completion plugins. We'd like to share the work we’ve done, and explain the ideas and execution behind two of our proposals, from both a technical and project management perspective.",
+      "zenodo_url": "https://zenodo.org/records/13942298",
+      "slide_id": "spyder_numfocus_sdgs",
+      "doi": "10.25080/gdhp7664"
+    },
+    {
+      "title": "Scientific Publishing with MyST Markdown",
+      "authors": [
+        {
+          "name": "Steve Purves",
+          "affiliation": "Curvenote",
+          "orcid": "0000-0002-0760-5497"
+        },
+        {
+          "name": "Rowan Cockett",
+          "affiliation": "Curvenote",
+          "orcid": "0000-0002-7859-8394"
+        }
+      ],
+      "description": "Supercharge your scientific writing with MyST Markdown! MyST is designed for technical communication and research publication. Sprinkling in all the typesetting power that you’d get from LaTeX but with the pleasure of lightweight content focussed writing that you get from Markdown, create interactive papers or documentation that link with data, have embedded computation and provide explorable notebooks to your readers. Get your work out to a templated PDF for traditional publication from exactly the same material, all from the command line or with continuous integration. In this talk, we’ll show how MyST works, how to get started and some examples of awesome MyST based publications.",
+      "zenodo_url": "https://zenodo.org/records/13942300",
+      "slide_id": "steve_purves_myst",
+      "doi": "10.25080/yrmn7235"
+    },
+    {
+      "title": "gravitational lensing simulations made user friendly with Caustics’ three interface levels",
+      "authors": [
+        {
+          "name": "Connor Stone",
+          "affiliation": "University of Montreal",
+          "orcid": "0000-0002-9086-6398"
+        }
+      ],
+      "description": "We present Caustics, a tool to accelerate the analysis of gravitational lensing systems for the next generation of astronomical data. Caustics will enable precision measurements of dark matter properties, the expansion rate of the Universe, lensed black holes, the first stars, and more. In this talk I will the benefits and challenges of how we used PyTorch (a differentiable and GPU accelerated scientific python package) to allow for fast development without sacrificing numerical performance. I will detail our development process as well as how we encourage users of all skill levels to engage with our documentation/tools.",
+      "zenodo_url": "https://zenodo.org/records/13942302",
+      "slide_id": "stone_caustics",
+      "doi": "10.25080/gwcm5548"
+    },
+    {
+      "title": "Seamless integration across developer ecosystems with python and wasm in VTK",
+      "authors": [
+        {
+          "name": "Jaswant Panchumarti",
+          "affiliation": "Kitware, Inc.",
+          "orcid": "0009-0000-9120-5703"
+        },
+        {
+          "name": "Sebastien Jourdain",
+          "affiliation": "Kitware, Inc.",
+          "orcid": "0000-0001-8083-271X"
+        },
+        {
+          "name": "Berk Geveci",
+          "affiliation": "Kitware, Inc.",
+          "orcid": "0000-0003-2477-4855"
+        },
+        {
+          "name": "Aashish Chaudhary",
+          "affiliation": "Kitware, Inc.",
+          "orcid": "0000-0002-4637-8055"
+        }
+      ],
+      "description": "Visualizing large-scale simulation datasets is vital for research in scientific and engineering fields. To this end, VTK, an open-source C++ visualization library, and its Python counterparts VTK Python, PyVista and Vedo are streamlining 3D visualization, though shortcomings remain. We significantly improved VTK's automated wrappers and enabled VTK WebAssembly thus simplifying creation of visualizations in Python or on the web using Trame. This also made it easier to execute VTK native code directly in a web browser. We discuss challenges and lessons learned in extending large C++ software  to diverse languages through API wrapping and cross-compilation to ultimately benefit the Python community.",
+      "zenodo_url": "https://zenodo.org/records/13942304",
+      "slide_id": "trame-vtk-wasm",
+      "doi": "10.25080/fyvp8946"
+    },
+    {
+      "title": "Venturial: Generating CFD Workflows in Python",
+      "authors": [
+        {
+          "name": "Rajdeep Adak",
+          "affiliation": "FOSSEE at Indian Institute of Technology Bombay",
+          "orcid": "0000-0003-2154-4181"
+        },
+        {
+          "name": "Janani Srree Murallidharan",
+          "affiliation": "Indian Institute of Technology Bombay",
+          "orcid": "0000-0001-6865-8747"
+        },
+        {
+          "name": "Prabhu Ramachandran",
+          "affiliation": "Indian Institute of Technology Bombay",
+          "orcid": "0000-0001-6337-1720"
+        }
+      ],
+      "description": "Venturial is an open-source suite of interactive Python tools for Computational Fluid Dynamics (CFD). Venturial, envisions to benefit the scientific python community by providing an easy-to-understand CFD application building workflow within the Python environment.",
+      "zenodo_url": "https://zenodo.org/records/13942306",
+      "slide_id": "venturial",
+      "doi": "10.25080/tpwg2365"
+    }
+  ],
+  "slides": [
+    {
+      "title": "No-Code-Change GPU Acceleration for Your Pandas and NetworkX Workflows",
+      "authors": [
+        {
+          "name": "Rick Ratzel",
+          "affiliation": "NVIDIA Corporation",
+          "orcid": "0000-0001-5464-2920"
+        },
+        {
+          "name": "Vyas Ramasubramani",
+          "affiliation": "NVIDIA Corporation",
+          "orcid": "0000-0001-5181-9532"
+        }
+      ],
+      "description": "This talk describes new open-source GPU accelerators from the NVIDIA RAPIDS project for Pandas and NetworkX and will demonstrate how you can enable them for your workflows to experience significant speedups without code changes.",
+      "zenodo_url": "https://zenodo.org/records/13942308",
+      "slide_id": "NVIDIA-Accelerated-Pandas-NetworkX",
+      "doi": "10.25080/jyef9727"
+    },
+    {
+      "title": "Python for early-stage design of sustainable aviation fuels",
+      "authors": [
+        {
+          "name": "A.M. Martz",
+          "affiliation": "Oregon State University",
+          "orcid": "0000-0003-4707-1415"
+        },
+        {
+          "name": "A.E. Comesana",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "V.H. Rapp",
+          "affiliation": "Lawrence Berkeley National Laboratory"
+        },
+        {
+          "name": "K.E. Niemeyer",
+          "affiliation": "Oregon State University",
+          "orcid": "0000-0003-4425-7097"
+        }
+      ],
+      "description": "We develop a multi-objective, multi-parameter optimization methodology applied to designing novel sustainable aviation fuels",
+      "zenodo_url": "https://zenodo.org/records/13942310",
+      "slide_id": "amartz2024",
+      "doi": "10.25080/afjf2467"
+    },
+    {
+      "title": "Introduction to Causal Inference Using pgmpy",
+      "authors": [
+        {
+          "name": "Ankur Ankan",
+          "affiliation": "Radboud University",
+          "orcid": "0000-0001-5591-9784"
+        }
+      ],
+      "description": "In the domain of data science, a significant number of questions are aimed at understanding and quantifying the effects of interventions, such as assessing the efficacy of a vaccine or the impact of price adjustments on the sales volume of a product. Traditional association based methods machine learning methods, predominantly utilized for predictive analytics, prove inadequate for answering these causal questions from observational data, necessitating the use of causal inference methodologies. This talk aims to introduce the audience to the Directed Acyclic Graph (DAG) framework for causal inference. The presentation has two main objectives: firstly, to provide an insight into the types of questions where causal inference methods can be applied; and secondly, to demonstrate a walkthrough of causal analysis on a real dataset, highlighting the various steps of causal analysis and showcasing the use of the pgmpy package.",
+      "zenodo_url": "https://zenodo.org/records/13942312",
+      "slide_id": "causal_infer_using_pgmpy",
+      "doi": "10.25080/kvta3223"
+    },
+    {
+      "title": "Coming Online: Enabling Real-Time and AI-Ready Scientific Discovery",
+      "authors": [
+        {
+          "name": "Adam Thompson",
+          "affiliation": "NVIDIA",
+          "orcid": "0000-0001-9690-6357"
+        },
+        {
+          "name": "Luigi Cruz",
+          "affiliation": "SETI Institute",
+          "orcid": "0000-0001-5576-2254"
+        }
+      ],
+      "description": "A framework for building real-time and AI enabled sensor processing applications",
+      "zenodo_url": "https://zenodo.org/records/13942314",
+      "slide_id": "coming_online_real_time_ai_discovery",
+      "doi": "10.25080/juet4542"
+    },
+    {
+      "title": " Expanding the OME ecosystem for imaging data management",
+      "authors": [
+        {
+          "name": "Erick Ratamero",
+          "affiliation": "The Jackson Laboratory",
+          "orcid": "0000-0002-7545-3675"
+        }
+      ],
+      "description": "OMERO is an open-source solution for image data management which can be customized and hosted by individual institutions, based on the widely used OME data model for microscopy data. Multiple OMERO deployments might be used to provide core delivery, facilitate internal research, or serve as a public data repository. The omero-cli-transfer package facilitates data transfer between these OMERO instances and provides new methods for importing datasets. Another open-source package, ezomero, improves the usability of OMERO in a research environment by providing easier access to OMERO's Python interface. Along with existing OMERO plugins built for other analysis and viewing software, this positions OMERO to be a hub for image storage, analysis, and sharing.",
+      "zenodo_url": "https://zenodo.org/records/13942316",
+      "slide_id": "extending_OME_ecosystem",
+      "doi": "10.25080/wdya6338"
+    },
+    {
+      "title": "Free, public, standardized Zarr stores of geospatial data in the cloud for all! Now in Beta.",
+      "authors": [
+        {
+          "name": "Christine Smit",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0000-0002-3135-1191"
+        },
+        {
+          "name": "Hailiang Zhang",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0009-0003-6139-5683"
+        },
+        {
+          "name": "Brianna Pagan",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0000-0001-8028-0310"
+        },
+        {
+          "name": "Dieu My Nguyen",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0000-0002-5653-4891"
+        },
+        {
+          "name": "James Acker",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0000-0001-7262-9615"
+        },
+        {
+          "name": "Ashley Heath",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0000-0002-7605-1213"
+        },
+        {
+          "name": "Mahabaleshwara Hegde",
+          "affiliation": "National Aeronautics and Space Administration",
+          "orcid": "0000-0003-4756-0796"
+        },
+        {
+          "name": "Long Pham",
+          "affiliation": "National Aeronautics and Space Administration"
+        }
+      ],
+      "description": "At the NASA Goddard Earth Sciences (GES) Data and Information Services Center (DISC), we're doing the heavy lifting to make large geospatial datasets easily accessible from the cloud. No more downloading data. No more worrying about quirky metadata or missing dimensions. No more concatenating hundreds or thousands of files together. Just fire up your Jupyter notebook somewhere in Amazon Web Services (AWS)'s US-West-2 region, get some free temporary AWS credentials, open our Zarr stores, and start doing your science.",
+      "zenodo_url": "https://zenodo.org/records/13942321",
+      "slide_id": "free_public_standardized_zarr_stores",
+      "doi": "10.25080/majr5893"
+    },
+    {
+      "title": "My NumPy year: From no CPython C API experience to shipping a new DType in NumPy 2.0",
+      "authors": [
+        {
+          "name": "Nathan Goldbaum",
+          "affiliation": "Quansight Labs",
+          "orcid": "0000-0001-5557-267X"
+        }
+      ],
+      "description": "Support for string data in NumPy has long been a sore spot for the community. At the beginning of 2023 I was given the task to solve that problem by writing a new UTF-8 variable-length string DType leveraging the new NumPy DType API. I will offer my personal narrative of how I accomplished that goal over the course of 2023 and offer my experience as a model for others to take on difficult projects in the scientific python ecosystem, offering tips for how to get help when needed and contribute productively to an established open source community.",
+      "zenodo_url": "https://zenodo.org/records/13942323",
+      "slide_id": "goldbaum",
+      "doi": "10.25080/wdug2226"
+    },
+    {
+      "title": "Introduction to Causal Inference with Machine Learning",
+      "authors": [
+        {
+          "name": "Hajime Takeda",
+          "affiliation": "Individual"
+        }
+      ],
+      "description": "Causal inference has traditionally been used in fields such as economics, health studies, and social sciences. In recent years, algorithms combining causal inference and machine learning have been a hot topic. Libraries like EconML and CausalML, for instance, are good Python tools that facilitate the easy execution of causal analysis in areas like economics, human behavior, and marketing. In this talk, I will explain key concepts of causal inference with machine learning, show practical examples, and offer some practical tips. Attendees will learn how to apply machine learning to causal analysis effectively, boosting their research and decision-making.",
+      "zenodo_url": "https://zenodo.org/records/13942325",
+      "slide_id": "hajime_takeda",
+      "doi": "10.25080/tufy8474"
+    },
+    {
+      "title": "HyperSpy: Your Multidimensional Data Analysis Toolbox",
+      "authors": [
+        {
+          "name": "Joshua Taillon",
+          "affiliation": "National Institute of Standards and Technology",
+          "orcid": "0000-0002-5185-4503"
+        }
+      ],
+      "description": "HyperSpy is a community-developed open-source library providing a framework to facilitate interactive and reproducible analyses of multidimensional datasets. Born out of the electron microscopy scientific community and building on the extensive scientific Python environment, HyperSpy provides tools to efficiently explore, manipulate, and visualize complex datasets of arbitrary dimensionality, including those larger than a system's memory. After 14 years of development, HyperSpy recently celebrated its 2.0 version release. This presentation (re)introduces HyperSpy's features and community, with a focus on recent efforts paring the library into a domain-agnostic core and a robust ecosystem of extensions providing specific scientific functionality.",
+      "zenodo_url": "https://zenodo.org/records/13942327",
+      "slide_id": "hyperspy",
+      "doi": "10.25080/gpna7794"
+    },
+    {
+      "title": "Ibis and interfaces",
+      "authors": [
+        {
+          "name": "Gil Forsyth",
+          "affiliation": "Voltron Data",
+          "orcid": "0000-0002-4983-1978"
+        }
+      ],
+      "description": "This talk lays out the current database / data landscape as it relates to the SciPy stack, and explores how Ibis (an open-source, pure Python, dataframe interface library) can help decouple interfaces from engines, to improve both performance and portability. ",
+      "zenodo_url": "https://zenodo.org/records/13942329",
+      "slide_id": "ibis_and_interfaces",
+      "doi": "10.25080/fdck7886"
+    },
+    {
+      "title": "Using Satellite Imagery to Identify Harmful Algal Blooms and Protect Public Health",
+      "authors": [
+        {
+          "name": "Emily Dorne",
+          "affiliation": "DrivenData",
+          "orcid": "0009-0004-6185-7611"
+        }
+      ],
+      "description": "This talk illustrates how machine learning models to detect harmful algal blooms from satellite imagery can help water quality managers make informed decisions around public health warnings for lakes and reservoirs. Rooted in the development of the open source package CyFi, this talk includes insights around identifying when your model is getting the right answer for the wrong reasons, the upsides of using decision tree models with satellite imagery, and how to help non-technical users build confidence in machine learning models.",
+      "zenodo_url": "https://zenodo.org/records/13942331",
+      "slide_id": "identifying_harmful_algal_blooms",
+      "doi": "10.25080/ghpx3574"
+    },
+    {
+      "title": "An Introduction to Impact Charts",
+      "authors": [
+        {
+          "name": "Darren Vengroff, Ph.D.",
+          "orcid": "0009-0006-9542-2565"
+        }
+      ],
+      "description": "Impact charts, as implemented in the impactchart package, make it easy to take a data set and visualize the impact of one variable on another in ways that techniques like scatter plots and linear regression can't, especially when there are other variables involved. In this talk, we introduce impact charts, demonstrate how they find easter-egg impacts we embed in synthetic data, show how you can create your first impact chart with just a few lines of code, and show how impact charts can find hidden impacts in a real-world use case.",
+      "zenodo_url": "https://zenodo.org/records/13942333",
+      "slide_id": "impact-charts",
+      "doi": "10.25080/tfaj6588"
+    },
+    {
+      "title": "ITK-Wasm: Universal spatial analysis and visualization",
+      "authors": [
+        {
+          "name": "Matthew McCormick",
+          "affiliation": "Kitware, Inc.",
+          "orcid": "0000-0001-9475-3756"
+        }
+      ],
+      "description": "How WebAssembly makes scientific computing accessible, sustainable, and reproducible",
+      "zenodo_url": "https://zenodo.org/records/13942337",
+      "slide_id": "itk-wasm-slides",
+      "doi": "10.25080/pghc3745"
+    },
+    {
+      "title": "Making Research Data Flow with Python",
+      "authors": [
+        {
+          "name": "Josh Borrow",
+          "affiliation": "Department of Physics and Astronomy, University of Pennsylvania, 209 South 33rd Street, Philadelphia, PA, USA 19104",
+          "orcid": "0000-0002-1327-1921"
+        }
+      ],
+      "description": "Telescopes exist in remote environments, and yet produce huge amounts of data. This presentation is about building the data transfer tool Librarian for the Simons Observatory, which enables seamless shifting between internet-enabled transfers and hand-carrying disks down mountains.",
+      "zenodo_url": "https://zenodo.org/records/13942339",
+      "slide_id": "josh_borrow",
+      "doi": "10.25080/ttdf6694"
+    },
+    {
+      "title": "Monte Carlo/Dynamic Code: Performant and Portable High-Performance Computing at Scale via Python and Numba",
+      "authors": [
+        {
+          "name": "Joanna Piper Morgan",
+          "affiliation": "Oregon State University",
+          "orcid": "0000-0003-1379-5431"
+        },
+        {
+          "name": "Kyle E. Niemeyer",
+          "affiliation": "Oregon State University",
+          "orcid": "0000-0003-4425-7097"
+        }
+      ],
+      "description": "Monte Carlo / Dynamic Code (MC/DC) is a Monte Carlo neutron transport solver targeting high performance computing. MC/DC is acclerated using the Numba compiler and has the capibility to run on CPUs and GPUs. This talk describes the development of MC/DC",
+      "zenodo_url": "https://zenodo.org/records/13942357",
+      "slide_id": "jpm_mcdc_numba",
+      "doi": "10.25080/cdrf9272"
+    },
+    {
+      "title": "Starsim: A flexible framework for agent-based modeling of health and disease",
+      "authors": [
+        {
+          "name": "Cliff Kerr",
+          "affiliation": "Bill & Melinda Gates Foundation",
+          "orcid": "0000-0003-2517-2354"
+        },
+        {
+          "name": "Robyn Stuart",
+          "affiliation": "Bill & Melinda Gates Foundation",
+          "orcid": "0000-0001-6867-9265"
+        },
+        {
+          "name": "Romesh Abeysuriya",
+          "affiliation": "Burnet Institute",
+          "orcid": "0000-0002-9618-6457"
+        },
+        {
+          "name": "Paula Sanz-Leon",
+          "affiliation": "Bill & Melinda Gates Foundation",
+          "orcid": "0000-0002-1545-6380"
+        },
+        {
+          "name": "Jamie Cohen",
+          "affiliation": "Bill & Melinda Gates Foundation",
+          "orcid": "0000-0002-8479-1860"
+        },
+        {
+          "name": "Daniel Klein",
+          "affiliation": "Bill & Melinda Gates Foundation",
+          "orcid": "0000-0003-0437-7916"
+        }
+      ],
+      "description": "Starsim is an open-source agent-based modeling framework for simulating the spread of diseases among agents via dynamic transmission networks. This talk describes the Starsim package and gives an example of how it can be used to model HIV and syphilis.",
+      "zenodo_url": "https://zenodo.org/records/13942359",
+      "slide_id": "kerr_starsim",
+      "doi": "10.25080/ukpu4584"
+    },
+    {
+      "title": "anywidget: custom Jupyter Widgets made easy",
+      "authors": [
+        {
+          "name": "Trevor Manz",
+          "affiliation": "Harvard Medical School",
+          "orcid": "0000-0001-7694-5164"
+        }
+      ],
+      "description": "anywidget simplifies the creation and distribution of Jupyter Widgets by providing a portable and reusable specification and toolset. It ensures cross-platform compatibility with notebook platforms, lowers the barrier to entry, and improves reusability and interoperability in interactive computing environments. This talk highlights the motivation to bring the web and Python ecosystems closer together, showcasing community-driven anywidgets and new widgets that push the boundaries of these platforms.",
+      "zenodo_url": "https://zenodo.org/records/13942363",
+      "slide_id": "manzt-anywidget",
+      "doi": "10.25080/wdhm9848"
+    },
+    {
+      "title": "Pooch: A friend to fetch your data files",
+      "authors": [
+        {
+          "name": "Santiago Soler",
+          "affiliation": "University of British Columbia",
+          "orcid": "0000-0001-9202-5317"
+        }
+      ],
+      "description": "Easily download and cache data files from the web.",
+      "zenodo_url": "https://zenodo.org/records/13942372",
+      "slide_id": "pooch",
+      "doi": "10.25080/frkj7844"
+    },
+    {
+      "title": "scikit-build-core: A modern build-backend for CPython C/C++/Fortran/Cython extensions",
+      "authors": [
+        {
+          "name": "Jean-Christophe Fillion-Robin",
+          "affiliation": "Kitware Inc.",
+          "orcid": "0000-0002-9688-8950"
+        },
+        {
+          "name": "Henry Schreiner",
+          "affiliation": "Princeton University",
+          "orcid": "0000-0002-7833-783X"
+        },
+        {
+          "name": "Matt McCormick",
+          "affiliation": "Kitware Inc.",
+          "orcid": "0000-0001-9475-3756"
+        }
+      ],
+      "description": "A presentation about scikit-build-core exploring how it modernizes Python extension building by integrating CMake with Python packaging standards, enabling seamless cross-compilation and multi-platform support. The slides highlight key features such as simplified configuration, support for multiple languages like C++, Fortran, and Cython, and the transition from the classic scikit-build. They also provide insights into how scikit-build-core enhances the development experience and streamlines Python module creation for diverse environments.",
+      "zenodo_url": "https://zenodo.org/records/13942374",
+      "slide_id": "scikit-build-slides",
+      "doi": "10.25080/xjvg7399"
+    },
+    {
+      "title": "Sparse Arrays in scipy.sparse",
+      "authors": [
+        {
+          "name": "Dan Schult",
+          "affiliation": "Colgate University.",
+          "orcid": "0000-0001-9016-0654"
+        }
+      ],
+      "description": "The shift from sparse matrices to sparse arrays in SciPy. What's coming, migration and API decisions.",
+      "zenodo_url": "https://zenodo.org/records/13942378",
+      "slide_id": "sparse_arrays",
+      "doi": "10.25080/ejft5676"
+    },
+    {
+      "title": "Building a modular simulation platform for magnetic resonance force microscopy (MRFM) experiments (mrfmsim and mmodel)",
+      "authors": [
+        {
+          "name": "Peter Sun",
+          "affiliation": "Cornell University",
+          "orcid": "0000-0002-5241-100X"
+        },
+        {
+          "name": "John Marohn",
+          "affiliation": "Cornell University",
+          "orcid": "0000-0003-2364-0847"
+        }
+      ],
+      "description": "We present mrfmsim, an open-source framework that not only facilitates the design, simulation, and signal validation of magnetic resonance force microscopy experiments, but also significantly speeds up the development process. In the talk, we present the challenges in building simulation packages for experiments undergoing continuous development in a graduate research setting. We show how we designed mrfmsim and its backend mmodel for modularity, extendibility, and readability, and how these design principles translate into practical benefits for researchers in the field.",
+      "zenodo_url": "https://zenodo.org/records/13942380",
+      "slide_id": "sun-mrfmsim",
+      "doi": "10.25080/xpnp9684"
+    },
+    {
+      "title": "Vector space embeddings and data maps for cyber defense",
+      "authors": [
+        {
+          "name": "Benoit Hamelin",
+          "affiliation": "Tutte Institute for Mathematics and Computing",
+          "orcid": "0000-0001-7333-5635"
+        },
+        {
+          "name": "John Healy",
+          "affiliation": "Tutte Institute for Mathematics and Computing",
+          "orcid": "0000-0001-7511-6874"
+        }
+      ],
+      "description": "Cyber defense, and in particular threat detection, requires gaining insight from very large amounts of telemetry data, using unsupervised learning. This talk presents a method for embedding such data in vector spaces and exploring it through interactive visualization and labeling, using _data maps_. We demonstrate this method by looking at the baseline behaviours of hosts in the open ACME3 dataset of host-based telemetry.",
+      "zenodo_url": "https://zenodo.org/records/13942387",
+      "slide_id": "vector-space-embeddings-and-data-maps-for-cyber-defense",
+      "doi": "10.25080/uykm3443"
+    },
+    {
+      "title": "Simplifying analysis of hierarchical HDF5 and NetCDF4 files with xarray-datatree",
+      "authors": [
+        {
+          "name": "Eniola Awowale",
+          "affiliation": "NASA Goddard Earth Sciences Data and Information Services Center",
+          "orcid": "0009-0001-8478-8047"
+        },
+        {
+          "name": "Tom Nicholas",
+          "affiliation": "[C]Worthy",
+          "orcid": "0000-0002-2176-0530"
+        },
+        {
+          "name": "Lucas Sterzinger",
+          "affiliation": "NASA Goddard Earth Sciences Data and Information Services Center",
+          "orcid": "0000-0003-3321-4534"
+        },
+        {
+          "name": "Nick Lenssen",
+          "affiliation": "NASA Goddard Earth Sciences Data and Information Services Center"
+        }
+      ],
+      "description": "Xarray-datatree, is a Python package that supports HDFs (Hierarchical Data Format) with hierarchical group structures by creating a tree-like hierarchical data structure in xarray.",
+      "zenodo_url": "https://zenodo.org/records/13942389",
+      "slide_id": "xarray_datatree_presentation",
+      "doi": "10.25080/xfex7842"
+    }
+  ],
+  "tools": [
+    {
+      "title": "SciPy Tools Plenary on the Journal of Open Source Software (JOSS)",
+      "authors": [
+        {
+          "name": "Matthew Feickert",
+          "affiliation": "University of Wisconsin-Madison",
+          "orcid": "0000-0003-4124-7862"
+        }
+      ],
+      "description": "Updates from the Journal of Open Source Software (JOSS) on new work and improvements to the journal in 2023 and 2024.",
+      "zenodo_url": "https://zenodo.org/records/13942395",
+      "slide_id": "joss",
+      "doi": "10.25080/pcna4769"
+    },
+    {
+      "title": "SciPy Tools Plenary on Matplotlib",
+      "authors": [
+        {
+          "name": "Elliott Sales de Andrade",
+          "affiliation": "Matplotlib",
+          "orcid": "0000-0001-7310-8942"
+        }
+      ],
+      "description": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. This presentation summarizes changes over the past year, new features, and future plans.",
+      "zenodo_url": "https://zenodo.org/records/13942399",
+      "slide_id": "matplotlib",
+      "doi": "10.25080/guwd9846"
+    },
+    {
+      "title": "NumPy annual update",
+      "authors": [
+        {
+          "name": "Inessa Pawson",
+          "affiliation": "OpenTeams",
+          "orcid": "0000-0001-7294-122X"
+        }
+      ],
+      "description": "Comprehensive overview of the latest release and major milestones for the NumPy library and its contributor community",
+      "zenodo_url": "https://zenodo.org/records/13942401",
+      "slide_id": "numpy",
+      "doi": "10.25080/dpha2486"
+    },
+    {
+      "title": "SciPy: not just a conference",
+      "authors": [
+        {
+          "name": "Matt Haberland",
+          "affiliation": "Cal Poly, San Luis Obispo",
+          "orcid": "0000-0003-4806-3601"
+        }
+      ],
+      "description": "Besides a conference, 'SciPy' is also a library that provides fundamental building blocks for modeling and solving scientific problems. SciPy includes algorithms for optimization, interpolation, statistics, fast Fourier transforms, and many other classes of problems; it also provides specialized data structures, such as k-dimensional trees and sparse matrices. This presentation summarizes the current status and future plans of the SciPy library.",
+      "zenodo_url": "https://zenodo.org/records/13942403",
+      "slide_id": "scipy",
+      "doi": "10.25080/mtvj6294"
+    },
+    {
+      "title": "Sphinx-gallery and Sphinx-tags",
+      "authors": [
+        {
+          "name": "Hannah Aizenman",
+          "affiliation": "matplotlib",
+          "orcid": "0000-0002-4622-4427"
+        }
+      ],
+      "description": "Sphinx-gallery and sphinx-tags features and updates",
+      "zenodo_url": "https://zenodo.org/records/13942405",
+      "slide_id": "sphinx_gallery_tags",
+      "doi": "10.25080/ddee5226"
+    }
+  ]
+}
