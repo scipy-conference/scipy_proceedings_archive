@@ -6,3 +6,6 @@ dist
 template.pdf
 scripts
 scipy2024/templates/scipy
+
+# This file is too big for github; see make_pdfs.sh for pdftk command to recreate it.
+scipy2024/proceedings/proceedings.pdf
