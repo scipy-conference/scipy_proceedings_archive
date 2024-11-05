@@ -1,0 +1,80 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 154
+  last_page: 173
+  doi: 10.25080/PDHK7238
+  id: scipy-2024-emily_dorne
+  title: Cyanobacteria detection in small, inland water bodies with CyFi
+  subtitle: Using satellite imagery and machine learning to protect public health
+  description: Harmful algal blooms pose major health risks to human and aquatic life. CyFi is an open-source Python package that enables detection of cyanobacteria in inland water bodies using 10-30m Sentinel-2 imagery and a computationally efficient tree-based machine learning model.
+  authors:
+    - name: Emily Dorne
+      email: emily@drivendata.org
+      orcid: 0009-0004-6185-7611
+      affiliations:
+        - DrivenData
+      roles:
+        - Methodology
+        - Software
+        - Supervision
+        - Visualization
+        - Writing - original draft
+      corresponding: true
+    - name: Katie Wetstone
+      email: katie@drivendata.org
+      orcid: 0009-0003-3338-7600
+      affiliations:
+        - DrivenData
+      roles:
+        - Data curation
+        - Methodology
+        - Software
+        - Visualization
+        - Writing - review & editing
+    - name: Trista Brophy Cerquera
+      orcid: 0000-0002-4852-6250
+      affiliations:
+        - NASA
+      roles:
+        - Writing - original draft
+    - name: Shobhana Gupta
+      email: shobhana.gupta@nasa.gov
+      orcid: 0000-0002-8896-1353
+      affiliations:
+        - NASA
+      roles:
+        - Project administration
+        - Conceptualization
+  keywords:
+    - Cyanobacteria
+    - Sentinel-2
+    - Machine Learning
+    - Harmful Algal Blooms
+    - Remote Sensing
+  abbreviations:
+    CyFi: Cyanobacteria Finder
+    HAB: harmful algal bloom
+    HCD: human-centered design
+    CyAN: Cyanobacteria Assessment Network
+    CNN: convolutional neural network
+    OLCI: Ocean and Land Colour Instrument
+    MERIS: Medium Resolution Imaging Spectrometer
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - algae
+        - epa_climate_change
+        - ttb_results
+        - ttb_winners_announcement
+        - cyfi_docs
+        - epa_guidelines
+        - who_guidelines
+        - lightgbm
+        - sklearn
+        - dbscan
+        - decimal_degrees
+        - chlorophyll
+site:
+  template: article-theme
