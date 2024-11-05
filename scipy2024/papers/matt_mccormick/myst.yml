@@ -1,0 +1,88 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 256
+  last_page: 279
+  doi: 10.25080/TCFJ5130
+  # Update this to match `scipy-2024-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2024-matt_mccormick
+  # Ensure your title is the same as in your `main.md`
+  title: ITK-Wasm
+  subtitle: Universal spatial analysis and visualization
+  description: In recent years, WebAssembly has emerged as a widely-supported technology that offers high performance, compact binary size, support for multiple languages, hardware independence, security, and universal platform support.  ITK-Wasm brings WebAssembly’s capabilities to scientific computing by combining the Insight Toolkit (ITK) and WebAssembly to enable high-performance spatial analysis across programming languages and hardware architectures.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Matthew McCormick
+      email: matt@mmmccormick.com
+      orcid: 0000-0001-9475-3756
+      affiliations:
+        - Kitware, Inc.
+      roles:
+        - Conceptualization
+        - Software
+        - Data curation
+        - Funding acquisition
+        - Visualization
+        - Methodology
+        - Project administration
+      corresponding: true
+    - name: Paul Elliott
+      email: paul.elliott@kitware.com
+      orcid: 0009-0000-8749-3327
+      roles:
+        - Software
+        - Visualization
+      affiliations:
+        - Kitware, Inc.
+  keywords:
+    - reproducibility
+    - sustainability
+    - accessibility
+    - interoperability
+    - numpy
+    - polyglot
+    - spatial computing
+    - visualization
+    - imaging
+    - meshes
+    - pointsets
+    - itk
+    - webassembly
+    - wasm
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    ITK: Insight Toolkit
+    wasm: WebAssembly
+    Wasm: WebAssembly
+    WASI: WebAssembly System Interface
+    GPU: Graphics Processing Unit
+    CPU: Central Processing Unit
+    SIMD: Single Instruction, Multiple Data
+    API: Application Programming Interface
+    CLI: Command Line Interface
+    GUI: Graphical User Interface
+    NPU: Neural Processing Unit
+    NRRD: Nearly Raw Raster Data
+    FPGA: Field-Programmable Gate Array
+    FAIR: Findable, Accessible, Interoperable, and Reusable
+    NPM: Node Package Manager
+    PNPM: Performant Node Package Manager
+    JSON: JavaScript Object Notation
+    LZ4: Lempel-Ziv 4
+    Zstd: Zstandard
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - WebAssemblyCoreSpecification1
+        - WebAssemblyCoreSpecification2
+        - McCormickAnisotropicDiffusionLBR
+        - WasiDev
+        - Zhang2024-su
+        - dockcross
+        - Johnson2015-qc
+        - Johnson2015-ur
+        - NLM_VisibleHumanMale
+site:
+  template: article-theme
