@@ -1,0 +1,21 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: cb5092f4-7229-404a-810c-53d3ec9f1489
+  title: New CUDA Toolkit packages for Conda
+  authors:
+    - name: Rick Ratzel
+      affiliation: NVIDIA
+      orcid: 0000-0001-5464-2920
+    - name: Thomson Comer
+      affiliation: NVIDIA
+      orcid: 0009-0005-1246-9257
+    - name: John Kirkham
+      affiliation: NVIDIA
+      orcid: 0009-0007-6130-9705
+  abstract: A presentation on the new CUDA package layout for Conda (as included in conda-forge).
+  downloads:
+    - title: Presentation
+      file: SciPy_2023--New_CUDA_Toolkit_packages_for_Conda.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221076

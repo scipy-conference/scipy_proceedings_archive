@@ -1,0 +1,14 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: de0f20e7-c34d-424e-9aa9-91afaf98851a
+  title: Fast Exploration of the Milky Way (or any other n-dimensional dataset)
+  authors:
+    - name: Francesc Alted
+      affiliation: Blosc Development Team
+  abstract: A presentation about how to efficiently explore n-dimensional datasets
+  downloads:
+    - title: Presentation
+      file: Exploring-MilkyWay-SciPy2023.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221023

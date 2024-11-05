@@ -1,0 +1,18 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: b80a2b7a-0e35-486a-bd30-cbf760910236
+  title: 'Spatial Microsimulation and Activity Allocation in Python: An Update on the Likeness Toolkit'
+  authors:
+    - name: Joseph V. Tuccillo
+      affiliation: Oak Ridge National Laboratory, Geospatial Sciences and Human Security
+      orcid: 0000-0002-5930-0943
+    - name: James D. Gaboardi
+      affiliation: Oak Ridge National Laboratory, Geospatial Sciences and Human Security
+      orcid: 0000-0002-4776-6826
+  abstract: The Likeness toolkit utilizes state-of-the-art spatial microsimulation and activity allocation methods to generate synthetic populations within the US, at the metropolitan scale. These 'parallel universes' of agents are attributed with hundreds of demographic variables, probable nighttime and daytime locations, and plausible routing by commute mode between locations. This functionality is demonstrated for Tallahassee, FL and vicinity, a mid-sized metropolitan area.
+  downloads:
+    - title: Poster
+      file: JV_JG_SciPy2023_poster.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8220813

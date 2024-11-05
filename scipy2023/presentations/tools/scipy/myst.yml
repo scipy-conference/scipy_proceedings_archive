@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: ebae2fe4-038e-46cd-956a-ec247344a3fb
+  title: SciPy Tools Plenary on SciPy
+  authors:
+    - name: Pamphile T. Roy
+      affiliation: Quansight
+      orcid: 0000-0001-9816-1416
+  abstract: 2023 updates in SciPy
+  downloads:
+    - title: Presentation
+      file: scipy.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221193

@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 26aedc2d-a1e5-406e-9fbf-7f031e664188
+  title: EEG-to-fMRI Neuroimaging Cross Modal Synthesis in Python
+  authors:
+    - name: David Calhas
+      affiliation: INESC-ID, Instituto Superior Tecnico
+      orcid: 0000-0001-6618-9086
+  abstract: A Python package for supports EEG to fMRI Synthesis in Python
+  downloads:
+    - title: Poster
+      file: eeg_fmri_poster.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8220753

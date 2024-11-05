@@ -1,0 +1,12 @@
+{
+    "title": "Fast Exploration of the Milky Way (or any other n-dimensional dataset)",
+    "authors": [
+        {
+            "name": "Francesc Alted",
+            "affiliation": "Blosc Development Team",
+            "orcid": ""
+        }
+    ],
+    "description": "A presentation about how to efficiently explore n-dimensional datasets",
+    "zenodo_url": "https://zenodo.org/record/8221023"
+}

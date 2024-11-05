@@ -1,0 +1,18 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: e40b1159-e7c9-4d17-bc72-ee14138b7d58
+  title: Better (Open Source) Homes and Gardens with Project Pythia
+  authors:
+    - name: Drew Camron
+      affiliation: UCAR/Unidata
+      orcid: 0000-0001-7246-6502
+    - name: Kevin Tyle
+      affiliation: University at Albany, State University of New York
+      orcid: 0000-0001-5249-9665
+  abstract: Tending Your Open Source Garden session, SciPy 2023
+  downloads:
+    - title: Presentation
+      file: pythia_scipy2023.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221039

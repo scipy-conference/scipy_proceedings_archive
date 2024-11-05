@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 19de70ec-9f8c-4b43-955b-53dbc4335bb4
+  title: NumFOCUS Academic Consortium and Open Source Pledge
+  authors:
+    - name: Arliss Collins
+      affiliation: NumFOCUS
+      orcid: 0000-0003-1039-5096
+  abstract: Announcement of the NumFOCUS Academic Consortium and the Academic Data Science Alliance (ADSA) and NumFOCUS Open Source Pledge.
+  downloads:
+    - title: Presentation
+      file: collins-lightning-talk-scipy-2023.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8220688

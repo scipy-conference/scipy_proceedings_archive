@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 28ba5882-8e6b-42dd-a81b-c7aa4eb289f8
+  title: 'Matchmaker: A Toolkit for Combining Satellite Observations from Multiple Sensors'
+  authors:
+    - name: Greg Quinn
+      affiliation: University of Wisconsin - Madison
+      orcid: 0009-0008-9923-4179
+  abstract: 'Matchmaker constructs multi-sensor datasets that enable scientists to directly compare observations for validation or monitoring purposes, or to fuse measurements from complementary instruments to improve geophysical understanding. Matchmaker leverages SciPy ecosystem tools to perform each of its primary tasks: orbital simulation, geometric collocation of individual observations, and alignment / aggregation of sensor data arrays.'
+  downloads:
+    - title: Poster
+      file: matchmaker.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8220821

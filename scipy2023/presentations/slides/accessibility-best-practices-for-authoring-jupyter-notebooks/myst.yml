@@ -1,0 +1,16 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 12d57c66-f96b-4c30-8137-030ecc33b91d
+  title: Accessibility best practices for authoring Jupyter notebooks
+  authors:
+    - name: Isabela Presedo-Floyd
+      affiliation: Quansight Labs
+    - name: Stephannie Jimenez Gacha
+      affiliation: Quansight Labs
+  abstract: Jupyter notebooks seem like they are for everyone, but how a notebook gets written can greatly impact how usable it is for people with disabilities. Using staple accessibility frameworks, this talk dives into what it means to make a notebook's content accessible and provide actionable guidance on how authors can improve their notebooks.
+  downloads:
+    - title: Presentation
+      file: accessible-notebooks.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221044

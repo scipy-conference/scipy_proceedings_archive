@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 52fb1169-3120-4f96-9b5e-6c353bc5bc14
+  title: SciPy Tools Plenary on Matplotlib
+  authors:
+    - name: Elliott Sales de Andrade
+      affiliation: Matplotlib
+      orcid: 0000-0001-7310-8942
+  abstract: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. This presentation summarizes changes over the past year, new features, and future plans.
+  downloads:
+    - title: Presentation
+      file: scipy2023-mpl-update.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221189

@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 2712ec57-ef03-442a-aa14-aa1387869c3d
+  title: PyVista
+  authors:
+    - name: Tetsuo Koyama
+      affiliation: PyVista
+      orcid: 0000-0001-9859-9565
+  abstract: Let's plot 3D Pythonic visualization
+  downloads:
+    - title: Poster
+      file: main.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8220865

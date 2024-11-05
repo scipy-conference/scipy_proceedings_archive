@@ -1,0 +1,23 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 0cc43885-c4f3-47be-9ebe-a6272709b21f
+  title: PyQtGraph - High Performance Visualization for All Platforms
+  authors:
+    - name: Ognyan Moore
+      affiliation: Hobu Inc.
+    - name: Nathan Jessurun
+      affiliation: ''
+      orcid: 0000-0003-1693-3641
+    - name: Nils Nemitz
+      affiliation: ''
+    - name: Martin Chase
+      affiliation: ''
+    - name: Luke Campagnola
+      affiliation: Allen Institute
+  abstract: Discuss and showcase the PyQtGraph plotting library.  Special attention will be given to highlight PyQtGraph's primary objectives, its performance, cross-platform support and interactivity and how the library achieves those objectives.
+  downloads:
+    - title: Poster
+      file: SciPy 2023 - PyQtGraph Poster.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8220855

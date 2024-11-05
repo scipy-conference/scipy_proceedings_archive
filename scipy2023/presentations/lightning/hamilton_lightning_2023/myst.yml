@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 555f9169-4764-441c-afd9-cb2ea4e1c17e
+  title: ' Hamilton: drop procedural scripts in favor of declarative functions'
+  authors:
+    - name: Stefan Krawczyk
+      affiliation: DAGWorks Inc.
+      orcid: 0009-0006-1112-1459
+  abstract: Lightning Talk on using Hamilton in favor of procedural scripts
+  downloads:
+    - title: Presentation
+      file: Hamilton-lightning-talk.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8220704

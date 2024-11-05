@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: d9997adf-a331-4747-99a7-8eb365ea782b
+  title: Zarr Updates for SciPy 2023
+  authors:
+    - name: Josh Moore
+      affiliation: German BioImaging
+      orcid: 0000-0003-4028-811X
+  abstract: SciPy tools plenary session updates for Zarr
+  downloads:
+    - title: Presentation
+      file: zarr.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221202

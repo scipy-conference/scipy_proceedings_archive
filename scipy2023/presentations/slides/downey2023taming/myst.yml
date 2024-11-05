@@ -1,0 +1,20 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: c4d473a8-f003-48eb-b704-ca3e0a912745
+  title: 'Taming Black Swans: Long-tailed distributions in the natural and engineered world'
+  authors:
+    - name: Allen B. Downey
+      affiliation: Brilliant
+      orcid: 0000-0001-5809-3797
+  abstract: |-
+    Long-tailed distributions are common in natural and engineered systems; as a result, we encounter extreme values more often than we would expect from a short-tailed distribution. If we are not prepared for these 'black swans', they can be disastrous.
+
+    But we have statistical tools for identifying long-tailed distributions, estimating their parameters, and making better predictions about rare events.
+
+    In this talk, I present evidence of long-tailed distributions in a variety of datasets -- including earthquakes, asteroids, and stock market crashes -- discuss statistical methods for dealing with them, and show implementations using scientific Python libraries.
+  downloads:
+    - title: Presentation
+      file: Taming Black Swans SciPy 2023.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/8221088
