@@ -1,0 +1,13 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: ffb6acf9-7468-46ff-814f-481164d1c3c7
+  title: Optimizing Python-Based Spectroscopic Data Processing on NERSC Supercomputers
+  authors:
+    - {}
+    - {}
+    - {}
+  abstract: A case study in profiling and optimizing an image processing application for NERSC supercomputer systems
+  downloads:
+    - title: Presentation
+      file: stephey_scipy_2019.pdf

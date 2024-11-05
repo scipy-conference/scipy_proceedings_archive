@@ -1,0 +1,11 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 1fd9cabe-8674-4983-872d-0ccc3d5d1bf1
+  title: Using Python to Model Biomass Pyrolysis Reactors
+  authors:
+    - {}
+  abstract: Fast pyrolysis is a leading candidate technology for the thermochemical conversion of solid biomass into liquid bio-oil which can be used for biofuel and high-value chemical production. Bio-oil is commonly generated in fluidized, circulating, or entrained flow reactor systems where optimal reactor design and control are crucial to achieving commercially viable products. In this presentation, we will discuss the use of several Python packages such as Pandas, NumPy, SciPy, Matplotlib, and Chemics for creating reactor models for biomass fast pyrolysis research.
+  downloads:
+    - title: Poster
+      file: pyrolysis-reactor.pdf

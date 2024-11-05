@@ -1,0 +1,11 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 788e84f6-e1b2-42a7-977c-b1c67a8c5671
+  title: Automated Annotation of Animal Vocalizations
+  authors:
+    - {}
+  abstract: lightning talk about automated annotation of vocalizations with neural net TweetyNet and the vak and crowsetta libraries
+  downloads:
+    - title: Presentation
+      file: Nicholson-auto-annotate-vocal-vak.pdf

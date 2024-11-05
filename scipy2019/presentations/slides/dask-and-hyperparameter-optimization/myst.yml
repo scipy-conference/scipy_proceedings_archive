@@ -1,0 +1,13 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 519b17f0-4a38-4c45-b10b-0db52816a645
+  title: Better and Faster Hyperparameter Optimization with Dask
+  authors:
+    - {}
+    - {}
+    - {}
+  abstract: Slides about a new hyperparameter optimization algorithm in Dask
+  downloads:
+    - title: Presentation
+      file: slides.pdf
