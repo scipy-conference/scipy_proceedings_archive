@@ -1,0 +1,88 @@
+
+- title: multinterp
+  author: Alan Lujan
+  page: 1
+- title: 'Mandala: Compositional Memoization for Simple & Powerful Scientific Data Management'
+  author: Aleksandar Makelov
+  page: 20
+- title: Training a Supervised Cilia Segmentation Model from Self-Supervision
+  author: Seyed Alireza Vaezi, University of Georgia, Shannon Quinn, University of Georgia
+  page: 29
+- title: Computational Resource Optimisation in Feature Selection under Class Imbalance Conditions
+  author: Amadi Gabriel Udu, Andrea Lecchini-Visintini, Steve R. Gunn, Norman Osa-uwagboe, Maryam Khaksar Ghalati, Hongbiao Dong
+  page: 39
+- title: Algorithms to Determine Asteroid’s Physical Properties using Sparse and Dense Photometry, Robotic Telescopes and Open Data
+  author: Arushi Nath
+  page: 47
+- title: AI-Driven Watermarking Technique for Safeguarding Text Integrity in the Digital Age
+  author: Atharva Rasane
+  page: 56
+- title: Evaluating Probabilistic Forecasters with sktime and tsbootstrap — Easy-to-Use, Configurable Frameworks for Reproducible Science
+  author: Benedikt Heidrich, Sankalp Gilda, Franz Kiraly
+  page: 78
+- title: Voice Computing with Python in Jupyter Notebooks
+  author: Blaine H. M. Mooers
+  page: 94
+- title: Predx-Tools
+  author: Brian Falkenstein, Shannon Quinn, Chakra Chennubhotla, Filippo Pullara, Raymond Yan
+  page: 106
+- title: Improving Code Quality with Array and DataFrame Type Hints
+  author: Christopher Ariza
+  page: 114
+- title: Continuous Tools for Scientific Publishing
+  author: Rowan Cockett, Steve Purves, Franklin Koch, Mike Morrison
+  page: 121
+- title: 'geosnap: The Geospatial Neighborhood Analysis Package'
+  author: Elijah Knaap, Sergio Rey
+  page: 137
+- title: Cyanobacteria detection in small, inland water bodies with CyFi
+  author: Emily Dorne, Katie Wetstone, Trista Brophy Cerquera, Shobhana Gupta
+  page: 154
+- title: Funix - The laziest way to build GUI apps in Python
+  author: Forrest Sheng Bao, Mike Qi, Ruixuan Tu, Erana Wan
+  page: 174
+- title: 'Ecological and Spatial Influences on the Genetics of Cumacea (Crustacea: Peracarida) in the Northern North Atlantic'
+  author: Justin Gagnon, Nadia Tahiri
+  page: 196
+- title: Model Share AI
+  author: Heinrich Peters, Michael Parrott
+  page: 216
+- title: Scikit-build-core
+  author: Henry Schreiner, Jean-Christophe Fillion-Robin, Matt McCormick
+  page: 225
+- title: Making Research Data Flow With Python
+  author: Josh Borrow, Paul La Plante, James Aguirre, Peter K. G. Williams
+  page: 236
+- title: 'Any notebook served: authoring and sharing reusable interactive widgets'
+  author: Trevor Manz, Nils Gehlenborg, Nezar Abdennur
+  page: 247
+- title: ITK-Wasm
+  author: Matthew McCormick, Paul Elliott
+  page: 256
+- title: How the Scientific Python ecosystem helps answer fundamental questions of the Universe
+  author: Matthew Feickert, Nikolai Hartmann, Lukas Heinrich, Alexander Held, Vangelis Kourlitis, Nils Krumnack, Giordon Stark, Matthias Vigl, Gordon Watts
+  page: 280
+- title: Supporting Greater Interactivity in the IPython Visualization Ecosystem
+  author: Nathan Martindale, Jacob Smith, Lisa Linville
+  page: 291
+- title: Orchestrating Bioinformatics Workflows Across a Heterogeneous Toolset with Flyte
+  author: Pryce Turner
+  page: 309
+- title: RoughPy
+  author: Sam Morley, Terry Lyons
+  page: 320
+- title: Mamba Models a possible replacement for Transformers?
+  author: Suvrakamal Das, Rounak Sen, Saikrishna Devendiran
+  page: 332
+- title: 'THEIA: An Offline Tool for Tradespace Visualization'
+  author: Samuel Williams, Scott Christensen, Marvin Brown
+  page: 345
+- title: 'Echodataflow: Recipe-based Fisheries Acoustics Workflow Orchestration'
+  author: Valentina Staneva, Soham Butala, Landung (Don) Setiawan, Wu-Jung Lee
+  page: 349
+- title: Python-Based GeoImagery Dataset Development for Deep Learning-Driven Forest Wildfire Detection
+  author: Valeria Martin, Derek Morgan, K. Brent Venable
+  page: 366
+- title: 'Echostack: A flexible and scalable open-source software suite for echosounder data processing'
+  author: Wu-Jung Lee, Valentina Staneva, Landung “Don” Setiawan, Emilio Mayorga, Caesar Tuguinay, Soham Butala, Brandyn Lucca, Dingrui Lei
+  page: 386
