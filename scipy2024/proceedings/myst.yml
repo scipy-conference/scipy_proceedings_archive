@@ -7,51 +7,35 @@ site:
   template: article-theme
 project:
   title: Proceedings of the 23rd Python in Science Conference
+  subtitle: SciPy 2024, Tacoma, Washington July 8 - July 14
   description: |
     The 23rd annual SciPy conference was held in Tacoma, Washington at the Tacoma Convention Center, July 8-14, 2024.
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2024
-  open_access: true
-  license: CC-BY-4.0
   id: scipy-2024-proceedings
   doi: 10.25080/DTVR3553
-  date: 2024-07-10
-  venue: SciPy 2024
   subject: Proceedings
-  subtitle: SciPy 2024, Tacoma, Washington July 8 - July 14
   thumbnail: thumbnail.png
+  banner: banner.png
   plugins:
     - scipy.plugin.mjs
-  editors:
-    - name: Meghann Agarwal
-      email: agarwal.meghann@gmail.com
-      affiliation: GDI
-      id: meghann
-    - name: Amey Ambade
-      email: ameyambade@gmail.com
-      affiliation: SLB
-      id: amey
-    - name: Chris Calloway
-      email: cbc@unc.edu
-      affiliation: University of North Carolina
-      id: chris
-    - name: Rowan Cockett
-      email: rowan@curvenote.com
-      affiliation: Curvenote
-      id: rowan
-    - name: Sanhita Joshi
-      email: sanhita.joshi@gmail.com
-      affiliation: Deloitte
-      id: sanhita
-    - name: Charles Lindsey
-      email: lindseycster@gmail.com
-      affiliation: Aptos
-      id: charles
-    - name: Hongsup Shin
-      email: hongsup.shin@pm.me
-      affiliation: Arm
-      id: hongsup
-  # downloads:
-  #   - url: ./proceedings.pdf
-  #     title: Download PDF
-  banner: banner.png
+  authors:
+    - meghann
+    - amey
+    - chris
+    - rowan
+    - sanhita
+    - charles
+    - hongsup
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+  exports:
+    - format: typst
+      template: ../templates/scipy-preface
+      articles:
+        - organization.md
+        - slides.md
+        - students.md
+      output: ../papers/preface.pdf
   bibliography: []
+extends: ./proceedings.yml

@@ -2,3 +2,12 @@ _build
 node_modules
 .DS_Store
 dist
+*.bak
+template.pdf
+scripts
+scipy2024/templates/scipy
+
+# These can be generated with the make_pdfs.sh script
+scipy2024/papers/*/full_text.pdf
+scipy2024/papers/preface.pdf
+scipy2024/proceedings/proceedings.pdf
