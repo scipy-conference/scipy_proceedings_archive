@@ -7,7 +7,8 @@ template.pdf
 scripts
 scipy2024/templates/scipy
 
-# These can be generated with the make_pdfs.sh script
+# These can be generated with myst and the make_pdfs.sh script
 scipy2024/papers/*/full_text.pdf
+scipy2024/papers/*/meca.zip
 scipy2024/papers/preface.pdf
 scipy2024/proceedings/proceedings.pdf

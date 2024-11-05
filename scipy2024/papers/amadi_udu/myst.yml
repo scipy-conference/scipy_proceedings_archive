@@ -1,0 +1,98 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 39
+  last_page: 46
+  doi: 10.25080/TPGN6857
+  # Update this to match `scipy-2024-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2024-amadi_udu
+  # Ensure your title is the same as in your `main.md`
+  title: Computational Resource Optimisation in Feature Selection under Class Imbalance Conditions
+  description: Feature selection is crucial for reducing data dimensionality as well as enhancing model interpretability and performance in machine learning tasks. This study explores the possibility of performing feature selection on a subset of data to reduce the computational burden.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Amadi Gabriel Udu
+      email: agu1@le.ac.uk
+      orcid: 0000-0001-8944-4940
+      affiliations:
+        - School of Engineering, University of Leicester, LE1 7RH, Leicester, UK.
+        - Air Force Institute of Technology, Air Force Base, PMB 2104,  Kaduna, Nigeria.
+      github: amadigabriel
+      roles:
+        - Conceptualisation
+        - Investigation
+        - Formal analysis
+        - Visualisation
+        - Data curation
+        - Writing - original draft
+      corresponding: true
+    - name: Andrea Lecchini-Visintini
+      email: alv1e22@soton.ac.uk
+      orcid: 0000-0002-1654-8877
+      affiliations: School of Electronics and Computer Science, University of Southampton, SO17 1BJ, Southampton, UK.
+      roles:
+        - Conceptualisation
+        - Methodology
+        - Writing - review & editing
+        - Supervision
+        - Validation
+    - name: Steve R. Gunn
+      email: srg@ecs.soton.ac.uk
+      affiliations: School of Electronics and Computer Science, University of Southampton, SO17 1BJ, Southampton, UK.
+      roles:
+        - Supervision
+        - Writing - review & editing
+    - name: Norman Osa-uwagboe
+      email: n.osa-uwagboe@lboro.ac.uk
+      orcid: 0000-0002-6560-445X
+      affiliations: Wolfson School of Mechanical, Electrical, and Manufacturing Engineering, Loughborough University, LE11 3TU, Loughborough, UK.
+      roles:
+        - Resources
+        - Data curation
+        - Writing - review & editing
+    - name: Maryam Khaksar Ghalati
+      email: mkg18@le.ac.uk
+      orcid: 0000-0002-6009-7946
+      affiliations: School of Engineering, University of Leicester, LE1 7RH, Leicester, UK.
+      roles:
+        - Conceptualisation
+        - Methodology
+        - Writing - review & editing
+    - name: Hongbiao Dong
+      email: hd38@le.ac.uk
+      orcid: 0000-0003-1244-0364
+      affiliations: School of Engineering, University of Leicester, LE1 7RH, Leicester, UK.
+      roles:
+        - Supervision
+        - Funding acquisition
+        - Resources
+        - Project administration
+  keywords:
+    - feature selection
+    - class imbalance
+    - machine learning
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    Light GBM: Light Gradient-Boosting Machine
+    ROC: Receiver Operator Characteristics
+    SVM: Support Vector Machines
+    RF: Random Forest
+    PFI: Permutation Feature Importance
+    IQR: Interquartile range
+    AUC: area under the Receiver Operator Characteristics (ROC) curve
+    ML: machine learning
+  numbering:
+    headings: true
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+        - bonaccorso2018
+site:
+  template: article-theme

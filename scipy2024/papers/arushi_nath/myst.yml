@@ -1,0 +1,48 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 47
+  last_page: 55
+  doi: 10.25080/TWCF2755
+  # Update this to match `scipy-2024-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2024-Arushi_Nath
+  # Ensure your title is the same as in your `main.md`
+  title: Algorithms to Determine Asteroid’s Physical Properties using Sparse and Dense Photometry, Robotic Telescopes and Open Data
+  short_title: Algorithms to Determine Asteroid’s Physical Properties
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Arushi Nath
+      email: Arushi@monitormyplanet.com
+      orcid: 0009-0007-5329-9148
+      affiliations:
+        - Founder, MonitorMyPlanet.com
+  keywords:
+    - Near-Earth Asteroids
+    - Python Algorithms
+    - Open Data
+    - Citizen Scientists
+    - Asteroid Characterization
+  abbreviations:
+    ATLAS: Asteroid Terrestrial-impact Last Alert System
+    DART: Double Asteroid Redirection Test
+    ZTF: Zwicky Transient Facility
+    LSST: Legacy Survey of Space and Time
+    ALCDEF: Asteroid Lightcurve Database
+    C-type: carbonaceous
+    S-type: siliceous
+    M-type: metallic
+    PDS: Photometric Data Catalog
+    MPC: Minor Planet Center
+    SNR: Signal-to-Noise Ratio
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+site:
+  template: article-theme
