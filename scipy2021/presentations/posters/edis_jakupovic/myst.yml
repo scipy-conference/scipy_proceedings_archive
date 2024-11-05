@@ -1,0 +1,16 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 1b7c7f23-e183-4573-a230-7c72f09fe4ba
+  title: Speeding Up Molecular Dynamics Trajectory Analysis with MPI Parallelization
+  authors:
+    - name: Edis Jakupovic
+      affiliation: Arizona State University
+    - name: Oliver Beckstein
+      affiliation: Arizona State University
+  abstract: ''
+  downloads:
+    - title: Poster
+      file: edis_jakupovic_scipy2021_poster.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5151924

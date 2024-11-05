@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 7de356eb-0e41-414a-abe0-4c856db4c3c8
+  title: 'SciPy: SciPy 2021 Tools Track'
+  authors:
+    - name: Pamphile T. Roy
+      affiliation: iTranslate, Graz
+      orcid: 0000-0001-9816-1416
+  abstract: 2021 updates and outlooks in SciPy
+  downloads:
+    - title: Presentation
+      file: SciPy.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5152050

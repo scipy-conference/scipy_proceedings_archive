@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: b766b1de-e27f-4a4a-9a4a-f6f52cad52d5
+  title: NumPy – Annual Update
+  authors:
+    - name: Inessa Pawson
+      affiliation: Albus Code
+      orcid: 0000-0001-7294-122X
+  abstract: Presentation about the highlights and milestones of the NumPy project in 2020-2021
+  downloads:
+    - title: Presentation
+      file: SciPy'21 – NumPy update (full) – Inessa Pawson.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5152034

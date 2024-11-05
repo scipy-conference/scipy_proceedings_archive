@@ -1,0 +1,14 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 3b49e494-d86c-4ec3-aa68-b25249831fc4
+  title: Visualize 3D scientific data in a Pythonic way like matplotlib
+  authors:
+    - name: Tetsuo Koyama
+      affiliation: ARK Information Systems
+  abstract: Do you want to visualize 3D scientific data in a Pythonic way like matplotlib? If you want, this poster is for you. This poster is the introduction of PyVista.
+  downloads:
+    - title: Poster
+      file: main.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5151953

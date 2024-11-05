@@ -1,0 +1,17 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 8038710c-b5eb-4464-9c93-ffce0bb5c89a
+  title: 'SciPy Tools Plenary: Jupyter Updates'
+  authors:
+    - name: Isabela Presedo-Floyd
+      affiliation: Project Jupyter
+    - name: Matthias Bussonnier
+      affiliation: Project Jupyter
+      orcid: 0000-0002-7636-8632
+  abstract: Project Jupyter creates open source software, standards, and services for interactive computing. This presentation covers recent milestones and ideas for people to contribute across the Jupyter ecosystem.
+  downloads:
+    - title: Presentation
+      file: jupyter-updates.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5152036

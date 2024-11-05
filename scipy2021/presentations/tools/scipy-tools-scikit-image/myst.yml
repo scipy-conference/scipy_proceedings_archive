@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: e8b036ff-95b9-44db-874e-57fb47038582
+  title: 'SciPy Tools Plenary: scikit-image annual update'
+  authors:
+    - name: Gregory R. Lee
+      affiliation: Quansight
+      orcid: 0000-0001-8895-2740
+  abstract: A brief update on recent improvements and future plans for scikit-image.
+  downloads:
+    - title: Presentation
+      file: scikit-image-annual-update-2021.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5152054

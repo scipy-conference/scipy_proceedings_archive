@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 0de538f6-d0f4-4c51-ac7c-fc3bb2329d27
+  title: Awkward Array
+  authors:
+    - name: Jim Pivarski
+      affiliation: Princeton University
+      orcid: 0000-0002-6649-343X
+  abstract: Tools update on Awkward Array.
+  downloads:
+    - title: Presentation
+      file: pivarski-awkward-pyhep2021.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5152018

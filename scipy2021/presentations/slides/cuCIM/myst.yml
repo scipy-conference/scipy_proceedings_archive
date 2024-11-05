@@ -1,0 +1,24 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 3b0fc03b-2a90-483a-b107-da71da6baaa5
+  title: cuCIM - A GPU image I/O and processing library
+  authors:
+    - name: Gregory R. Lee
+      affiliation: Quansight
+      orcid: 0000-0001-8895-2740
+    - name: Gigon Bae
+      affiliation: NVIDIA
+      orcid: 0000-0003-0648-9735
+    - name: Benjamin Zaitlen
+      affiliation: NVIDIA
+    - name: John Kirkham
+      affiliation: NVIDIA
+    - name: Rahul Choudhury
+      affiliation: NVIDIA
+  abstract: A presentation introducing RAPIDS cuCIM, a library for image I/O and processing on GPUs
+  downloads:
+    - title: Presentation
+      file: RAPIDS_cuCIM-SciPy2021-final.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5151998

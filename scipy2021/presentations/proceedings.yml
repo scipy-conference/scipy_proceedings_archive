@@ -1,0 +1,30 @@
+version: 1
+project:
+  subject: Presentation
+  open_access: true
+  license: CC-BY-3.0
+  venue:
+    title: Python in Science Conference, 2021
+    short_title: SciPy
+    number: 20rd
+    location: Austin, Texas
+    date: July 12 - July 18, 2021
+    issn: 2575-9752
+    doi: 10.25080/issn.2575-9752
+    url: https://scipy2021.scipy.org
+  date: 2021-07-12
+  editors:
+    - name: Meghann Agarwal
+      email: agarwal.meghann@gmail.com
+      corresponding: false
+    - name: Chris Calloway
+      email: cbc@unc.edu
+      corresponding: false
+    - name: Dillon Niederhut
+      email: dillon.niederhut@gmail.com
+      corresponding: false
+    - name: David Shupe
+      email: dave.shupe@gmail.com
+      corresponding: false
+site:
+  template: article-theme

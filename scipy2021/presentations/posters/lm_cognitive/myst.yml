@@ -1,0 +1,22 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: ce4d2400-2639-43cf-8e11-5ff41ad13c91
+  title: Programmatically Identifying Cognitive Biases Present in Software Development
+  authors:
+    - name: Amanda E. Kraft
+      affiliation: Lockheed Martin, Advanced Technology Laboratories
+    - name: Matthew Widjaja
+      affiliation: Lockheed Martin, Advanced Technology Laboratories
+    - name: Trevor M. Sands
+      affiliation: Lockheed Martin, Advanced Technology Laboratories
+    - name: Brad J. Galego
+      affiliation: Lockheed Martin, Advanced Technology Laboratories
+  abstract: 'Mitigating bias in AI-enabled systems is a topic of great concern within the research community. We began developing an approach to identify a subset of cognitive biases that may be present in development artifacts (e.g., version control commit messages): anchoring bias, availability bias, confirmation bias, and hyperbolic discounting. We developed multiple natural language processing (NLP) models to identify and classify the presence of bias in text originating from software development artifacts.'
+  downloads:
+    - title: Poster
+      file: cognitive_bias_poster.pdf
+    - title: Powerpoint File
+      file: cognitive_bias_poster.pptx
+  identifiers:
+    zenodo: https://zenodo.org/record/5151947

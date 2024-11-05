@@ -1,0 +1,16 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 3a740874-d1c5-4424-b838-ae30f2dfc378
+  title: Using Python for Analysis and Verification of Mixed-mode Signal Chains for Analog Signal Acquisition
+  authors:
+    - name: Mark Thoren
+      affiliation: Analog Devices Inc
+    - name: Cristina Suteu
+      affiliation: Analog Devices Inc
+  abstract: Accurate, precise, and low-noise sensor measurements are essential before any machine can learn about (or artificial-intelligently make decisions about) the physical world. Modern, highly integrated signal acquisition devices can perform analog signal conditioning, digitization, and digital filtering on a single silicon device, greatly simplifying system electronics. However, a complete understanding of the signal chain properties is still required to correctly utilize and debug these modern devices.
+  downloads:
+    - title: Poster
+      file: adi_poster.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/5151918
