@@ -1,0 +1,38 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 309
+  last_page: 319
+  doi: 10.25080/DDJJ4932
+  # Update this to match `scipy-2024-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2024-pryce_turner
+  # Ensure your title is the same as in your `main.md`
+  title: Orchestrating Bioinformatics Workflows Across a Heterogeneous Toolset with Flyte
+  description: While Python excels at prototyping and iterating quickly, it’s not always performant enough for whole-genome scale data processing. Flyte, an open-source Python-based workflow orchestrator, presents an excellent way to tie together the myriad tools required to run bioinformatics workflows.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Pryce Turner
+      email: pryce.turner@gmail.com
+      affiliations:
+        - Union AI
+  keywords:
+    - flyte
+    - orchestration
+    - bioinformatics
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    GATK: Genome Analysis ToolKit
+    DAG: Directed Acyclic Graph
+    QC: Quality Control
+    OCI: Open Container Initiative
+    BWT: Burrows-Wheeler Transform
+    SNP: Single Nucleotide Polymorphism
+    VCF: Variant Call Format
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - andrews2012
+site:
+  template: article-theme
