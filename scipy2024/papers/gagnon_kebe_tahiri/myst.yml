@@ -1,0 +1,53 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 196
+  last_page: 215
+  doi: 10.25080/NVYF1037
+  # Update this to match `scipy-2024-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2024-gagnon_kebe_tahiri
+  title: 'Ecological and Spatial Influences on the Genetics of Cumacea (Crustacea: Peracarida) in the Northern North Atlantic'
+  short_title: Ecological & Spatial Influences on the Genetics of Cumacea in N. Atlantic
+  subtitle: by aPhyloGeo software
+  description: The peracarid taxon Cumacea is an essential indicator of benthic quality in marine ecosystems. This study investigated the influence of environmental (i.e., biological or ecosystemic), climatic (i.e., meteorological or atmospheric), and spatial (i.e., geographic or regional) variables on their genetic variability and adaptability in the Northern North Atlantic, focusing on Icelandic waters.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Justin Gagnon
+      email: Justin.Gagnon2@USherbrooke.ca
+      affiliations:
+        - Department of Biology, University of Sherbrooke, 2500, boul. de l'Université, Sherbrooke, Quebec, J1K 2R1 Canada
+    - name: Nadia Tahiri
+      email: Nadia.Tahiri@USherbrooke.ca
+      orcid: 0000-0002-1818-208X
+      affiliations:
+        - Department of Computer Science, University of Sherbrooke, 2500, boul. de l'Université, Sherbrooke, Quebec, J1K 2R1 Canada
+      corresponding: true
+  keywords:
+    - Adaptation
+    - Atlantic
+    - Bioinformatics
+    - Biology
+    - Cumacea
+    - Iceland
+    - Phylogeography
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    DD: decimal degrees
+    PCR: Polymerase Chain Reaction
+    rRNA: Ribosomal ribonucleic acid
+    GIN: Greenland, Iceland, and Norwegian
+    RF: Robinson-Foulds
+    nRF: normalized Robinson-Foulds
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+  exports:
+    - id: pdf
+      format: typst
+      template: ../../templates/scipy
+      article: main.tex
+      output: full_text.pdf
+site:
+  template: article-theme

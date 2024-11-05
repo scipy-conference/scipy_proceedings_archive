@@ -1,0 +1,71 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 216
+  last_page: 224
+  doi: 10.25080/MDCE8355
+  # Update this to match `scipy-2024-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2024-heinrich_peters
+  title: Model Share AI
+  subtitle: An Integrated Toolkit for Collaborative Machine Learning Model Development, Provenance Tracking, and Deployment in Python
+  description: Machine learning is revolutionizing a wide range of research areas and industries, but many ML projects never progress past the proof-of-concept stage. To address this problem, we introduce Model Share AI, a platform designed to streamline collaborative model development, model provenance tracking, and model deployment.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Heinrich Peters
+      email: hp2500@columbia.edu
+      orcid: https://orcid.org/0000-0002-0571-6388
+      affiliations:
+        - Columbia University
+      corresponding: True
+      roles:
+        - Conceptualization
+        - Methodology
+        - Software
+        - Writing - Original Draft
+    - name: Michael Parrott
+      email: mp3675@columbia.edu
+      affiliations:
+        - Columbia University
+      roles:
+        - Conceptualization
+        - Methodology
+        - Software
+        - Resources
+        - Writing - Review \& Editing
+        - Supervision
+        - Project administration
+        - Funding acquisition
+  keywords:
+    - Machine Learning
+    - MLOps
+    - Model Deployment
+    - Provenance Tracking
+    - Crowdsourcing
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    ML: Machine Learning
+    AI: Artificial Intelligence
+    AIMS: Model Share AI
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - davenport_is_2022
+        - siegel_models_2022
+        - noauthor_hugging_2023
+        - noauthor_tensorflow_2023
+        - noauthor_mlflow_2023
+        - zaharia_accelerating_2018
+        - pedregosa_scikit-learn:_2011
+        - feurer_efficient_2015
+        - feurer_openml-python_2021
+        - chollet_keras_2015
+  exports:
+    - id: pdf
+      format: typst
+      template: ../../templates/scipy
+      article: main.tex
+      output: full_text.pdf
+site:
+  template: article-theme

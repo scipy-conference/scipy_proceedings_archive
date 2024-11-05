@@ -1,0 +1,56 @@
+version: 1
+extends: ../proceedings.yml
+project:
+  first_page: 225
+  last_page: 235
+  doi: 10.25080/FMKR8387
+  # Update this to match `scipy-2024-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2024-henry_schreiner
+  # Ensure your title is the same as in your `main.md`
+  title: Scikit-build-core
+  subtitle: A modern build-backend for CPython C/C++/Fortran/Cython extensions
+  description: Discover how scikit-build-core revolutionizes Python extension building with its seamless integration of CMake and Python packaging standards. Learn about its enhanced features for cross-compilation, multi-platform support, and simplified configuration, which enable writing binary extensions with pybind11, Nanobind, Fortran, Cython, C++, and more.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Henry Schreiner
+      email: henryfs@princeton.edu
+      orcid: 0000-0002-7833-783X
+      affiliations:
+        - Princeton University
+      corresponding: true
+      roles:
+        - writing
+    - name: Jean-Christophe Fillion-Robin
+      email: jcfr@kitware.com
+      orcid: 0000-0002-9688-8950
+      affiliations:
+        - Kitware Inc.
+      corresponding: true
+      roles:
+        - writing
+    - name: Matt McCormick
+      email: matt.mccormick@kitware.com
+      orcid: 0000-0001-9475-3756
+      affiliations:
+        - Kitware Inc.
+      roles:
+        - writing
+  keywords:
+    - Build system
+    - CMake
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    PEP: Python Enhancement Proposal
+    NSF: National Science Foundation
+    PyPI: Python Package Index
+    SDist: Source Distribution, the way Python packages distribute source code
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - pep517
+        - pep518
+        - pep621
+        - pep660
+site:
+  template: article-theme
