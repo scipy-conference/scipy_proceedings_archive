@@ -1,0 +1,21 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 7dea6c5e-7c79-42de-ba38-da99f88a231c
+  title: 'Awkward Packaging: Building scikit-HEP'
+  authors:
+    - name: Henry Schreiner
+      affiliation: Princeton University
+      orcid: 0000-0002-7833-783X
+    - name: Jim Pivarski
+      affiliation: Princeton University
+      orcid: 0000-0002-6649-343X
+    - name: Eduardo Rodrigues
+      affiliation: University of Liverpool
+      orcid: 0000-0003-2846-7625
+  abstract: Scikit-HEP has grown rapidly over the last few years, not just to serve the needs of the High Energy Physics (HEP) community, but in many ways, the Python ecosystem at large. AwkwardArray, boost-histogram/hist, and iMinuit are examples of libraries that are used beyond the original HEP focus.
+  downloads:
+    - title: Presentation
+      file: SciPy2022-Scikit-HEP.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946801

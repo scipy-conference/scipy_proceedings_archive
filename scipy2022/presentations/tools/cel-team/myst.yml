@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 31eaa8b3-0b13-466e-92f4-f8bb3aa079a1
+  title: SciPy Tools Plenary - CEL team
+  authors:
+    - name: Inessa Pawson
+      affiliation: NumFOCUS
+      orcid: 0000-0001-7294-122X
+  abstract: Introducing the Contributor Experience Lead team at the SciPy 2022
+  downloads:
+    - title: Presentation
+      file: cel-team-tools.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6947063

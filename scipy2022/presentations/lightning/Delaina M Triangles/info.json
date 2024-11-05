@@ -1,0 +1,12 @@
+{
+    "title": "Downsampling Time Series Data for Visualizations",
+    "authors": [
+        {
+            "name": "Delaina Moore",
+            "affiliation": "Chevron",
+            "orcid": ""
+        }
+    ],
+    "description": "Exploring the largest triangle three bucket algorithm to downsample time series data.",
+    "zenodo_url": "https://zenodo.org/record/6946652"
+}

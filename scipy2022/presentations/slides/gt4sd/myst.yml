@@ -1,0 +1,14 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 60e62f1d-3ae5-4984-83bf-2590f7409a0c
+  title: Accelerating Science with the Generative Toolkit for Scientific Discovery (GT4SD)
+  authors:
+    - name: GT4SD team
+      affiliation: ''
+  abstract: 'A presentation about GT4SD: an open-source platform to accelerate hypothesis generation in the scientific discovery process. It provides a library for making state-of-the-art generative AI models easier to use.'
+  downloads:
+    - title: Presentation
+      file: scipy_slides.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946845

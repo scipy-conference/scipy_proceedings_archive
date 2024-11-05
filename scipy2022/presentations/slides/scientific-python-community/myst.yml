@@ -1,0 +1,27 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 9dd25aed-255b-48d0-9d3f-0bd00c5decf8
+  title: 'Scientific Python: From GitHub to TikTok'
+  authors:
+    - name: Juanita Gomez Romero
+      affiliation: University of California, Santa Cruz
+      orcid: 0000-0003-1593-3404
+    - name: Stéfan van der Walt
+      affiliation: BIDS, UC Berkeley
+      orcid: 0000-0001-9276-1891
+    - name: K. Jarrod Millman
+      affiliation: University of California, Berkeley
+      orcid: 0000-0002-5263-5070
+    - name: Melissa Weber Mendonça
+      affiliation: Quansight
+      orcid: 0000-0002-3212-402X
+    - name: Inessa Pawson
+      affiliation: Albus Code
+      orcid: 0000-0001-7294-122X
+  abstract: The Scientific Python project aims to better coordinate the ecosystem and grow the community. This talk focuses on our efforts to expand our community by generating a welcoming and friendly environment where people collaborate, build, and improve together.
+  downloads:
+    - title: Presentation
+      file: scientific-python-from-github-to-tiktok.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946897

@@ -1,0 +1,16 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: c160a4b3-6f69-4c93-8625-4e89efd907e5
+  title: Downsampling Time Series Data for Visualizations
+  authors:
+    - name: Delaina Moore
+      affiliation: Chevron
+  abstract: Exploring the largest triangle three bucket algorithm to downsample time series data.
+  downloads:
+    - title: Presentation
+      file: Delaina M Lightning Talk.pdf
+    - title: Powerpoint File
+      file: Delaina M Lightning Talk.pptx
+  identifiers:
+    zenodo: https://zenodo.org/record/6946652

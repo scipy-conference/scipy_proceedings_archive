@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: f0102595-a843-416a-9c5a-361ada808ff8
+  title: SciPy Tools Plenary - NumPy
+  authors:
+    - name: Inessa Pawson
+      affiliation: NumFOCUS
+      orcid: 0000-0001-7294-122X
+  abstract: Annual update on the NumPy project at SciPy 2022
+  downloads:
+    - title: Presentation
+      file: SciPy'22 – NumPy annual update – Inessa Pawson.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946961

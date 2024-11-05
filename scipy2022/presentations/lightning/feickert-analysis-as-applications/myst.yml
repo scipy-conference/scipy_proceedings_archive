@@ -1,0 +1,15 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 931f4326-70bb-4c76-9b07-ddc310252458
+  title: 'Analysis as Applications: Quick introduction to lockfiles'
+  authors:
+    - name: Matthew Feickert
+      affiliation: University of Wisconsin-Madison
+      orcid: 0000-0003-4124-7862
+  abstract: An opinionated argument for the use of lockfiles in scientific analysis in a similar manner to Python application deployment. This talk was inspired by Brett Cannon's 'pip-secure-install' project and a Twitter conversation with Dustin Ingram on April 20, 2020.
+  downloads:
+    - title: Presentation
+      file: feickert-lightning-talk-scipy-2022.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946666

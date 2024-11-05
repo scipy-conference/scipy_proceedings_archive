@@ -1,0 +1,16 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 085704a7-379b-444c-828c-69d14e98a2ea
+  title: 'MModel: a modular modeling framework for scientific prototyping'
+  authors:
+    - name: Peter Sun
+      affiliation: Cornell University
+    - name: John A. Marohn
+      affiliation: Cornell University
+  abstract: MModel is a Python framework that allows for fast and modular prototyping. The library uses networkx graph for workflow construction and provides built-in toolkits such as subgraph modification and graph visualization with rich metadata.
+  downloads:
+    - title: Presentation
+      file: mmodel-scipy2022.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946850

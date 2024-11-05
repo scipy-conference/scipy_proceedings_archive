@@ -1,0 +1,27 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 82185c4f-416a-4635-be01-11803d802bb7
+  title: 'Pylira: deconvolution of images in the presence of Poisson noise'
+  authors:
+    - name: Axel Donath
+      affiliation: Center for Astrophysics | Harvard & Smithsonian
+      orcid: 0000-0003-4568-7005
+    - name: Aneta Siemiginowska
+      affiliation: Center for Astrophysics | Harvard & Smithsonian
+      orcid: 0000-0002-0905-7375
+    - name: Vinay Kashyap
+      affiliation: Center for Astrophysics | Harvard & Smithsonian
+      orcid: 0000-0002-3869-7996
+    - name: Douglas Burke
+      affiliation: Center for Astrophysics | Harvard & Smithsonian
+    - name: Karthik Reddy Solipuram
+      affiliation: University of Maryland Baltimore County
+    - name: David van Dyk
+      affiliation: Imperial College London
+  abstract: Pylira is Python package for deconvolution for images in the presence of Poisson noise. In this presentation I will explain the method in detail, show the setup and API of the Python package as well as show application examples using real astronomical data.
+  downloads:
+    - title: Presentation
+      file: pylira-scipy-2022.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946829

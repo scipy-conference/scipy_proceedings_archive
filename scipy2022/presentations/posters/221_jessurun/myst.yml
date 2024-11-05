@@ -1,0 +1,22 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 1f090e61-58ca-4bfd-be67-86b01b300b5b
+  title: 'Semi-Supervised Semantic Annotator (S3A): Toward Efficient Semantic Image Labeling'
+  authors:
+    - name: Nathan Jessurun
+      affiliation: University of Florida
+    - name: Olivia P. Dizon-Paradis
+      affiliation: University of Florida
+    - name: Dan E. Capecci
+      affiliation: University of Florida
+    - name: Damon L. Woodard
+      affiliation: University of Florida
+    - name: Navid Asadizanjani
+      affiliation: University of Florida
+  abstract: Python GUI and library for semantic image segmentation and annotation
+  downloads:
+    - title: Poster
+      file: 221_jessurun.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/6946702
