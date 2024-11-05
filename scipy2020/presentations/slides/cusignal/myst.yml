@@ -1,0 +1,16 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 061972ec-d5e8-403b-9d0e-55eb9e407726
+  title: cuSignal - GPU Accelerating SciPy Signal with Numba and CuPy
+  authors:
+    - {}
+    - {}
+    - {}
+    - {}
+  abstract: cuSignal is a GPU accelerated signal processing library built around a SciPy Signal-like API, CuPy, and custom Numba and CuPy CUDA kernels. cuSignal is written exclusively in Python and demonstrates GPU speeds without a C++ software layer.
+  downloads:
+    - title: Presentation
+      file: cusignal_scipy2020_thompson.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/3961218

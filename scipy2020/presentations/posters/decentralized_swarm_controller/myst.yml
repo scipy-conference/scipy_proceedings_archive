@@ -1,0 +1,16 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: a5307874-b923-4c8f-893a-5ba6c0ad85d4
+  title: Decentralized, Deterministic Robot Swarm Control using Blob Methods for PDEs
+  authors:
+    - {}
+    - {}
+    - {}
+    - {}
+  abstract: A Jupyter notebook about robot swarm control, simulation, digital experiments, and computational considerations
+  downloads:
+    - title: Poster
+      file: Swarm.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/3961198

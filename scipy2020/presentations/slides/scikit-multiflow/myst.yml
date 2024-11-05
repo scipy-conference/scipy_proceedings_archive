@@ -1,0 +1,13 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 43fdb9f7-6ddb-4c64-baf8-b291e0139952
+  title: Learning from evolving data streams
+  authors:
+    - {}
+  abstract: A brief introduction to machine learning for evolving data streams. In this field data is assumed infinite and can change over time. scikit-multiflow, a package for stream learning in Python is also presented.
+  downloads:
+    - title: Presentation
+      file: Learning from evolving data streams.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/3961242

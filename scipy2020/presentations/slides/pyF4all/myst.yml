@@ -1,0 +1,13 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 7a068acb-efb4-401f-877b-9f3d049a7806
+  title: 'Molecular infrastructure for modeling viruses with pythonic-mediated packages: pyF4all'
+  authors:
+    - {}
+  abstract: We model full viruses by coupling short highly-detailed molecular dynamics simulations with lower-resolution (but faster) continuum electrostatic models. Such multiscale approach enables to model a full virus in a desktop/small cluster-level infrastructure, which are available for most researchers. Here, we propose a first interfacing of the pythonic-like packages in a multiscale approach that automatizes the access to state-of-the-art biomolecular simulations via Jupyter Notebooks.
+  downloads:
+    - title: Presentation
+      file: pyF4all_Scipy2020_HV_Guzman.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/3961232

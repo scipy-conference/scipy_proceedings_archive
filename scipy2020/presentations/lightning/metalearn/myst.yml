@@ -1,0 +1,13 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 4903e4d9-76fd-4414-a18e-f42dbd17cc8d
+  title: Building an AutoML System for Fun and Non-profit
+  authors:
+    - {}
+  abstract: This talk introduces metalearn, a MetaRL-based AutoML system that learns to learn how to propose hyperparameter selections that produce high validation scores on meta-test datasets.
+  downloads:
+    - title: Presentation
+      file: metalearn.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/3961204

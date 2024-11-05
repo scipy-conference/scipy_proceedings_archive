@@ -1,0 +1,13 @@
+version: 1
+extends: ../../proceedings.yml
+project:
+  id: 39565d7a-6eda-4158-b162-b1c75ec4400d
+  title: 'Bringing GPU Support to Datashader: A RAPIDS Case Study'
+  authors:
+    - {}
+  abstract: A case study on using RAPIDS technologies to add GPU support to the Datashader Python library
+  downloads:
+    - title: Presentation
+      file: scipy_slides.pdf
+  identifiers:
+    zenodo: https://zenodo.org/record/3961238
