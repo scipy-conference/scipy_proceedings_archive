@@ -1,0 +1,6 @@
+version: 1
+project:
+  subject: Presentation
+site:
+  template: article-theme
+extends: ../proceedings/proceedings.yml
