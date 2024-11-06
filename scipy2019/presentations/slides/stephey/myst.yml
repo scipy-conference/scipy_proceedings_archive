@@ -4,9 +4,9 @@ project:
   id: ffb6acf9-7468-46ff-814f-481164d1c3c7
   title: Optimizing Python-Based Spectroscopic Data Processing on NERSC Supercomputers
   authors:
-    - {}
-    - {}
-    - {}
+    - name: Laurie A. Stephey
+    - name: Rollin C. Thomas
+    - name: Stephen J. Bailey
   abstract: A case study in profiling and optimizing an image processing application for NERSC supercomputer systems
   downloads:
     - title: Presentation

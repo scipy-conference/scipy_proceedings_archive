@@ -4,15 +4,15 @@ project:
   id: 12a76ca2-2a56-4626-ba41-df1c235ceb2f
   title: 'The Mouse Aging Cell Atlas: cell biology meets Python'
   authors:
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
+    - name: The Tabula Muris consortium
+    - name: Angela Oliveira Pisco
+    - name: Nicholas Schaum
+    - name: Aaron McGeever
+    - name: Jim Karkanias
+    - name: Norma F. Neff
+    - name: Spyros Darmanis
+    - name: Tony Wyss-Coray
+    - name: Stephen R. Quake
   abstract: Tabula Muris Senis is a single cell transcriptomic atlas across a mouse's life span that reveals new molecular info on aging. This presentations illustrates how the Python ecosystem makes such a scientific expedition possible.
   downloads:
     - title: Presentation

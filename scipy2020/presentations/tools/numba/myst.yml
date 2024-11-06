@@ -4,7 +4,7 @@ project:
   id: 6a9cec3f-a6d7-4f10-b890-9dd7adebd64a
   title: SciPy Tools Plenary on Numba
   authors:
-    - {}
+    - name: Siu Kwan Lam
   abstract: 'Numba is a just-in-time compiler for a subset of Python. This is a short presentation of Numba updates for 2019-2020. '
   downloads:
     - title: Presentation

@@ -4,8 +4,8 @@ project:
   id: f510ae1e-1e0b-4c7c-af6d-aff13e89cda7
   title: Class-based ODE solvers and event detection in SciPy
   authors:
-    - {}
-    - {}
+    - name: David R Hagen
+    - name: Nikolay Mayorov
   abstract: In SciPy 1.0, a new interface for solving ODE initial value problems was added to scipy.integrate. The solve_ivp function and OdeSolver base class provide additional features and greater extensibility over the previous odeint function and ode base class.
   downloads:
     - title: Poster

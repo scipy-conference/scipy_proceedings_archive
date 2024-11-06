@@ -4,9 +4,9 @@ project:
   id: 5065d197-2cf5-4bc5-a688-cabd7ab7a6cd
   title: Spatial Algorithms at Scale with spatialpandas
   authors:
-    - {}
-    - {}
-    - {}
+    - name: Dharhas Pothina
+    - name: Kim Pevey
+    - name: Adam Lewis
   abstract: How do you analyze 1 trillion rows of geospatial point data?  We recently solved this problem using spatialpandas, dask, and parquet file format to efficiently build and execute spatial algorithms at scale. We compare the spatialpandas solution's performance with other cases, and discuss the tradeoffs with various approaches.
   downloads:
     - title: Presentation

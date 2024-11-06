@@ -4,7 +4,7 @@ project:
   id: fd29f478-a63f-45c2-8dea-94dcd0cb8de9
   title: Visualization of Bioinformatics Data with Dash Bio
   authors:
-    - {}
+    - name: Shammamah Hossain
   abstract: Dash Bio is a suite of bioinformatics components designed to work with Plotly's Dash. This talk contains information about Plotly and Dash, a subset of the Dash Bio components, and a small section related to the dash-bio-utils library, which contains a set of parsing scripts for popular bioinformatics databases.
   downloads:
     - title: Presentation

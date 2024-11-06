@@ -4,10 +4,10 @@ project:
   id: 6276f552-89ea-4192-83d2-975591de83f6
   title: 'Arkouda: Terascale Data Science at Interactive Rates'
   authors:
-    - {}
-    - {}
-    - {}
-    - {}
+    - name: Benjamin Albrecht
+    - name: Michael Merrill
+    - name: William Reus
+    - name: Brad Chamberlain
   abstract: This talk describes Arkouda, a Python package that we have developed for doing exploratory analysis on massive data sets at interactive rates. Arkouda's API is based on NumPy/Pandas, yet its arrays can be transparently distributed across the compute nodes of a cluster or supercomputer to support large-scale analytics. In our work, we have run Arkouda operations from Jupyter notebooks on TB-sized data sets in seconds to small numbers of minutes—achieving scalability and performance that we have not observed with competing technologies.
   downloads:
     - title: Presentation

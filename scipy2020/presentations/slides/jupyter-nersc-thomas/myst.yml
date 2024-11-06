@@ -4,16 +4,16 @@ project:
   id: a364ae2c-fd30-4b66-a63f-fceab74cd21c
   title: Interactive Supercomputing with Jupyter at the National Energy Research Scientific Computing Center
   authors:
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
-    - {}
+    - name: Rollin Thomas
+    - name: Shane Canon
+    - name: Shreyas Cholia
+    - name: Matt Henderson
+    - name: Kelly Rowland
+    - name: Jon Hays
+    - name: William Krinsman
+    - name: Justin Ley
+    - name: Labanya Mukhopadhyay
+    - name: Trevor Slaton
   abstract: At the National Energy Research Scientific Computing (NERSC) Center, interactive access to high-performance computing and data through Jupyter is a priority. We will discuss the nuts and bolts of how Jupyter is deployed at NERSC, and how we've adapted to engage the Jupyter ecosystem and open-source community to deliver this key capability to our users. Jupyter is a major component in our Superfacility initiative, which aims to connect experimental and observational big data facilities (telescopes, microscopes, genome sequencers, light sources, etc.) with next-generation supercomputing and data capabilities at NERSC.
   downloads:
     - title: Presentation

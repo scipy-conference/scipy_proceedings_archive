@@ -4,7 +4,7 @@ project:
   id: 162a5222-a84a-48ec-bd9a-a0f037a662a0
   title: Frictionless Data for Reproducible Biology
   authors:
-    - {}
+    - name: Lilly Winfree
   abstract: This talk discusses how biologists can make their data more reproducible using Frictionless Data's open source Python libraries
   downloads:
     - title: Presentation

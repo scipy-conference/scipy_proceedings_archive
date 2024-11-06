@@ -4,7 +4,7 @@ project:
   id: f66eeef4-94ce-404f-ba37-2ccd08616ece
   title: Building and Replicating Models of Visual Search Behavior with Tensorflow and the Scientific Python Stack
   authors:
-    - {}
+    - name: David Nicholson
   abstract: A presentation about using open-source software to replicate and build models of how the brain performs visual search tasks
   downloads:
     - title: Presentation

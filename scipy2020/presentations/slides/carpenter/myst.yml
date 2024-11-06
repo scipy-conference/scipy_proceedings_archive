@@ -4,7 +4,7 @@ project:
   id: 6071c7e1-e628-45ef-87c7-2694c9b4e98b
   title: Open-source bioimage analysis software to accelerate drug discovery
   authors:
-    - {}
+    - name: Anne Carpenter
   abstract: ''
   downloads:
     - title: Presentation

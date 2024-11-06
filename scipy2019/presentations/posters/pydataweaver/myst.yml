@@ -4,9 +4,9 @@ project:
   id: 004367fe-9a39-47b7-a92b-9e6c0bd7b524
   title: 'The PyDataWeaver: A data integration platform'
   authors:
-    - {}
-    - {}
-    - {}
+    - name: Henry Senyondo
+    - name: Andrew Zhang
+    - name: Ethan P. White
   abstract: Combine publicly available data into ready-to-analyze datasets. Most research questions require integrating multiple datasets. Researchers typically have to manually create these combined datasets using databases, programming languages and GIS systems. The PyDataWeaver automates the task of integrating multiple data sources to create new comprehensive datasets using JSON based a data integration standard.
   downloads:
     - title: Poster

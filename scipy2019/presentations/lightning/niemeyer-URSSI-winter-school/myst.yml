@@ -4,9 +4,9 @@ project:
   id: 4dff1c0b-3322-4c1d-9606-ea20313a7c13
   title: US Research Software Sustainability Institute (URSSI) Pilot 'Summer' School
   authors:
-    - {}
-    - {}
-    - {}
+    - name: Kyle E. Niemeyer
+    - name: Jeffrey Carver
+    - name: Karthik Ram
   abstract: The US Research Software Sustainability Institute (URSSI) is offering a pilot 'summer' school in December 2019, to teach skills and best practices for developing research software. Apply now!
   downloads:
     - title: Presentation

@@ -4,10 +4,10 @@ project:
   id: a5307874-b923-4c8f-893a-5ba6c0ad85d4
   title: Decentralized, Deterministic Robot Swarm Control using Blob Methods for PDEs
   authors:
-    - {}
-    - {}
-    - {}
-    - {}
+    - name: Matt Haberland
+    - name: Katy Craig
+    - name: Karthik Elamvazhuthi
+    - name: Olga Turanova
   abstract: A Jupyter notebook about robot swarm control, simulation, digital experiments, and computational considerations
   downloads:
     - title: Poster

@@ -4,7 +4,7 @@ project:
   id: 385c2c73-97fe-4e94-adcf-8050110a2fe7
   title: SciPy Tools Plenary on Matplotlib
   authors:
-    - {}
+    - name: Elliott Sales de Andrade
   abstract: Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. This presentation summarizes changes over the past year, new features, and future plans.
   downloads:
     - title: Presentation

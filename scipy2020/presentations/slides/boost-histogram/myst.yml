@@ -4,10 +4,10 @@ project:
   id: 6ac0040f-ef2c-492c-8eba-81b4eef1580c
   title: 'Boost-histogram: High-Performance Histograms as Objects'
   authors:
-    - {}
-    - {}
-    - {}
-    - {}
+    - name: Henry Schreiner
+    - name: Hans Dembinski
+    - name: Jim Pivarski
+    - name: Shuo Liu
   abstract: Boost-histogram is a new Python library that provides Histograms that can be filled, manipulated, sliced, and projected as objects.
   downloads:
     - title: Presentation
