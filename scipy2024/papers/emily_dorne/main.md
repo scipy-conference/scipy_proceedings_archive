@@ -11,6 +11,11 @@ abstract: |
 
 ---
 
+```{raw:typst}
+#set figure(placement: none)
+#let breakableDefault = false
+```
+
 # Introduction
 
 Inland water bodies provide a variety of critical services for both human and aquatic life, including drinking water, recreational and economic opportunities, and marine habitats. Harmful algal blooms (HABs) pose a significant risk to these inland bodies, producing toxins that are poisonous to humans and their pets and threatening marine ecosystems by blocking sunlight and oxygen. Such threats require water quality managers to monitor for the presence of HABs and to make urgent decisions around public health warnings and closures when they are detected.
@@ -137,7 +142,6 @@ The overarching goal of the [Tick Tick Bloom: Harmful Algal Bloom Detection Chal
 
 The competition showed that Sentinel-2 bands contain sufficient information for generating accurate cyanobacteria estimates with machine learning. Below is a summary of which datasets were used by winners.
 
-{raw:typst}`#fullwidth[`
 :::{table} Data sources used by Tick Tick Bloom competition winners
 :label: tbl:winner-data-sources
 <table>
@@ -175,7 +179,6 @@ The competition showed that Sentinel-2 bands contain sufficient information for 
     </tr>
 </table>
 :::
-{raw:typst}`]`
 
 All winners used Level-2 satellite imagery instead of Level-1, likely because it already includes useful atmospheric corrections. Sentinel-2 data is higher resolution than Landsat, and proved to be more useful in modeling.
 
@@ -186,6 +189,8 @@ All winners also used gradient boosted decision tree models such as LightGBM [@l
 The [model experimentation](#model-experimentation) phase did not explore alternate model architectures given how clearly the competition surfaced the success of a gradient boosted tree model [@ttb_winners_announcement]. It did however extensively iterate on other parts of the pipeline. Over 30 configurations were tested to identify the optimal setup for training a robust, generalizable model. Below are the core decisions that resulted from model experimentation and retraining.
 
 ### Data decisions
+
+{raw:typst}`#let columnStyle = (columns: (25%, 75%))`
 
 :::{table} Data decisions from model experimentation
 :label: tbl:data-decisions
@@ -265,6 +270,8 @@ The distance between each sample and the nearest water body was calculated using
 </table>
 :::
 
+{raw:typst}`#let columnStyle = (:)`
+
 ## User interview takeaways
 
 Technical experimentation alone is insufficient to build a tool that effectively addresses a real-world problem. Understanding user needs and day-to-day processes helps enable integration with existing workflows and increases the likelihood of adoption. The table below synthesizes key insights gleaned from [user interviews](#user-interviews), and outlines how each insight supported the development of a user-friendly package.
@@ -303,6 +310,14 @@ CyFi uses high-resolution Sentinel-2 satellite imagery (10-30m) to focus on smal
 The Climate Research Data Package **Land Cover Gridded Map** (2020) categorizes land surface into 22 classes, which have been defined using the United Nations Food and Agriculture Organization's Land Cover Classification System (LCCS). The map is based on data from the Medium Resolution Imaging Spectrometer (MERIS) sensor on board the polar-orbiting Envisat-1 environmental research satellite by the European Space Agency. CyFi accesses the data using the CCI-LC database hosted by the ESA Climate Change Initiative's [Land Cover project](https://www.esa-landcover-cci.org/?q=node/164).
 
 ### Feature processing
+  
+:::{figure} feature_creation.webp
+:label: fig:feature_creation
+:width: 600px
+Mock up of satellite data selection and processing. The dot represents the sample point; the square represents the 2,000m bounding box around the sample point. The multiple squares outlined in black represents the multiple satellite image contenders within the lookback period. The orange outlined square indicates the selected, most-recent satellite image. The blue shaded area indicates the water pixels in the bounding box from which features are calculated.
+
+Note that not all features are represented in the columns. The table above shows a few features calculated based on the B01 (aerosol), B02 (blue), B03 (green), B04 (red), and B05 (red edge) [Sentinel-2 bands](https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/).
+:::
 
 Each observation (or "sampling point") is a unique combination of date, latitude, and longitude. Feature generation for each observation is as follows:
 
@@ -312,14 +327,6 @@ Each observation (or "sampling point") is a unique combination of date, latitude
   4. Generate band summary statistics (e.g., mean, 95th percentile) and ratios (e.g, green-blue ratio, NDVI) using 15 different Sentinel-2 bands. The full list of satellite image features is here: https://github.com/drivendataorg/cyfi/blob/ad239c8569d6ef48b8769b3bebe98029ea6ecb6f/cyfi/config.py#L93-L121
   5. Calculate two satellite metadata features: 1) the month of selected satellite image and 2) the number of days between the sampling date and the satellite image capture.
   6. Look up static land cover map data for the sampling point, and combine land cover information with satellite features.
-  
-:::{figure} feature_creation.webp
-:label: fig:feature_creation
-:width: 600px
-Mock up of satellite data selection and processing. The dot represents the sample point; the square represents the 2,000m bounding box around the sample point. The multiple squares outlined in black represents the multiple satellite image contenders within the lookback period. The orange outlined square indicates the selected, most-recent satellite image. The blue shaded area indicates the water pixels in the bounding box from which features are calculated.
-
-Note that not all features are represented in the columns. The table above shows a few features calculated based on the B01 (aerosol), B02 (blue), B03 (green), B04 (red), and B05 (red edge) [Sentinel-2 bands](https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/).
-:::
 
 ### Model
 
@@ -464,7 +471,11 @@ SUCCESS  | Cyanobacteria estimates for 4 sample points saved to preds.csv
 
 Cyanobacteria estimates are saved out as a CSV that can be plugged into any existing decision-making process. For each point, the model provides an estimated density in cells per mL for detailed analysis. Densities are also discretized into severity levels based on World Health Organization guidelines [@who_guidelines].
 
-{raw:typst}`#fullwidth[`
+```{raw:typst}
+#let normalTableStyle = tableStyle
+#let tableStyle = smallTableStyle
+```
+
 :::{table} CyFi outputted csv (`preds.csv`) containing predictions
 :label: tbl:cyfi_preds
   <table>
@@ -506,7 +517,8 @@ Cyanobacteria estimates are saved out as a CSV that can be plugged into any exis
     </tbody>
   </table>
 :::
-{raw:typst}`]`
+
+{raw:typst}`#let tableStyle = normalTableStyle`
 
 :::{table} WHO Recreational Guidance/Action Levels for Cyanobacteria [@who_guidelines]
 :label: tbl:who_guidelines
@@ -541,13 +553,13 @@ Cyanobacteria estimates are saved out as a CSV that can be plugged into any exis
 
 ### CyFi Explorer
 
-CyFi also comes with a visualization tool called [CyFi Explorer](https://cyfi.drivendata.org/explorer/). CyFi Explorer surfaces the corresponding Sentinel-2 imagery for each cyanobacteria estimate. The explorer runs a Gradio app locally on the user's machine and is intended to enable visual inspection of where the model is performing well, as well as edge cases or failure modes. It is not intended to replace more robust data analytics tools and decision-making workflows.
-
 :::{figure} cyfi_explorer.webp
 :label: fig:cyfi_explorer
 :width: 700px
 Screenshot of CyFi Explorer, a visualization tool that surfaces the underlying satellite imagery used to generate the cyanobacteria estimate.
 :::
+
+CyFi also comes with a visualization tool called [CyFi Explorer](https://cyfi.drivendata.org/explorer/). CyFi Explorer surfaces the corresponding Sentinel-2 imagery for each cyanobacteria estimate. The explorer runs a Gradio app locally on the user's machine and is intended to enable visual inspection of where the model is performing well, as well as edge cases or failure modes. It is not intended to replace more robust data analytics tools and decision-making workflows.
 
 # Discussion
 
