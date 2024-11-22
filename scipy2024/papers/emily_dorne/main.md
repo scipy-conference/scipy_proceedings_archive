@@ -473,7 +473,25 @@ Cyanobacteria estimates are saved out as a CSV that can be plugged into any exis
 
 ```{raw:typst}
 #let normalTableStyle = tableStyle
-#let tableStyle = smallTableStyle
+
+#let tableStyle = (
+  map-cells: cell => {
+    if (cell.y == 0) {
+      return (..cell, content: strong(text(cell.content, 6.5pt)))
+    }
+    (..cell, content: text(cell.content, 6.5pt))
+  },
+  auto-vlines: false,
+  map-hlines: line => {
+    if (line.y == 0 or line.y == 1) {
+      line.stroke = gray + 1pt;
+    } else {
+      line.stroke = 0pt;
+    }
+    return line
+  },
+)
+#let columnStyle = (columns: (32%, 12%, 12%, 12%, 20%, 12%))
 ```
 
 :::{table} CyFi outputted csv (`preds.csv`) containing predictions
@@ -518,7 +536,10 @@ Cyanobacteria estimates are saved out as a CSV that can be plugged into any exis
   </table>
 :::
 
-{raw:typst}`#let tableStyle = normalTableStyle`
+```{raw:typst}
+#let tableStyle = normalTableStyle
+#let columnStyle = (:)
+```
 
 :::{table} WHO Recreational Guidance/Action Levels for Cyanobacteria [@who_guidelines]
 :label: tbl:who_guidelines
