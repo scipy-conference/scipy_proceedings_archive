@@ -1,6 +1,9 @@
 version: 1
 extends: ../proceedings.yml
 project:
+  downloads:
+    - title: YouTube Video
+      url: https://youtu.be/CjNSP_yQqrc
   first_page: 247
   last_page: 255
   doi: 10.25080/NRPV2311

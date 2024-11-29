@@ -2,6 +2,9 @@
 version: 1
 extends: ../proceedings.yml
 project:
+  downloads:
+    - title: YouTube Video
+      url: https://youtu.be/BC7rl2zskrM
   first_page: 236
   last_page: 246
   doi: 10.25080/HWGA5253
