@@ -1,6 +1,9 @@
 version: 1
 extends: ../proceedings.yml
 project:
+  downloads:
+    - title: YouTube Video
+      url: https://youtu.be/cLiYovu4T7s
   first_page: 154
   last_page: 173
   doi: 10.25080/PDHK7238
