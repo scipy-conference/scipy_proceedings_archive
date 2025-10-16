@@ -16,7 +16,5 @@ project:
   description: The Proceedings of the Science in Python Conferences
   short_title: ''
   keywords: []
-  name: landing
   open_access: true
-  license: {}
   subject: SciPy Proceedings
