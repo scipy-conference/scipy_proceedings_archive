@@ -1,0 +1,384 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 173
+  last_page: 193
+  doi: 10.25080/hwcj9957
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-jupyter_book
+  title: Jupyter Book 2 and the MyST Document Stack
+  subtitle: A modular, extensible, web-native stack for authoring and publishing computational narratives
+  description: Jupyter Book allows researchers and educators to create books and knowledge bases that are reusable, reproducible, and interactive. This new foundation introduces a scalable way to publish interactive computational content, support structured metadata, and enable content reuse across contexts.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - jupyter
+    - evan
+    - greg
+    - rowanc1
+    - danny
+    - chris
+    - angus
+    - julia
+    - fwkoch
+    - jim
+    - matt
+    - mike
+    - fernando
+    - steve
+    - min
+    - brian
+    - malvika
+    - brigitta
+    - stefan
+    - kirstie
+  contributors:
+    - id: jupyter
+      name: Project Jupyter
+      affiliations:
+        - jupyter
+      roles:
+        - Project administration
+    - id: evan
+      name: Evan Bolyen
+      email: evan.bolyen@nau.edu
+      affiliations:
+        - nau
+      roles:
+        - Writing – review & editing
+    - id: greg
+      name: J Gregory Caporaso
+      github: gregcaporaso
+      email: greg.caporaso@nau.edu
+      orcid: 0000-0002-8865-1670
+      affiliation:
+        - jupyter
+        - nau
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Investigation
+        - Project administration
+        - Supervision
+        - Writing – review & editing
+    - id: rowanc1
+      name: Rowan Cockett
+      email: rowan@curvenote.com
+      corresponding: true
+      orcid: 0000-0002-7859-8394
+      github: rowanc1
+      affiliations:
+        - id: jupyter
+        - id: curvenote
+        - id: csf
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Investigation
+        - Project administration
+        - Software
+        - Supervision
+        - Visualization
+        - Writing – original draft
+        - Writing – review & editing
+    - id: danny
+      name: Danny Garside
+      email: dannygarside@outlook.com
+      orcid: 0000-0002-4579-003X
+      github: da5nsy
+      affiliations:
+        - ttw
+        - dra
+      roles:
+        - Software
+        - Investigation
+        - Writing – review & editing
+    - id: chris
+      name: Chris Holdgraf
+      email: choldgraf@2i2c.org
+      orcid: 0000-0002-2391-0678
+      github: choldgraf
+      corresponding: true
+      affiliations:
+        - id: 2i2c
+        - id: jupyter
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Investigation
+        - Project administration
+        - Software
+        - Supervision
+        - Writing – original draft
+        - Writing – review & editing
+    - id: angus
+      name: Angus Hollands
+      email: ahollands@2i2c.org
+      orcid: 0000-0003-0788-3814
+      affiliations:
+        - id: 2i2c
+        - id: jupyter
+      roles:
+        - Investigation
+        - Software
+        - Writing – review & editing
+    - id: julia
+      name: Julia Kent
+      email: jkent@ucar.edu
+      orcid: 0000-0002-5611-8986
+      github: jukent
+      affiliations:
+        - ncar
+      roles:
+        - Writing – review & editing
+    - id: fwkoch
+      name: Franklin Koch
+      orcid: 0000-0002-6393-7058
+      github: fwkoch
+      affiliation:
+        - id: curvenote
+        - id: jupyter
+      roles:
+        - Investigation
+        - Software
+        - Writing – review & editing
+    - id: jim
+      name: Jim Madge
+      email: jim@jmadge.com
+      orcid: 0000-0001-6044-164X
+      github: JimMadge
+      affiliations:
+        - alanturinginstitute
+        - ttw
+      roles:
+        - Investigation
+        - Software
+        - Writing – review & editing
+    - id: matt
+      name: Matthew McKay
+      email: mamckay@gmail.com
+      github: mmcky
+      affiliations:
+        - quantecon
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Project administration
+        - Supervision
+        - Writing – review & editing
+    - id: mike
+      name: Mike Morrison
+      email: mike@curvenote.com
+      orcid: 0000-0002-1324-8801
+      affiliation:
+        - curvenote
+      roles:
+        - Validation
+        - Writing – review & editing
+    - id: fernando
+      name: Fernando Pérez
+      orcid: 0000-0002-1725-9815
+      email: fernando.perez@berkeley.edu
+      affiliations:
+        - id: berkeley-stats
+        - id: berkeley-bids
+        - id: berkeley-dse
+        - id: lbl
+        - id: jupyter
+      roles:
+        - Writing – review & editing
+    - id: steve
+      name: Steve Purves
+      email: steve@curvenote.com
+      orcid: 0000-0002-0760-5497
+      github: stevejpurves
+      affiliations:
+        - id: jupyter
+        - id: curvenote
+        - id: csf
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Investigation
+        - Project administration
+        - Software
+        - Supervision
+        - Writing – review & editing
+    - id: min
+      name: Min Ragan Kelley
+      email: benjaminrk@gmail.com
+      orcid: 0000-0002-1023-7082
+      github: minrk
+      affiliations:
+        - jupyter
+      roles:
+        - Writing – review & editing
+    - id: brian
+      name: Brian E. J. Rose
+      email: brose@albany.edu
+      orcid: 0000-0002-9961-3821
+      github: brian-rose
+      affiliations:
+        - ualbany
+      roles:
+        - Writing – review & editing
+    - id: malvika
+      name: Malvika Sharan
+      email: malvikasharan@gmail.com
+      orcid: 0000-0001-6619-7369
+      github: malvikasharan
+      affiliations:
+        - ttw
+      roles:
+        - Writing – review & editing
+    - id: brigitta
+      name: Brigitta M. Sipőcz
+      email: bsipocz@gmail.com
+      orcid: 0000-0002-3713-6337
+      github: bsipocz
+      affiliations:
+        - ipac
+        - ttw
+        - scientificpython
+      roles:
+        - Software
+        - Writing – review & editing
+    - id: stefan
+      name: Stéfan J. van der Walt
+      email: stefanv@berkeley.edu
+      orcid: 0000-0001-9276-1891
+      github: stefanv
+      affiliations:
+        - berkeley-bids
+        - scientificpython
+      roles:
+        - Software
+        - Writing – review & editing
+    - id: kirstie
+      name: Kirstie Jane Whitaker
+      email: kirstie.whitaker@berkeley.edu
+      orcid: 0000-0001-8498-4059
+      github: KirstieJane
+      affiliations:
+        - berkeley-bids
+        - jupyter
+        - ttw
+      roles:
+        - Writing – review & editing
+  affiliations:
+    - id: jupyter
+      name: Project Jupyter
+      url: https://jupyter.org
+    - id: curvenote
+      name: Curvenote Inc.
+      ror: https://ror.org/02mz0e468
+      url: https://curvenote.com
+      country: Canada
+      email: support@curvenote.com
+    - id: 2i2c
+      name: 2i2c
+      ror: https://ror.org/050gv4c78
+      url: https://2i2c.org
+      email: hello@2i2c.org
+    - id: csf
+      name: Continuous Science Foundation
+      url: https://continuousfoundation.org
+    - id: berkeley-stats
+      institution: Department of Statistics, UC Berkeley
+    - id: berkeley-bids
+      institution: Berkeley Institute for Data Science (BIDS)
+    - id: berkeley-dse
+      institution: Eric and Wendy Schmidt Data Science & Environment Center (DSE), UC Berkeley
+    - id: lbl
+      institution: Data Science and Technology, Lawrence Berkeley National Lab
+    - id: nau
+      name: Northern Arizona University
+      ror: https://ror.org/0272j5188
+      url: https://nau.edu/
+    - id: ttw
+      name: The Turing Way
+      url: https://book.the-turing-way.org/
+      email: theturingway@gmail.com
+    - id: dra
+      name: Digital Research Academy
+      url: https://digital-research.academy/
+      email: hello@digiresacademy.org
+    - id: ncar
+      name: NSF National Center for Atmospheric Research
+      url: https://ncar.ucar.edu/
+      country: USA
+    - id: alanturinginstitute
+      name: Alan Turing Institute
+      url: https://www.turing.ac.uk/
+    - id: quantecon
+      name: QuantEcon
+      url: https://quantecon.org/
+    - id: ualbany
+      name: University at Albany (State University of New York)
+      url: https://www.albany.edu/
+      country: USA
+    - id: ipac
+      name: Caltech/IPAC - NASA/IPAC Infrared Science Archive
+      url: https://ipac.caltech.edu/
+      country: USA
+    - id: scientificpython
+      name: Scientific Python
+      url: https://scientific-python.org/
+      email: info@scientific-python.org
+  keywords:
+    - open science
+    - jupyter
+    - scientific communication
+    - publishing
+    - authoring
+    - reproducibility
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    AST: Abstract Syntax Tree
+    DOI: Digital Object Identifier
+    MyST: Markedly Structured Text
+    mystmd: MyST Document Engine
+    CLI: Command Line Interface
+    HTML: Hypertext Markup Language
+    PDF: Portable Document Format
+    RRID: Research Resource Identifier
+    CSS: Cascading Style Sheet
+    CRediT: Contributor Roles Taxonomy
+    ROR: Research Organization Registry
+    ISNI: International Standard Name Identifier
+    NISO: National Information Standards Organization
+    YAML: Yet Another Markup Language
+    WASM: WebAssembly
+    REES: Reproducible Execution Environment Specification
+    URL: Uniform Resource Locator
+    XML: Extensible Markup Language
+    PID: Persistent Identifier
+    ID: Identifier
+    JATS: Journal Article Tag Suite
+    VoR: Version of Record
+    RST: reStructuredText
+    API: Application Programming Interface
+    JSON: JavaScript Object Notation
+    OA: Open Access
+    APC: Article Processing Charge
+    JOSS: Journal of Open Source Software
+    ORCID: Open Researcher and Contributor ID
+    Q2F: QIIME 2 Framework
+    JB1: Jupyter Book 1
+    JB2: Jupyter Book 2
+  references:
+    scipy: https://proceedings.scipy.org/articles/NKVC9349
+    docs: https://mystmd.org/guide
+  toc:
+    - file: main.md
+    - file: appendix.md
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - https://sloan.org/grant-detail/g-2022-19361
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main_with_appendix.md
+      output: full_text.pdf

@@ -1,0 +1,26 @@
+version: 1
+extends: ../../../proceedings.yml
+project:
+  doi: 10.5281/zenodo.17352223
+  identifiers:
+    zenodo: https://zenodo.org/deposit/17352223
+  title: 'Missing data? MArray adds mask support to any array/tensor backend'
+  authors:
+    - name: Matt Haberland
+      orcid: 0000-0003-4806-3601
+      affiliations:
+        - Cal Poly, San Luis Obispo
+        - SciPy Library
+    - name: Lucas Colley
+      orcid: 0000-0002-6199-2053
+      affiliations:
+        - SciPy Library
+        - University of Oxford
+        - prefix.dev
+    - name: Justus Magin
+      orcid: 0000-0002-4254-8002
+      affiliations:
+        - LOPS - Laboratoire d'Océanographie Physique et Spatiale UMR 6523 CNRS-IFREMER-IRD-Univ.Brest-IUEM, Plouzané, France
+        - XArray Project
+  abstract: |
+    Masked arrays enable the performance and convenience of (rectangular) array computing where missing data would otherwise result in ragged arrays. Some array libraries, such as NumPy, PyTorch, and Dask, offer partial support for masked versions of their arrays/tensors, but these often lack important features, have APIs that are inconsistent with those of the parent namespace, and see only limited support in downstream libraries (e.g. SciPy). Furthermore, there is no standard interface specification, some of these implementations are treated as "experimental" or are maintained less than the parent library, and some automatically mask the result of invalid numerical calculations, hiding bugs and leading to spurious results. MArray offers a new way forward by adding mask support to any array backend that is compatible with the Array API Standard.

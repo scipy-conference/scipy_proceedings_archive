@@ -1,0 +1,74 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 222
+  last_page: 231
+  doi: 10.25080/ppgk2467
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-marco_colonna
+  # Ensure your title is the same as in your `main.md`
+  title: Redist, a python tool for model-agnostics binned-likelihood fits in High Energy Physics
+  # subtitle:
+  description: Redist is a package for building model-agnostic binned-likelihood fits, allowing combination and enhancing the reinterpretation of datasets. Redist allows direct inference of theoretical parameters of any beyond the Standard Model scenario through histogram reweighting, properly taking into account changes in kinematic distributions.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Marco Colonna
+      email: marco.colonna@cern.ch
+      orcid: 0009-0000-1704-4139
+      affiliations:
+        - Technische Universität Dortmund
+    - name: Johannes Albrecht
+      email: johannes.albrecht@tu-dortmund.de
+      orcid: 0000-0001-8636-1621
+      affiliations:
+        - Technische Universität Dortmund
+    - name: Florian Bernlochner
+      email: florian.bernlochner@uni-bonn.de
+      orcid: 0000-0001-8153-2719
+      affiliations:
+        - University of Bonn
+    - name: Lorenz Gärtner
+      email: lorenz.gaertner@physik.uni-muenchen.de
+      orcid: 0000-0002-3643-4543
+      affiliations:
+        - Ludwig Maximilian University of Munich
+    - name: Abhijit Mathad
+      email: abhijit.mathad@cern.ch
+      orcid: 0000-0002-9428-4715
+      affiliations:
+        - CERN
+    - name: Biljana Mitreska
+      email: biljana.mitreska@cern.ch
+      orcid: 0000-0002-1697-4999
+      affiliations:
+        - Technische Universität Dortmund
+  keywords:
+    - High Energy Physics
+    - Flavour Physics
+    - Model agnostic
+    - Data reinterpretation
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+    HEP: High Energy Physics
+    SM: Standard Model
+    BSM: Beyond the Standard Model
+    FF: Form Factor
+    EFT: Effective Field Theory
+
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

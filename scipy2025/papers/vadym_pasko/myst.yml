@@ -1,0 +1,50 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 359
+  last_page: 378
+  doi: 10.25080/xydg9873
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-vadym_pasko
+  # Ensure your title is the same as in your `main.md`
+  title: 'Enhancing Curve Fitting with SciPy: Interactive Spline Modeling and Reproducibility with SplineCloud'
+  # subtitle:
+  description: This article explores how SciPy’s spline fitting tools power the core of SplineCloud — an open platform for interactive constructing and sharing regression models. It introduces a modern workflow for creating, refining, and reusing curve-fitting models, making data modeling and analysis more transparent, collaborative, and reproducible.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Vadym Pasko
+      email: vadym@splinecloud.com
+      orcid: 0009-0001-7739-2204
+      affiliations:
+        - SplineCloud
+        - Kyiv Aviation Institute
+  keywords:
+    - curve fitting
+    - spline fitting
+    - FAIR
+    - empyrical relations
+    - data analysis
+    - regression models
+
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+    NURBS: Non-Uniform Rational B-Spline
+    CAD: computer-aided design
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - lyche-morken
+        - pasko-blog-post-2015
+        - holmer-continuity-of-splines
+        - mc-cormick
+        - oswald-factor
+        - wind-turbine-airfoils
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

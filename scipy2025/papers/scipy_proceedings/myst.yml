@@ -1,0 +1,129 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 294
+  last_page: 302
+  doi: 10.25080/frwc3537
+  id: scipy-2025-scipy_proceedings
+  title: 'SciPy Proceedings: An Exemplar for Publishing Computational Open Science'
+  description: The SciPy Proceedings have served as a cornerstone of scholarly communication within the scientific Python ecosystem since their introduction in 2008. In 2024, the publication process underwent a significant transformation, adopting a new open-source infrastructure built on MyST Markdown and Curvenote. This transition enabled a web-first, interactive publishing workflow that improves reproducibility, readability, and metadata quality.
+  authors:
+    - rowan1
+    - fwkoch
+    - steve
+  contributors:
+    - id: rowan1
+      name: Rowan Cockett
+      email: rowan@curvenote.com
+      corresponding: true
+      orcid: 0000-0002-7859-8394
+      github: rowanc1
+      affiliations:
+        - id: jupyter
+        - id: curvenote
+        - id: csf
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Investigation
+        - Project administration
+        - Software
+        - Supervision
+        - Visualization
+        - Writing – original draft
+        - Writing – review & editing
+    - id: steve
+      name: Steve Purves
+      email: steve@curvenote.com
+      orcid: 0000-0002-0760-5497
+      github: stevejpurves
+      affiliations:
+        - id: jupyter
+        - id: curvenote
+        - id: csf
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Investigation
+        - Project administration
+        - Software
+        - Supervision
+        - Writing – review & editing
+    - id: fwkoch
+      name: Franklin Koch
+      email: franklin@curvenote.com
+      orcid: 0000-0002-6393-7058
+      affiliation:
+        - id: jupyter
+        - id: curvenote
+      github: fwkoch
+      roles:
+        - Investigation
+        - Software
+        - Writing – review & editing
+  affiliations:
+    - id: jupyter
+      name: Project Jupyter
+      url: https://jupyter.org
+    - id: curvenote
+      name: Curvenote Inc.
+      ror: https://ror.org/02mz0e468
+      url: https://curvenote.com
+      country: Canada
+      email: support@curvenote.com
+    - id: csf
+      name: Continuous Science Foundation
+      url: https://continuousfoundation.org
+  keywords:
+    - open science
+    - jupyter
+    - scientific communication
+    - publishing
+    - authoring
+    - reproducibility
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    AST: Abstract Syntax Tree
+    DOI: Digital Object Identifier
+    MyST: Markedly Structured Text
+    CLI: Command Line Interface
+    HTML: Hypertext Markup Language
+    PDF: Portable Document Format
+    RRID: Research Resource Identifier
+    CSS: Cascading Style Sheet
+    CRediT: Contributor Roles Taxonomy
+    ROR: Research Organization Registry
+    ISNI: International Standard Name Identifier
+    NISO: National Information Standards Organization
+    YAML: Yet Another Markup Language
+    WASM: WebAssembly
+    REES: Reproducible Execution Environment Specification
+    URL: Uniform Resource Locator
+    XML: Extensible Markup Language
+    PID: Persistent Identifier
+    ID: Identifier
+    JATS: Journal Article Tag Suite
+    VoR: Version of Record
+    RST: reStructuredText
+    API: Application Programming Interface
+    JSON: JavaScript Object Notation
+    OA: Open Access
+    APC: Article Processing Charge
+    JOSS: Journal of Open Source Software
+    ORCID: Open Researcher and Contributor ID
+    Q2F: QIIME 2 Framework
+    JB1: Jupyter Book 1
+    JB2: Jupyter Book 2
+    CI: Continuous Integration
+    POC: Proof of Concept
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf
+  references:
+    multinterp: https://proceedings.scipy.org/articles/FGCJ9164
+    continuous: https://proceedings.scipy.org/articles/NKVC9349
+    itk: https://proceedings.scipy.org/articles/TCFJ5130
+    funix: https://proceedings.scipy.org/articles/JFYN3740

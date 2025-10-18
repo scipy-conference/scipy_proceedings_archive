@@ -1,0 +1,25 @@
+version: 1
+extends: ../../../proceedings.yml
+project:
+  doi: 10.5281/zenodo.17297903
+  identifiers:
+    zenodo: https://zenodo.org/deposit/17297903
+  title: 'Zamba: Computer vision for wildlife conservation'
+  authors:
+    - name: Emily Dorne
+      email: emily@drivendata.org
+      orcid: 0009-0004-6185-7611
+      affiliations:
+        - DrivenData
+    - name: Jay Qi
+      email: jay@drivendata.org
+      orcid: 0009-0000-9154-393X
+      affiliations:
+        - DrivenData
+  abstract: >-
+    Camera traps are an essential tool for wildlife research. Zamba is an open source Python package that leverages
+    machine learning and computer vision to automate time-intensive processing tasks for wildlife camera trap data.
+    This talk will dive into Zamba's capabilities and key factors that influenced its design and development.
+    Topics will include the importance of code-free custom model training, Zamba's origins in an open machine
+    learning competition, and the technical challenges of processing video data. Attendees will walk away with a
+    better understanding of how machine learning and Python tools can support conservation efforts.

@@ -1,0 +1,41 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 2025
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 24rd Python in Science Conference
+  subtitle: SciPy 2025, Tacoma, Washington July 7 - July 13
+  description: |
+    The 24th annual SciPy conference was held in Tacoma, Washington at the Tacoma Convention Center, July 7-13, 2025.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2025
+  id: scipy-2025-proceedings
+  doi: 10.25080/hptk5424
+  subject: Proceedings
+  thumbnail: thumbnail.png
+  banner: banner.png
+  plugins:
+    - scipy.plugin.mjs
+  authors:
+    - amey
+    - ana
+    - charles
+    - franklin
+    - hongsup
+    - rowan
+    - sanhita
+    - sean
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+  exports:
+    - format: typst
+      template: ../templates/scipy-preface
+      articles:
+        - organization.md
+        - slides.md
+      output: ../papers/preface.pdf
+  bibliography: []
+extends: ../proceedings.yml

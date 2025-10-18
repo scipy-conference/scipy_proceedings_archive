@@ -1,0 +1,24 @@
+version: 1
+extends: ../../../proceedings.yml
+project:
+  doi: 10.5281/zenodo.17297895
+  identifiers:
+    zenodo: https://zenodo.org/deposit/17297895
+  title: 'Numba v2: Towards a SuperOptimizing Python Compiler'
+  authors:
+    - name: Siu Kwan Lam
+      orcid: 0000-0002-5220-3307
+      affiliation: Anaconda, Inc
+  abstract: |
+    The rapidly evolving Python ecosystem presents increasing challenges for 
+    adapting code using traditional methods. Developers frequently need to 
+    rewrite applications to leverage new libraries, hardware architectures, 
+    and optimization techniques. To address this challenge, the Numba team is 
+    developing a superoptimizing compiler built on equality saturation-based 
+    term rewriting. This innovative approach enables domain experts to express
+    and share optimizations without requiring extensive compiler expertise. 
+    This talk explores how Numba v2 enables sophisticated optimizations—from 
+    floating-point approximation and automatic GPU acceleration to 
+    energy-efficient multiplication for deep learning models—all through the 
+    familiar NumPy API. Join us to discover how Numba v2 is bringing 
+    superoptimization capabilities to the Python ecosystem.
