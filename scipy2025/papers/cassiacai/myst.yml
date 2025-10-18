@@ -1,0 +1,87 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 54
+  last_page: 66
+  doi: 10.25080/vxkf4244
+  id: scipy-2025-cassiacai
+  title: 'Ocetrac: An Object-based Framework for Tracking and Quantifying Climate Events in Gridded Datasets'
+  subtitle: Introducing the Measures Submodule
+  description: Ocetrac is a Python package for tracking and analyzing spatiotemporal structures in gridded climate data. Building on its core submodule, which detects objects using morphological image processing, Ocetrac’s Measures submodule enables quantification of tracked objects, computing shape, motion, intensity, contextual, and temporal measures.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Cassia Cai
+      email: fmc2855@uw.edu
+      orcid: 0009-0007-3540-192X
+      affiliations:
+        - School of Oceanography, University of Washington
+      corresponding: true
+      roles:
+        - Methodology
+        - Software
+        - Writing
+        - Visualization
+        - Conceptualization
+    - name: Jacob T. Cohen
+      email: jtcohen@uw.edu
+      orcid: 0009-0006-2438-3626
+      affiliations:
+        - School of Oceanography, University of Washington
+      roles:
+        - Methodology
+        - Software
+        - Writing
+        - Visualization
+        - Conceptualization
+    - name: Hillary Scannell
+      email: hillary.scannell@jupiterintel.com
+      affiliation: Jupiter Intelligence
+      orcid: 0000-0002-6604-1695
+      roles:
+        - Methodology
+        - Software
+    - name: Valentina Staneva
+      email: vms16@uw.edu
+      orcid: 0000-0002-3412-0364
+      affiliations:
+        - eScience Institute, University of Washington
+      roles:
+        - Software
+        - Writing
+    - name: LuAnne Thompson
+      email: luanne@uw.edu
+      affiliation: School of Oceanography, University of Washington
+      orcid: 0000-0001-8295-0533
+      roles:
+        - Writing
+
+  keywords:
+    - spatiotemporal tracking
+    - morphological operations
+    - image processing
+    - scientific Python
+    - climate extremes
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+    MHW: marine heatwave
+    EOF: empirical orthogonal function
+    SST: sea surface temperature
+    MODE: Method for Object-based Diagnostic Evaluation
+    POP: Parallel Ocean Program
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

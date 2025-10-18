@@ -1,0 +1,47 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 112
+  last_page: 123
+  doi: 10.25080/tyyd7356
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-edson_bomfim
+  # Ensure your title is the same as in your `main.md`
+  title: 'A Practical Guide to Data Quality: Problems, Detection, and Strategy'
+  # subtitle:
+  description: This paper serves as a practical guide for software developers and data practitioners to understand, identify, and address data quality issues. We present a comprehensive taxonomy of 23 common data quality problems, synthesizing definitions and contexts from empirical software engineering and database literature. Subsequently, we catalogue 22 distinct methods for detecting these issues, categorizing them into actionable strategies.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Edson Bomfim
+      email: research@final04.com
+      orcid: 0009-0001-6387-2231
+      affiliations:
+        - Final04
+        - Universidade de São Paulo, USP
+  keywords:
+    - data
+    - data quality
+    - software quality
+  abbreviations:
+    MyST: Markedly Structured Text
+    ML: machine learning
+    SIM: Mortality Information System
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - data-linter
+        - data-quality-info-and-decision-making
+        - problems-methods-data-cleasing
+        - survey-of-data-quality-tools
+        - the-field-matching-problem
+        - formal-definition
+        - comparison-of-string-distances
+        - opendatasus-sim
+        - Gong_Great_Expectations
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

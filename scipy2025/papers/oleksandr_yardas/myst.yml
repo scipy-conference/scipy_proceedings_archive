@@ -1,0 +1,78 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 269
+  last_page: 277
+  doi: 10.25080/ngdf5738
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-myst_template
+  # Ensure your title is the same as in your `main.md`
+  title: Extension of the OpenMC depletion module for transport-independent depletion
+  # subtitle:
+  description: This paper describes new functionality in OpenMC's depletion module for depleting materials independent of a neutron transport simulation. The paper valdiates the capability against transport-coupled depletion on a simple model.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Oleksandr Yardas
+      email: oyardas2@illinois.edu
+      orcid: 0000-0003-0715-585X
+      corresponding: true
+      affiliations: Dept. of Nuclear, Plasma, and Radiological Engineering, University of Illinois Urbana-Champaign
+    - name: Paul Romano
+      orcid: 0000-0002-1147-045X
+      affiliations: Argonne National Laboratory
+    - name: Madicken Muk
+      orcid: 0000-0003-0117-5366
+      affiliations: Dept. of Nuclear Science and Engineering, Oregon State University Yet
+    - name: Kathryn Huff
+      orcid: 0000-0002-7075-6802
+      affiliation: Dept. of Nuclear, Plasma, and Radiological Engineering, University of Illinois Urbana-Champaign
+  keywords:
+    - depletion
+    - coupling
+    - OpenMC
+    - Cross sections # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+    CRPG: Computational Reactor Physics Group
+    ORNL: Oak Ridge National Laboratory
+    MIT: Massachusets Institute of Technology
+    CSG: constructive solid geometry
+    CFD: computational fluid dynamics
+    CAD: computer aided design
+    DNP: delayed neutron precursor
+    GHG: greenhouse gas
+    GIF: Generation IV International Forum
+    MSR: molten salt reactor
+    MSRE: Molten Salt Reactor Experiment
+    MSBR: Molten Salt Breeder Reactor
+    MSFR: Molten Sodium Fast Reactor
+    NRC: Nuclear Regulatory Commission
+    R\&D: research and development
+    M\&S: modeling and simulation
+    E\&T: education and training
+    DOE-NE: Department of Energy Office of Nuclear Energy
+    CC: closed code
+    OSS: open source software
+    IAEA: International Atomic Energy Agency
+    ONCORE: Open-source Nuclear COdes for REactor analysis
+    SNF: spent nuclear fuel
+    SFR: sodium-cooled fast reactor
+    CRAM: Chebyshev rational approximation method
+    PWR: pressurized water reactor
+    DOE: Department of Energy
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

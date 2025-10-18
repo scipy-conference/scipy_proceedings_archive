@@ -1,0 +1,54 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 14
+  last_page: 37
+  doi: 10.25080/mhum9729
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-avik_basu
+  # Ensure your title is the same as in your `main.md`
+  title: Explaining ML predictions with SHAP
+  subtitle: Intuition, use cases, and best practices
+  description: |
+    This article explores how SHAP (SHapley Additive exPlanations) can be used to interpret machine learning model 
+    predictions by providing consistent and theoretically grounded feature attributions.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Avik Basu
+      email: avik_basu@intuit.com
+      orcid: 0009-0002-4489-378X
+      affiliations:
+        - Intuit, Inc.
+        - PyOpenSci
+      roles:
+        - Conceptualization
+        - Software
+        - Visualization
+        - Writing – original draft
+  keywords:
+    - explainable AI
+    - Shapley values
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+    SHAP: SHapley Additive exPlanations
+    LLM: Large Language Model
+    CNN: Convolutional Neural Network
+    GBDT: Gradient Boosted Decision Trees
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - jupyter
+        - sklearn1
+        - sklearn2
+        - NIPS2017_6449f44a
+        - molnar2025
+        - UCI_ML_Repository
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

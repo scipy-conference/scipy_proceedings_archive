@@ -1,0 +1,72 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 311
+  last_page: 330
+  doi: 10.25080/fncj2446
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-siu_kwan_lam
+  # Ensure your title is the same as in your `main.md`
+  title: 'Numba v2: Towards a SuperOptimizing Python Compiler'
+  # subtitle:
+  description: This paper presents early work on Numba v2, a general-purpose compiler for Python that integrates equality saturation (EqSat) as a foundation for program analysis and transformation. Whilst inspired in part by the needs of AI/ML workloads, and also supporting tensor optimizations, Numba v2 is not a tensor-oriented compiler. Instead, it provides a flexible framework where user-defined mathematical and domain-specific rewrites participate in the compilation process as a complement to the compilation supported by Numba today.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Siu Kwan Lam
+      email: siu@anaconda.com
+      orcid: 0000-0002-5220-3307
+      affiliations:
+        - Anaconda, Inc.
+    - name: Stuart Archibald
+      email: sarchibald@anaconda.com
+      affiliations:
+        - Anaconda, Inc.
+    - name: Stan Seibert
+      email: sseibert@anaconda.com
+      affiliations:
+        - Anaconda, Inc.
+  keywords:
+    - python
+    - compiler
+    - equality saturation
+    - e-graph
+    - MLIR
+  thumbnail: egraph_scaling_matmul.png
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+    JIT: Just-in-time
+    EqSat: equality saturation
+    DMA: direct memory access
+    LLM: large-language model
+    IR: intermediate representation
+    RVSDG: regionalized value-state dependence graph
+    CFG: control flow graph
+    PEG: program expression graph
+    DAG: directed acyclic graph
+    GELU: Gaussian Error Linear Unit
+    DNN: deep neural network
+    SSA: static single assignment
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+        - Nelson1980
+        - lawrence2007
+        - bellman1958
+        - llama3.np
+        # stepp2011 is supposed to be https://dl.acm.org/doi/abs/10.5555/2395310
+        # but the doi check failed
+        - stepp2011
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

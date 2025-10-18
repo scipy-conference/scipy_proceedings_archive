@@ -1,0 +1,93 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 278
+  last_page: 285
+  doi: 10.25080/kvfm5762
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-pasteur_labs
+  # Ensure your title is the same as in your `main.md`
+  title: Pipeline-level differentiable programming for the real world
+  # subtitle:
+  description: |
+    We present Tesseract, a software ecosystem that provides pipeline-level automatic differentiation
+    and differentiable physics programming at scale, and demonstrate its utility on a parametric shape 
+    optimization problem.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Andrin Rehmann
+      email: andrin.rehmann@simulation.science
+      orcid: 0009-0001-6002-5096
+      equal_contributor: true
+      affiliations:
+        - Pasteur Labs, Brooklyn, NY, USA
+    - name: Dion Häfner
+      email: dion.haefner@simulation.science
+      orcid: 0000-0002-4465-7317
+      equal_contributor: true
+      affiliations:
+        - Pasteur Labs, Brooklyn, NY, USA
+    - name: Alessandro Angioi
+      email: alessandro.angioi@simulation.science
+      orcid: 0000-0003-4653-8036
+      affiliations:
+        - Pasteur Labs, Brooklyn, NY, USA
+    - name: Yongquan Qu
+      email: yongquan.qu@simulation.science
+      orcid: 0000-0002-9941-3977
+      affiliations:
+        - Pasteur Labs, Brooklyn, NY, USA
+        - Columbia University, Manhattan, NY, USA
+        - NSF Center for Learning the Earth with Artificial Intelligence and Physics, Manhattan, NY, USA
+    - name: Andrei Paleyes
+      email: andrei.paleyes@simulation.science
+      orcid: 0000-0002-3703-8163
+      affiliations:
+        - Pasteur Labs, Brooklyn, NY, USA
+  keywords:
+    - automatic differentiation
+    - differentiable programming
+    - differentiable physics
+    - remote procedure calls
+    - distributed computing
+    - computer-aided engineering
+    - containerization
+    - scientific computing
+    - scientific machine learning
+    - simulation
+    - interoperability
+  banner: banner.png
+  thumbnail: thumbnail.png
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    AD: Automatic Differentiation
+    DP: Differentiable Programming
+    DPP: Differentiable Physics Programming
+    CAE: Computer-aided Engineering
+    API: Application Programming Interface
+    CFD: Computational Fluid Dynamics
+    FEM: Finite Element Method
+    ML: machine learning
+    SI: Simulation Intelligence
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Triton_Inference_Server
+        - BentoML
+        - MLServer
+        - baydin2018automatic
+        - abadi2016tensorflow
+        - paszke2017automatic
+        - jax2018github
+        - baker2021peering
+        - rush2024federated
+        - tang2023auto
+        - van2018automatic
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

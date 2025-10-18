@@ -1,0 +1,48 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 202
+  last_page: 206
+  doi: 10.25080/dvta2583
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-kyohei_sahara-2
+  # Ensure your title is the same as in your `main.md`
+  title: 'Quantum Chemistry Acceleration: Comparative Performance Analysis of Modern DFT Implementations'
+  # subtitle:
+  description: |
+    This paper examines the acceleration of quantum chemistry calculations through
+    modern implementations of Density Functional Theory (DFT). We present a
+    comparative performance analysis between traditional frameworks and optimized
+    implementations, demonstrating substantial computational efficiency gains.
+    Applications to electrolyte membrane structure analysis illustrate practical
+    benefits, enabling more extensive simulations in reduced timeframes. Benchmarks
+    highlight speedups achieved via modern code optimization techniques in Python-based
+    quantum chemistry environments.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Kyohei Sahara
+      email: schwalbe10@gmail.com
+      orcid: 0009-0003-4407-3738
+      affiliations:
+        - Kyoto University
+      corresponding: true
+  keywords:
+    - quantum chemistry
+    - density functional theory
+    - performance analysis
+    - computational chemistry
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+    DFT: Density Functional Theory
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys: []
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

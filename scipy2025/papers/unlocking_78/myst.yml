@@ -1,0 +1,70 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 342
+  last_page: 358
+  doi: 10.25080/ncmh8429
+  id: scipy-2025-missing_78
+  title: 'Unlocking the Missing 78%: Inclusive Communities for the Future of Scientific Python'
+  description: This article quantifies the gender gap in the scientific Python community, analyzes its root causes, and proposes the Visibility–Invitation–Mechanism (VIM) framework as a practical solution. A case study of the IBM Women in AI (WAI) User Group is presented to demonstrate the framework's effectiveness.
+  authors:
+    - name: Noor Aftab
+      email: noor.aftab@gmail.com
+      affiliations:
+        - IBM Champion, PyData Speaker, Chair of NumFOCUS CoC WG
+      roles:
+        - Conceptualization
+        - Investigation
+        - Methodology
+        - Software
+        - Validation
+        - Visualization
+        - Writing – Original Draft
+        - Writing – Review & Editing
+      corresponding: true
+  keywords:
+    - scientific python
+    - diversity
+    - inclusion
+    - gender gap
+    - open source
+    - community
+    - VIM framework
+  abbreviations:
+    VIM: Visibility–Invitation–Mechanism
+    WAI: Women in AI
+    CoP: Communities of Practice
+    OSS: Open-Source Software
+    DEI: Diversity, Equity, and Inclusion
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        # Reports
+        - bcg2020women
+        - lorenzo2018leadership
+        - desvaux2007womenmatter
+        - harnham2023diversity
+        - hunt2018diversity
+        - msci2016tipping
+        - techwomen2020eval
+        # Preprints
+        - rossi2022gender
+        - sultana2022reviews
+        - maddi2020diversity
+        # Web & News Articles
+        - isu2023onein20
+        - turing_women_ai
+        - unesco2024g20
+        - womentech2020stats
+        - gammage2019unpaidcare
+        - builtin_aibias
+        - pydata_scholarships
+        - cio2021ada
+        - outreachy
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: unlocking_78.md
+      output: full_text.pdf

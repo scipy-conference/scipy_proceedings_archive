@@ -1,0 +1,865 @@
+{
+  "keynote": [
+    {
+      "title": "What we maintain, we defend",
+      "description": "Scientific Python is not only at the heart of discovery and advancement, but also infrastructure. This talk will provide a perspective on how open-source Python tools that are already powering real-world impact across the sciences are also supportive of public institutions and critical public data infrastructure. Drawing on her previous experience leading policy efforts in the Department of Energy as well as her experience in open-source scientific computing, Katy will highlight the indispensable role of transparency, reproducibility, and community in high-stakes domains. This talk invites the SciPy community to recognize its unique strengths and to amplify their impact by contributing to the public good through technically excellent, civic-minded development.",
+      "authors": [
+        {
+          "name": "Kathryn Huff",
+          "affiliation": "Dept. of Nuclear, Plasma, and Radiological Engineering, University of Illinois Urbana-Champaign",
+          "orcid": "0000-0002-7075-6802"
+        }
+      ],
+      "youtube": "https://www.youtube.com/watch?v=pgv22OBqv9s"
+    },
+    {
+      "title": "The Myth of Artificial: Spotlighting Community Intelligence for Responsible Science",
+      "authors": [
+        {
+          "name": "Malvika Sharan",
+          "affiliation": "Open Life Science",
+          "orcid": "0000-0001-6619-7369"
+        }
+      ],
+      "description": "The widespread fascination with AI often fuels a \"myth of the artificial\", the belief that scientific and technological progress stems solely from algorithms and large tech breakthroughs. This talk challenges that notion, arguing that truly responsible and impactful science is fundamentally built upon and sustained by the resilient, collective intelligence of the scientific and research community.",
+      "zenodo_url": "https://zenodo.org/records/15851500",
+      "youtube": "https://www.youtube.com/watch?v=pr8DCxivxDs"
+    },
+    {
+      "title": "My Dinner with Numeric, Numpy, and Scipy: A Retrospective from 2001 to 2025 with Comments and Anecdotes",
+      "authors": [
+        {
+          "name": "Charles R. Harris",
+          "affiliation": "NumPy"
+        }
+      ],
+      "description": "This keynote will trace the personal journey of NumPy's development and the evolution of the SciPy community from 2001 to the present. Drawing on over two decades of involvement, I’ll reflect on how a small group of enthusiastic contributors grew into a vibrant, global ecosystem that now forms the foundation of scientific computing in Python. Through stories, milestones, and community moments, we’ll explore the challenges, breakthroughs, and collaborative spirit that shaped both NumPy and the SciPy conventions over the years.",
+      "youtube": "https://www.youtube.com/watch?v=xapt7HOB-P4"
+    },
+    {
+      "title": "Python at the Speed of Light: Accelerating Science with CUDA Python",
+      "authors": [
+        {
+          "name": "Christopher Lamb",
+          "affiliation": "NVIDIA"
+        }
+      ],
+      "description": "NVIDIA’s CUDA platform has long been the backbone of high-performance GPU computing, but its power has historically been gated behind C and C++ expertise. With the recent introduction of native Python support, CUDA is more accessible to the programming language you know and love, ushering in a new era for scientific computing, data science, and AI development.p",
+      "youtube": "https://www.youtube.com/watch?v=8n_zfZm1tQ0"
+    },
+    {
+      "title": "Rubin Observatory: What will you discover when you’re always watching",
+      "authors": [
+        {
+          "name": "Yusra AlSayyad",
+          "affiliation": "Princeton University"
+        }
+      ],
+      "description": "After two decades of planning, Rubin Observatory is finally observing the sky. Built to image the entire southern hemisphere every few nights with a 3.2-gigapixel camera, Rubin will produce a time-lapse of the Universe, revealing moving asteroids, pulsing stars, supernovae, and rare transients that you only catch if you're always watching. In this talk, I'll share the “first look” images from Rubin Observatory as well as what it took to get here: from scalable algorithms to infrastructure that moves data from a mountaintop in Chile to scientists around the world in seconds. I'll reflect on what we learned building the data management system in Python over the years, including stories of choices that impacted scalability, interfaces, and maintainability. Rubin Observatory is here. And it's for you.",
+      "youtube": "https://www.youtube.com/watch?v=bjuL0Y2Ulx0"
+    }
+  ],
+  "lightning": [
+    {
+      "title": "Enhancing Curve Fitting with SciPy: Interactive Spline Modeling and Reproducibility with SplineCloud",
+      "authors": [
+        {
+          "name": "Vadym Pasko",
+          "affiliation": "SplineCloud, Kyiv Aviation Institute",
+          "orcid": "0009-0001-7739-2204"
+        }
+      ],
+      "description": "Curve fitting is a fundamental task in data science, engineering, and scientific computing, enabling researchers to extract meaningful relationships from data. However, selecting and tuning the right fitting model for complex, noisy, or multidimensional data remains a significant challenge. SciPy plays a critical role in addressing these challenges by providing robust spline fitting methods that offer flexibility and precision. Yet, fine-tuning spline parameters, ensuring stability in extrapolation, and sharing fitted models for reproducibility remain open problems. In order to address these challenges, we developed SplineCloud - an open platform that provides interactive spline fitting capabilities and uses SciPy on the backend. SplineCloud allows the construction, analysis, and exchange of spline-based regression models using SciPy's interpolate module. SplineCloud's curve fitting tool extends the capabilities of SciPy spline fitting methods by enabling researchers to fine-tune spline parameters: knot vector, control points, and degree interactively, instantly analyzing the accuracy of models. Models constructed on the platform obtain their unique identifiers and become reusable in code, fostering better collaboration and knowledge transfer. Reusability of spline curves and underlying datasets in code is enabled via the open-source SplineCloud client library called splinecloud-scipy, which is also based on SciPy. The proposed approach of interactive cloud-based fitting improves data processing workflows, allows separating data preparation and approximation routines from the main code, and brings FAIR principles to the curve fitting, enabling researchers to construct and share libraries of empirical data relations.",
+      "zenodo_url": "https://zenodo.org/deposit/17297836",
+      "slide_id": "vadym_pasko",
+      "doi": "10.5281/zenodo.17297836"
+    }
+  ],
+  "posters": [
+    {
+      "title": "A Practical Guide to Data Quality: Problems, Detection, and Strategy",
+      "authors": [
+        {
+          "name": "Edson Bomfim",
+          "affiliation": "Final04, Universidade de São Paulo, USP",
+          "orcid": "0009-0001-6387-2231"
+        }
+      ],
+      "description": "The proliferation of data-driven systems, from machine learning models to business intelligence platforms, has placed unprecedented importance on the quality of the underlying data. The principle of \"garbage in, garbage out\" has never been more relevant, as poor data quality can lead to flawed models, incorrect business decisions, and a fundamental lack of trust in data systems.",
+      "zenodo_url": "https://zenodo.org/deposit/17297931",
+      "slide_id": "a-practical-guide-to-data-quality",
+      "doi": "10.5281/zenodo.17297931"
+    },
+    {
+      "title": "I Upgraded My AI...Now It's Funnier Than Me! A Beginner's Guide to Prompt Engineering for Playfulness",
+      "authors": [
+        {
+          "name": "Jarai Carter",
+          "affiliation": "John Deere, Columbia University",
+          "orcid": "0000-0003-3228-3036"
+        }
+      ],
+      "description": "Generative Al (GenAl) is revolutionizing creativity, but can it be funny? Absolutely — but only if you prompt it the right way! Using your funny bone is a creative endeavor. It is a great exercise in getting your mind to think outside the box and Al can accelerate that process. While you probably cannot put a joke on every slide in a business presentation, Al playfulness can help you make your explanations and titles more approachable and more unique.",
+      "zenodo_url": "https://zenodo.org/deposit/17297933",
+      "slide_id": "ai-poster-jc",
+      "doi": "10.5281/zenodo.17297933"
+    },
+    {
+      "title": "SymPy Tensor Module: A Bug Fix for High-Rank Metric Contractions",
+      "authors": [
+        {
+          "name": "Arkadiusz P. Trawiński",
+          "affiliation": "ING Hubs Poland",
+          "orcid": "0000-0001-8604-7480"
+        }
+      ],
+      "description": "In symbolic physics computations, handling tensors of varying ranks—such as vectors, spinors, metrics, and gamma matrices—is essential. A long-standing bug in SymPy's tensor module caused incorrect behavior when contracting metrics with tensors of rank higher than two. This poster presents the nature of the bug, its implications for physics computations, and the elegant one-line fix introduced in Pull Request #28240. The correction ensures proper permutation and contraction of tensor indices, restoring expected behavior in symbolic tensor algebra. This contribution improves the reliability of SymPy for high-energy physics and general relativity applications, where tensor manipulations are fundamental.",
+      "zenodo_url": "https://zenodo.org/deposit/17297923",
+      "slide_id": "arkadiusz-trawinski",
+      "doi": "10.5281/zenodo.17297923"
+    },
+    {
+      "title": "Explore Solvable and Unsolvable Equations with SymPy",
+      "authors": [
+        {
+          "name": "Carl Kadie",
+          "affiliation": "Independent Researcher",
+          "orcid": "0009-0001-5663-2176"
+        }
+      ],
+      "description": "Why can we solve some equations easily while others seem impossible? This poster explores how Python's free computer algebra system, SymPy, helps determine when a closed-form solution exists and when numerical methods are necessary. Instead of relying on advanced mathematics like Galois theory, we take a fun, hacker-style approach—letting SymPy do the work. We'll analyze different equation types, from polynomials to exponentials and trigonometric functions, using real-world examples like Kepler's equation. Whether you're a scientist, engineer, or Python enthusiast, this poster will sharpen your intuition about solvability and show how to make the most of symbolic and numerical solutions in SymPy.",
+      "zenodo_url": "https://zenodo.org/deposit/17297935",
+      "slide_id": "carl_kadie",
+      "doi": "10.5281/zenodo.17297935"
+    },
+    {
+      "title": "Carmina: Introducing Programming to Latin Poetry",
+      "authors": [
+        {
+          "name": "Suh Young Choi",
+          "affiliation": "University of Washington",
+          "orcid": "0009-0006-2247-2254"
+        }
+      ],
+      "description": "Computational thinking is a problem-solving framework traditionally associated with computer science, but it can be applied to other fields such as humanities computing. Carmina, whose name comes from the Latin word for \"songs\" or \"poems\", is a new library under development to demonstrate the algorithmic nature of analytic tasks related to Latin poetry. Carmina has practical use in automating processes like scansion and alliteration finding; further, it has educational utility for classical scholars by translating familiar tasks to a coding context.",
+      "zenodo_url": "https://zenodo.org/deposit/17297937",
+      "slide_id": "choi-carmina",
+      "doi": "10.5281/zenodo.17297937"
+    },
+    {
+      "title": "Serverless Data Processing with Lithops",
+      "authors": [
+        {
+          "name": "Enrique Molina-Giménez",
+          "affiliation": "Universitat Rovira i Virgili, Tarragona, Spain",
+          "orcid": "0009-0005-2597-3815"
+        },
+        {
+          "name": "Pedro García-López",
+          "affiliation": "Universitat Rovira i Virgili, Tarragona, Spain",
+          "orcid": "0000-0002-9848-1492"
+        }
+      ],
+      "description": "Lithops enables users to seamlessly scale single-machine Python code across thousands of serverless functions on AWS Lambda, IBM Cloud Functions, and Google Cloud Functions—eliminating the need to manage clusters. It automates function deployment, dependency management, and data partitioning, allowing fast and scalable execution of tasks such as exploratory data analysis, Monte Carlo simulations, sentiment analysis, and hyperparameter tuning. By integrating directly with Jupyter notebooks, Lithops democratizes access to cloud-scale computing, making high-performance distributed processing accessible to any Python user.",
+      "zenodo_url": "https://zenodo.org/deposit/17297939",
+      "slide_id": "enrique_molina_poster",
+      "doi": "10.5281/zenodo.17297939"
+    },
+    {
+      "title": "Advancing High Energy Physics Data Analysis with Julia -- A Case for JuliaHEP",
+      "authors": [
+        {
+          "name": "Ianna Osborne",
+          "affiliation": "Princeton University",
+          "orcid": "0000-0002-6955-1033"
+        },
+        {
+          "name": "Jerry 🦑 Ling",
+          "affiliation": "Harvard University",
+          "orcid": "0000-0002-3359-0380"
+        }
+      ],
+      "description": "The computational challenges in HEP require optimized solutions for handling complex data structures, parallel computing, and Just-in-Time (JIT) compilation. While Python and C++ remain the standard, Julia presents an opportunity to improve performance while maintaining usability.",
+      "zenodo_url": "https://zenodo.org/deposit/17297941",
+      "slide_id": "ianna_osborne",
+      "doi": "10.5281/zenodo.17297941"
+    },
+    {
+      "title": "Weather Classification with CNNs: Successes, Surprises, and Sunrise Confusion",
+      "authors": [
+        {
+          "name": "Jennifer Iloekwe",
+          "affiliation": "Pan-Atlantic University",
+          "orcid": "0009-0006-2105-6611"
+        }
+      ],
+      "description": "Image-based weather classification has important applications in environmental monitoring and intelligent systems. In this study, a Convolutional Neural Network (CNN) model was developed to classify weather conditions into five classes (cloudy, foggy, rainy, shine, sunrise) using an open-source Kaggle dataset of approximately 1500 labeled images. The dataset was preprocessed, split into training and validation sets using an 85/15 ratio, and augmented to improve generalization. The CNN architecture was implemented in TensorFlow/Keras with data augmentation that included rescaling, rotation, zooming, and horizontal flipping. Model training employed early stopping to prevent overfitting. The model achieved good performance on validation data, with loss and accuracy curves indicating stable learning. However, evaluation on an independent test set highlighted difficulties in accurately classifying the 'sunrise' class. These results illustrate both the potential and challenges of applying CNNs to multiclass weather classification.",
+      "zenodo_url": "https://zenodo.org/deposit/17297946",
+      "slide_id": "iloekwe_poster",
+      "doi": "10.5281/zenodo.17297946"
+    },
+    {
+      "title": "SciPy Optimize and Reachability of Nonlinear Systems",
+      "authors": [
+        {
+          "name": "Ivan Perez Avellaneda",
+          "affiliation": "Independent",
+          "orcid": "0000-0003-3127-8454"
+        }
+      ],
+      "description": "In this paper, CFSpy a package in Python that numerically computes Chen-Fliess series is presented. The reachable sets of non-linear systems are also calculated with this package. The method used obtains batches of iterated integrals of the same length instead one of at a time. For this, we consider the alphabetical order of the words that index the series. By redefining the iterated integral reading the index word in the opposite direction from right to left, we allow the broadcasting of the computation of the iterated integral to all permutations of a length. Assuming the input is sufficiently well approximated by piecewise step functions in a fine partition of the time interval, the minimum bounding box of a reachable set is computed by means of polynomials in terms of the inputs. To solve the optimization problem, the SciPy library is used.",
+      "zenodo_url": "https://zenodo.org/deposit/17297948",
+      "slide_id": "ivan-perez-avellaneda",
+      "doi": "10.5281/zenodo.17297948"
+    },
+    {
+      "title": "Fast and scalable general geospatial regridding",
+      "authors": [
+        {
+          "name": "Justus Magin",
+          "affiliation": "LOPS - Laboratoire d'Oceanographie Physique et Spatiale UMR 6523 CNRS-IFREMER-IRD-Univ.Brest-IUEM, Plouzane, France",
+          "orcid": "0000-0002-4254-8002"
+        }
+      ],
+      "description": "Being able to regrid between various grid types is very important in geoscience research. While the scientific python ecosystem includes numerous geospatial regridding packages, most of them are tailored to only a few specific grid types. Additionally, very few of them are designed to handle regridding of grids that are too big to fit into memory using distributed computation frameworks like dask. grid-indexing and grid-weights are a set of rust-based libraries that implement regridding between arbitrary grids using a RTree and rely on dask to scale for larger-than-memory grids.",
+      "zenodo_url": "https://zenodo.org/deposit/17297950",
+      "slide_id": "jmagin-geospatial_regridding",
+      "doi": "10.5281/zenodo.17297950"
+    },
+    {
+      "title": "Quantum Chemistry Acceleration: Comparative Performance Analysis of Modern DFT Implementations",
+      "authors": [
+        {
+          "name": "Kyohei Sahara",
+          "affiliation": "Kyoto University",
+          "orcid": "0009-0003-4407-3738"
+        }
+      ],
+      "description": "This poster examines the acceleration of quantum chemistry calculations through modern implementations of Density Functional Theory (DFT). We present a comparative performance analysis between traditional frameworks and optimized implementations, demonstrating substantial computational efficiency gains. Applications to electrolyte membrane structure analysis illustrate practical benefits, enabling more extensive simulations in reduced timeframes. Benchmarks highlight speedups achieved via modern code optimization techniques in Python-based quantum chemistry environments.",
+      "zenodo_url": "https://zenodo.org/deposit/17353419",
+      "slide_id": "kyohei_sahara",
+      "doi": "10.5281/zenodo.17353419"
+    },
+    {
+      "title": "Missing data? MArray adds mask support to any array/tensor backend",
+      "authors": [
+        {
+          "name": "Matt Haberland",
+          "affiliation": "Cal Poly, San Luis Obispo, SciPy Library",
+          "orcid": "0000-0003-4806-3601"
+        },
+        {
+          "name": "Lucas Colley",
+          "affiliation": "SciPy Library, University of Oxford, prefix.dev",
+          "orcid": "0000-0002-6199-2053"
+        },
+        {
+          "name": "Justus Magin",
+          "affiliation": "LOPS - Laboratoire d'Océanographie Physique et Spatiale UMR 6523 CNRS-IFREMER-IRD-Univ.Brest-IUEM, Plouzané, France, XArray Project",
+          "orcid": "0000-0002-4254-8002"
+        }
+      ],
+      "description": "Masked arrays enable the performance and convenience of (rectangular) array computing where missing data would otherwise result in ragged arrays. Some array libraries, such as NumPy, PyTorch, and Dask, offer partial support for masked versions of their arrays/tensors, but these often lack important features, have APIs that are inconsistent with those of the parent namespace, and see only limited support in downstream libraries (e.g. SciPy). Furthermore, there is no standard interface specification, some of these implementations are treated as \"experimental\" or are maintained less than the parent library, and some automatically mask the result of invalid numerical calculations, hiding bugs and leading to spurious results. MArray offers a new way forward by adding mask support to any array backend that is compatible with the Array API Standard.",
+      "zenodo_url": "https://zenodo.org/deposit/17352223",
+      "slide_id": "marray",
+      "doi": "10.5281/zenodo.17352223"
+    },
+    {
+      "title": "Scientific Publishing with MyST Markdown",
+      "authors": [
+        {
+          "name": "Marco Colonna",
+          "affiliation": "Technische Universität Dortmund",
+          "orcid": "0009-0000-1704-4139"
+        },
+        {
+          "name": "Johannes Albrecht",
+          "affiliation": "Technische Universität Dortmund",
+          "orcid": "0000-0001-8636-1621"
+        },
+        {
+          "name": "Florian Bernlochner",
+          "affiliation": "University of Bonn",
+          "orcid": "0000-0001-8153-2719"
+        },
+        {
+          "name": "Lorenz Gärtner",
+          "affiliation": "Ludwig Maximilian University of Munich",
+          "orcid": "0000-0002-3643-4543"
+        },
+        {
+          "name": "Abhijit Mathad",
+          "affiliation": "CERN",
+          "orcid": "0000-0002-9428-4715"
+        },
+        {
+          "name": "Biljana Mitreska",
+          "affiliation": "Technische Universität Dortmund",
+          "orcid": "0000-0002-1697-4999"
+        }
+      ],
+      "description": "Current High Energy Physics measurements rely on analysing the data by using underlying theoretical assumptions in model building that do not account for possible deviations from the nominal model on which the assumptions are based. This approach can introduce potential bias in parameter extraction and complicate the reinterpretation of measurements without fully reanalyzing the data. Redist is a package for building model-agnostic binned-likelihood fits, allowing combination and enhancing the reinterpretation of datasets. Redist allows direct inference of theoretical parameters of any beyond the Standard Model scenario through histogram reweighting, properly taking into account changes in kinematic distributions. By leveraging truth-level observables and capturing correlations, Redist can be interfaced with different theoretical backends to connect theoretical parameters with the pyhf environment for fitting. We present a Redist-HAMMER interface that has been developed to address direct Beyond the Standard Model measurements by reinterpreting existing datasets collected by various High Energy Physics collaborations, using the increasingly popular theoretical backend HAMMER. This enables model-agnostic interpretation of data—a crucial step for advancing precision flavor physics. Further applications of the Redist package in different fields, along the lines of the Redist-HAMMER interface in High Energy Physics, to extend pyhf models are possible and straightforward to implement.",
+      "zenodo_url": "https://zenodo.org/deposit/17297952",
+      "slide_id": "mcolonna-poster",
+      "doi": "10.5281/zenodo.17297952"
+    },
+    {
+      "title": "Performing Object Detection on Drone Orthomosaics with Meta's Segment Anything Model (SAM)",
+      "authors": [
+        {
+          "name": "Nicholas McCarty",
+          "affiliation": "Upskilled Consulting",
+          "orcid": "0009-0001-3727-9178"
+        }
+      ],
+      "description": "Accurate and efficient object detection and spatial localization in remote sensing imagery is a persistent challenge. In the context of precision agriculture, the extensive data annotation required by conventional deep learning models poses additional challenges. This paper presents a fully open source workflow leveraging Meta AI's Segment Anything Model (SAM) for zero-shot segmentation, enabling scalable object detection and spatial localization in high-resolution drone orthomosaics without the need for annotated image datasets. Model training and/or fine-tuning is rendered unnecessary in our precision agriculture-focused use case. The presented end-to-end workflow takes high-resolution images and quality control (QC) check points as inputs, automatically generates masks corresponding to the objects of interest (empty plant pots, in our given context), and outputs their spatial locations in real-world coordinates. Detection accuracy (required in the given context to be within 3 cm) is then quantitatively evaluated using the ground truth QC check points and benchmarked against object detection output generated using commercially available software. Results demonstrate that the open source workflow achieves superior spatial accuracy — producing output 20% more spatially accurate, with 400% greater IoU — while providing a scalable way to perform spatial localization on high-resolution aerial imagery (with ground sampling distance, or GSD, < 30 cm).",
+      "zenodo_url": "https://zenodo.org/deposit/17297956",
+      "slide_id": "nicholas_mccarty",
+      "doi": "10.5281/zenodo.17297956"
+    },
+    {
+      "title": "Phlower: A Deep Learning Framework Supporting PyTorch Tensors with Physical Dimensions",
+      "authors": [
+        {
+          "name": "Riku Sakamoto",
+          "affiliation": "Ricos Co., Ltd.",
+          "orcid": "0009-0002-3866-7073"
+        }
+      ],
+      "description": "We present Phlower, an open-source deep learning library that extends PyTorch tensors to incorporate physical dimensions — such as time (T), mass (M), and length (L) — and enforces dimensional consistency throughout computations. When applying deep learning to physical systems, tensors often represent quantities with physical dimensions. Ensuring dimensional correctness in such operations is crucial to maintaining physical validity. To address this challenge, Phlower provides PhlowerTensor, a wrapper class of PyTorch tensor that tracks physical dimensions and ensures that tensor operations comply with dimensional consistency rules. This poster introduces the core features of Phlower and demonstrates its capability to maintain dimensional correctness through representative examples.",
+      "zenodo_url": "https://zenodo.org/deposit/17297960",
+      "slide_id": "poster_phlower",
+      "doi": "10.5281/zenodo.17297960"
+    },
+    {
+      "title": "Imprecise uncertainty management with uncertain numbers to facilitate trustworthy computations",
+      "authors": [
+        {
+          "name": "Yu Chen",
+          "affiliation": "University of Liverpool",
+          "orcid": "0000-0001-6617-2946"
+        },
+        {
+          "name": "Scott Ferson",
+          "affiliation": "University of Liverpool",
+          "orcid": "0000-0002-2613-0650"
+        }
+      ],
+      "description": "Uncertain number enables faithful characterization and rigorous computation under mixed uncertainties and unknown dependencies, given partial information.",
+      "zenodo_url": "https://zenodo.org/deposit/17297963",
+      "slide_id": "poster_pyuncertainnumber",
+      "doi": "10.5281/zenodo.17297963"
+    },
+    {
+      "title": "Wavefront-Based Visual Acuity Estimation Using Machine Learning",
+      "authors": [
+        {
+          "name": "Allen S. Harvey Jr.",
+          "affiliation": "Applied Research Associates, Inc.",
+          "orcid": "0009-0009-2764-5953"
+        },
+        {
+          "name": "Michael A. Patel",
+          "affiliation": "Applied Research Associates, Inc."
+        },
+        {
+          "name": "Jason J. Jerwick",
+          "affiliation": "Applied Research Associates, Inc."
+        },
+        {
+          "name": "Jennifer T. Nguyen",
+          "affiliation": "Applied Research Associates, Inc."
+        },
+        {
+          "name": "Clare M. Egan",
+          "affiliation": "Applied Research Associates, Inc."
+        },
+        {
+          "name": "Danny Hinojosa",
+          "affiliation": "Applied Research Associates, Inc."
+        },
+        {
+          "name": "Brenda J. Novar",
+          "affiliation": "Air Force Research Laboratory"
+        },
+        {
+          "name": "Lindsey M. Ferris",
+          "affiliation": "Air Force Research Laboratory"
+        },
+        {
+          "name": "Michael C. Cook",
+          "affiliation": "Air Force Research Laboratory"
+        }
+      ],
+      "description": "ARA, Inc. and AFRL RHDO collaboratively develop RECOIL, a machine learning, Python-based application to categorize Air Force (AF) prototype eyewear consistent with military standard MIL-DTL-43511D. RECOIL evaluates the interferogram obtained from a Ronchi test by using computer vision algorithms to identify its aperture and maximize the assignment of pixels to each fringe within it. Metrics are derived from the set of fringes in each image. RECOIL also can fit Zernike polynomials to the wavefront of light that passes through a lens. RECOIL allows users to conduct virtual experiments by deriving and modifying Zernike polynomial coefficients. Recent developments to RECOIL now allow its users to predict visual acuity by conducting a simulated eye exam or Snellen test. Artificial intelligence models, trained to perform similar to but not better than a human with normal vision, serve as human surrogates to classify letters or directions letter face from simulated distortions of letters in an eye exam chart.",
+      "zenodo_url": "https://zenodo.org/deposit/17297925",
+      "slide_id": "REAPUR",
+      "doi": "10.5281/zenodo.17297925"
+    },
+    {
+      "title": "Explaining ML predictions with SHAP",
+      "authors": [
+        {
+          "name": "Avik Basu",
+          "affiliation": "Intuit, Inc., PyOpenSci",
+          "orcid": "0009-0002-4489-378X"
+        }
+      ],
+      "description": "As machine learning models become increasingly accurate and complex, explainability has become essential to ensure trust, transparency, and informed decision-making. SHapley Additive exPlanations (SHAP) provide a rigorous and intuitive approach for interpreting model predictions, delivering consistent and theoretically grounded feature attributions. This article demonstrates the application of SHAP across two representative model types: boosted decision trees and neural networks.",
+      "zenodo_url": "https://zenodo.org/deposit/17297965",
+      "slide_id": "shap_ab",
+      "doi": "10.5281/zenodo.17297965"
+    },
+    {
+      "title": "Enhancing Curve Fitting with SciPy: Interactive Spline Modeling and Reproducibility with SplineCloud",
+      "authors": [
+        {
+          "name": "Vadym Pasko",
+          "affiliation": "SplineCloud, Kyiv Aviation Institute",
+          "orcid": "0009-0001-7739-2204"
+        }
+      ],
+      "description": "Curve fitting is a fundamental task in data science, engineering, and scientific computing, enabling researchers to extract meaningful relationships from data. However, selecting and tuning the right fitting model for complex, noisy, or multidimensional data remains a significant challenge. SciPy plays a critical role in addressing these challenges by providing robust spline fitting methods that offer flexibility and precision. Yet, fine-tuning spline parameters, ensuring stability in extrapolation, and sharing fitted models for reproducibility remain open problems. In order to address these challenges, we developed SplineCloud - an open platform that provides interactive spline fitting capabilities and uses SciPy on the backend. SplineCloud allows the construction, analysis, and exchange of spline-based regression models using SciPy's interpolate module. SplineCloud's curve fitting tool extends the capabilities of SciPy spline fitting methods by enabling researchers to fine-tune spline parameters: knot vector, control points, and degree interactively, instantly analyzing the accuracy of models. Models constructed on the platform obtain their unique identifiers and become reusable in code, fostering better collaboration and knowledge transfer. Reusability of spline curves and underlying datasets in code is enabled via the open-source SplineCloud client library called splinecloud-scipy, which is also based on SciPy. The proposed approach of interactive cloud-based fitting improves data processing workflows, allows separating data preparation and approximation routines from the main code, and brings FAIR principles to the curve fitting, enabling researchers to construct and share libraries of empirical data relations.",
+      "zenodo_url": "https://zenodo.org/deposit/17297967",
+      "slide_id": "vadym_pasko",
+      "doi": "10.5281/zenodo.17297967"
+    },
+    {
+      "title": "Building Responsible AI: An AI-Driven Framework for Sustainable, Ethical, and Privacy-Preserving IoT Systems",
+      "authors": [
+        {
+          "name": "Ying-Jung Chen",
+          "affiliation": "Georgia Institute of Technology",
+          "orcid": "0000-0002-5946-7831"
+        }
+      ],
+      "description": "This study presents a multidisciplinary approach to AI system design in IoT ecosystems, focusing on computational efficiency, environmental sustainability, and ethical responsibility. The framework emphasizes four key components: multidisciplinary integration, which utilizes low-power systems, privacy-preserving machine learning architectures, and transparent governance for efficiency and oversight; sustainable practices, which align IoT/AI solutions with ethical principles and privacy preservation; practical implementation, leveraging tools like CarbonTracker for emission tracking, SHAP for interpretability, and PySyft for secure computation in healthcare and urban management; and measurable performance, ensuring accountability through benchmarks. This approach harmonizes technological innovation with sustainability, privacy, and ethical responsibility.",
+      "zenodo_url": "https://zenodo.org/deposit/17297929",
+      "slide_id": "YingJungChen",
+      "doi": "10.5281/zenodo.17297929"
+    },
+    {
+      "title": "AI for Wearable ECG Prototype: Quantified Health",
+      "authors": [
+        {
+          "name": "Jennifer Yoon",
+          "affiliation": "Areteus, 10 Sigma Risk LLC",
+          "orcid": "0009-0008-1594-270X"
+        }
+      ],
+      "description": "We are exploring how to apply deep learning models and data augmentation methods to a 12-lead ECG prototype embedded in a T-shirt built by Areteus. Combining wearable ECG devices with deep learning may enable the at-home detection of abnormal heartbeats. This technology could expand access for at-risk heart patients, high-performance athletes, and clinicians serving low-income communities. While a formal diagnosis still requires a physician, wearable ECGs can support early warnings and continuous at-home monitoring. For preliminary testing, we use a one-dimensional convolutional neural network (1D-CNN). The model's input data is sliced into one-heartbeat windows, centered using the maximum value, and zero-padded on both sides. To simulate real-world conditions, high-quality 12-lead hospital ECG data was aggressively augmented to mimic artifacts such as chest lead movement, electrical noise from muscle activity, signal drops from poor contact, baseline wander, and powerline interference. Early findings from the simple 1D-CNN model are promising. Even with aggressively augmented, noisy ECG data, the model achieved high diagnostic classification accuracy, sensitivity, and specificity. Future research will include exploring time-series and ResNet-SE models. Real-world testing of the T-shirt prototype is also planned with volunteers in Point Reyes, California.",
+      "zenodo_url": "https://zenodo.org/deposit/17297970",
+      "slide_id": "yoonj",
+      "doi": "10.5281/zenodo.17297970"
+    }
+  ],
+  "slides": [
+    {
+      "title": "An Active Learning Plugin in napari to Fine-Tune Models for Large-scale Bioimage Analysis",
+      "authors": [
+        {
+          "name": "Fernando Cervantes",
+          "affiliation": "The Jackson Laboratory",
+          "orcid": "0000-0003-0652-2750"
+        }
+      ],
+      "description": "The \"napari-activelearning\" plugin provides a framework to fine tune deep learning models for large-scale bioimage analysis, such as digital pathology Whole Slide Images (WSI). This plugin was developed with the motivation of easing the integration of deep learning tools into bioimage analysis workflows. This plugin implements the concept of Active Learning for reducing the time spent on labeling samples when fine tuning models. Because this plugin is integrated into Napari and leverages the use of next generation file formats (Zarr), it is suitable for fine tuning deep learning models on large-scale images with little image preparation.",
+      "zenodo_url": "https://zenodo.org/deposit/17297859",
+      "slide_id": "activelearning_talk",
+      "doi": "10.5281/zenodo.17297859"
+    },
+    {
+      "title": "Unlocking the Missing 78%: Inclusive Communities for the Future of Scientific Python",
+      "authors": [
+        {
+          "name": "Noor Aftab",
+          "affiliation": "Independent",
+          "orcid": "0009-0008-6375-1123"
+        }
+      ],
+      "description": "Scientific Python teams are leaving value on the table—the Missing78%—and it shows up in slower product cycles and brittle processes. This talk introduces the VIM framework (Visibility, Impact, Mechanisms) as a lightweight operating system for product development: define visible contribution ladders, focus on measurable impact, and install mechanisms that make responsible AI practices repeatable. Attendees leave with a one-page checklist, repo templates, and a 30-day plan to ship scientifically grounded, responsible-AI improvements—without extra headcount.",
+      "zenodo_url": "https://zenodo.org/deposit/17297863",
+      "slide_id": "aftab-noor-missing78",
+      "doi": "10.5281/zenodo.17297863"
+    },
+    {
+      "title": "The-Silmaril: Practice #ontology engineering with Python (and other languages).",
+      "authors": [
+        {
+          "name": "SHAURYA AGARWAL",
+          "affiliation": "Independent"
+        }
+      ],
+      "description": "Ontologies provide a powerful way to structure knowledge, enable reasoning, and support more meaningful queries compared to traditional data models. Recently, interest in ontologies has resurged, driven by advancements in language models, reasoning capabilities, and the growing adoption of platforms like Palantir Foundry. Here we explore ontology development across multiple domains using a variety of Python-based tools such as rdflib, Owlready2, PySpark, Pandas, and SciPy. We will learn how ontologies facilitate semantic reasoning, improve data interoperability, and enhance query capabilities. Additionally, we will build a rudimentary reasoning engine to better understand inference mechanisms. The presentation emphasizes practical applications and comparisons with conventional data representations, making it ideal for researchers, data engineers, and developers interested in knowledge representation and reasoning.",
+      "zenodo_url": "https://zenodo.org/deposit/17297865",
+      "slide_id": "agarwal",
+      "doi": "10.5281/zenodo.17297865"
+    },
+    {
+      "title": "Cubed: Scalable array processing with bounded-memory in Python",
+      "authors": [
+        {
+          "name": "Tom Nicholas",
+          "affiliation": "Earthmover PBC",
+          "orcid": "0000-0002-2176-0530"
+        },
+        {
+          "name": "Tom White",
+          "affiliation": "Independent"
+        }
+      ],
+      "description": "Cubed is a framework for distributed processing of large arrays without a cluster. Designed to respect memory constraints at all times, Cubed can express any NumPy-like array operation as a series of embarrassingly-parallel, bounded-memory steps. By using Zarr as persistent storage between steps, Cubed can run in a serverless fashion on both a local machine and on a range of Cloud platforms. After explaining Cubed's model, we will show how Cubed has been integrated with Xarray and demonstrate its performance on various large array geoscience workloads.",
+      "zenodo_url": "https://zenodo.org/deposit/17297867",
+      "slide_id": "cubed",
+      "doi": "10.5281/zenodo.17297867"
+    },
+    {
+      "title": "Scaling NumPy for Large-Scale Science: The cuPyNumeric Approach",
+      "authors": [
+        {
+          "name": "Irina Demeshko",
+          "affiliation": "NVIDIA",
+          "orcid": "0009-0001-1035-7260"
+        },
+        {
+          "name": "Quynh L. Nguyen",
+          "affiliation": "NVIDIA",
+          "orcid": "0000-0002-5897-8576"
+        }
+      ],
+      "description": "Many scientists rely on NumPy for its simplicity and strong CPU performance, but scaling beyond a single node is challenging. The researchers at SLAC need to process massive datasets under tight beam time constraints, often needing to modify code on the fly. This is where cuPyNumeric comes in—a drop-in replacement for NumPy that distributes work across CPUs and GPUs. With its familiar NumPy interface, cuPyNumeric makes it easy to scale computations without rewriting code, helping scientists focus on their research instead of debugging. It's a great example of how the SciPy ecosystem enables cutting-edge science.",
+      "zenodo_url": "https://zenodo.org/deposit/17297869",
+      "slide_id": "cupynumeric",
+      "doi": "10.5281/zenodo.17297869"
+    },
+    {
+      "title": "Python is all you need: an overview of the composable, Python-native data stack",
+      "authors": [
+        {
+          "name": "Deepyaman Datta",
+          "affiliation": "Kedro",
+          "orcid": "0009-0006-7814-1446"
+        }
+      ],
+      "description": "For the past decade, tools like dbt have formed a cornerstone of the modern data stack, and Python-first alternatives couldn't compete with the scale and performance of modern SQL—until now. New integrations with Ibis, the portable Python dataframe library, enable building and orchestrating scalable data engineering pipelines using existing open-source libraries like Kedro, Pandera, and more.",
+      "zenodo_url": "https://zenodo.org/deposit/17297871",
+      "slide_id": "deepyaman_datta",
+      "doi": "10.5281/zenodo.17297871"
+    },
+    {
+      "title": "Processing Cloud-optimized data in Python with Serverless Functions (Lithops, Dataplug)",
+      "authors": [
+        {
+          "name": "Enrique Molina-Giménez",
+          "affiliation": "Universitat Rovira i Virgili, Tarragona, Spain",
+          "orcid": "0009-0005-2597-3815"
+        },
+        {
+          "name": "Pedro García-López",
+          "affiliation": "Universitat Rovira i Virgili, Tarragona, Spain",
+          "orcid": "0000-0002-9848-1492"
+        }
+      ],
+      "description": "Cloud-optimized (CO) data formats are designed to efficiently store and access data directly from cloud storage without needing to download the entire dataset. These formats enable faster data retrieval, scalability, and cost-effectiveness by allowing users to fetch only the necessary subsets of data. They also allow for efficient parallel data processing using on-the-fly partitioning, which can considerably accelerate data management operations. In this sense, cloud-optimized data is a nice fit for data-parallel jobs using serverless. FaaS provides a data-driven scalable and cost-efficient experience, with practically no management burden. Each serverless function will read and process a small portion of the cloud-optimized dataset, being read in parallel directly from object storage, significantly increasing the speedup. In this talk, you will learn how to process cloud-optimized data formats in Python using the Lithops toolkit. Lithops is a serverless data processing toolkit that is specially designed to process data from Cloud Object Storage using Serverless functions. We will also demonstrate the Dataplug library that enables Cloud Optimized data management of scientific settings such as genomics, metabolomics, or geospatial data. We will show different data processing pipelines in the Cloud that demonstrate the benefits of cloud-optimized data management.",
+      "zenodo_url": "https://zenodo.org/deposit/17297875",
+      "slide_id": "enrique_molina_talk",
+      "doi": "10.5281/zenodo.17297875"
+    },
+    {
+      "title": "GBNet: XGBoost and LightGBM PyTorch Modules",
+      "authors": [
+        {
+          "name": "Michael Horrell",
+          "affiliation": "AlixPartners",
+          "orcid": "0009-0001-3091-0342"
+        }
+      ],
+      "description": "GBNet is a Python package that integrates XGBoost and LightGBM with PyTorch. By leveraging PyTorch auto-differentiation, GBNet enables novel architectures for GBMs that were previously exclusive to pure Neural Networks. The result is a greatly expanded set of applications for GBMs and an improved ability to interpret expressive architectures due to the use of GBMs.",
+      "zenodo_url": "https://zenodo.org/deposit/17297855",
+      "slide_id": "GBNet",
+      "doi": "10.5281/zenodo.17297855"
+    },
+    {
+      "title": "Accelerated DataFrames for all: Bringing GPU acceleration to pandas and Polars",
+      "authors": [
+        {
+          "name": "Vyas Ramasubramani",
+          "affiliation": "NVIDIA",
+          "orcid": "0000-0001-5181-9532"
+        }
+      ],
+      "description": "In Python, data analytics users often prioritize convenience, flexibility, and familiarity over pure performance. The cuDF DataFrame library provides a pandas-like experience with from 10x up to 50x performance improvements, but subtle differences prevent it from being a true drop-in replacement for many users. This talk will showcase the evolution of this library to provide zero-code change experiences, first for pandas users and now for Polars. We will provide examples of this usage and a high level overview of how users can make use of these today. We will then delve into the details of how GPU acceleration is implemented differently in pandas and Polars, along with a deep dive into some of the different technical challenges encountered for each. This talk will have something for both data practitioners and library developers.",
+      "zenodo_url": "https://zenodo.org/deposit/17297877",
+      "slide_id": "gpu_accelerated_pandas_polars",
+      "doi": "10.5281/zenodo.17297877"
+    },
+    {
+      "title": "Keeping Python Fun: Using Robotics Competitions to Teach Data Analysis and Application Development",
+      "authors": [
+        {
+          "name": "Olivia Yang",
+          "affiliation": "Issaquah Robotics Society, Issaquah High School",
+          "orcid": "0009-0000-6052-4349"
+        },
+        {
+          "name": "Brianna Choy",
+          "affiliation": "Issaquah Robotics Society, Issaquah High School",
+          "orcid": "0009-0000-1341-1202"
+        },
+        {
+          "name": "Archit Gouda",
+          "affiliation": "Issaquah Robotics Society, Issaquah High School",
+          "orcid": "0009-0007-0168-0430"
+        },
+        {
+          "name": "Ela Sharma",
+          "affiliation": "Issaquah Robotics Society, Issaquah High School",
+          "orcid": "0009-0000-2300-4205"
+        },
+        {
+          "name": "Stacy Irwin",
+          "affiliation": "Issaquah Robotics Society, Pacific Northwest National Laboratory",
+          "orcid": "0009-0001-5969-9739"
+        }
+      ],
+      "description": "The Issaquah Robotics Society (IRS) has been teaching Python and data analysis to high school students since 2016. Our presentation will summarize what we've learned from nine years of combining Python, competitive robotics, and high school students with no prior programming experience. We'll focus on the importance of keeping it fun, learning the tools, and how to provide useful feedback without making learning Python feel like just another class. We'll also explain how Python helps us win robotics competitions.",
+      "zenodo_url": "https://zenodo.org/deposit/17297879",
+      "slide_id": "issaquah-robotics-keeping-python-fun",
+      "doi": "10.5281/zenodo.17297879"
+    },
+    {
+      "title": "Using Discrete Global Grid Systems in the Pangeo ecosystem",
+      "authors": [
+        {
+          "name": "Justus Magin",
+          "affiliation": "LOPS - Laboratoire d'Oceanographie Physique et Spatiale UMR 6523 CNRS-IFREMER-IRD-Univ.Brest-IUEM, Plouzane, France",
+          "orcid": "0000-0002-4254-8002"
+        },
+        {
+          "name": "Alexander Kmoch",
+          "affiliation": "University of Tartu",
+          "orcid": "0000-0003-4386-4450"
+        },
+        {
+          "name": "Benoît Bovy",
+          "affiliation": "Georode",
+          "orcid": "0009-0001-4011-3574"
+        },
+        {
+          "name": "Jean-Marc Delouis",
+          "affiliation": "LOPS - Laboratoire d'Oceanographie Physique et Spatiale UMR 6523 CNRS-IFREMER-IRD-Univ.Brest-IUEM, Plouzane, France",
+          "orcid": "0000-0002-0713-1658"
+        },
+        {
+          "name": "Anne Fouilloux",
+          "affiliation": "Simula",
+          "orcid": "0000-0002-1784-2920"
+        },
+        {
+          "name": "Tina Odaka",
+          "affiliation": "LOPS - Laboratoire d'Oceanographie Physique et Spatiale UMR 6523 CNRS-IFREMER-IRD-Univ.Brest-IUEM, Plouzane, France",
+          "orcid": "0000-0002-1500-0156"
+        }
+      ],
+      "description": "Over the past few years, Discrete Global Grid Systems (DGGS) that subdivide the earth into (roughly) equally sized faces have seen a rise in popularity. However, their in-memory representation is different from traditional projection-based data, which is either comprised of evenly shaped rectangular grid (aka raster) or discrete geometries (aka vector), and thus requires specialized tooling. In particular, this includes libraries that can work on the numeric cell ids defined by the specific DGGS. xdggs is a library that provides a unified interface for xarray that allows working with and visualizing a variety of DGGS-indexed data sets.",
+      "zenodo_url": "https://zenodo.org/deposit/17297883",
+      "slide_id": "jmagin-xdggs",
+      "doi": "10.5281/zenodo.17297883"
+    },
+    {
+      "title": "Learning the art of fostering open-source communities",
+      "authors": [
+        {
+          "name": "Sanket Verma",
+          "affiliation": "Zarr",
+          "orcid": "0009-0008-1455-2136"
+        }
+      ],
+      "description": "Open-source projects are intricate ecosystems that consist of humans contributing in a diverse manner. These contributions are one of the essential elements driving the projects and must be encouraged. The humans behind these contributions play a vital role in constituting the lively and diverse community of the project. Both the humans and their contributions must be preserved and handled with utmost care for the success and evolution of the project. As with every community, certain best practices should be followed to maintain its health, and certain pitfalls should be avoided. In this talk, I'll share what I have learned from maintaining the vibrant and wonderful Zarr project and its community over the years.",
+      "zenodo_url": "https://zenodo.org/deposit/17297885",
+      "slide_id": "learning_the_art_of_fostering_oss_community",
+      "doi": "10.5281/zenodo.17297885"
+    },
+    {
+      "title": "Unlocking AI Performance with NeMo Curator: Scalable Data Processing for LLMs",
+      "authors": [
+        {
+          "name": "Allison Ding",
+          "affiliation": "NVIDIA"
+        }
+      ],
+      "description": "A presentation about data processing for training or fine-tuning LLMs using NeMo Curator",
+      "zenodo_url": "https://zenodo.org/deposit/17297857",
+      "slide_id": "LLMs_nemo_curator",
+      "doi": "10.5281/zenodo.17297857"
+    },
+    {
+      "title": "Accelerating Genomic Data Science and AI/ML with Composability",
+      "authors": [
+        {
+          "name": "Nezar Abdennur",
+          "affiliation": "UMass Chan Medical School",
+          "orcid": "0000-0001-5814-0864"
+        }
+      ],
+      "description": "The practice of data science in genomics is fraught with friction. This is largely due to a tight coupling of bioinformatic tools to file input/output, where storage formats are frequently standardized but complex and siloed. In this talk, I argue that the adoption of open standards not restricted to bioinformatics can help better integrate bioinformatic workflows into the wider data science, visualization, and AI/ML ecosystems by promoting \"composable\" architectures. I present two bridge libraries as vignettes for composable genomic data science. The first, Anywidget, is an architecture and toolkit based on modern web standards for sharing interactive widgets across all Jupyter-compatible runtimes, including JupyterLab, Google Colab, VSCode, Marimo, and more. The second, Oxbow, is a Rust and Python-based library that unifies access to common NGS data formats by efficiently transforming queries into Apache Arrow, a standard in-memory columnar representation for tabular data analytics. I demonstrate the use of these libraries to build custom connected genomic analysis and visualization environments. I propose that bridge libraries such as these, which leverage domain-agnostic standards to unbundle specialized file manipulation, analytics, and web interactivity, can serve as the glue for assembling reusable and flexible genomic data analysis and machine learning workflows as well as systems for exploratory data analysis and visualization.",
+      "zenodo_url": "https://zenodo.org/deposit/17297887",
+      "slide_id": "nezar",
+      "doi": "10.5281/zenodo.17297887"
+    },
+    {
+      "title": "Noise Resilient Quantum Computing with Python",
+      "authors": [
+        {
+          "name": "Nate Stemen",
+          "affiliation": "Unitary Foundation",
+          "orcid": "0009-0004-9505-0509"
+        }
+      ],
+      "description": "Today's quantum computers are far noisier than their classical counterparts. Unlike traditional computing errors, quantum noise is more complex, arising from decoherence, crosstalk, and gate imperfections that corrupt quantum states. Error mitigation has become a rapidly evolving field, offering ways to address these errors on existing devices. New techniques emerge regularly, requiring flexible tools for implementation and testing. This talk explores the challenges of mitigating noise and how researchers and engineers use Python to iterate quickly while maintaining reliable and reproducible workflows.",
+      "zenodo_url": "https://zenodo.org/deposit/17297889",
+      "slide_id": "noisy-quantum-computing",
+      "doi": "10.5281/zenodo.17297889"
+    },
+    {
+      "title": "SciPy's New Infrastructure for Probability Distributions and Random Variables",
+      "authors": [
+        {
+          "name": "Albert Steppi",
+          "affiliation": "Quansight PBC, SciPy Library",
+          "orcid": "0000-0001-5871-6245"
+        },
+        {
+          "name": "Matt Haberland",
+          "affiliation": "Cal Poly, San Luis Obispo, SciPy Library",
+          "orcid": "0000-0003-4806-3601"
+        },
+        {
+          "name": "Pamphile Roy",
+          "affiliation": "Consulting Manao GmbH, SciPy Library",
+          "orcid": "0000-0001-9816-1416"
+        }
+      ],
+      "description": "The SciPy library provides objects representing well over 100 univariate probability distributions. These have served the scientific Python ecosystem for decades, but they are built upon an infrastructure that has not kept up with the demands of today's users. To address its shortcomings, SciPy 1.15 includes a new infrastructure for working with probability distributions. This talk will introduce users to the new infrastructure and demonstrate its many advantages in terms of usability, flexibility, accuracy, and performance.",
+      "zenodo_url": "https://zenodo.org/deposit/17352258",
+      "slide_id": "scipy_rv_infrastructure",
+      "doi": "10.5281/zenodo.17352258"
+    },
+    {
+      "title": "Numba v2: Towards a SuperOptimizing Python Compiler",
+      "authors": [
+        {
+          "name": "Siu Kwan Lam",
+          "affiliation": "Anaconda, Inc",
+          "orcid": "0000-0002-5220-3307"
+        }
+      ],
+      "description": "The rapidly evolving Python ecosystem presents increasing challenges for adapting code using traditional methods. Developers frequently need to rewrite applications to leverage new libraries, hardware architectures, and optimization techniques. To address this challenge, the Numba team is developing a superoptimizing compiler built on equality saturation-based term rewriting. This innovative approach enables domain experts to express and share optimizations without requiring extensive compiler expertise. This talk explores how Numba v2 enables sophisticated optimizations—from floating-point approximation and automatic GPU acceleration to energy-efficient multiplication for deep learning models—all through the familiar NumPy API. Join us to discover how Numba v2 is bringing superoptimization capabilities to the Python ecosystem.",
+      "zenodo_url": "https://zenodo.org/deposit/17297895",
+      "slide_id": "siu_kwan_lam",
+      "doi": "10.5281/zenodo.17297895"
+    },
+    {
+      "title": "Taming the Wild West of ML: From Model to Trust",
+      "authors": [
+        {
+          "name": "Mihai Maruseac",
+          "affiliation": "Google, Inc.",
+          "orcid": "0000-0002-6225-1206"
+        }
+      ],
+      "description": "Three years ago, with the arrival of ChatGPT, the world of AI entered a new era. Apllications and tools using AI flourished. However, the security risks of using AI are still not all fully understood. In particular, there is little thought paid to the supply chain security of a model. Tampering with a model has significant impact downstream. In this talk, we show how building upon tamper-proof metadata for ML artifacts, we can secure the ML supply chain. That is, we show how the OpenSSF model signing secures the most important part of the ML supply chain: the model.",
+      "zenodo_url": "https://zenodo.org/deposit/17297897",
+      "slide_id": "trust-in-ML-supply-chain",
+      "doi": "10.5281/zenodo.17297897"
+    },
+    {
+      "title": "Burning fuel for cheap! Transport-independent depletion in OpenMC",
+      "authors": [
+        {
+          "name": "Oleksandr Yardas",
+          "affiliation": "Dept. of Nuclear, Plasma, and Radiological Engineering, University of Illinois Urbana-Champaign",
+          "orcid": "0000-0003-0715-585X"
+        },
+        {
+          "name": "Paul Romano",
+          "affiliation": "Argonne National Laboratory",
+          "orcid": "0000-0002-1147-045X"
+        },
+        {
+          "name": "Madicken Muk",
+          "affiliation": "Dept. of Nuclear Science and Engineering, Oregon State University",
+          "orcid": "0000-0003-0117-5366"
+        },
+        {
+          "name": "Kathryn Huff",
+          "affiliation": "Dept. of Nuclear, Plasma, and Radiological Engineering, University of Illinois Urbana-Champaign",
+          "orcid": "0000-0002-7075-6802"
+        }
+      ],
+      "description": "We have added functionality for running depletion simulations independently of neutron transport in OpenMC, an open source Monte Carlo particle transport code with an internal depletion module. Transport-independent depletion uses pre-computed static multigroup cross sections and fluxes to calculate reaction rates for OpenMC's depletion matrix solver. This accelerates the depletion calculation, but removes the spatial coupling between depletion and neutron transport. We used a simple PWR pincell to validate the method against the existing transport-coupled depletion method. Nuclide concentration errors roughly scale with depletion time step size and are inversely proportional to the amount of the nuclide present in a depletable material. The magnitude of concentration error depends on the nuclide of interest. Concentration errors for low-abundance nuclides at longer (30-day) time steps exhibit large negative initial concentration the becomes more positive with time due to overestimation of nuclide production stemming from the lack of spatial coupling to neutron transport. For ten 3-day time steps, fission product concentration errors are all under 3%. Actinide concentration errors range from 10-15% for Am and Cm, 5-7% for Pu and Np, and 2% and less for U. Surprisingly, the numbers are similar for 30-day time steps. These results demonstrate the potential of this new method with moderate accuracy and extraordinary time savings for low and medium fidelity simulations. Concentration error characterization on larger models remains an open area of interest.",
+      "zenodo_url": "https://zenodo.org/deposit/17297899",
+      "slide_id": "yardas_burning_fuel_for_cheap",
+      "doi": "10.5281/zenodo.17297899"
+    },
+    {
+      "title": "Zamba: Computer vision for wildlife conservation",
+      "authors": [
+        {
+          "name": "Emily Dorne",
+          "affiliation": "DrivenData",
+          "orcid": "0009-0004-6185-7611"
+        },
+        {
+          "name": "Jay Qi",
+          "affiliation": "DrivenData",
+          "orcid": "0009-0000-9154-393X"
+        }
+      ],
+      "description": "Camera traps are an essential tool for wildlife research. Zamba is an open source Python package that leverages machine learning and computer vision to automate time-intensive processing tasks for wildlife camera trap data. This talk will dive into Zamba's capabilities and key factors that influenced its design and development. Topics will include the importance of code-free custom model training, Zamba's origins in an open machine learning competition, and the technical challenges of processing video data. Attendees will walk away with a better understanding of how machine learning and Python tools can support conservation efforts.",
+      "zenodo_url": "https://zenodo.org/deposit/17297903",
+      "slide_id": "zamba_computer_vision_for_wildlife_conservation",
+      "doi": "10.5281/zenodo.17297903"
+    },
+    {
+      "title": "zfit: scalable pythonic likelihood fitting",
+      "authors": [
+        {
+          "name": "Jonas Eschle",
+          "affiliation": "CERN",
+          "orcid": "0000-0002-7312-3699"
+        },
+        {
+          "name": "Albert Puig Navarro",
+          "affiliation": "Independent",
+          "orcid": "0000-0001-8868-2947"
+        },
+        {
+          "name": "Rafael Silva Coutinho",
+          "affiliation": "Centro Brasileiro de Pesquisas Físicas",
+          "orcid": "0000-0002-1545-959X"
+        },
+        {
+          "name": "Nicola Serra",
+          "affiliation": "University of Zurich",
+          "orcid": "0000-0002-5033-0580"
+        },
+        {
+          "name": "Matthieu Marinangeli",
+          "affiliation": "Independent",
+          "orcid": "0000-0002-8361-9356"
+        },
+        {
+          "name": "Iason Krommydas",
+          "affiliation": "Rice University",
+          "orcid": "0000-0001-7849-8863"
+        }
+      ],
+      "description": "This talk presents zfit with the newest improvements, a general purpose distribution fitting library for complicated model building beyond fitting a normal distribution. The talk will cover all aspects of fitting with a focus on the strong model building part in zfit; composable distributions with sums, products and more, build and mix binned and unbinned, analytic and templated functions in multiple dimensions. This includes the creation of arbitrary, custom distributions with minimal effort that fulfils everyones need. Thanks to the numpy-like backend used by TensorFlow, zfit is highly performant by using JIT compiled code on CPUs and even GPUs, a showcase for scientific computing faster than numpy.",
+      "zenodo_url": "https://zenodo.org/deposit/17297909",
+      "slide_id": "zfit",
+      "doi": "10.5281/zenodo.17297909"
+    }
+  ],
+  "tools": []
+}

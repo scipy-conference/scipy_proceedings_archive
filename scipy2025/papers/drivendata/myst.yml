@@ -1,0 +1,263 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 85
+  last_page: 111
+  doi: 10.25080/crcw9835
+  id: scipy-2025-drivendata
+  # Ensure your title is the same as in your `main.md`
+  title: 'Zamba: Computer vision for wildlife conservation'
+  # subtitle:
+  description: We present Zamba, an open source Python package designed to streamline camera trap data processing through machine learning. Zamba supports inference and custom model training for species classification on videos and images, as well as depth estimation inference for videos.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Emily Dorne
+      email: emily@drivendata.org
+      orcid: 0009-0004-6185-7611
+      affiliations:
+        - DrivenData
+      roles:
+        - Methodology
+        - Software
+        - Supervision
+        - Visualization
+        - Writing - original draft
+    - name: Jay Qi
+      email: jay@drivendata.org
+      orcid: 0009-0000-9154-393X
+      affiliations:
+        - DrivenData
+      roles:
+        - Methodology
+        - Software
+        - Visualization
+        - Writing - original draft
+    - name: Peter Bull
+      email: peter@drivendata.org
+      orcid: 0000-0001-5709-8799
+      affiliations:
+        - DrivenData
+      roles:
+        - Methodology
+        - Software
+        - Supervision
+        - Visualization
+        - Writing - review & editing
+    - name: Colleen Stephens
+      email: colleenrstephens@gmail.com
+      roles:
+        - Data curation
+        - Validation
+      affiliations:
+        - Max Planck Institute for Evolutionary Anthropology
+    - name: Mattia Bessone
+      email: mattia.bessone@gmail.com
+      orcid: 0000-0002-8066-6413
+      roles:
+        - Resources
+        - Data curation
+      affiliations:
+        - Max Planck Institute for Evolutionary Anthropology
+        - Centre for the Advanced Study of Collective Behaviour, University of Konstanz
+        - Department of Animal Societies, Max Planck Institute of Animal Behavior
+    - name: Benjamin Debetencourt
+      email: b_debetencourt@eva.mpg.de
+      orcid: 0000-0003-2452-0986
+      roles:
+        - Resources
+        - Data curation
+      affiliations:
+        - Wild Chimpanzee Foundation
+        - Max Planck Institute for Evolutionary Anthropology
+    - name: Barbara Fruth
+      email: bfruth@ab.mpg.de
+      orcid: 0000-0001-9217-3053
+      roles:
+        - Resources
+        - Data curation
+      affiliations:
+        - Department for the Ecology of Animal Societies, Max-Planck Institute of Animal Behavior
+        - Centre for Research and Conservation/KMDA
+    - name: David Morgan
+      email: dmorgan@lpzoo.org
+      orcid: 0000-0003-1266-2610
+      roles:
+        - Resources
+        - Data curation
+      affiliations:
+        - Lester E. Fisher Center for the Study and Conservation of Apes, Lincoln Park Zoo
+    - name: Meredith S. Palmer
+      email: meredith.s.palmer@yale.edu
+      orcid: 0000-0002-1416-1732
+      roles:
+        - Resources
+        - Data curation
+      affiliations:
+        - Center for Biodiversity and Global Change, Yale University
+    - name: Crickette Sanz
+      email: csanz@wustl.edu
+      orcid: 0000-0003-2018-2721
+      roles:
+        - Resources
+        - Data curation
+      affiliations:
+        - Department of Anthropology, Washington University in Saint Louis
+        - Congo Program, Wildlife Conservation Society
+    - name: Janika Wendefeuer
+      email: janika.wendefeuer@gmail.com
+      orcid: 0000-0002-4832-6603
+      roles:
+        - Resources
+        - Data curation
+      affiliations:
+        - Universität Hamburg
+        - WWF Central African Republic
+    - name: Catherine Crockford
+      email: crockford@isc.cnrs.fr
+      orcid: 0000-0001-6597-5106
+      roles:
+        - Resources
+      affiliations:
+        - Ape Social Mind Lab, Institute for Cognitive Sciences Marc Jeannerod (UMR 5229), CNRS and University of Lyon 1
+        - Taï Chimpanzee Project, Centre Suisse de Recherches Scientifiques
+    - name: Tobias Deschner
+      email: tdeschner@uni-osnabrueck.de
+      orcid: 0000-0002-9873-316X
+      roles:
+        - Resources
+      affiliations:
+        - Institute of Cognitive Science, University of Osnabrück
+        - Max Planck Institute for Evolutionary Anthropology
+    - name: Kevin E. Langergraber
+      email: Kevin.Langergraber@asu.edu
+      orcid: 0000-0003-1697-4558
+      roles:
+        - Resources
+      affiliations:
+        - School of Human Evolution and Social Change, Arizona State University
+        - Institute of Human Origins
+    - name: Alex K. Piel
+      email: a.piel@ucl.ac.uk
+      orcid: 0000-0002-4674-537X
+      roles:
+        - Resources
+      affiliations:
+        - Department of Anthropology, University College London
+        - Department of Human Origins, Max Planck Institute for Evolutionary Anthropology
+        - GMERC, LTD. (Greater Mahale Ecosystem Research and Conservation Project)
+    - name: Martha Robbins
+      email: robbins@eva.mpg.de
+      orcid: 0000-0002-6037-7542
+      roles:
+        - Resources
+      affiliations:
+        - Department of Primate Behavior and Evolution, Max Planck Institute for Evolutionary Anthropology
+    - name: Volker Sommer
+      email: v.sommer@ucl.ac.uk
+      orcid: 0000-0001-6749-3362
+      roles:
+        - Resources
+      affiliations:
+        - Department of Anthropology, University College London
+        - Gashaka Primate Project
+    - name: Fiona A. Stewart
+      email: f.stewart@ucl.ac.uk
+      orcid: 0000-0002-4929-4711
+      roles:
+        - Resources
+      affiliations:
+        - Department of Anthropology, University College London
+        - Department of Human Origins, Max Planck Institute for Evolutionary Anthropology
+        - GMERC, LTD. (Greater Mahale Ecosystem Research and Conservation Project)
+    - name: Roman M. Wittig
+      email: roman.wittig@isc.cnrs.fr
+      orcid: 0000-0001-6490-4031
+      roles:
+        - Resources
+      affiliations:
+        - Ape Social Mind Lab, Institute for Cognitive Sciences Marc Jeannerod (UMR 5229), CNRS and University of Lyon 1
+        - Taï Chimpanzee Project, Centre Suisse de Recherches Scientifiques
+    - name: Klaus Zuberbuehler
+      email: klaus.zuberbuehler@unine.ch
+      orcid: 0000-0001-8378-088X
+      roles:
+        - Resources
+      affiliations:
+        - Institut de Biologie, Université de Neuchâtel
+        - School of Psychology and Neuroscience, University of St Andrews
+    - name: Hjalmar S. Kühl
+      email: hjalmar.kuehl@senckenberg.de
+      orcid: 0000-0003-2325-2879
+      affiliations:
+        - Senckenberg Museum of Natural History Görlitz
+        - International Institute Zittau, Technische Universität Dresden
+      roles:
+        - Conceptualization
+        - Data curation
+        - Funding acquisition
+        - Project administration
+        - Resources
+        - Supervision
+        - Writing - review & editing
+    - name: Mimi Arandjelovic
+      email: arandjel@eva.mpg.de
+      orcid: 0000-0001-8920-9684
+      roles:
+        - Conceptualization
+        - Data curation
+        - Funding acquisition
+        - Project administration
+        - Resources
+        - Supervision
+        - Writing - review & editing
+      affiliations:
+        - Department of Primate Behavior and Evolution, Max Planck Institute for Evolutionary Anthropology
+        - German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig
+
+  keywords:
+    - camera traps
+    - computer vision
+    - machine learning
+    - wildlife conservation
+    - species classification
+    - depth estimation
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MPI-EVA: Max Planck Institute for Evolutionary Anthropology
+    WCF: Wild Chimpanzee Foundation
+    ML: Machine learning
+    CNN: Convolutional neural network
+    ECDF: Empirical cumulative distribution function
+    FTP: File transfer protocol
+    CSV: Comma-separated values
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - primatrix_competition
+        - primatrix_results
+        - deepchimpact_competition
+        - takahe_case_study
+        - fastai_timedistributed
+        - lila_bc
+        - ffmpeg_wasm
+        - ffmpeg
+        - django
+        # LILA BC datasets
+        - channel_islands
+        - desert_lion_conservation
+        - ena24
+        - idaho
+        - island_conservation
+        - new_zealand_trailcams
+        - swg
+        - wcs
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf
+  banner: banner.jpg
+  thumbnail: banner.jpg

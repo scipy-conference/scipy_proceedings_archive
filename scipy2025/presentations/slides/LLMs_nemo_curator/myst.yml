@@ -1,0 +1,11 @@
+version: 1
+extends: ../../../proceedings.yml
+project:
+  doi: 10.5281/zenodo.17297857
+  identifiers:
+    zenodo: https://zenodo.org/deposit/17297857
+  title: 'Unlocking AI Performance with NeMo Curator: Scalable Data Processing for LLMs'
+  authors:
+    - name: Allison Ding
+      affiliation: NVIDIA
+  abstract: A presentation about data processing for training or fine-tuning LLMs using NeMo Curator

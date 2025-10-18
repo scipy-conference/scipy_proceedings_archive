@@ -1,0 +1,59 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 194
+  last_page: 201
+  doi: 10.25080/jcuj3732
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-kedar_dabhadkar_watersat
+  # Ensure your title is the same as in your `main.md`
+  title: 'Eyes in the sky: Estimating Inland Water Quality Using Landsat Data'
+  # subtitle:
+  description: Algal blooms threaten human health and aquatic ecosystems, making monitoring essential. While Chlorophyll-A (Chl-a) effectively indicates algal presence, laboratory analysis is complex. This study utilizes satellite imagery as an alternative, addressing previous research limitations caused by scarce lab data.
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Kedar Dabhadkar
+      email: kdabhadk@gmail.com
+      orcid: 0000-0002-9283-4103
+      affiliations:
+        - Independent Researcher
+  keywords:
+    - water quality
+    - landsat
+    - remote sensing
+    - earth observation
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    WQP: Water Quality Portal
+    EO: Earth Observation
+    RMSE: Root Mean Square Error
+    MAE: Mean Absolute Error
+    MAPE: Mean Absolute Percentage Error
+    EPA: Environmental Protection Agency
+    USGS: United States Geological Survey
+    NIR: Near Infrared
+    SWIR: Short Wave Infrared
+    RGB: Red Green Blue
+    NDWI: Normalized Difference Water Index
+    HAB: Harmful Algal Bloom
+    Chl-a: Chlorophyll-a
+    GEE: Google Earth Engine
+    NHD: National Hydrography Dataset
+    NWQMC: National Water Quality Monitoring Council
+    RSD: relative standard deviation
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

@@ -14,12 +14,12 @@ keywords: []
 ---
 
 +++ { "class": "text-center my-2 text-xl" }
-**From the 2024 Proceedings**
+**From the 2025 Proceedings**
 +++
 
 ```{cn:articles}
 :venue: scipy
-:collection: 2024
+:collection: 2025
 :limit: 4
 :show-thumbnails: true
 :show-date: false
@@ -30,7 +30,7 @@ keywords: []
 
 +++ { "class": "text-center my-2" }
 
-[See All 2024 Articles](/2024)
+[See All 2025 Articles](/2025)
 
 +++
 

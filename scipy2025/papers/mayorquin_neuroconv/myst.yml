@@ -1,0 +1,112 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 245
+  last_page: 258
+  doi: 10.25080/cehj4257
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-mayorquin_neuroconv
+  # Ensure your title is the same as in your `main.md`
+  title: 'NeuroConv: Streamlining Neurophysiology Data Conversion to the NWB Standard'
+  description: The field of experimental neurophysiology uses dozens of unique acquisition devices, many of which store data in their own proprietary formats, making data sharing a difficult task. Our library reads these formats and transforms them to the standard NWB format, a FAIR data structure supported by major data archives.
+  authors:
+    - name: Heberto Mayorquin
+      email: h.mayorquin@gmail.com
+      orcid: 0000-0002-5937-7537
+      corresponding: true
+      affiliations:
+        - CatalystNeuro
+    - name: Cody Baker
+      orcid: 0000-0002-0829-4790
+      affiliations:
+        - Dartmouth College, Center for Open Neuroscience
+    - name: Paul Adkisson-Floro
+      email: paul.adkisson@catalystneuro.com
+      orcid: 0009-0005-8943-5450
+      affiliations:
+        - CatalystNeuro
+    - name: Szonja Weigl
+      email: szonja.weigl@catalystneuro.com
+      orcid: 0000-0001-6615-1360
+      affiliations:
+        - CatalystNeuro
+    - name: Alessandra Trappani
+      email: alessandramaria.trapani@gmail.com
+      orcid: 0000-0001-5182-0541
+      affiliations:
+        - CatalystNeuro
+    - name: Luiz Tauffer
+      email: luiz.tauffer@catalystneuro.com
+      orcid: 0000-0003-1147-2954
+      affiliations:
+        - CatalystNeuro
+    - name: Oliver Rübel
+      orcid: 0000-0001-9902-1984
+      affiliations:
+        - Lawrence Berkeley National Laboratory
+    - name: Benjamin Dichter
+      email: ben.dichter@catalystneuro.com
+      orcid: 0000-0001-5725-6910
+      affiliations:
+        - CatalystNeuro
+      corresponding: true
+  keywords:
+    - Neurodata without borders
+    - Neurophysiology
+    - Data standardization
+    - Scientific software
+  banner: ./assets/banner.png
+  thumbnail: ./assets/neuroconv_logo_white_bg.png
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    NWB: Neurodata Without Borders
+    FAIR: Findable, Accessible, Interoperable, and Reusable
+    CI: continuous integration
+    DANDI: Distributed Archives for Neurophysiology Data Integration
+  # It is possible to explicitly ignore the `doi-exists` check for certain citation keys
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - Atr03
+        - terradesert
+        - jupyter
+        - sklearn1
+        - sklearn2
+        - stringer2024analysis
+        - bradski2000opencv
+        - nwb_2015
+        - nwb_2022
+        - MEF3_format_2016
+        - neuropixels_2018
+        - optical_physiology_methods_2022
+        - amazon_scientific_workflows_2009
+        - ome_ngff_2021
+        - alessio_compression_2023
+        - zarr_performance
+        - nguyen2023impact
+        - code_coverage_google
+        - coverage_continuous_integration_theater_2019
+        - neo
+        - spikeinterface
+        - probeinterface
+        - suite2p
+        - caiman
+        - extract_2017
+        - extract_2021
+        - cnmfe_e_2016
+        - cnmf_e_2018
+        - sleap_2022
+        - deep_lab_cut_2018
+        - lightning_pose_2024
+        - scipy
+        - diataxis
+        - cost_effective_scientific_datasets_2016
+        - share_data_kowlow_2000
+        - fair_paper_2016
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.md
+      output: full_text.pdf

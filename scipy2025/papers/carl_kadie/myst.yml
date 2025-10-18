@@ -1,0 +1,34 @@
+version: 1
+extends: ../papers.yml
+project:
+  first_page: 38
+  last_page: 53
+  doi: 10.25080/kcht7476
+  # Update this to match `scipy-2025-<folder>` the folder should be `<firstname_surname>`
+  id: scipy-2025-carl_kadie
+  # Ensure your title is the same as in your `main.md`
+  title: Explore Solvable and Unsolvable Equations with SymPy
+  subtitle: Find Closed-Form Solutions When Possible – Use Numerical Methods When Necessary
+  description: 'Why can we solve some equations easily, while others seem impossible? And another thing: why is this knowledge hidden from us?'
+
+  # Authors should have affiliations, emails and ORCIDs if available
+  authors:
+    - name: Carl Kadie
+      email: carlk@msn.com
+      orcid: 0009-0001-5663-2176
+      affiliations:
+        - FaST-LMM Open Source Genomics Project
+  keywords:
+    - Mathematics
+    - Data Science
+    - Python
+    - Science
+  # Add the abbreviations that you use in your paper here
+  abbreviations:
+    MyST: Markedly Structured Text
+  exports:
+    - id: pdf
+      format: typst
+      template: https://github.com/curvenote-templates/scipy.git
+      article: main.ipynb
+      output: full_text.pdf

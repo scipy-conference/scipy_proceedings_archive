@@ -1,0 +1,367 @@
+{
+  "proceedings": {
+    "doi": "",
+    "xref": {
+      "prefix": "10.25080",
+      "registrant": "Crossref",
+      "resource_url": "https://conference.scipy.org/proceedings",
+      "depositor_name": "SciPy Proceedings",
+      "depositor_email": "proceedings@scipy.org"
+    },
+    "copyright": {
+      "proceedings": [
+        "The articles in the Proceedings of the Python in Science Conference are copyrighted and owned by their original authors",
+        "This is an open-access publication and is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+        "For more information, please see:  http://creativecommons.org/licenses/by/3.0/"
+      ],
+      "article": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "license": "Creative Commons Attribution License (CCAL)"
+    },
+    "title": {
+      "conference": "Python in Science Conference",
+      "full": "Proceedings of the 24th Python in Science Conference",
+      "short": "PROC. OF THE 24th PYTHON IN SCIENCE CONF. (SCIPY 2025)",
+      "acronym": "SciPy",
+      "ordinal": "24th"
+    },
+    "citation_key": "proc-scipy-2025",
+    "editor_email": [
+      "ameyambade@gmail.com",
+      "AEComesana@lbl.gov",
+      "lindseycster@gmail.com",
+      "franklin@curvenote.com",
+      "hongsup.shin@pm.me",
+      "rowan@curvenote.com",
+      "sanhita.joshi@gmail.com",
+      "sean.freeman@uah.edu"
+    ],
+    "dates": "July 7 - July 13",
+    "editor": [
+      "Amey Ambade",
+      "Ana Comesana",
+      "Charles Lindsey",
+      "Franklin Koch",
+      "Hongsup Shin",
+      "Rowan Cockett",
+      "Sanhita Joshi",
+      "Sean Freeman"
+    ],
+    "location": "Tacoma, Seattle",
+    "volume": 10,
+    "number": 1,
+    "isbn": "noisbn",
+    "year": "2025"
+  },
+  "organization": [
+    {
+      "name": "Conference Co-Chairs",
+      "members": [
+        {
+          "name": "Julie Krugler Hollek"
+        },
+        {
+          "name": "Madicken Munk"
+        }
+      ]
+    },
+    {
+      "name": "Program",
+      "members": [
+        {
+          "name": "Naty Clement"
+        },
+        {
+          "name": "Matthew Feickert"
+        },
+        {
+          "name": "Gil Forsythe"
+        },
+        {
+          "name": "Ariana Mendible"
+        }
+      ]
+    },
+    {
+      "name": "Tutorial",
+      "members": [
+        {
+          "name": "Paul Anzel"
+        },
+        {
+          "name": "Matt Craig"
+        },
+        {
+          "name": "Allen Harvey"
+        },
+        {
+          "name": "Tetsuo Koyama"
+        },
+        {
+          "name": "Inessa Pawson (Teen Track)"
+        }
+      ]
+    },
+    {
+      "name": "Hybrid",
+      "members": [
+        {
+          "name": "Rebecca BurWei"
+        },
+        {
+          "name": "David Nicholson"
+        },
+        {
+          "name": "Neelima Pulagam"
+        },
+        {
+          "name": "Shubham Sharma"
+        }
+      ]
+    },
+    {
+      "name": "Proceedings",
+      "members": [
+        {
+          "name": "Amey Ambade"
+        },
+        {
+          "name": "Rowan Cockett"
+        },
+        {
+          "name": "Ana Comesana"
+        },
+        {
+          "name": "Sean Freeman"
+        },
+        {
+          "name": "Sanhita Joshi"
+        },
+        {
+          "name": "Franklin Koch"
+        },
+        {
+          "name": "Charles Lindsey"
+        },
+        {
+          "name": "Hongsup Shin"
+        }
+      ]
+    },
+    {
+      "name": "Community Outreach",
+      "members": [
+        {
+          "name": "Juanita Gomez"
+        },
+        {
+          "name": "James Lamb"
+        },
+        {
+          "name": "Cynthia Chen"
+        },
+        {
+          "name": "Juan Cabanela"
+        }
+      ]
+    },
+    {
+      "name": "Birds-of-a-Feather",
+      "members": [
+        {
+          "name": "Michael Akerman"
+        },
+        {
+          "name": "Mike Droettboom"
+        }
+      ]
+    },
+    {
+      "name": "Sprints",
+      "members": [
+        {
+          "name": "Hannah Aizenman"
+        },
+        {
+          "name": "Nathan Goldbaum"
+        },
+        {
+          "name": "Brigitta Sipőcz"
+        }
+      ]
+    },
+    {
+      "name": "Activities",
+      "members": [
+        {
+          "name": "Matt Davis"
+        },
+        {
+          "name": "Ed Rogers"
+        },
+        {
+          "name": "Oleksandr Yardas"
+        }
+      ]
+    },
+    {
+      "name": "Financial Aid",
+      "members": [
+        {
+          "name": "Eric Ma"
+        },
+        {
+          "name": "Nadia Tahiri"
+        }
+      ]
+    },
+    {
+      "name": "Sponsors/Financial/Logistics",
+      "members": [
+        {
+          "org": "NumFOCUS",
+          "name": "Jim Weiss"
+        }
+      ]
+    },
+    {
+      "name": "Proceedings Reviewers",
+      "members": [
+        {
+          "name": "Tolulade Ademisoye"
+        },
+        {
+          "name": "Nitin Appiah"
+        },
+        {
+          "name": "Georgios Artavanis"
+        },
+        {
+          "name": "Himaghna Bhattacharjee"
+        },
+        {
+          "name": "Matthew Feickert"
+        },
+        {
+          "name": "Bhaskar Goyal"
+        },
+        {
+          "name": "Allen S. Harvey Jr."
+        },
+        {
+          "name": "Mike He"
+        },
+        {
+          "name": "David Heagy"
+        },
+        {
+          "name": "Jennifer Iloekwe"
+        },
+        {
+          "name": "Aditi Juneja"
+        },
+        {
+          "name": "Madhav Kashyap"
+        },
+        {
+          "name": "Sanjay Belaturu Krishnegowda"
+        },
+        {
+          "name": "James Lamb"
+        },
+        {
+          "name": "Matthew Lesko"
+        },
+        {
+          "name": "Jiahang Li"
+        },
+        {
+          "name": "Smit Lunagariya"
+        },
+        {
+          "name": "Mihai Maruseac"
+        },
+        {
+          "name": "Kurt McKee"
+        },
+        {
+          "name": "Manoj Krishna Mohan"
+        },
+        {
+          "name": "Steven Moss"
+        },
+        {
+          "name": "Chong Shen Ng"
+        },
+        {
+          "name": "Andrei Paleyes"
+        },
+        {
+          "name": "Yan Ru Pei"
+        },
+        {
+          "name": "Pranoy Ray"
+        },
+        {
+          "name": "Kyohei Sahara"
+        },
+        {
+          "name": "Will Sanger"
+        },
+        {
+          "name": "Praveen Gupta Sanka"
+        },
+        {
+          "name": "Pushkar Sathe"
+        },
+        {
+          "name": "Henry Schreiner"
+        },
+        {
+          "name": "Chirag Shah"
+        },
+        {
+          "name": "Neel Shah"
+        },
+        {
+          "name": "Anil Sharma"
+        },
+        {
+          "name": "Yash Sharma"
+        },
+        {
+          "name": "Varun Shivashankar"
+        },
+        {
+          "name": "Anmol Singhal"
+        },
+        {
+          "name": "Hansila Sudasinghe"
+        },
+        {
+          "name": "Nadia Tahiri"
+        },
+        {
+          "name": "Naomi Tang"
+        },
+        {
+          "name": "Dinesh Rathinasamy Thangavel"
+        },
+        {
+          "name": "Jennifer Yoon"
+        }
+      ]
+    }
+  ],
+  "series": {
+    "title": {
+      "full": "Proceedings of the Python in Science Conference"
+    },
+    "doi": "10.25080/issn.2575-9752",
+    "xref": {
+      "issn": "2575-9752",
+      "resource_url": "https://conference.scipy.org/proceedings"
+    }
+  },
+  "scipy_scholarship": [],
+  "diversity_scholarship": []
+}
