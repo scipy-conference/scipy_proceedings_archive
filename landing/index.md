@@ -1,17 +1,20 @@
 ---
-title: Home
-description: ''
-short_title: ''
+title: Scientific Python Proceedings
 date: '2024-01-09T10:32:26.426Z'
-name: index
 doi: 10.25080/issn.2575-9752
-open_access: true
-license: {}
-subject: ''
-oxa: oxa:SB8OiXZDvFEIzCMnnuGf/kaIKVwCKDXzIHpZuyviT
-tags: []
-keywords: []
+site:
+  hide_outline: true
+  hide_title_block: true
 ---
+
+:::{hero .col-screen} Python in Science Conferences
+:background-image: hero.webp
+:max-width: 100, 100, 55, 50
+:overlay: 80, 80, 10, 10
+:kicker: THE PROCEEDINGS
+:actions: [Read 2025 Articles](2025.md) [SciPy Conference](https://www.scipy2025.scipy.org)
+The SciPy Conference is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research. This event strives to bring together both users and developers of scientific tools, as well as academic research and state of the art industry.
+:::
 
 +++ { "class": "text-center my-2 text-xl" }
 **From the 2025 Proceedings**
@@ -30,7 +33,7 @@ keywords: []
 
 +++ { "class": "text-center my-2" }
 
-[See All 2025 Articles](/2025)
+[See All 2025 Articles](./2025.md)
 
 +++
 
