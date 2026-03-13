@@ -6,6 +6,11 @@ site:
   domains:
     - scipy-landing.curve.space
     - scipy-landingstaging.curve.space
+  nav:
+    - title: 2025 Articles
+      url: /2025
+    - title: 2025 Conference
+      url: https://www.scipy2025.scipy.org
 project:
   description: The Proceedings of the Science in Python Conferences
   open_access: true
