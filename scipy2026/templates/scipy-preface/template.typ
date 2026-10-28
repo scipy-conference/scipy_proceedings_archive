@@ -35,7 +35,7 @@
   #v(-0.2em)
   #text(size:7.5pt)[For more information, please see: [-doc.license.content.url-]]
   #v(1em)
-  #text(size:7.5pt)[ISSN:[-doc.venue.issn-]]
+  #text(size:7.5pt)[ISSN: [-doc.venue.issn-]]
   #v(-0.5em)
   #text(size:7.5pt)[https://doi.org/[-doc.doi-]]
 ]
