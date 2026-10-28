@@ -10,7 +10,7 @@ project:
     graph, vectors) inside the Python process, with a bundled Java runtime and
     no server.
   # Site card (square) + page header banner (wide 2.35:1), both Python + ArcadeDB branded
-  thumbnail: figures/thumbnail.png
+  thumbnail: figures/thumbnail.jpg
   banner: figures/banner.png
   authors:
     - name: Taewoon Kim

@@ -16,7 +16,7 @@ project:
   # doi: 10.25080/****
   subject: Proceedings
   thumbnail: thumbnail.png
-  banner: banner.png
+  banner: banner.jpg
   plugins:
     - scipy.plugin.mjs
   authors:
