@@ -1,6 +1,7 @@
 version: 1
 extends: ../../../proceedings.yml
 project:
+  doi: 10.5281/zenodo.23745150
   identifiers:
     zenodo: https://zenodo.org/deposit/23745150
   title: A Lean and Kind OME-Zarr Toolkit for Bioimaging

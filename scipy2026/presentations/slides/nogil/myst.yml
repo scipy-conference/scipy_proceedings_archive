@@ -1,6 +1,7 @@
 version: 1
 extends: ../../../proceedings.yml
 project:
+  doi: 10.5281/zenodo.23745146
   identifiers:
     zenodo: https://zenodo.org/deposit/23745146
   title: 'Tying Up Loose Threads: Making your Project No-GIL Ready'

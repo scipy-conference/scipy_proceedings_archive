@@ -36,6 +36,76 @@
   ],
   "lightning": [],
   "posters": [],
-  "slides": [],
-  "tools": []
+  "slides": [
+    {
+      "title": "A Lean and Kind OME-Zarr Toolkit for Bioimaging",
+      "authors": [
+        {
+          "name": "Matt McCormick",
+          "affiliation": "Fideus Labs LLC",
+          "orcid": "0000-0001-9475-3756"
+        }
+      ],
+      "description": "Bioimaging generates massive datasets in fragmented, proprietary formats that are difficult to share and align with FAIR principles. ngff-zarr is a lightweight, open-source Python toolkit implementing the OME-Zarr specification -- the community-driven, cloud-native bioimaging standard. With minimal dependencies and a simple pipeline interface, ngff-zarr converts, validates, and generates multiscale representations of extremely large images out-of-core via Dask. Features include multiple downscaling methods, OME-Zarr Zip archives (.ozx), RFC-4 anatomical orientation, and High Content Screening support. This talk also covers ngff-zarr's Model Context Protocol (MCP) server, which enables AI agents to perform bioimaging tasks through natural language, and lessons learned from its deployment at EMBL.",
+      "zenodo_url": "https://zenodo.org/deposit/23745150",
+      "slide_id": "ngff-zarr",
+      "doi": "10.5281/zenodo.23745150"
+    },
+    {
+      "title": "Tying Up Loose Threads: Making your Project No-GIL Ready",
+      "authors": [
+        {
+          "name": "Charlie Lin"
+        }
+      ],
+      "description": "If you messed around with Python's command line options or read the official documentation, you might wonder what the -Xgil option or the PYTHON_GIL environment variable did to your scripts, and whether setting either affects performance. The hubbub on popular wheels such as pyo3, python-zstandard, numpy, uv, cffi, and cython supporting the free-threaded interpreter is no passing fad either. For Pythonistas that don't read PEPs in their spare time or contribute to the cpython project itself, an adventure that delves into a less known, yet jaw-dropping aspect of Python awaits! Python's Global Interpreter Lock, which determines which single thread can execute native Python code and call C API functions, simplifies writing multithreaded code. However, sticking with this execution model leaves out extra performance afforded by modern multicore CPUs with hyperthreading, as automatic locking and unlocking of the GIL does not scale well with thread counts, especially in performance-sensitive workloads. The newfangled free-threaded interpreter promises salvation when running either pure Python code or with compiled extensions. General multithreading rules apply (prefer thread-local variables, using locks to prevent simultaneous access of shared data), but when dealing with projects containing compiled extensions that directly or indirectly interface with Python's C API, more porting rules also apply. Key porting tips, including projects using the Limited API, include: port native code away from C API functions that avoid borrowed references because they aren't thread-safe; modify unit tests to catch concurrency bugs arising from assuming the presence of the GIL; and extend CI coverage of Python interpreters both for testing and to build free-threaded compatible wheels.",
+      "zenodo_url": "https://zenodo.org/deposit/23745146",
+      "slide_id": "nogil",
+      "doi": "10.5281/zenodo.23745146"
+    },
+    {
+      "title": "Learning in the Open: Integrating Open Source Contributions into the Classroom",
+      "authors": [
+        {
+          "name": "Mohammad Mundiwala",
+          "affiliation": "University of Connecticut",
+          "orcid": "0009-0001-5282-9414"
+        },
+        {
+          "name": "Ryan C. Cooper",
+          "affiliation": "University of Connecticut"
+        },
+        {
+          "name": "Ryan Curtin",
+          "affiliation": "mlpack",
+          "orcid": "0000-0002-9903-8214"
+        },
+        {
+          "name": "Inessa Pawson",
+          "affiliation": "University of Connecticut, OpenTeams",
+          "orcid": "0000-0001-7294-122X"
+        }
+      ],
+      "description": "In Fall 2025, the UConn School of Mechanical, Aerospace, and Manufacturing Engineering launched Open Source Experiences, an elective course developed in partnership with six NumFOCUS-supported projects (napari, BiocPy, Blosc, MNE-Python, mlpack, JuliaHub). The course embedded students directly into active open source communities, where they contributed to the codebases, collaborated with project maintainers, and learned about community-driven open source software development. In this talk, we will share the lessons learned from piloting this collaboration model, and how these experiences benefit students, open source and open science communities, and educators alike. Attendees will take away actionable insights for integrating open source contributions into their own classrooms and programs.",
+      "zenodo_url": "https://zenodo.org/deposit/23745142",
+      "slide_id": "oss-classroom",
+      "doi": "10.5281/zenodo.23745142"
+    }
+  ],
+  "tools": [
+    {
+      "title": "NumPy annual update",
+      "authors": [
+        {
+          "name": "Inessa Pawson",
+          "affiliation": "OpenTeams",
+          "orcid": "0000-0001-7294-122X"
+        }
+      ],
+      "description": "Comprehensive overview of the latest release and major milestones for the NumPy library and its contributor community",
+      "zenodo_url": "https://zenodo.org/deposit/23745152",
+      "slide_id": "numpy",
+      "doi": "10.5281/zenodo.23745152"
+    }
+  ]
 }
