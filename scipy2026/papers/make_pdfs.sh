@@ -1,3 +1,8 @@
+# Install the packages proceedings/scipy.plugin.mjs imports (into scipy2026/node_modules, gitignored);
+# without them the preface is built without its organization and slides pages
+if [ ! -d ../node_modules/myst-common ]; then
+ (cd .. && npm install --prefix . --no-save --no-package-lock myst-common unist-builder myst-ext-card)
+fi
 # Generate article PDFs with maybe wrong page numbers
 for folder in $(ls | egrep -i '^[^\.]+$'); do
  echo $folder
