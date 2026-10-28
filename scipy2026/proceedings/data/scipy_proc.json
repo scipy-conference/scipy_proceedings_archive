@@ -41,8 +41,8 @@
       "Sanhita Joshi",
       "Franklin Koch",
       "Charles Lindsey",
-      "Hongsup Shin",
       "Chong Shen Ng",
+      "Hongsup Shin",
       "Jennifer Yoon"
     ],
     "location": "Minneapolis, Minnesota",
@@ -98,19 +98,19 @@
       ]
     },
     {
-      "name": "Hybrid",
+      "name": "Outreach",
       "members": [
         {
-          "name": "Puneet Kollipara"
+          "name": "Juan Cabanela"
         },
         {
-          "name": "David Nicholson"
+          "name": "Cynthia Chen"
         },
         {
-          "name": "Neelima Pulagam"
+          "name": "Juanita Gomez"
         },
         {
-          "name": "Shubham Sharma"
+          "name": "James Lamb"
         }
       ]
     },
@@ -136,10 +136,10 @@
           "name": "Charles Lindsey"
         },
         {
-          "name": "Hongsup Shin"
+          "name": "Chong Shen Ng"
         },
         {
-          "name": "Chong Shen Ng"
+          "name": "Hongsup Shin"
         },
         {
           "name": "Jennifer Yoon"
@@ -147,41 +147,30 @@
       ]
     },
     {
-      "name": "Community Outreach",
+      "name": "Hybrid",
       "members": [
         {
-          "name": "Juan Cabanela"
+          "name": "Puneet Kollipara"
         },
         {
-          "name": "Cynthia Chen"
+          "name": "David Nicholson"
         },
         {
-          "name": "Juanita Gomez"
+          "name": "Neelima Pulagam"
         },
         {
-          "name": "James Lamb"
+          "name": "Shubham Sharma"
         }
       ]
     },
     {
-      "name": "Birds-of-a-Feather",
+      "name": "Financial Aid",
       "members": [
         {
-          "name": "Michael Akerman"
+          "name": "Eric Ma"
         },
         {
-          "name": "Mike Droettboom"
-        }
-      ]
-    },
-    {
-      "name": "Sprints",
-      "members": [
-        {
-          "name": "Brigitta Sipőcz"
-        },
-        {
-          "name": "Nathan Goldbaum"
+          "name": "Nadia Tahiri"
         }
       ]
     },
@@ -206,22 +195,24 @@
       ]
     },
     {
-      "name": "Financial Aid",
+      "name": "Birds-of-a-Feather",
       "members": [
         {
-          "name": "Eric Ma"
+          "name": "Michael Akerman"
         },
         {
-          "name": "Nadia Tahiri"
+          "name": "Mike Droettboom"
         }
       ]
     },
     {
-      "name": "Sponsors/Financial/Logistics",
+      "name": "Sprints",
       "members": [
         {
-          "org": "NumFOCUS",
-          "name": "Jim Weiss"
+          "name": "Brigitta Sipőcz"
+        },
+        {
+          "name": "Nathan Goldbaum"
         }
       ]
     },
