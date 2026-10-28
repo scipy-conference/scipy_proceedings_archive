@@ -1,6 +1,9 @@
 version: 1
 extends: ../papers.yml
 project:
+  downloads:
+    - title: YouTube Video
+      url: https://youtu.be/dV09O0NUdzU
   id: scipy-2026-bhupendra_raut
   title:
     'Adapt: Prototyping a Real-Time, Reproducible Data Analysis Framework for

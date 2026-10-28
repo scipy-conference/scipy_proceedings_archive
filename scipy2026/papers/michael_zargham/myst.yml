@@ -1,6 +1,9 @@
 version: 1
 extends: ../papers.yml
 project:
+  downloads:
+    - title: YouTube Video
+      url: https://youtu.be/EV5ycMqQoDI
   # README.md is repo/reviewer documentation (not a scientific supplement); exclude it
   # so it is not built/checked as a manuscript page.
   exclude:

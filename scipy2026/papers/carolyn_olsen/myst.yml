@@ -1,6 +1,9 @@
 version: 1
 extends: ../papers.yml
 project:
+  downloads:
+    - title: YouTube Video
+      url: https://youtu.be/oSVy3hNEO-M
   id: scipy-2026-carolyn_olsen
   title:
     'Voice Capture, Structured Extraction, and Multi-Source Routing: Building
