@@ -2,36 +2,36 @@
   "keynote": [
     {
       "title": "Calm Technology and the History of AI",
-      "description": "TODO: copy abstract from https://pretalx.com/scipy-2026/talk/7UJUMK/",
+      "description": "Amber Case's work explores the intersection of humans and technology, challenging us to design systems that inform rather than overburden. Case is redefining the relationship between humans and technology. As the founder of the Calm Tech Institute and a former fellow at MIT and Harvard, Case brings a profound perspective on how we can design complex systems to be calm: interfaces that work with peripheral attention and inform at different resolution levels. In her keynote, \"Calm Technology and the History of AI,\" she will explore moving from \"smart things\" to \"smarter people,\" how to design systems that inform us without overwhelming us, why the future of interface design might involve bringing back the button, and how to ensure modern systems are built in line with how the different parts of our brains interpret information.",
       "authors": [
         {
           "name": "Amber Case",
           "affiliation": "Metagovernance Project; Calm Tech Institute"
         }
       ],
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=7_lKPnLF8jc"
     },
     {
       "title": "Snakes in the Microwaves: How Python is Powering the Golden Age of SAR",
-      "description": "TODO: copy abstract from https://pretalx.com/scipy-2026/talk/BKZVXU/",
+      "description": "Synthetic Aperture Radar (SAR) is transforming how we observe our planet. It sees through clouds, smoke, and darkness, measures millimeter-scale changes to Earth's surface from space, and is rapidly becoming a cornerstone of Earth observation. With a decade of Sentinel-1 observations, the launch of NISAR, and fleets of commercial satellites, we're entering the Golden Age of SAR. At the Alaska Satellite Facility, we steward more than 30 PB of freely-accessible SAR data for NASA Earthdata, with the archive expected to exceed 100 PB as calibrated NISAR data becomes available. But turning that flood of data into scientific insight requires far more than storage—it demands an ecosystem of software that enables scientists to discover, access, process, and analyze data at an unprecedented scale. Drawing on examples from the Alaska Satellite Facility and the broader NASA Earthdata ecosystem, I'll explore how the Scientific Python ecosystem, through tools like NumPy, Xarray, Zarr, Jupyter, and countless community-built libraries, has become the foundation powering everything from cloud-native data access and open-source scientific libraries to large-scale processing platforms and “near”-real-time Earth monitoring projects like ITS_LIVE. Along the way, we'll see how the Python community has helped transform SAR from a specialized research tool into a global scientific resource, moving beyond individual images toward continuous streams of Earth observations—and why the next decade of Earth observation will be defined as much by open-source software as by the satellites themselves.",
       "authors": [
         {
           "name": "Joseph H. Kennedy",
           "affiliation": "Alaska Satellite Facility"
         }
       ],
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=nJW09j4L7nI"
     },
     {
-      "title": "TODO: title not on pretalx",
-      "description": "",
+      "title": "Stories in Code",
+      "description": "Stories are a core to the human experience and core to our understanding of complex technical systems. This talk will discuss the role that stories play in software in general and open source specifically. The stories we collectively write and share, in the form of code, are the concrete artifacts we create. How we go about organizing the development of these stories and the relationships between people are the spirit of SciPy.",
       "authors": [
         {
           "name": "Thomas Caswell",
           "affiliation": "Brookhaven National Laboratory"
         }
       ],
-      "youtube": ""
+      "youtube": "https://www.youtube.com/watch?v=YwKB79Gi-7s"
     }
   ],
   "lightning": [],
