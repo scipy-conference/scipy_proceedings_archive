@@ -1,6 +1,8 @@
 version: 1
 extends: ../../../proceedings.yml
 project:
+  identifiers:
+    zenodo: https://zenodo.org/deposit/23745146
   title: 'Tying Up Loose Threads: Making your Project No-GIL Ready'
   authors:
     - name: Charlie Lin

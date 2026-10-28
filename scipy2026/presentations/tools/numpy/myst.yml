@@ -1,6 +1,8 @@
 version: 1
 extends: ../../../proceedings.yml
 project:
+  identifiers:
+    zenodo: https://zenodo.org/deposit/23745152
   title: 'NumPy annual update'
   authors:
     - name: Inessa Pawson

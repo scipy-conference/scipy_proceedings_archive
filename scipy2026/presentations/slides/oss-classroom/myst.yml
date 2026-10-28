@@ -1,6 +1,8 @@
 version: 1
 extends: ../../../proceedings.yml
 project:
+  identifiers:
+    zenodo: https://zenodo.org/deposit/23745142
   title:
     'Learning in the Open: Integrating Open Source Contributions into the
     Classroom'

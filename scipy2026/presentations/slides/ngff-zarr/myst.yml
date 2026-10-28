@@ -1,6 +1,8 @@
 version: 1
 extends: ../../../proceedings.yml
 project:
+  identifiers:
+    zenodo: https://zenodo.org/deposit/23745150
   title: A Lean and Kind OME-Zarr Toolkit for Bioimaging
   authors:
     - name: Matt McCormick
