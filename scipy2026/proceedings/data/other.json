@@ -1,0 +1,41 @@
+{
+  "keynote": [
+    {
+      "title": "Calm Technology and the History of AI",
+      "description": "TODO: copy abstract from https://pretalx.com/scipy-2026/talk/7UJUMK/",
+      "authors": [
+        {
+          "name": "Amber Case",
+          "affiliation": "Metagovernance Project; Calm Tech Institute"
+        }
+      ],
+      "youtube": ""
+    },
+    {
+      "title": "Snakes in the Microwaves: How Python is Powering the Golden Age of SAR",
+      "description": "TODO: copy abstract from https://pretalx.com/scipy-2026/talk/BKZVXU/",
+      "authors": [
+        {
+          "name": "Joseph H. Kennedy",
+          "affiliation": "Alaska Satellite Facility"
+        }
+      ],
+      "youtube": ""
+    },
+    {
+      "title": "TODO: title not on pretalx",
+      "description": "",
+      "authors": [
+        {
+          "name": "Thomas Caswell",
+          "affiliation": "Brookhaven National Laboratory"
+        }
+      ],
+      "youtube": ""
+    }
+  ],
+  "lightning": [],
+  "posters": [],
+  "slides": [],
+  "tools": []
+}

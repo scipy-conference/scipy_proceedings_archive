@@ -1,0 +1,522 @@
+{
+  "proceedings": {
+    "doi": "",
+    "xref": {
+      "prefix": "10.25080",
+      "registrant": "Crossref",
+      "resource_url": "https://conference.scipy.org/proceedings",
+      "depositor_name": "SciPy Proceedings",
+      "depositor_email": "proceedings@scipy.org"
+    },
+    "copyright": {
+      "proceedings": [
+        "The articles in the Proceedings of the Python in Science Conference are copyrighted and owned by their original authors",
+        "This is an open-access publication and is distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+        "For more information, please see: https://creativecommons.org/licenses/by/4.0/"
+      ],
+      "article": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.",
+      "license": "Creative Commons Attribution 4.0 International License (CC BY 4.0)"
+    },
+    "title": {
+      "conference": "Python in Science Conference",
+      "full": "Proceedings of the 25th Python in Science Conference",
+      "short": "PROC. OF THE 25th PYTHON IN SCIENCE CONF. (SCIPY 2026)",
+      "acronym": "SciPy",
+      "ordinal": "25th"
+    },
+    "citation_key": "proc-scipy-2026",
+    "editor_email": [
+      "rowan@curvenote.com",
+      "sean.freeman@uah.edu",
+      "sanhita.joshi@gmail.com",
+      "franklin@curvenote.com",
+      "lindseycster@gmail.com",
+      "hongsup.shin@pm.me"
+    ],
+    "dates": "July 13 - July 19",
+    "editor": [
+      "Rowan Cockett",
+      "Sean Freeman",
+      "Christopher Holloman",
+      "Sanhita Joshi",
+      "Franklin Koch",
+      "Charles Lindsey",
+      "Hongsup Shin",
+      "Chong Shen Ng",
+      "Jennifer Yoon"
+    ],
+    "location": "Minneapolis, Minnesota",
+    "volume": 11,
+    "number": 1,
+    "isbn": "noisbn",
+    "year": "2026"
+  },
+  "organization": [
+    {
+      "name": "Conference Co-Chairs",
+      "members": [
+        {
+          "name": "Gil Forsyth"
+        },
+        {
+          "name": "Madicken Munk"
+        }
+      ]
+    },
+    {
+      "name": "Program",
+      "members": [
+        {
+          "name": "Dan Allan"
+        },
+        {
+          "name": "Naty Clementi"
+        },
+        {
+          "name": "Matthew Feickert"
+        },
+        {
+          "name": "Ariana Mendible"
+        }
+      ]
+    },
+    {
+      "name": "Tutorial",
+      "members": [
+        {
+          "name": "Paul Anzel"
+        },
+        {
+          "name": "Daniel Chen"
+        },
+        {
+          "name": "Matt Craig"
+        },
+        {
+          "name": "Allen Harvey"
+        }
+      ]
+    },
+    {
+      "name": "Hybrid",
+      "members": [
+        {
+          "name": "Puneet Kollipara"
+        },
+        {
+          "name": "David Nicholson"
+        },
+        {
+          "name": "Neelima Pulagam"
+        },
+        {
+          "name": "Shubham Sharma"
+        }
+      ]
+    },
+    {
+      "name": "Proceedings",
+      "members": [
+        {
+          "name": "Rowan Cockett"
+        },
+        {
+          "name": "Sean Freeman"
+        },
+        {
+          "name": "Christopher Holloman"
+        },
+        {
+          "name": "Sanhita Joshi"
+        },
+        {
+          "name": "Franklin Koch"
+        },
+        {
+          "name": "Charles Lindsey"
+        },
+        {
+          "name": "Hongsup Shin"
+        },
+        {
+          "name": "Chong Shen Ng"
+        },
+        {
+          "name": "Jennifer Yoon"
+        }
+      ]
+    },
+    {
+      "name": "Community Outreach",
+      "members": [
+        {
+          "name": "Juan Cabanela"
+        },
+        {
+          "name": "Cynthia Chen"
+        },
+        {
+          "name": "Juanita Gomez"
+        },
+        {
+          "name": "James Lamb"
+        }
+      ]
+    },
+    {
+      "name": "Birds-of-a-Feather",
+      "members": [
+        {
+          "name": "Michael Akerman"
+        },
+        {
+          "name": "Mike Droettboom"
+        }
+      ]
+    },
+    {
+      "name": "Sprints",
+      "members": [
+        {
+          "name": "Brigitta Sipőcz"
+        },
+        {
+          "name": "Nathan Goldbaum"
+        }
+      ]
+    },
+    {
+      "name": "Activities",
+      "members": [
+        {
+          "name": "Ana Comesana"
+        },
+        {
+          "name": "Matt Davis"
+        },
+        {
+          "name": "Ed Rogers"
+        },
+        {
+          "name": "Caitlin Vanasse"
+        },
+        {
+          "name": "Olek Yardin"
+        }
+      ]
+    },
+    {
+      "name": "Financial Aid",
+      "members": [
+        {
+          "name": "Eric Ma"
+        },
+        {
+          "name": "Nadia Tahiri"
+        }
+      ]
+    },
+    {
+      "name": "Sponsors/Financial/Logistics",
+      "members": [
+        {
+          "org": "NumFOCUS",
+          "name": "Jim Weiss"
+        }
+      ]
+    },
+    {
+      "name": "Proceedings Reviewers",
+      "members": [
+        {
+          "name": "Aditi Juneja"
+        },
+        {
+          "name": "Amey Ambade"
+        },
+        {
+          "name": "Ammar Ekbote"
+        },
+        {
+          "name": "Amogh Param"
+        },
+        {
+          "name": "Anand Murthy"
+        },
+        {
+          "name": "Andrei Paleyes"
+        },
+        {
+          "name": "Anish Mahishi"
+        },
+        {
+          "name": "Ankita Bagaria"
+        },
+        {
+          "name": "Anuj Ashok Potdar"
+        },
+        {
+          "name": "Anumit Garg"
+        },
+        {
+          "name": "Aresema Workneh"
+        },
+        {
+          "name": "Arjun Bali"
+        },
+        {
+          "name": "Bhanu sekhar Guttikonda"
+        },
+        {
+          "name": "Bhuvnesh Kumar"
+        },
+        {
+          "name": "Biola Adeyemi"
+        },
+        {
+          "name": "Chandra Prakash"
+        },
+        {
+          "name": "Chirag Agrawal"
+        },
+        {
+          "name": "Chirag Shah"
+        },
+        {
+          "name": "Corentin Cadiou"
+        },
+        {
+          "name": "Dennis Bakhuis"
+        },
+        {
+          "name": "Dinesh Rathinasamy Thangavel"
+        },
+        {
+          "name": "Don Setiawan"
+        },
+        {
+          "name": "Erle Holgersen"
+        },
+        {
+          "name": "Hansila Sudasinghe"
+        },
+        {
+          "name": "Hastimal Jangid"
+        },
+        {
+          "name": "Horacio V. Guzman"
+        },
+        {
+          "name": "Ilerioluwakiiye Abolade"
+        },
+        {
+          "name": "J.R. Barhydt"
+        },
+        {
+          "name": "James Lamb"
+        },
+        {
+          "name": "Jasdeep Singh Bhalla"
+        },
+        {
+          "name": "Jeyadev Needhidevan"
+        },
+        {
+          "name": "Jianzhu Yao"
+        },
+        {
+          "name": "Jishan Ahmed"
+        },
+        {
+          "name": "Jofia Jose Prakash"
+        },
+        {
+          "name": "John Derek Morgan"
+        },
+        {
+          "name": "Jubinder Singh"
+        },
+        {
+          "name": "Jyoti Kunal Shah"
+        },
+        {
+          "name": "Kalyan Prasad"
+        },
+        {
+          "name": "Karthik Venkataramani"
+        },
+        {
+          "name": "Kayode Oladapo"
+        },
+        {
+          "name": "Kirtan Dave"
+        },
+        {
+          "name": "Kshitij Minhas"
+        },
+        {
+          "name": "Kumar Rishabh"
+        },
+        {
+          "name": "Kuntao Zhao"
+        },
+        {
+          "name": "Lucas Durand"
+        },
+        {
+          "name": "Manoj Krishna Mohan"
+        },
+        {
+          "name": "Matthew Feickert"
+        },
+        {
+          "name": "Matthew Lesko"
+        },
+        {
+          "name": "Min Khant Zaw"
+        },
+        {
+          "name": "Muhammad Rayyan Shakoori"
+        },
+        {
+          "name": "Nandan Sharma"
+        },
+        {
+          "name": "Nilanjan Chatterjee"
+        },
+        {
+          "name": "Nima Sarajpoor"
+        },
+        {
+          "name": "Odunola Odofin"
+        },
+        {
+          "name": "Peter Sun"
+        },
+        {
+          "name": "Piyush Jagadish Bag"
+        },
+        {
+          "name": "Pouya Afshin"
+        },
+        {
+          "name": "Praveen Gupta Sanka"
+        },
+        {
+          "name": "Prithvish Rakesh Doshi"
+        },
+        {
+          "name": "Pushkar Sathe"
+        },
+        {
+          "name": "Qi Zhao"
+        },
+        {
+          "name": "Rajani Kant"
+        },
+        {
+          "name": "Rajdeep Adak"
+        },
+        {
+          "name": "Ramachander Rao Thallada"
+        },
+        {
+          "name": "Ramesh Oswal"
+        },
+        {
+          "name": "Ruohan Zhang"
+        },
+        {
+          "name": "Sai Tarun Kanigant"
+        },
+        {
+          "name": "Samaresh Kumar Singh"
+        },
+        {
+          "name": "Samuel Williams"
+        },
+        {
+          "name": "Sanjana Kandi"
+        },
+        {
+          "name": "Sanjay Belaturu Krishnegowda"
+        },
+        {
+          "name": "Sarah Stapleton"
+        },
+        {
+          "name": "Serge Rey"
+        },
+        {
+          "name": "Shashank Kapoor"
+        },
+        {
+          "name": "Shenyang Liu"
+        },
+        {
+          "name": "Shubham Gupta"
+        },
+        {
+          "name": "Simmi Mourya"
+        },
+        {
+          "name": "Smit Lunagariya"
+        },
+        {
+          "name": "Sopuluchukwu Ani"
+        },
+        {
+          "name": "Sultan Orazbayev"
+        },
+        {
+          "name": "Talha"
+        },
+        {
+          "name": "Tejul Pandit"
+        },
+        {
+          "name": "Tolulade Ademisoye"
+        },
+        {
+          "name": "Uju"
+        },
+        {
+          "name": "Varun Shivashankar"
+        },
+        {
+          "name": "Veronicah Gathoni"
+        },
+        {
+          "name": "Vibhu Verma"
+        },
+        {
+          "name": "Yash Sadhwani"
+        },
+        {
+          "name": "Yash Sharma"
+        },
+        {
+          "name": "Yichen Wang"
+        },
+        {
+          "name": "Zhikai Wu"
+        },
+        {
+          "name": "Zhun Zhou"
+        }
+      ]
+    }
+  ],
+  "series": {
+    "title": {
+      "full": "Proceedings of the Python in Science Conference"
+    },
+    "doi": "10.25080/issn.2575-9752",
+    "xref": {
+      "issn": "2575-9752",
+      "resource_url": "https://conference.scipy.org/proceedings"
+    }
+  },
+  "scipy_scholarship": [],
+  "diversity_scholarship": []
+}

@@ -1,0 +1,32 @@
+myst: v1
+kind: typst
+title: SciPy Preface Template
+template: template.typ
+files:
+  - template.typ
+  - papers.yml
+  - logo.png
+authors:
+  - name: Franklin Koch
+    github: fwkoch
+    affiliations:
+      - Curvenote
+  - name: Rowan Cockett
+    github: rowanc1
+    affiliations:
+      - Curvenote
+version: 0.0.1
+license: MIT
+doc:
+  - id: license
+    required: true
+  - id: venue
+    required: true
+  - id: authors
+    required: true
+  - id: title
+    required: true
+  - id: doi
+    required: true
+  - id: date
+    required: true

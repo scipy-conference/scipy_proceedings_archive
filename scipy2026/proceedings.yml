@@ -1,0 +1,55 @@
+version: 1
+project:
+  open_access: true
+  license: CC-BY-4.0
+  venue:
+    title: Python in Science Conference
+    short_title: SciPy
+    number: 25th
+    location: Minneapolis, Minnesota
+    date: July 13 - July 19, 2026
+    publisher: SciPy
+    series: Proceedings of the Python in Science Conference
+    issn: 2575-9752
+    doi: 10.25080/issn.2575-9752
+    url: https://proceedings.scipy.org
+  date: 2026-07-13
+  volume:
+    title: Proceedings of the 25th Python in Science Conference
+    subject: Scientific Computing with Python
+    # TODO: volume DOI from crossref-utils (stage 3)
+    # doi: 10.25080/****
+  editors:
+    - name: Rowan Cockett
+      email: rowan@curvenote.com
+      affiliations:
+        - name: Curvenote
+          ror: https://ror.org/02mz0e468
+          url: https://curvenote.com
+      id: rowan
+    - name: Sean Freeman
+      email: sean.freeman@uah.edu
+      affiliation: University of Alabama in Huntsville
+      id: sean
+    - name: Christopher Holloman
+      id: christopher
+    - name: Sanhita Joshi
+      email: sanhita.joshi@gmail.com
+      affiliation: Deloitte
+      id: sanhita
+    - name: Franklin Koch
+      email: franklin@curvenote.com
+      affiliation: Curvenote
+      id: franklin
+    - name: Charles Lindsey
+      email: lindseycster@gmail.com
+      affiliation: Aptos
+      id: charles
+    - name: Hongsup Shin
+      email: hongsup.shin@pm.me
+      affiliation: Arm
+      id: hongsup
+    - name: Chong Shen Ng
+      id: chongshen
+    - name: Jennifer Yoon
+      id: jennifer

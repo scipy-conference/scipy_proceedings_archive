@@ -1,0 +1,43 @@
+version: 1
+site:
+  title: Proceedings Template
+  options:
+    logo_text: SciPy 2026
+  nav: []
+  template: article-theme
+project:
+  title: Proceedings of the 25th Python in Science Conference
+  subtitle: SciPy 2026, Minneapolis, Minnesota July 13 - July 19
+  description: |
+    The 25th annual SciPy conference was held in Minneapolis, Minnesota at the University of Minnesota, July 13-19, 2026.
+  github: https://github.com/scipy-conference/scipy_proceedings/tree/2026
+  id: scipy-2026-proceedings
+  # TODO: volume DOI from crossref-utils (stage 3)
+  # doi: 10.25080/****
+  subject: Proceedings
+  thumbnail: thumbnail.png
+  banner: banner.png
+  plugins:
+    - scipy.plugin.mjs
+  authors:
+    - rowan
+    - sean
+    - christopher
+    - sanhita
+    - franklin
+    - charles
+    - hongsup
+    - chongshen
+    - jennifer
+  downloads:
+    - url: ./proceedings.pdf
+      title: Download PDF
+  exports:
+    - format: typst
+      template: ../templates/scipy-preface
+      articles:
+        - organization.md
+        - slides.md
+      output: ../papers/preface.pdf
+  bibliography: []
+extends: ../proceedings.yml
