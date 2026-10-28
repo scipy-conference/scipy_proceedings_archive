@@ -12,17 +12,17 @@ site:
 :max-width: 100, 100, 55, 50
 :overlay: 80, 80, 10, 10
 :kicker: THE PROCEEDINGS
-:actions: [Read 2025 Articles](2025.md) [SciPy Conference](https://www.scipy2025.scipy.org)
+:actions: [Read 2026 Articles](2026.md) [SciPy Conference](https://www.scipy2026.scipy.org)
 The SciPy Conference is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research. This event strives to bring together both users and developers of scientific tools, as well as academic research and state of the art industry.
 :::
 
 +++ { "class": "text-center my-2 text-xl" }
-**From the 2025 Proceedings**
+**From the 2026 Proceedings**
 +++
 
 ```{cn:articles}
 :venue: scipy
-:collection: 2025
+:collection: 2026
 :limit: 4
 :show-thumbnails: true
 :show-date: false
@@ -33,7 +33,7 @@ The SciPy Conference is a cross-disciplinary gathering focused on the use and de
 
 +++ { "class": "text-center my-2" }
 
-[See All 2025 Articles](./2025.md)
+[See All 2026 Articles](./2026.md)
 
 +++
 
