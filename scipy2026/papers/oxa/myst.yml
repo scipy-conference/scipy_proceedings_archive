@@ -4,6 +4,7 @@ project:
   downloads:
     - title: YouTube Video
       url: https://youtu.be/Oq64ATXsNQc
+  doi: 10.25080/ejwp2755
   id: scipy-2026-oxa
   title:
     'OXA: An Open Exchange Architecture for Modular and Composable Scientific

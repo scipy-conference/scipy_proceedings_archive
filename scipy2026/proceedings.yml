@@ -17,8 +17,7 @@ project:
   volume:
     title: Proceedings of the 25th Python in Science Conference
     subject: Scientific Computing with Python
-    # TODO: volume DOI from crossref-utils (stage 3)
-    # doi: 10.25080/****
+    doi: 10.25080/yvdw4955
   editors:
     - name: Rowan Cockett
       email: rowan@curvenote.com

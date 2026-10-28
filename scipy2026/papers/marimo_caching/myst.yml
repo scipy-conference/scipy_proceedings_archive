@@ -2,6 +2,7 @@ version: 1
 extends: ../papers.yml
 project:
   # Update this to match `scipy-2026-<folder>`; the folder is `<firstname_surname>`
+  doi: 10.25080/rdvr6268
   id: scipy-2026-marimo_caching
   # Ensure your title is the same as in your `main.md`
   title: 'Hash all the things: Caching for fast notebook restarts'

@@ -1,6 +1,7 @@
 version: 1
 extends: ../papers.yml
 project:
+  doi: 10.25080/mhpx3742
   id: scipy-2026-qgis_llm_localization
   title: >
     Toward Reliable Localization of Free and Open Source Software: LLM-assisted

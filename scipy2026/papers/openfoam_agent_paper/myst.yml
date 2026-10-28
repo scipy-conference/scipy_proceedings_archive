@@ -1,6 +1,7 @@
 version: 1
 extends: ../papers.yml
 project:
+  doi: 10.25080/tefg5348
   id: scipy-2026-autofoam
   title: 'AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent'
   description: |

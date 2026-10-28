@@ -4,6 +4,7 @@ project:
   downloads:
     - title: YouTube Video
       url: https://youtu.be/lV6BaxBAWQ0
+  doi: 10.25080/wuxr5665
   id: scipy-2026-mahima_arora
   title: Docling for Multimodal Retrieval
   description:

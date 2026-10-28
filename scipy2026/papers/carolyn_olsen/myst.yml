@@ -4,6 +4,7 @@ project:
   downloads:
     - title: YouTube Video
       url: https://youtu.be/oSVy3hNEO-M
+  doi: 10.25080/khdg8264
   id: scipy-2026-carolyn_olsen
   title:
     'Voice Capture, Structured Extraction, and Multi-Source Routing: Building

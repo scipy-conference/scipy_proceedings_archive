@@ -12,8 +12,7 @@ project:
     The 25th annual SciPy conference was held in Minneapolis, Minnesota at the University of Minnesota, July 13-19, 2026.
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2026
   id: scipy-2026-proceedings
-  # TODO: volume DOI from crossref-utils (stage 3)
-  # doi: 10.25080/****
+  doi: 10.25080/yvdw4955
   subject: Proceedings
   thumbnail: thumbnail.png
   banner: banner.jpg

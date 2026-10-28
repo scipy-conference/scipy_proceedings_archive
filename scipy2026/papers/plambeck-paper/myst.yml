@@ -1,6 +1,7 @@
 version: 1
 extends: ../papers.yml
 project:
+  doi: 10.25080/rgpp2555
   id: scipy-2026-plambeck-paper
   # Ensure your title is the same as in your `main.tex`
   title:

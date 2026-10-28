@@ -2,6 +2,7 @@ version: 1
 extends: ../papers.yml
 project:
   # Update this to match `scipy-2026-<folder>`
+  doi: 10.25080/eyxa7843
   id: scipy-2026-anomalydetection
   title:
     Detecting Anomalies in Scientific Data Using SciPy's Statistical and Signal

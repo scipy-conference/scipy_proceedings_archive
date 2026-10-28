@@ -2,6 +2,7 @@ version: 1
 extends: ../papers.yml
 project:
   # Matches `scipy-2026-<folder>`; folder is `<firstname_surname>`
+  doi: 10.25080/fwvt2525
   id: scipy-2026-taewoon_kim
   # Keep this title identical to the one in `main.md`
   title: 'ArcadeDB in Python: An In-Process Multi-Model Database'

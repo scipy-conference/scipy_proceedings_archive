@@ -4,6 +4,7 @@ project:
   downloads:
     - title: YouTube Video
       url: https://youtu.be/tqIIZnB_q04
+  doi: 10.25080/hrfh5447
   id: scipy-2026-jim_pivarski
   title:
     'From LiDAR to action: detecting upland gullies to combat erosion and forest

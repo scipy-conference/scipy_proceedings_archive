@@ -3,6 +3,7 @@ version: 1
 extends: ../papers.yml
 
 project:
+  doi: 10.25080/fpaf9954
   id: scipy-2026-dnacode
   title:
     'Benchmarking Edge-Accelerated Genomics: A Pilot Study of Unified Memory
