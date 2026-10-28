@@ -217,6 +217,365 @@
       ]
     },
     {
+      "name": "Track Chairs: Spirit of SciPy",
+      "members": [
+        {
+          "name": "Thomas Caswell"
+        },
+        {
+          "name": "Brigitta Sipőcz"
+        },
+        {
+          "name": "Stéfan van der Walt"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: Data Driven Discovery with ML and AI",
+      "members": [
+        {
+          "name": "Hugo Bowne-Anderson"
+        },
+        {
+          "name": "Julie Hollek"
+        },
+        {
+          "name": "Jim Pivarski"
+        },
+        {
+          "name": "Fatma Tarlaci"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: Environmental, Earth, and Climate Sciences",
+      "members": [
+        {
+          "name": "Maxwell Grover"
+        },
+        {
+          "name": "Paige Martin"
+        },
+        {
+          "name": "Jared Oyler"
+        },
+        {
+          "name": "Katie Wetstone"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: Scientific Computing in Education",
+      "members": [
+        {
+          "name": "Suh Young Haeyun Choi"
+        },
+        {
+          "name": "Ryan Cooper"
+        },
+        {
+          "name": "Tracy Teal"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: Physics and Astronomy",
+      "members": [
+        {
+          "name": "Matt Craig"
+        },
+        {
+          "name": "Guen Prawiroatmodjo"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: Maintainers and Community",
+      "members": [
+        {
+          "name": "Jim Crist-Harif"
+        },
+        {
+          "name": "Yuvi Panda"
+        },
+        {
+          "name": "Inessa Pawson"
+        },
+        {
+          "name": "Sanket Verma"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: SciPy Tools",
+      "members": [
+        {
+          "name": "Inessa Pawson"
+        },
+        {
+          "name": "Sanket Verma"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: Biological and Medical Sciences",
+      "members": [
+        {
+          "name": "Nezar Abdennur"
+        },
+        {
+          "name": "Aishwarya Chander"
+        },
+        {
+          "name": "Jackie Valeri"
+        }
+      ]
+    },
+    {
+      "name": "Track Chairs: General",
+      "members": [
+        {
+          "name": "Dan Allan"
+        },
+        {
+          "name": "Naty Clementi"
+        },
+        {
+          "name": "Matthew Feickert"
+        },
+        {
+          "name": "Ariana Mendible"
+        }
+      ]
+    },
+    {
+      "name": "Program and Tutorial Reviewers",
+      "members": [
+        {
+          "name": "Abel Abraham"
+        },
+        {
+          "name": "Abhinav Shankaranarayanan Venkataraman"
+        },
+        {
+          "name": "Abhiram Mullapudi"
+        },
+        {
+          "name": "Abhirami Pillai"
+        },
+        {
+          "name": "Adrien Badre"
+        },
+        {
+          "name": "Allen S. Harvey Jr."
+        },
+        {
+          "name": "Amin Alhashim"
+        },
+        {
+          "name": "Andrea Tentner"
+        },
+        {
+          "name": "Andy Terrel"
+        },
+        {
+          "name": "Ariana Mendible"
+        },
+        {
+          "name": "Avik Basu"
+        },
+        {
+          "name": "Bhavuk Jain"
+        },
+        {
+          "name": "Bhupendra Raut"
+        },
+        {
+          "name": "Bilal Arif"
+        },
+        {
+          "name": "Cagri Temel"
+        },
+        {
+          "name": "Charles Turner"
+        },
+        {
+          "name": "Chidimma Maduka"
+        },
+        {
+          "name": "Chirag Shah"
+        },
+        {
+          "name": "Dan Allan"
+        },
+        {
+          "name": "Daniel Chen"
+        },
+        {
+          "name": "Debisree Ray"
+        },
+        {
+          "name": "Dhananjay Bhaskar"
+        },
+        {
+          "name": "Erik Whiting"
+        },
+        {
+          "name": "Gauri Sarode"
+        },
+        {
+          "name": "Guen Prawiroatmodjo"
+        },
+        {
+          "name": "Hannah Ferriby"
+        },
+        {
+          "name": "Hariharan Ragothaman"
+        },
+        {
+          "name": "Ian Hunt-Isaak"
+        },
+        {
+          "name": "Isabel Zimmerman"
+        },
+        {
+          "name": "Ivan Perez Avellaneda"
+        },
+        {
+          "name": "Jake Diamond-Reivich"
+        },
+        {
+          "name": "James A. Bednar"
+        },
+        {
+          "name": "James Lamb"
+        },
+        {
+          "name": "Jim Pivarski"
+        },
+        {
+          "name": "Katie Wetstone"
+        },
+        {
+          "name": "Kavya Tolety"
+        },
+        {
+          "name": "Kedar Dabhadkar"
+        },
+        {
+          "name": "Krista Pullen"
+        },
+        {
+          "name": "Kristijan Armeni"
+        },
+        {
+          "name": "Leo Fang"
+        },
+        {
+          "name": "Leonid Didukh"
+        },
+        {
+          "name": "Lundy Bernard"
+        },
+        {
+          "name": "Matt Craig"
+        },
+        {
+          "name": "Matt Davis"
+        },
+        {
+          "name": "Matthew Feickert"
+        },
+        {
+          "name": "Michael Greminger"
+        },
+        {
+          "name": "Naty Clementi"
+        },
+        {
+          "name": "Neesha S"
+        },
+        {
+          "name": "Nicolas R Posner"
+        },
+        {
+          "name": "Nikki Tebaldi"
+        },
+        {
+          "name": "Nilanjan Chatterjee"
+        },
+        {
+          "name": "Oladapo Kayode Abiodun"
+        },
+        {
+          "name": "Paige Martin"
+        },
+        {
+          "name": "Pankaj Arora"
+        },
+        {
+          "name": "Paul Anzel"
+        },
+        {
+          "name": "Paul Ivanov"
+        },
+        {
+          "name": "Pavan B Govindaraju"
+        },
+        {
+          "name": "Ramesh Oswal"
+        },
+        {
+          "name": "Saish Sali"
+        },
+        {
+          "name": "Sandeep Bharadwaj Mannapur"
+        },
+        {
+          "name": "Sandeep Chittimalli"
+        },
+        {
+          "name": "Sanjiban Sengupta"
+        },
+        {
+          "name": "Shaurya Agarwal"
+        },
+        {
+          "name": "Shubham Gupta"
+        },
+        {
+          "name": "Shubham Sharma"
+        },
+        {
+          "name": "Sivakumar Dhanasekar"
+        },
+        {
+          "name": "Smit Lunagariya"
+        },
+        {
+          "name": "Sohil Grandhi"
+        },
+        {
+          "name": "Sona Maniyan"
+        },
+        {
+          "name": "Stefanie Molin"
+        },
+        {
+          "name": "Supun Kamburugamuve"
+        },
+        {
+          "name": "Tom Caswell"
+        },
+        {
+          "name": "Vinay Vyas"
+        },
+        {
+          "name": "Yevgen Matviychuk"
+        }
+      ]
+    },
+    {
       "name": "Proceedings Reviewers",
       "members": [
         {
