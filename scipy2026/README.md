@@ -8,10 +8,10 @@ Build steps for the 25th proceedings, following 2024 and 2025. Run each step on 
    into `papers/` (one folder per paper, without `myst_template` and `tex_template`).
 2. Generate the volume and article DOIs with crossref-utils and fill in `doi:` in each paper's
    `myst.yml`, in `proceedings.yml` (`volume.doi`) and in `proceedings/myst.yml`.
-3. Deposit the 4 slide decks to Zenodo with
-   [zenodo-utils](https://github.com/continuous-foundation/zenodo-utils)
-   (`zenodo deposit --type presentation`, then again with `--publish`) and update
-   `proceedings/data/other.json`.
+3. Deposit the 4 slide decks (`presentations/slides/*` and `presentations/tools/*`) to Zenodo
+   with [zenodo-utils](https://github.com/continuous-foundation/zenodo-utils). With
+   `ZENODO_TOKEN` set, run `zenodo deposit --type presentation --community scipy` in each deck's
+   folder, then again with `--publish`, and update `proceedings/data/other.json`.
 4. In `papers/`, run `bash make_pdfs.sh`. It builds every paper, sets `first_page`/`last_page`
    (alphabetical order, keys are added if missing), rebuilds, builds the preface and joins
    everything into `proceedings/proceedings.pdf`.
