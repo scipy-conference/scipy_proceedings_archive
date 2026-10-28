@@ -4,8 +4,11 @@ project:
   title: 'Tying Up Loose Threads: Making your Project No-GIL Ready'
   authors:
     - name: Charlie Lin
-  abstract:
-    'If your project uses C, C++, or Rust to speedup critical hotpaths, or to
-    wrap native libraries, and want to increase performance of highly parallel
-    workloads even more, switching to the free-threaded interpreter is worth the
-    investment!'
+  abstract: |
+    If you messed around with Python's command line options or read the official documentation, you might wonder what the -Xgil option or the PYTHON_GIL environment variable did to your scripts, and whether setting either affects performance. The hubbub on popular wheels such as pyo3, python-zstandard, numpy, uv, cffi, and cython supporting the free-threaded interpreter is no passing fad either. For Pythonistas that don't read PEPs in their spare time or contribute to the cpython project itself, an adventure that delves into a less known, yet jaw-dropping aspect of Python awaits!
+
+    Python's Global Interpreter Lock, which determines which single thread can execute native Python code and call C API functions, simplifies writing multithreaded code. However, sticking with this execution model leaves out extra performance afforded by modern multicore CPUs with hyperthreading, as automatic locking and unlocking of the GIL does not scale well with thread counts, especially in performance-sensitive workloads.
+
+    The newfangled free-threaded interpreter promises salvation when running either pure Python code or with compiled extensions. General multithreading rules apply (prefer thread-local variables, using locks to prevent simultaneous access of shared data), but when dealing with projects containing compiled extensions that directly or indirectly interface with Python's C API, more porting rules also apply.
+
+    Key porting tips, including projects using the Limited API, include: port native code away from C API functions that avoid borrowed references because they aren't thread-safe; modify unit tests to catch concurrency bugs arising from assuming the presence of the GIL; and extend CI coverage of Python interpreters both for testing and to build free-threaded compatible wheels.
