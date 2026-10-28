@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 323
+  last_page: 338
   downloads:
     - title: YouTube Video
       url: https://youtu.be/tR37D-6HaSA

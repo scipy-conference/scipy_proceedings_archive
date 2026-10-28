@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 1
+  last_page: 18
   # Update this to match `scipy-2026-<folder>` the folder should be `<firstname_surname>`
   doi: 10.25080/gcwu7766
   id: scipy-2026-575-lab

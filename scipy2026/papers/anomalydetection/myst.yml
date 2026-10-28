@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 48
+  last_page: 63
   # Update this to match `scipy-2026-<folder>`
   doi: 10.25080/eyxa7843
   id: scipy-2026-anomalydetection

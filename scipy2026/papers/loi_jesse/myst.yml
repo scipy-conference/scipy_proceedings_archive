@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 251
+  last_page: 264
   doi: 10.25080/mnjr6626
   id: scipy-2026-loi_jesse
   title:

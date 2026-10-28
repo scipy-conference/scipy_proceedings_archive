@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 19
+  last_page: 26
   doi: 10.25080/jnpt5736
   id: scipy-2026-allison_ding
   title:

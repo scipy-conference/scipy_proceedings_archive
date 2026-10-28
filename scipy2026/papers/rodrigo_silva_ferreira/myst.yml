@@ -2,6 +2,8 @@ version: 1
 extends: ../papers.yml
 
 project:
+  first_page: 451
+  last_page: 471
   doi: 10.25080/avte6646
   id: scipy-2026-rodrigo-silva-ferreira
 

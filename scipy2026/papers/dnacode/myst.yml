@@ -3,6 +3,8 @@ version: 1
 extends: ../papers.yml
 
 project:
+  first_page: 132
+  last_page: 144
   doi: 10.25080/fpaf9954
   id: scipy-2026-dnacode
   title:

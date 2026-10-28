@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 282
+  last_page: 294
   # Update this to match `scipy-2026-<folder>`; the folder is `<firstname_surname>`
   doi: 10.25080/rdvr6268
   id: scipy-2026-marimo_caching

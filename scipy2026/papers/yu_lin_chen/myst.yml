@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 528
+  last_page: 545
   doi: 10.25080/mhpx3742
   id: scipy-2026-qgis_llm_localization
   title: >

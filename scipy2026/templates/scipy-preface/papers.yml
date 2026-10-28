@@ -1,0 +1,145 @@
+---
+- title: 'Opening the Black Box: Mechanistic Interpretability for AI Agent Tool Selection
+    Using Sparse Autoencoders'
+  author: Hannes Hapke, David Cardozo, Carlos Huisa, Triveni Gandhi
+  page: 1
+- title: 'BCDNM-HPO: Balancing Coherence, Diversity, and Target Noise in GPU-Accelerated
+    BERTopic'
+  author: Allison Ding, Mitesh Patel, Corey Nolet
+  page: 19
+- title: Density Functions and Random Number Generators of Alpha-Stable Distributions
+  author: Wael Tabbara, Sharafeddine Sharafeddine, Ahmad El-Hajj, Jihad Fahs, Ibrahim
+    Abou-Faycal
+  page: 27
+- title: Detecting Anomalies in Scientific Data Using SciPy's Statistical and Signal
+    Tools
+  author: Aayush Gauba
+  page: 48
+- title: 'Right Predictions, Wrong Reasons: Explanation Drift Monitoring in Production'
+  author: Avik Basu
+  page: 64
+- title: 'Adapt v0.1: Prototyping a Real-Time, Reproducible Data Analysis Framework
+    for Adaptive Radar Scanning'
+  author: Bhupendra A. Raut, Siddhant Gupta, Zach Sherman, Bobby Jackson, Joe O'Brien,
+    Eddie Schuman, Pawel Lech, Sherman Beus, Seth Abernethy, Scott Collis, Nicki Hickmon,
+    Adam Theisen
+  page: 77
+- title: 'Voice Capture, Structured Extraction, and Multi-Source Routing: Building
+    and Evaluating a Field-Inspection Assistant in Python'
+  author: Carolyn Olsen
+  page: 89
+- title: 'Vibes, meet rigor: Evaluating and improving AI performance on complex scientific
+    code'
+  author: Cliff Kerr, Katherine Rosenfeld, Jessica Lundin, Robyn Stuart, Romesh Abeysuriya
+  page: 100
+- title: On-boarding and retaining maintainer talent for MNE-Python
+  author: Britta U. Westner, Eric Larson, Daniel McCloy
+  page: 111
+- title: 'Climate is not a straight line: Scalable Python-based GAMM Workflows for
+    Wildlife Conservation'
+  author: Deven Maheshwari, Jake Wall, Catherine Villeneuve
+  page: 119
+- title: 'Benchmarking Edge-Accelerated Genomics: A Pilot Study of Unified Memory
+    Architectures in Deep-Sea Metagenomics'
+  author: Vinay Vyas
+  page: 132
+- title: Engineering Better Retrieval for RAG
+  author: Aarti Jha, Mahima Arora
+  page: 145
+- title: 'From Hello World to Hello LLM: A Python Developer''s Survival Guide'
+  author: Jasmine Omeke, Audrey Webb
+  page: 156
+- title: 'PanelBox: A Comprehensive Python Library for Panel Data Econometrics'
+  author: Gustavo Coelho Haase, Paulo Henrique Dourado, Osvaldo Candido
+  page: 167
+- title: 'Automated Data Enrichment for Police Accountability: Where Agentic Judgment
+    Earns Its Place'
+  author: Hongsup Shin
+  page: 179
+- title: 'The Space to Build It: How Scientific Needs Shaped an Ecosystem'
+  author: K. Jarrod Millman
+  page: 199
+- title: 'From LiDAR to action: detecting upland gullies to combat erosion and forest
+    fires'
+  author: Jim Pivarski
+  page: 210
+- title: 'Commit to Community: Open Source as Social Infrastructure in Volunteer Civic
+    Tech'
+  author: Kristijan Armeni, Helen Y. Glover, Ben Sando
+  page: 221
+- title: Everything That Breaks When You Put an LLM Agent in Production
+  author: Sruthi Pisipati, Haris Javed
+  page: 230
+- title: 'Bridging the Technical Gap: A Student-Led Data Extraction Pipeline for Community-Driven
+    Document Analysis'
+  author: Jesse Loi, Ariana Mendible
+  page: 251
+- title: 'The Missing Lever in Machine Learning Deployment: Threshold Tuning using
+    Regression Discontinuity'
+  author: Lucas Squarize Chagas, Avik Basu
+  page: 265
+- title: Docling for Multimodal Retrieval
+  author: Mahima Arora, Aarti Jha
+  page: 271
+- title: 'Hash all the things: Caching for fast notebook restarts'
+  author: Dylan Madisetti, Myles Scolnick, Akshay Agrawal
+  page: 282
+- title: 'ngff-zarr: A Lean and Kind OME-Zarr Toolkit for Bioimaging'
+  author: Matt McCormick, Johannes Soltwedel, Wouter-Michiel Vierdag, Valentin Boussot,
+    Josh Moore
+  page: 295
+- title: Derivations, Not Just Simulations
+  author: Michael Zargham
+  page: 303
+- title: 'Reno: Simplifying Application of Bayesian Inference to System Dynamics'
+  author: Nathan Martindale, Jordan Stomps, Birdy Phathanapirom
+  page: 323
+- title: Numerical Stability Pitfalls in Scientific Optimization Pipelines
+  author: Aayush Gauba
+  page: 339
+- title: 'AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent'
+  author: Arun Govind Neelan, A Seshaditya
+  page: 355
+- title: 'OXA: An Open Exchange Architecture for Modular and Composable Scientific
+    Content'
+  author: Rowan Cockett, Nokome Bentley, Monica Granados, Franklin Koch, Michael Markie,
+    Steve Purves, Carlos Scheidegger, Paul Shannon, Gabriel Stein, Tracy Teal
+  page: 366
+- title: 'NODEFit: Fit time-series data with a Neural Differential Equation'
+  author: Pavan B. Govindaraju
+  page: 380
+- title: 'Optimising HCP Sample Allocation in Pharma: Combining Nonlinear Ensemble
+    Learning, Spatial Lags, and Integer Programming'
+  author: Johannes Plambeck, Santosh Ajabrao Bothe, Dorian Puleri, Victor Gonzales
+  page: 398
+- title: Trimming the Hairball
+  author: Rachael Sexton
+  page: 424
+- title: A Reproducible Data Lakehouse for High-Resolution Gastric Cancer Epidemiology
+    Study in Chile
+  author: Rene Lagos, Cristóbal Cuadrado, Francisca Jofré, Arnoldo Riquelme
+  page: 438
+- title: '25 Years of Interactive Scientific Computing: From IPython and Jupyter to
+    Open Source IDE-Native Notebooks'
+  author: Rodrigo Silva Ferreira
+  page: 451
+- title: 'alphagenome-pt: Flexible Training of AlphaGenome Models in PyTorch'
+  author: Rylie Weaver, Gomathi Lakshmanan, John Lagergren
+  page: 472
+- title: 'Solving the AI Eval Gap: Domain-Aware Evaluation for Production AI Agents'
+  author: Shivika Bisen
+  page: 489
+- title: Avoiding Zero-Trade Policies in RL with a Decoupled MLOps Architecture
+  author: Sho Tanaka
+  page: 500
+- title: 'ArcadeDB in Python: An In-Process Multi-Model Database'
+  author: Taewoon Kim
+  page: 509
+- title: 'Feel the model: Sensory Transduction of Neural Activations as a Human-in-the-Loop
+    Safety'
+  author: Viraj Sharma
+  page: 521
+- title: 'Toward Reliable Localization of Free and Open Source Software: LLM-assisted
+    Translation Workflows for QGIS'
+  author: Yu-Lin Chen, Tyng-Ruey Chuang, Cheng-Jen Lee
+  page: 528

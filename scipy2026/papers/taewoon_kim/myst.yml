@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 509
+  last_page: 520
   # Matches `scipy-2026-<folder>`; folder is `<firstname_surname>`
   doi: 10.25080/fwvt2525
   id: scipy-2026-taewoon_kim

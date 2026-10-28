@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 489
+  last_page: 499
   # Matches the folder name papers/shivika_bisen
   doi: 10.25080/gaxm4526
   id: scipy-2026-shivika_bisen

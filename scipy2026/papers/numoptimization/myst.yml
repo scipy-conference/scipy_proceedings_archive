@@ -1,6 +1,8 @@
 version: 1
 extends: ../papers.yml
 project:
+  first_page: 339
+  last_page: 354
   doi: 10.25080/tukr4275
   id: scipy-2026-numoptimization
   title: Numerical Stability Pitfalls in Scientific Optimization Pipelines
