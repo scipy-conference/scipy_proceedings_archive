@@ -2,6 +2,7 @@
 # Page-level frontmatter. Project-level metadata (authors, abstract, keywords)
 # lives in myst.yml. Title is repeated here so the page renders standalone.
 title: 'Opening the Black Box: Mechanistic Interpretability for AI Agent Tool Selection Using Sparse Autoencoders'
+short_title: "Opening the Black Box"
 abstract: |
     AI agents that autonomously select and run tools are increasingly deployed in business
     contexts, yet their decision-making processes remain opaque. When an agent chooses to query

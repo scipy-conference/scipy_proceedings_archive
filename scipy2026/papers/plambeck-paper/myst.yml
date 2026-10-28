@@ -6,6 +6,7 @@ project:
   title:
     'Optimising HCP Sample Allocation in Pharma: Combining Nonlinear Ensemble
     Learning, Spatial Lags, and Integer Programming'
+  short_title: "Optimising HCP Sample Allocation in Pharma"
   description:
     A learning–optimisation framework that combines decile-banded CatBoost
     ensembles, inverse-distance spatial lags, and 0–1 mixed-integer programming

@@ -8,6 +8,7 @@ project:
   title:
     'Adapt: Prototyping a Real-Time, Reproducible Data Analysis Framework for
     Adaptive Radar Scanning'
+  short_title: "Adapt v0.1"
   description:
     Adapt is a modular, DAG-based framework for real-time convective cell
     detection, motion projection, and storm lifecycle analysis supporting

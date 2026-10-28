@@ -1,4 +1,5 @@
 ---
+short_title: "Toward Reliable Localization of Free and Open Source Software"
 bibliography:
   - mybib.bib
 ---

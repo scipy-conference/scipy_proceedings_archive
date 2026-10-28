@@ -7,6 +7,7 @@ project:
   title:
     'Benchmarking Edge-Accelerated Genomics: A Pilot Study of Unified Memory
     Architectures in Deep-Sea Metagenomics'
+  short_title: "Benchmarking Edge-Accelerated Genomics"
   description:
     'A pilot study benchmarking GPU-accelerated metagenomic read binning on the
     NVIDIA DGX Spark (Grace Blackwell GB10), achieving 10–44× end-to-end speedup

@@ -1,5 +1,6 @@
 ---
 title: "Adapt v0.1: Prototyping a Real-Time, Reproducible Data Analysis Framework for Adaptive Radar Scanning"
+short_title: "Adapt v0.1"
 ---
 
 +++ {"part": "abstract"}

@@ -7,6 +7,7 @@ project:
   title: >-
     25 Years of Interactive Scientific Computing: From IPython and Jupyter to
     Open Source IDE-Native Notebooks
+  short_title: "25 Years of Interactive Scientific Computing"
 
   description: >-
     An executable history of interactive scientific computing, tracing the

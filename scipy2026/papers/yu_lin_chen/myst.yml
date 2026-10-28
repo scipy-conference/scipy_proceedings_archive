@@ -5,6 +5,7 @@ project:
   title: >
     Toward Reliable Localization of Free and Open Source Software: LLM-assisted
     Translation Workflows for QGIS
+  short_title: "Toward Reliable Localization of Free and Open Source Software"
   description: >
     A validation-first Python workflow for using LLMs to assist Qt .ts
     localization, with a QGIS Traditional Chinese case study, deterministic

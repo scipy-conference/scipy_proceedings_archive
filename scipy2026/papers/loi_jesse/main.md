@@ -1,5 +1,6 @@
 ---
 title: "Bridging the Technical Gap: A Student-Led Data Extraction Pipeline for Community-Driven Document Analysis"
+short_title: "Bridging the Technical Gap"
 
 ---
 

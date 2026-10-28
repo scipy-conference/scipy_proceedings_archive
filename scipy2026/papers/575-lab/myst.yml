@@ -7,6 +7,7 @@ project:
   title:
     'Opening the Black Box: Mechanistic Interpretability for AI Agent Tool
     Selection Using Sparse Autoencoders'
+  short_title: "Opening the Black Box"
   subtitle:
     A complete pipeline for interpreting agent tool-selection decisions with
     JumpReLU sparse autoencoders
