@@ -9,7 +9,7 @@ project:
   title: Proceedings of the 25th Python in Science Conference
   subtitle: SciPy 2026, Minneapolis, Minnesota July 13 - July 19
   description: |
-    The 25th annual SciPy conference was held in Minneapolis, Minnesota at the University of Minnesota, July 13-19, 2026.
+    The 25th annual SciPy conference was held in Minneapolis, Minnesota at the McNamara Alumni Center, University of Minnesota, July 13-19, 2026.
   github: https://github.com/scipy-conference/scipy_proceedings/tree/2026
   id: scipy-2026-proceedings
   doi: 10.25080/yvdw4955
