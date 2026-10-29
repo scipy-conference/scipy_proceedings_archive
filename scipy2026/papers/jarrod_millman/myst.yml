@@ -8,6 +8,7 @@ project:
       url: https://youtu.be/LS7iHKrYkj0
   # Update this to match `scipy-2026-<folder>` the folder should be `<firstname_surname>`
   doi: 10.25080/tuvm4543
+  thumbnail: ../../proceedings/thumbnail.png
   id: scipy-2026-jarrod_millman
   # Ensure your title is the same as in your `main.md`
   title: 'The Space to Build It: How Scientific Needs Shaped an Ecosystem'

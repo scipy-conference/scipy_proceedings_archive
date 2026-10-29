@@ -8,6 +8,8 @@ project:
       url: https://youtu.be/ga65IZBN4NI
   # Update this to match `scipy-2026-<folder>` the folder should be `<firstname_surname>`
   doi: 10.25080/eyaj7367
+  banner: banner.png
+  thumbnail: thumbnail.png
   id: scipy-2026-daniel_mccloy
   # Ensure your title is the same as in your `main.md`
   title: On-boarding and retaining maintainer talent for MNE-Python

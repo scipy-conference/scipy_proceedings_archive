@@ -5,6 +5,7 @@ project:
   last_page: 499
   # Matches the folder name papers/shivika_bisen
   doi: 10.25080/gaxm4526
+  thumbnail: thumbnail.png
   id: scipy-2026-shivika_bisen
   # Must match the title in main.md
   title:

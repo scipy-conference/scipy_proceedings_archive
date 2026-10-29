@@ -8,6 +8,7 @@ project:
       url: https://youtu.be/eIuGbJJO-nw
   # Update this to match `scipy-2026-<folder>`; the folder is `mccormick_ngff_zarr`
   doi: 10.25080/gewj5574
+  thumbnail: ../../proceedings/thumbnail.png
   id: scipy-2026-mccormick_ngff_zarr
   # Ensure your title is the same as in your `main.md`
   title: 'ngff-zarr: A Lean and Kind OME-Zarr Toolkit for Bioimaging'

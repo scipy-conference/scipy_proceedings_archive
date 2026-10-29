@@ -16,6 +16,8 @@ project:
   # checks pointed at the paper rather than any other page.
   index: paper.ipynb
   doi: 10.25080/wdyr6752
+  banner: banner.png
+  thumbnail: thumbnail.png
   id: scipy-2026-michael_zargham
   title: 'Derivations, Not Just Simulations'
   subtitle: Teaching Applied Mathematics with Scientific Python

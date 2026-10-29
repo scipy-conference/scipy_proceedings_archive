@@ -2,8 +2,7 @@ version: 1
 extends: ../proceedings.yml
 project:
   subject: Research Article
-  banner: banner.png
-  thumbnail: thumbnail.png
+  banner: ../../proceedings/banner.jpg
   numbering:
     headings: true
   exports:
