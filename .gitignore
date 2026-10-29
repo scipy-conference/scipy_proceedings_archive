@@ -4,6 +4,6 @@ node_modules
 dist
 *.bak
 template.pdf
-scripts
+/scripts
 scipy2024/templates/scipy
 */papers/preface.pdf
