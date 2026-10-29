@@ -1,0 +1,16 @@
+name: Push landing content
+on:
+  push:
+    branches: [main]
+    paths: ['landing/**']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  push:
+    uses: curvenote/actions/.github/workflows/push.yml@v1
+    with:
+      path: landing
+      landing-content: scipy
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}

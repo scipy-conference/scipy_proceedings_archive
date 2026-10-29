@@ -12,6 +12,8 @@ site:
     - title: 2026 Conference
       url: https://www.scipy2026.scipy.org
 project:
+  # Work key for the landing content pushed by .github/workflows/landing.yml; keep it fixed
+  id: d09190ce-7eed-4848-8c46-0a0d88bb8256
   description: The Proceedings of the Science in Python Conferences
   open_access: true
   subject: SciPy Proceedings
