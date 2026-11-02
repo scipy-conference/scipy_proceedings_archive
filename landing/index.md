@@ -7,7 +7,12 @@ site:
   hide_title_block: true
 ---
 
-:::{hero .col-screen background-image="hero.webp" max-width="100, 100, 55, 50" overlay="80, 80, 10, 10" kicker="THE PROCEEDINGS" actions="[Read 2026 Articles](2026.md) [SciPy Conference](https://www.scipy2026.scipy.org)"} Python in Science Conferences
+:::{hero .col-screen} Python in Science Conferences
+:background-image: hero.webp
+:max-width: 100, 100, 55, 50
+:overlay: 80, 80, 10, 10
+:kicker: THE PROCEEDINGS
+:actions: [Read 2026 Articles](2026.md) [SciPy Conference](https://www.scipy2026.scipy.org)
 The SciPy Conference is a cross-disciplinary gathering focused on the use and development of the Python language in scientific research. This event strives to bring together both users and developers of scientific tools, as well as academic research and state of the art industry.
 :::
 
